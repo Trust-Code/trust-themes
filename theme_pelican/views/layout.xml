@@ -3,15 +3,10 @@
   <data>
   	
 	<!-- Customize header  -->
-	<template id="custom_header" inherit_id="website.layout" name="Custom Header">
-	
-	  <!-- Assign an id  -->
-	  <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
-	    <attribute name="id">my_header</attribute>
-	  </xpath>
+	<template id="custom_header" inherit_id="website.homepage" name="Pagina principal">
 	
 	  <!-- Add an element after the top menu  -->
-	  <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+	  <xpath expr="//div[@id='wrap']" position="replace">
 	   
 			 	
 	   <div id="top" class="masthead" role="main">
