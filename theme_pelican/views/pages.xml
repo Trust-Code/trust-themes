@@ -2,26 +2,51 @@
 <openerp>
   <data>
 	<!-- === Services Page === -->
-	<template name="Services page" id="website.services" page="True">
+	<template name="Demonstração" id="website.demo" page="True">
 	  <t t-call="website.layout">
-	    <div id="wrap">
-	      <div class="container">
-	        <h1>Our Services</h1>
-	        <ul class="services">
-	          <li>Cloud Hosting</li>
-	          <li>Support</li>
-	          <li>Unlimited space</li>
-	        </ul>
-	        <!-- === Snippets' area === -->
-       		<div class="oe_structure" />
-	      </div>
+		 <div id="wrap" class="oe_structure oe_empty">
+	      <section class="s_image_gallery">
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-md-12 text-center mt16 mb32">
+	              <h2>Veja abaixo as telas do Pelican</h2>
+	              <h4 class="text-muted">Ou você pode acessar nosso ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-success">Gerencie seus e-mails</label>
+	              <img alt="Pelican Comunicação" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-email.png" style=""/>
+	            </div>
+	            <div class="col-md-6 mb16">
+	              <label class="label label-primary">Veja seus prospectos</label>
+	              <img alt="Pelican CRM" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-crm.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-info">Controle seu estoque</label>
+	              <img alt="Pelican Estoque" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-estoque.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-warning">Cadastro de produtos</label>
+	              <img alt="Pelican Produtos" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-produtos.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-danger">Relatórios para visualização</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-relatorios.png" style=""/>
+	            </div>
+	           </div>
+	        </div>
+	      </section>
 	    </div>
 	  </t>
 	</template>
 	
-	<record id="services_page_link" model="website.menu">
-	  <field name="name">Services</field>
-	  <field name="url">/page/services</field>
+	<record id="demo_page_link" model="website.menu">
+	  <field name="name">Demonstração</field>
+	  <field name="url">/page/demo</field>
 	  <field name="parent_id" ref="website.main_menu" />
 	  <field name="sequence" type="int">99</field>
 	</record>

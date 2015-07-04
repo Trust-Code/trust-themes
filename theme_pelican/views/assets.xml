@@ -3,7 +3,6 @@
   <data>
 	<template id="mystyle" name="My style" inherit_id="website.assets_frontend">
 	    <xpath expr="link[last()]" position="after">
-	        <link href="/theme_pelican/static/less/style.less" rel="stylesheet" type="text/less"/>
 	        <link href="/theme_pelican/static/src/css/main.css" rel="stylesheet" type="text/css"/>
 	    </xpath>
 	</template>
