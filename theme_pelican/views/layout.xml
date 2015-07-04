@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+  	
+	<!-- Customize header  -->
+	<template id="custom_header" inherit_id="website.layout" name="Custom Header">
+	
+	  <!-- Assign an id  -->
+	  <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+	    <attribute name="id">my_header</attribute>
+	  </xpath>
+	
+	  <!-- Add an element after the top menu  -->
+	  <xpath expr="//div[@id='wrapwrap']/header/div" position="after">
+	   
+			 	
+	   <div id="top" class="masthead" role="main">
+			<div class="container">
+				<div class="logo"> <a href="/"><img src="/theme_pelican/static/src/img/logo.png" alt="logo" /></a>
+				</div>
+	 
+				<h1>O melhor sistema de <strong>Gestão</strong> <br />
+				para sua <strong>Empresa</strong>.</h1>
+	 
+				<div class="row">
+					<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+						<form class="form-horizontal" role="form" action="/web/signup" id="subscribeForm" method="POST">
+							<div class="form-group">
+								<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
+									<input class="form-control input-lg" name="email" type="email" id="address"
+									 placeholder="Digite seu e-mail" data-validate="validate(required, email)" required="required" />
+								</div>
+								<div class="col-md-5 col-sm-4">
+									<button type="submit" class="btn btn-success btn-lg">Cadastre-se agora</button>
+								</div>
+							</div>
+						</form>
+						<span id="result" class="alertMsg"></span> </div>
+					</div>
+	 
+					<a href="#explore" class="scrollto">
+					<p>Conheça mais</p>
+					<p class="scrollto--arrow"><img src="/theme_pelican/static/src/img/scroll_down.png" alt="scroll down arrow" /></p>
+					</a>
+			</div>
+		</div>
+ 
+	   <div class="container" id="explore">
+	 
+			<div class="section-title">
+				<h2>Pelican sobre o ombro de gigantes - Odoo #1 open source.</h2>
+				<h4>O sistema ideal para sua empresa gerenciar todos os seus processos.</h4>
+			</div>
+	
+			<section class="row heroimg breath">
+				<div class="col-md-12 text-center"> 
+					<img src="/theme_pelican/static/src/img/flat-mockup-template.png" alt="flat-mockup-template" />
+				</div>
+			</section>
+	 
+			<div class="section-title">
+				<h2>Conheça algumas das características.</h2>
+				<h4>*Milhares de módulos a sua disposição.</h4>
+			</div>
+			
+			<section class="row features">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_01.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Gerenciamento de vendas</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Compre com segurança</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_03.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Controle de estoque</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Contabilidade Brasileira</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	 
+	 		<section class="row features">
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_01.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Produção a todo vapor</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Relatórios</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_03.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Atualizações periódicas</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+	 
+				<div class="col-sm-6 col-md-3">
+					<div class="thumbnail"> 
+						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
+						<div class="caption">
+							<h3>Backup automático</h3>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+			<div class="section-title">
+				<h2>Alguns de nosso clientes</h2>
+				<h4>Conheça nossos clientes satisfeitos</h4>
+			</div>
+		
+			<section class="row clientlogo breath">
+				<div class="col-md-12 text-center"> 
+					<img src="/theme_pelican/static/src/img/client-logos.png" alt="client-logos" />
+				</div>
+			</section>
+	 
+		</div>
+	 
+
+	 	<div class="highlight testimonials">
+			<div class="container">
+				<div class="section-title">
+					<h2>O que nossos clientes dizem sobre nós</h2>
+					<h4>Não acredite em nós. Veja os depoimentos sobre nós </h4>
+				</div>
+				
+				<section class="row breath">
+					<div class="col-md-6">
+						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+						<div class="clientblock"> 
+							<img src="/theme_pelican/static/src/img/customer-img-1.jpg" alt="." />
+							<p><strong>Marcio</strong> <br />
+								Fundador da <a href="http://www.verdesaine.net">verdesaine.com.br</a>
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+						<div class="clientblock"> 
+							<img src="/theme_pelican/static/src/img/customer-img-2.jpg" alt="." />
+							<p><strong>Pai do Mackilem</strong> <br />
+								 Dono da <a href="http://isotelha.com">isotelha.com.br</a>
+							</p>
+						</div>
+					</div>
+					
+					<div class="col-md-6">
+						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
+						<div class="clientblock"> 
+							<img src="/theme_pelican/static/src/img/customer-img-1.jpg" alt="." />
+							<p><strong>Thomaz Franseze</strong> <br />
+								Fundador da <a href="http://www.bomcorpo.com.br">bomcorpo.com.br</a>
+							</p>
+						</div>
+					</div>
+					
+				</section> 
+			</div>
+		</div>
+ 
+		<div class="container">
+ 
+			<div class="section-title">
+				<h2>Preço honesto. Sem surpresas.</h2>
+				<h4>Pague via cartão de crédito e tenha seu sistema rodando na hora. </h4>
+			</div>
+			<section class="row breath planpricing">
+			
+				<div class="col-md-4">
+					<div class="pricing color1">
+						<div class="planname">Iniciante</div>
+						<div class="price"> <span class="curr">R$</span>150<span class="per">/M</span></div>
+						<div class="billing">Pagamento mensal</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="pricing color2">
+						<div class="planname">Profissional</div>
+						<div class="price"> <span class="curr">$</span>49<span class="per">/M</span></div>
+						<div class="billing">Pagamento mensal</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<div class="pricing color3">
+						<div class="planname">Expert</div>
+						<div class="price"> <span class="curr">R$</span>500<span class="per">/M</span></div>
+						<div class="billing">Pagamento mensal</div>
+					</div>
+				</div>
+			</section>
+ 
+
+		<div class="section-title">
+			<h5>Perguntas frequentes</h5>
+		</div>
+		
+		<section class="row faq breath">
+			<div class="col-md-6">
+				<h6>Como funciona o período de teste?</h6>
+				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<h6>Posso mudar de planos depois?</h6>
+				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+			</div>
+			
+			<div class="col-md-6">
+				<h6>Preciso escolher meu plano agora?</h6>
+				<p>No. You get the full featured, unlimited version of our service completely free for 10 days. Once you're ready to upgrade, you may choose a plan which suits your needs.</p>
+				<h6>Que tipo de pagamentos vocês aceitam?</h6>
+				<p>Nos utilizamos a plataforma de pagamento <a target="_blank" href="http://www.cielo.com.br">Cielo Checkout.</a>
+				com isso nossos clientes tem total segurança ao efetuar seus pagamentos</p>
+			</div>
+		</section>
+		<section class="row faq breath">
+			<div class="col-md-6">
+				<h6>Quais os módulos disponíveis</h6>
+				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<h6>Mas o Odoo é OpenSource, porque estão cobrando?</h6>
+				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+			</div>
+			
+			<div class="col-md-6">
+				<h6>Como funciona a correção de bugs?</h6>
+				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<h6>O que são as atualizações períodicas?</h6>
+				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+			</div>			
+		</section>
+	</div>
+	   
+	  </xpath>
+	</template>
+  	
+  </data>
+</openerp>

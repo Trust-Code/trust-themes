@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data> 
+  	
+  	<template id="footer_default" inherit_id="website_less.footer_default" customize_show="True" name="Automatic Footer">
+	    <xpath expr="//div[@id='footer']" position="replace">
+	        <div id="footer">	            
+				<div class="footercta" role="main">
+					<div class="container">
+						<h1>O mais simples e <strong>poderoso</strong> <br />
+							software <strong>OpenSource</strong> do mundo</h1>
+		 
+						<div class="row">
+							<div class="col-md-12 breath text-center"> 
+								<a href="/web/signup" class="btn btn-success btn-lg gototop">Acesse já</a> 
+							</div>
+						</div>
+					</div>
+				</div>
+		 
+				          
+	        </div>
+	    </xpath>
+	</template>
+	
+	<template id="layout_footer_copyright" inherit_id="website.layout_footer_copyright" customize_show="True" name="Footer Copyright">
+	 	<xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">	   
+	 		<div class="container">
+				<section class="row breath">
+					<div class="col-md-12 footerlinks">
+						<p>2014 <a href="http://www.trustcode.com.br" target="_blank">Trust-Code.</a> Todos os direitos reservados</p>
+					</div>
+				</section>
+			</div>	
+		</xpath>
+	</template>
+	
+  	
+  	
+  </data>
+</openerp>
