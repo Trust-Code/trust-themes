@@ -61,30 +61,35 @@
 			<section class="row features">
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_01.png" alt="analytics-icon" />
+						<span class="fa fa-usd" style="font-size:6em;color:black;"></span>
 						<div class="caption">
 							<h3>Gerenciamento de vendas</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Profissionalize seu processo de vendas com a elaboração de orçamentos 
+							customizados. Leve sua equipe de vendas para um nível mais alto de 
+							relacionamento com seus clientes com o controle de orçamentos.</p>
 						</div>
 					</div>
 				</div>
 	 
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
+						<span class="fa fa-tags" style="font-size:7em;color:black;"></span>
 						<div class="caption">
 							<h3>Compre com segurança</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Alimente automaticamente seu estoque a cada compra. 
+							Nunca mais perca tempo digitando informações repetidas e criando controles paralelos. .</p>
 						</div>
 					</div>
 				</div>
 	 
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_03.png" alt="analytics-icon" />
+						<span class="fa fa-truck" style="font-size:7em;color:black;"></span>
 						<div class="caption">
 							<h3>Controle de estoque</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Esqueça a planilha de controle de estoque e abra espaço para um gestão 
+							de estoque totalmente online, integrada e sem dor de cabeça. Garanta o 
+							abastecimento de mercadorias em seu estoque e nunca mais perca uma venda.</p>
 						</div>
 					</div>
 				</div>
@@ -94,7 +99,9 @@
 						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
 						<div class="caption">
 							<h3>Contabilidade Brasileira</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Emissão de NF-e, Plano de contas Brasileiro, todo o poder do Odoo 
+							configurado para a realidade brasileira. Organize suas contas bancarias, 
+							recebimentos de maneira fácil. Tenha tudo vinculado através do plano de contas.</p>
 						</div>
 					</div>
 				</div>
@@ -103,10 +110,13 @@
 	 		<section class="row features">
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_01.png" alt="analytics-icon" />
+						<span class="fa fa-user" style="font-size:7em;color:black;"></span>
 						<div class="caption">
-							<h3>Produção a todo vapor</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<h3>Conquiste seu cliente</h3>
+							<p>Tenha em mãos toda a sua carteira de clientes, conheça-os melhor e 
+							entenda o nível de relacionamento deles com sua empresa, afinal o 
+							gerenciamento de clientes é extremamente importante para o 
+							desenvolvimento da imagem da empresa.</p>
 						</div>
 					</div>
 				</div>
@@ -116,27 +126,34 @@
 						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
 						<div class="caption">
 							<h3>Relatórios</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Tome decisões inteligentes e concretas com base em números. Os relatórios 
+							online do Pelican te auxiliam a tomar as melhores decisões, independente 
+							de local e hora do dia. Relatórios customizaveis.</p>
 						</div>
 					</div>
 				</div>
 	 
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_03.png" alt="analytics-icon" />
+						<span class="fa fa-clock-o" style="font-size:7em;color:black;"></span>
 						<div class="caption">
 							<h3>Atualizações periódicas</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Nossa equipe está trabalhando constantemente para desenvolver novos módulos, 
+							trabalhamos na melhorias dos módulos atuais. Você pode acompanhar nosso 
+							desenvolvimento em <a href="https://github.com/Trust-Code" target="_blank">https://github.com/Trust-Code</a>.</p>
 						</div>
 					</div>
 				</div>
 	 
 				<div class="col-sm-6 col-md-3">
 					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
+						<span class="fa fa-download" style="font-size:7em;color:black;"></span>
 						<div class="caption">
 							<h3>Backup automático</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<p>Automaticamente quando você passa a ser nosso cliente já estamos 
+							cuidando dos seus dados, realizamos backup diariamente de todos os 
+							dados e salvamos eles na nuvem onde você pode solicitar uma cópia 
+							antiga no momento que quiser.</p>
 						</div>
 					</div>
 				</div>
@@ -209,24 +226,43 @@
 				<div class="col-md-4">
 					<div class="pricing color1">
 						<div class="planname">Iniciante</div>
-						<div class="price"> <span class="curr">R$</span>150<span class="per">/M</span></div>
-						<div class="billing">Pagamento mensal</div>
+						<div class="price"> <span class="curr">R$</span>150<span class="per">/mensais</span></div>
+						<div class="billing">
+						    Até 3 usuários<br/>
+						    Todos os módulos disponíveis<br/>
+						    Até 3 horas de suporte mensais<br/>
+						    Correção de bugs ilimitado<br/>
+						    Backup automático
+						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-4">
 					<div class="pricing color2">
 						<div class="planname">Profissional</div>
-						<div class="price"> <span class="curr">$</span>49<span class="per">/M</span></div>
-						<div class="billing">Pagamento mensal</div>
+						<div class="price"> <span class="curr">R$</span>250<span class="per">/mensais</span></div>
+						<div class="billing">
+						    Até 10 usuários<br/>
+						    Todos os módulos disponíveis<br/>
+						    Até 5 horas de suporte mensais<br/>
+						    Correção de bugs ilimitado<br/>
+						    Backup automático
+						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-4">
 					<div class="pricing color3">
 						<div class="planname">Expert</div>
-						<div class="price"> <span class="curr">R$</span>500<span class="per">/M</span></div>
-						<div class="billing">Pagamento mensal</div>
+						<div class="price"> <span class="curr">R$</span>500<span class="per">/mensais</span></div>
+						<div class="billing">
+						    Até 20 usuários<br/>
+						    Todos os módulos disponíveis<br/>
+						    Até 10 horas de suporte mensais<br/>
+						    Correção de bugs ilimitado<br/>
+						    Backup automático<br/>
+						    Preferência no desenvolvimento de novos módulos
+						</div>
 					</div>
 				</div>
 			</section>
@@ -239,14 +275,22 @@
 		<section class="row faq breath">
 			<div class="col-md-6">
 				<h6>Como funciona o período de teste?</h6>
-				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<p>Nós disponibilizamos o ambiente para você sem custos durante 30 dias,
+				se no final dos 30 dias você decidir permanecer conosco (esperamos que sim) 
+				iremos pedir suas informações de pagamento, caso não queira continuar você 
+				pode cancelar sua conta ou sua conta será marcada como inativa, e você pode
+				reativar ela no futuro.</p>
 				<h6>Posso mudar de planos depois?</h6>
-				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+				<p>Absolutamente. Você pode mudar entre nossos planos pagos a qualquer momento 
+				 ou mesmo cancelar sua conta, da maneira que você preferir. Nós iremos ajustar 
+				 os pagamentos ou mesmo reembolsar o valor já pago.</p>
 			</div>
 			
 			<div class="col-md-6">
 				<h6>Preciso escolher meu plano agora?</h6>
-				<p>No. You get the full featured, unlimited version of our service completely free for 10 days. Once you're ready to upgrade, you may choose a plan which suits your needs.</p>
+				<p>Não, você pode desfrutar de nosso sistema sem nenhum limite
+				completamente grátis por 30 dias. Quando você estiver disponível para iniciar
+				você deve escolher um plano que se adequa as suas necessidades.</p>
 				<h6>Que tipo de pagamentos vocês aceitam?</h6>
 				<p>Nos utilizamos a plataforma de pagamento <a target="_blank" href="http://www.cielo.com.br">Cielo Checkout.</a>
 				com isso nossos clientes tem total segurança ao efetuar seus pagamentos</p>
@@ -255,16 +299,32 @@
 		<section class="row faq breath">
 			<div class="col-md-6">
 				<h6>Quais os módulos disponíveis</h6>
-				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<p>Todos os módulos descritos acima estão disponíveis apartir do momento que você 
+				efetuar sua inscrição, porém o Odoo conta com milhares de módulos que lhe propõe 
+				maior flexibilidade. Se você tem interesse em outros modulos do Odoo que não estão 
+				disponíveis na versão do Pelican você pode entrar em contato conosco que fazemos 
+				todo o serviço de teste de novos módulos, bem como desenvolvimento se necessário, 
+				e a instalação do mesmo para a sua empresa.</p>
 				<h6>Mas o Odoo é OpenSource, porque estão cobrando?</h6>
-				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+				<p>Sim, toda a nossa plataforma é Open Source, todos os módulos desenvolvidos pela
+				<a href="http://www.trustcode.com.br">Trust-Code</a> ou pela Odoo SA são livres para serem usados conforme sua necessidade, nós 
+				cobramos apenas pelo serviço de hospedagem e pela manutenção e correçao automática de bugs.</p>
 			</div>
 			
 			<div class="col-md-6">
 				<h6>Como funciona a correção de bugs?</h6>
-				<p>Our 10 day trial is 100% free and does not require credit card information to start. If at the end of your trial you would like to upgrade, great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come back to later.</p>
+				<p>A <a href="http://www.trustcode.com.br">Trust-Code</a> se compromete a efetuar correções de bugs
+				e a manter o sistema sempre funcionando, todos os bugs corrigidos por nós são disponibilizados
+				em nosso <a href="https://github.com/Trust-Code/">Github</a> e são automaticamente aplicados 
+				no Pelican para todos os clientes. Os mesmos também são disponibilizados para a comunidade 
+				brasileira, estamos 100% comprometidos com a comunidade.
+				.</p>
 				<h6>O que são as atualizações períodicas?</h6>
-				<p>Absolutely. You can switch between our paid plans, or cancel your account altogether, whenever you like. We will adjust any payments accordingly.</p>
+				<p>Além da correção de bugs, estamos sempre desenvolvendo novas funcionalidades, se você for 
+				nosso cliente você terá a chance de votar por novas funcionalidades para o Odoo, para isto 
+				acesse o site da <a href="http://www.trustcode.com.br">Trust-Code</a> e vá para a página de 
+				Roadmap e vote na sua necessidade. Lá você também pode acompanhar o andamento das mesmas.
+				</p>
 			</div>			
 		</section>
 	</div>
