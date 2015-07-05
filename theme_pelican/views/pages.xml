@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
   <data>
-	<!-- === Services Page === -->
+	<!-- === Página demonstração === -->
 	<template name="Demonstração" id="website.demo" page="True">
 	  <t t-call="website.layout">
 		 <div id="wrap" class="oe_structure oe_empty">
@@ -11,18 +11,24 @@
 	            <div class="col-md-12 text-center mt16 mb32">
 	              <h2>Veja abaixo as telas do Pelican</h2>
 	              <h4 class="text-muted">Ou você pode acessar nosso ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4>
+	              <span style="font-style:italic;">Usuário: admin Senha: admin</span>
 	            </div>
 	            <div class="col-md-6">
 	              <label class="label label-success">Gerencie seus e-mails</label>
 	              <img alt="Pelican Comunicação" class="img img-responsive mb16 img-thumbnail shadow" 
 	              	src="/theme_pelican/static/src/img/pelican-email.png" style=""/>
 	            </div>
-	            <div class="col-md-6 mb16">
-	              <label class="label label-primary">Veja seus prospectos</label>
+	            <div class="col-md-6 mb48">
+	              <label class="label label-primary">Fatura e NF-e</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-fatura.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-danger">Veja seus prospectos</label>
 	              <img alt="Pelican CRM" class="img img-responsive mb16 img-thumbnail shadow" 
 	              	src="/theme_pelican/static/src/img/pelican-crm.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
 	            </div>
-	            <div class="col-md-6">
+	            <div class="col-md-6 mb48">
 	              <label class="label label-info">Controle seu estoque</label>
 	              <img alt="Pelican Estoque" class="img img-responsive mb16 img-thumbnail shadow" 
 	              	src="/theme_pelican/static/src/img/pelican-estoque.png" style=""/>
@@ -32,10 +38,35 @@
 	              <img alt="Pelican Produtos" class="img img-responsive mb16 img-thumbnail shadow" 
 	              	src="/theme_pelican/static/src/img/pelican-produtos.png" style=""/>
 	            </div>
-	            <div class="col-md-6">
+	            <div class="col-md-6 mb48">
 	              <label class="label label-danger">Relatórios para visualização</label>
 	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
 	              	src="/theme_pelican/static/src/img/pelican-relatorios.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-success">Compras e recebimento de produtos</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-purchase.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-warning">Controle de produção</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-manufatura.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-info">Clientes</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-clientes.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-success">Informações completas do cliente</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-clientes-2.png" style=""/>
+	            </div>
+	            <div class="col-md-6">
+	              <label class="label label-primary">Cadastro de funcionários</label>
+	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
+	              	src="/theme_pelican/static/src/img/pelican-employees.png" style=""/>
 	            </div>
 	           </div>
 	        </div>
