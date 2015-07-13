@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+  	
+	<!-- Customize header  -->
+	<template id="custom_header" inherit_id="website.homepage" name="Pagina principal">
+	
+	  <!-- Add an element after the top menu  -->
+	  <xpath expr="//div[@id='wrap']" position="replace">
+	   
+		<header class="header pageRow paralax skew skew-bottom" style="background-image: url('media/paralax/2.jpg');">
+			<div class="overlay"></div>
+			<div class="wrapper">
+				<div class="header-outer">
+					<div class="header-inner">
+						<div class="header-top row">
+							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6"><a href="http://html.templines.com/sokolcov/appbox/" class="logo"></a></div>
+							<div class="col-lg-9 col-md-9 col-sm-6 col-xs-6">
+								<i class="fa fa-bars mobileMenuNav whiteTxtColor"></i>
+								<nav class="nav-container customBgColor">
+									<i class="fa fa-times mobileMenuNav small-device"></i>
+									<ul class="menu">
+										<li class="search pull-right">
+											<form class="search-form form-inline" action="#" method="POST">
+												<div class="form-group">
+													<label class="sr-only" for="searchQuery">Search...</label>
+													<input class="search-field roboto" id="searchQuery" placeholder="Search..." type="search" />
+												</div>
+												<button type="submit" class="hidden">Search</button>
+											</form>
+											<a class="iconSearch roboto whiteTxtColor" href="#"><i class="fa fa-search"></i></a>
+										</li>
+										<li class="dropdown">
+											<a data-toggle="dropdown" class="roboto whiteTxtColor dropdown-toggle" href="http://html.templines.com/sokolcov/appbox/home-1.html">HOME <i class="fa fa-angle-down"></i></a>
+											<ul class="dropdown-menu clearfix">
+												<li><a class="roboto" href="http://html.templines.com/sokolcov/appbox/home-1.html">HOME Version 1</a></li>
+												<li><a class="roboto" href="http://html.templines.com/sokolcov/appbox/home-2.html">HOME Version 2</a></li>
+												<li><a class="roboto" href="http://html.templines.com/sokolcov/appbox/home-3.html">HOME Version 3</a></li>
+											</ul>
+										</li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/home-1.html">ABOUT</a></li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/app-store.html">FEATURES</a></li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/app-details.html">REVIEWS</a></li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/home-1.html">SCREENS</a></li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/blog.html">BLOG</a></li>
+										<li><a class="roboto whiteTxtColor" href="http://html.templines.com/sokolcov/appbox/home-1.html">SUPPORT</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom header-v2 row">
+					<div class="col-lg-12">
+						<div class="header-left">
+							<h1 class="header-title ralewaySemiBold whiteTxtColor">Best Way To Present Your Beautiful Mobile App</h1>
+							<span class="header-subtitle_small roboto whiteTxtColor">AppBox is full of awesome features. Its designed for</span>
+							<span class="header-subtitle_bold robotoMedium whiteTxtColor">App Landing and App Store site</span>
+							<a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="ellipseLink text-uppercase customColorLink whiteTxtColor pull-left robotoMedium hvr-pop" data-wow-delay="3.3s">LEARN MORE</a>
+						</div>
+						<div class="header-right">
+							<img style="visibility: visible; animation-delay: 3.3s; animation-name: fadeInRight;" class="wow fadeInRight" data-wow-delay="3.3s" src="AppBox2_arquivos/5.png" alt="Phone" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="skew_appended whiteSection"></div>
+		</header>
+		<section id="getForFree" class="pageRow">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<h2 style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="title_bold text-center ralewaySemiBold wow zoomIn blackTxtColor" data-wow-delay="0.3s">GET IT FOR FREE</h2>
+						<span style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="subtitle text-center robotoLight col-lg-12 col-md-12 col-sm-12 col-xs-12 wow zoomIn" data-wow-delay="0.3s">Choose your native platform and download the app FREE!</span>
+						<div class="clearfix"></div>
+						<ul class="store-buttons center-block clearfix arrowGetFree">
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="pull-left wow fadeInLeft" data-wow-delay="0.3s">
+								<a href="#" class="ellipseBtn bigBtn whiteBtn hvr-pop">
+									<span>
+										<i class="fa-custom-google-play"></i>
+										Google Play
+									</span>
+								</a>
+							</li>
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="pull-right wow fadeInRight" data-wow-delay="0.3s">
+								<a href="#" class="ellipseBtn bigBtn colorBtn hvr-pop">
+									<span>
+										<i class="fa fa-apple"></i>
+										iOS App Store
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>			
+		</section>
+		<section id="amazingFeatures" class="pageRow skew skew-top graySection">
+			<div class="wrapper">
+				<div class="row">
+					<div class="col-lg-12">
+						<h3 class="sectionTitle text-center ralewayLight balck">Some Amazing Features</h3>
+						<ul class="featuresList pull-left col-lg-12">
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-delay="0.3s">
+								<div class="feature-item text-center clearfix hvr-pop">
+									<div class="circle bigCircle center-block">
+										<span><i class="fa fa-laptop customColor"></i></span>
+									</div>
+									<span class="feature-item_title text-uppercase text-center ralewaySemiBold col-lg-12 col-md-12 col-sm-12 col-xs-12 blackTxtColor">RESPONSIVE DESIGN</span>
+									<span class="feature-item_desc text-center robotoLight col-lg-12 col-md-12 col-sm-12 col-xs-12">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+								</div>
+							</li>
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+								<div class="feature-item text-center clearfix hvr-pop">
+									<div class="circle bigCircle center-block">
+										<span><i class="fa fa-flask customColor"></i></span>
+									</div>
+									<span class="feature-item_title text-uppercase text-center ralewaySemiBold col-lg-12 col-md-12 col-sm-12 col-xs-12 blackTxtColor">EASY TO CUSTOMIZE</span>
+									<span class="feature-item_desc text-center robotoLight col-lg-12 col-md-12 col-sm-12 col-xs-12">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+								</div>
+							</li>
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+								<div class="feature-item text-center clearfix hvr-pop">
+									<div class="circle bigCircle center-block">
+										<span><i class="fa fa-plane customColor"></i></span>
+									</div>
+									<span class="feature-item_title text-uppercase text-center ralewaySemiBold col-lg-12 col-md-12 col-sm-12 col-xs-12 blackTxtColor">PERFECT SHOWCASE</span>
+									<span class="feature-item_desc text-center robotoLight col-lg-12 col-md-12 col-sm-12 col-xs-12">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+								</div>
+							</li>
+							<li style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-delay="0.3s">
+								<div class="feature-item text-center clearfix hvr-pop">
+									<div class="circle bigCircle center-block">
+										<span><i class="fa fa-cog customColor"></i></span>
+									</div>
+									<span class="feature-item_title text-uppercase text-center ralewaySemiBold col-lg-12 col-md-12 col-sm-12 col-xs-12 blackTxtColor">APP STORE SUPPORT</span>
+									<span class="feature-item_desc text-center robotoLight col-lg-12 col-md-12 col-sm-12 col-xs-12">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+								</div>
+							</li>							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="skew_prepended whiteSection"></div>
+		</section>
+				<section id="new" class="pageRow paralax skew skew-bottom customBgColor trianglifyBox">
+			<div class="wrapper">
+				<div class="downloadConainer row">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
+						<a href="http://html.templines.com/sokolcov/appbox/app-details.html" class="ellipseBtn smallBtn customWhiteBtn hvr-pop pull-left clear">
+							<span class="text-uppercase">new</span>
+						</a>
+						<h3 class="sectionName ralewaySemiBold pull-left whiteTxtColor clear">Live conference support available</h3>
+						<div class="sectionDesc robotoLight whiteTxtColor pull-left clear">Eleifend
+ morbi orci velit porttitor sed imperdiet ac ullamcorper Fusce eget 
+tortor vel magna iaculis convallis. Aeneaneros vitae metus pellentesque 
+tincidunt.Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+						<div class="downloadBox pull-left clear arrowFreeDownload">
+							<span class="downloadBox-text robotoCondensed whiteTxtColor pull-left">Free Download On</span>
+							<span class="downloadBox-appbox robotoCondensedBold whiteTxtColor pull-left text-center">
+								<i class="fa fa-android"></i>
+								ANDROID
+							</span>
+							<span class="downloadBox-appbox robotoCondensedBold whiteTxtColor pull-left text-center">
+								<i class="fa fa-apple"></i>
+								iOS
+							</span>
+						</div>
+					</div>
+					<div class="posterBox col-lg-6 col-md-6 col-sm-6 col-xs-12">
+						<img style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="wow fadeInRight" src="AppBox2_arquivos/2_002.png" alt="Poster" data-wow-delay="0.3s" />
+					</div>
+				</div>
+			</div>
+			<div class="skew_appended whiteSection"></div>
+		</section>
+				<section id="choose" class="pageRow">
+			<div class="wrapper">
+				<div class="chooseApp row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+						<h3 class="sectionTitle text-center ralewayLight balck">Why Choose AppBox</h3>
+						<div class="row">
+							<div class="optionsBox col-lg-12 col-md-12 col-sm-12 col-xs-12 clearfix">
+								<div class="centerPhone col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+									<img style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;" class="wow bounceIn" src="AppBox2_arquivos/3_002.png" alt="Phone" data-wow-delay="0.3s" />
+								</div>
+								<ul class="optionsList pageRow">
+									<li class="pull-left col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="options-item wow fadeInLeft" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-cubes customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-right blackTxtColor">APP STORE</h4>
+											<span class="options-desc robotoLight text-right">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+											<span class="option-dots"></span>
+										</div>
+									</li>
+									<li class="pull-right col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="options-item wow fadeInRight" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-flag customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-left blackTxtColor">MULTIPURPOSE LAYOUT</h4>
+											<span class="options-desc robotoLight text-left">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+											<span class="option-dots"></span>
+										</div>
+									</li>
+									<li class="pull-left col-lg-4 col-md-4 col-sm-4 col-xs-12 clear">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="options-item wow fadeInLeft" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-desktop customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-right blackTxtColor">RETINA READY</h4>
+											<span class="options-desc robotoLight text-right">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+											<span class="option-dots"></span>
+										</div>
+									</li>
+									<li class="pull-right col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="options-item wow fadeInRight" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-comment customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-left blackTxtColor">LIVE CHAT SUPPORT</h4>
+											<span class="options-desc robotoLight text-left">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+											<span class="option-dots"></span>
+										</div>
+									</li>
+									<li class="pull-left col-lg-4 col-md-4 col-sm-4 col-xs-12 clear">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="options-item wow fadeInLeft" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-apple customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-right blackTxtColor">PREMIUM SUPPORT</h4>
+											<span class="options-desc robotoLight text-right">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+										</div>
+									</li>
+									<li class="pull-right col-lg-4 col-md-4 col-sm-4 col-xs-12">
+										<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="options-item wow fadeInRight" data-wow-delay="0.3s">
+											<div class="circle smallCircle">
+												<span><i class="fa fa-coffee customColor"></i></span>
+											</div>
+											<h4 class="options-name ralewaySemiBold text-uppercase text-left blackTxtColor">AND MANY MORE </h4>
+											<span class="options-desc robotoLight text-left">Eleifend morbi velit porttitor sed ipsum imperdiet ac ullamcorper fusce</span>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	   
+	  </xpath>
+	</template>
+  	
+  </data>
+</openerp>

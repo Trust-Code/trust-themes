@@ -1,0 +1,163 @@
+body{
+	background-color: #252525;
+}
+.pageTxtColor,
+.pageTxtColor:focus,
+.pageTxtColor:hover{
+	color: #fff;
+}
+.whiteSection{
+	background-color: #252525;
+}
+.graySection {
+    background-color: #383838;
+}
+.blackTxtColor,
+.blackTxtColor:focus,
+.blackTxtColor:hover{
+	color: #fff;
+}
+.ellipseBtn.whiteBtn span{
+	background-color: #252525;
+	color: #fff;
+}
+.sectionTitle.balck{
+	color: #fff;
+}
+.circle span{
+	background-color: #383838;
+}
+.feature-item_desc{
+	color: #fff;
+}
+.feature-item.active .feature-item_title,
+.feature-item:hover .feature-item_title{
+	color: #000;
+}
+.feature-item.active .feature-item_desc,
+.feature-item:hover .feature-item_desc{
+	color: #666;
+}
+.feature-item.active .circle span,
+.feature-item:hover .circle span{
+	background-color: #fff;
+}
+.options-desc{
+	color: #fff;
+}
+.option-dots,
+.option-dots:before,
+.option-dots:after{
+	background-color: #4d4d4d;
+}
+.package-header .circle span,
+.options-item .circle span,
+.support-item .circle span{
+	background-color: #252525;
+}
+.owl-carousel.owl-app-screenshot,
+.phone-slider .screenshot-item{
+	background-image: url("../images/slider-2.png");
+}
+.customBgColor .blackTxtColor, 
+.customBgColor .blackTxtColor:hover{
+	color: #000;
+}
+.download-subtitle,
+.subscribe-title,
+.subscribe-field,
+.smallText,
+.package-options li,
+.support-item_info a,
+.support-item_info,
+.support-desc,
+.subtitle{
+	color: #fff;
+}
+.package-header,
+.package-body{
+	background-color: #252525;
+	border-color: #bbb;
+}
+.package-body .ellipseLink{
+	background-color: #252525;
+	color: #fff;
+}
+.blog-info_body .ellipseLink,
+.best .package-body .ellipseLink{
+	background-color: #05c3f9;
+	color: #fff;
+}
+.best .package-body{
+	background-color: #252525;
+	border-color: #bbb;
+	color: #fff;
+}
+input.lineField,
+textarea.lineField{
+	color: #fff;
+	border-color: #707070;
+}
+.goToTop{
+	background: #fff;
+	color: #162327 !important;
+}
+.pagination-custom li a.prev:after,
+.pagination-custom li a.next:after{
+	border-top: 40px solid #383838;
+}
+.arrowGetFree:before{
+	background: url("../../../media/arrows/arrows-2.png") no-repeat;
+}
+.phone-slider.owl-theme .owl-controls .owl-buttons div{
+	background: url("../../../media/arrows/arrows-2.png") no-repeat;
+}
+.download-title:after{
+	background: url("../../../media/arrows/arrows-2.png") no-repeat -42px -83px;
+}
+.ip-logo .logo{
+	background-image: url('../../../img/logo.png');
+}
+.post-content p{
+	color: #ccc;
+}
+.comments-item_reply:before,
+.social-networks li a:after{
+	border-top-color: #252525;
+}
+.tags.whiteTags li a.hvr-rectangle-in:before{
+	background-color: #252525;
+}
+.mention,
+.post-content p.quote{
+	background-color: #313131;
+	color: #ccc;
+}
+.tabsBox{
+	background-color: #313131;
+}
+.storeContent,
+.sidebar-trend_body,
+.sidebar-featured_body,
+.relatedApps,
+.addToCartContainer,
+.showallapp,
+.sidebar-categories_body{
+	border-color: #555;
+}
+.staffPicksBox .pageSectionTitle.blackTxtColor,
+.staffPicksBox .staff-picks_item_name.blackTxtColor,
+.app-product-item_body_title.blackTxtColor{
+	color: #000;
+}
+.tabsBox .nav-tabs > li.active > a,
+.tabsBox .nav-tabs > li.active > a:focus,
+.tabsBox .nav-tabs > li.active > a:hover{
+	color: #fff;
+}
+.ip-header .ip-loader svg path.ip-loader-circle{
+    stroke: #05c3f9;
+}
+ul.menu li .dropdown-menu > li > a:hover{
+	color: #05c3f9 !important;
+}

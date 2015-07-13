@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data> 
+    	
+  	<template id="footer_default" inherit_id="website_less.footer_default" customize_show="True" name="Automatic Footer">
+	    <xpath expr="//div[@id='footer']" position="replace">
+	      <div class="pageRow">
+				<div class="wrapper">
+					<div class="footerV2Box row">
+						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInLeft" data-wow-delay="0.3s">
+							<a href="http://html.templines.com/sokolcov/appbox/" class="logo footerLogo pull-left clear"></a>
+							<div class="footer-desc robotoLight grayTxtColor pull-left clear">Lorem
+ ipsum dolor amet consecte adipisicing elit sed do eiusmod tempor 
+incididunt ut labore  dolore magna aliqua. Ut enim ad minim veniam quis 
+nostrud exercitation ullamco.</div>
+							<div class="footer-desc robotoLight grayTxtColor pull-left clear">Laboris nisi dut aliquip ex ea commodo. conse quat. Duis aute irure dolor reprehenderit.</div>
+						</div>
+						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
+							<h4 class="footer-title customColor ralewayBold">Latest From Blog</h4>
+							<div class="footer_blog-item">
+								<div class="footer_blog-item_img">
+									<a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="footer_blog-item_link"><img src="AppBox2_arquivos/1_004.jpg" alt="Blog Item" /></a>
+								</div>
+								<div class="footer_blog-item_text robotoLight grayTxtColor">Dolore magna aliqua. Ut enimad minim veniam quis nostrud</div>
+								<div class="footer_blog-item_date robotoLight">March 30, 2015</div>
+							</div>
+							<div class="footer_blog-item">
+								<div class="footer_blog-item_img">
+									<a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="footer_blog-item_link"><img src="AppBox2_arquivos/2.jpg" alt="Blog Item" /></a>
+								</div>
+								<div class="footer_blog-item_text robotoLight grayTxtColor">Aboris nisi dut aliquip commodo conse quat. Duis aute irure.</div>
+								<div class="footer_blog-item_date robotoLight">March 30, 2015</div>
+							</div>
+						</div>
+						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
+							<h4 class="footer-title customColor ralewayBold">Popular Tags</h4>
+							<ul class="tags pageRow">
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">AppBox</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Android</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Games</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Themeforest</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">App Showcase</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Mobile</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Free Apps</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Apps theme</a></li>
+								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Modern Apps</a></li>
+							</ul>
+						</div>
+						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInRight" data-wow-delay="0.3s">
+							<h4 class="footer-title customColor ralewayBold">Flickr Widget</h4>
+							<ul class="widgets pageRow">
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/1_003.jpg" alt="Widget" />
+									</a>
+								</li>
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/2_002.jpg" alt="Widget" />
+									</a>
+								</li>
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/3_002.jpg" alt="Widget" />
+									</a>
+								</li>
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/4.jpg" alt="Widget" />
+									</a>
+								</li>
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/5.jpg" alt="Widget" />
+									</a>
+								</li>
+								<li>
+									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
+										<img src="AppBox2_arquivos/6.jpg" alt="Widget" />
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </xpath>
+	</template>
+	
+	<template id="layout_footer_copyright" inherit_id="website.layout_footer_copyright" customize_show="True" name="Footer Copyright">
+	 	<xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">	   
+	 		<div class="pageRow footerBottom">
+				<div class="wrapper">
+					<div class="footerV2Box row">
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
+							<div style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;" class="copyrightV2Txt robotoLight whiteTxtColor wow bounceIn pull-left" data-wow-delay="0.3s">Copyright © 2015. Designed by Templines</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
+							<ul style="visibility: visible; animation-delay: 0.5s; animation-name: bounceIn;" class="socialmenu wow bounceIn pull-right" data-wow-delay="0.5s">
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-pinterest-p"></i></a></li>
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-behance"></i></a></li>
+								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</xpath>
+	</template>
+	
+  </data>
+</openerp>

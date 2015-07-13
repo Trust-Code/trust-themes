@@ -1,0 +1,571 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+ - Latest From Category
+ - Staff Picks
+ - Trending
+-  Recommended
+-  Subscribe
+-  Tabs
+
+- Project:	App Landing HTML/CSS Theme
+- Version:	1.1
+- Author:  Andrey Sokoltsov
+- Profile:	http://themeforest.net/user/andreysokoltsov
+
+-------------------------------------------------------------------*/
+
+.mainStore{
+	position: relative;
+	margin-top: -319px;
+	z-index: 1;
+}
+.preview-item.grayBgApp{
+	background-color: #f7f7f7;
+}
+.mainStore .app-item{
+	padding: 10px 0;
+}
+.preview-item.grayBgApp:hover{
+	background-color: #fff;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.heightTitleBox{
+	padding-bottom: 112px;
+}
+.mainStore .owl-theme .owl-controls{
+	position: absolute;
+	right: 10px;
+	top: 0;
+}
+.storeContent {
+	border-top: 1px solid #ebebeb;
+	margin: 70px 0 0;
+	padding: 65px 0 45px;
+}
+.pageSectionTitle{
+	font-size: 17px;
+	line-height: 100%;
+	margin: 0;
+	padding: 3px 0 20px;
+	position: relative;
+}
+.pageSectionTitle:after{
+	background-color: #888;
+	bottom: 0;
+	content: "";
+	height: 5px;
+	left: 50%;
+	position: absolute;
+	width: 60px;
+	margin-left: -30px;
+}
+.pageSectionTitle.bigTxt{
+	font-size: 24px;
+}
+.leftSidebar{
+	padding-top: 5px;
+}
+
+/* Latest From Category */
+.latestFromCat{
+	padding: 38px 0 0;
+}
+.app-product-item{
+	background-color: #f7f7f7;
+	width: 270px;
+	max-width: 100%;
+}
+.app-product-item_header{
+	background-color: #f7f7f7;
+	display: table;
+	height: 180px;
+	position: relative;
+	width: 100%;
+}
+.app-product-item_header img{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.app-product-item_header-link{
+	background-color: rgba(0, 0, 0, 0.6);
+	display: none;
+	line-height: 20px;
+	padding: 0 20px;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.app-product-item_header:hover .app-product-item_header-link{
+	display: table-cell;
+}
+.app-product-item_body{
+	padding: 32px 26px 24px;
+	position: relative;
+}
+.app-product-item_body .colorIcon {
+	position: absolute;
+	right: 15px;
+	top: -35px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.app-product-item_body_title{
+	font-size: 16px;
+	margin: 0 0 8px;
+}
+.app-product-item_body_price{
+	color: #888;
+	font-size: 17px;
+	line-height: 100%;
+	padding: 4px 0 0;
+}
+.app-product-item_body_btnbox{
+	float: left;
+	padding: 37px 0 0;
+	width: 100%;
+}
+.ellipseLink.addToCartBtn{
+	color: #888;
+	border-width: 4px 1px 3px;
+	float: left;
+	font-size: 11px;
+	height: 39px;
+	padding: 8px 0 0 14px;
+	width: 124px;
+}
+.ellipseLink.addToCartBtn i{
+	font-size: 15px;
+	margin-right: 5px;
+}
+.ellipseLink.addToCartBtn.xBigBtn{
+	border-width: 4px 1px;
+	color: #000;
+	font-size: 16px;
+	height: 51px;
+	padding: 11px 0 0;
+	text-align: center;
+	width: 100%;
+}
+.ellipseLink.addToCartBtn.xBigBtn i{
+	font-size: 19px;
+	margin-right: 10px;
+}
+
+/* Staff Picks */
+
+.staffPicksBox{
+	background-color: #f7f7f7;
+	margin: 40px 0 64px;
+	padding: 46px 0 0;
+}
+.staff-picks-list{
+	float: left;
+	margin: 0;
+	padding: 57px 2% 12px;
+	width: 100%;
+}
+.staff-picks-list li{
+	display: block;
+	float: left;
+	margin: 0 2% 40px 3%;
+	width: 28%;
+}
+.staff-picks_item{
+	background-color: #fff;
+	border: 1px solid #ececec;
+	float: left;
+	height: 90px;
+	overflow: hidden;
+	padding: 23px 0 0 109px;
+	position: relative;
+	width: 100%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.staff-picks_item_icon{
+	height: 90px;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 90px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.staff-picks_item_icon i{
+	font-size: 36px;
+	line-height: 90px;
+}
+.staff-picks_item_name{
+	float: left;
+	font-size: 16px;
+	line-height: 100%;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.staff-picks_item_price{
+	color: #888;
+	float: left;
+	font-size: 14px;
+	line-height: 100%;
+}
+.latestGames{
+	padding: 38px 0 0;
+}
+
+/* Trending */
+
+.trending-item{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.trending-item img{
+	float: left;
+	width: 100%;
+}
+.trending-item_footer{
+	background-color: rgba(0, 0, 0, 0.7);
+	bottom: 0;
+	left: 0;
+	min-height: 77px;
+	padding: 0 0 0 84px;
+	position: absolute;
+	width: 100%;
+}
+.trending-item_footer .colorIcon{
+	left: 15px;
+	position: absolute;
+	top: -24px;
+}
+.trending-item_name{
+	float: left;
+	font-size: 16px;
+	line-height: 100%;
+	padding-top: 21px;
+	width: 100%;
+}
+.trending-item_price{
+	color: #ccc;
+	float: left;
+	line-height: 100%;
+	padding: 6px 0 20px;
+	width: 100%;
+}
+
+/* Recommended */
+
+.recommendedBox{
+	padding: 95px 0;
+}
+.recommendedAppsItems{
+	float: left;
+	padding-top: 48px;
+	width: 100%;
+}
+.recommendedAppsItems .app-product-item{
+	margin-bottom: 45px;
+}
+
+/* Subscribe */
+
+.subscribe-info{
+	padding-top: 12px;
+}
+.subscribe-info_title{
+	font-size: 20px;
+	line-height: 100%;
+	margin: 0;
+}
+.subscribe-info_desc{
+	float: left;
+	font-size: 13px;
+	line-height: 22px;
+	padding: 22px 0 0;
+	width: 100%;
+}
+.showallapp{
+	border-bottom: 1px solid #ebebeb;
+	float: left;
+	margin: 1px 0 20px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+.showallapp-link:focus,
+.showallapp-link:active,
+.showallapp-link{
+	color: #888;
+	bottom: -2px;
+	display: inline-block;
+	font-size: 16px;
+	line-height: 100%;
+	padding: 0 0 21px;
+	position: relative;
+	text-decoration: none;
+}
+.showallapp-link:hover{
+	color: #05c3f9;
+	text-decoration: none;
+}
+.showallapp-link:after{
+	background-color: #05c3f9;
+	bottom: -1px;
+	color: #f00;
+	content: "";
+	height: 4px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.page-title.titleWithIcon{
+	padding-left: 90px;
+	position: relative;
+}
+.page-title.titleWithIcon:after{
+	left: 90px;
+}
+.page-title.titleWithIcon .colorIcon{
+	left: 0;
+	position: absolute;
+	top: 66px;
+}
+.storelinks-container{
+	float: left;
+	padding: 57px 0 0;
+	width: 100%;
+	position: relative;
+}
+ul.storelinks{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul.storelinks li{
+	display: block;
+	float: left;
+	margin-right: 6px;
+}
+ul.storelinks li i{	
+	color: #888;
+	display: block;
+	font-size: 29px;
+	height: 33px;
+	left: 24px;
+	line-height: 28px;
+	position: absolute;
+	text-align: left;
+	top: 13px;
+	width: 29px;
+	background-size: cover;
+}
+ul.storelinks li a.storelinks_item{
+	border-color: #0394be;
+	border-width: 2px 1px;
+	font-size: 17px;
+	height: 61px;
+	line-height: 100%;
+	padding: 19px 25px 0 62px;
+	width: auto;
+	position: relative;
+}
+.backLink{
+	font-size: 11px;
+	line-height: 100%;
+	position: absolute;
+	right: 16px;
+	top: -57px;
+}
+.backLink i{
+	margin-right: 5px;
+}
+.appDetailsContainer{
+	padding-right: 350px;
+}
+.appDetailsBox{
+	float: left;
+	width: 100%;
+	padding: 14px 0 0;
+}
+.owl-carousel.owl-app-screenshot {
+	background-image: url("../media/home/slider.png");
+	background-repeat: no-repeat;
+	height: 690px;
+	padding: 94px 21px 143px;
+	position: absolute;
+	right: 14px;
+	top: -271px;
+	width: 300px;
+	z-index: 1;
+}
+.owl-app-screenshot_item img{
+	float: left;
+	width: 100%;
+	height: 100%;
+	min-height: 453px;
+}
+.owl-app-screenshot.owl-theme .owl-controls{
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	right: 0;
+}
+.appDetailsTitle{
+	font-size: 16px;
+	line-height: 100%;
+	margin: 0;
+	padding: 5px 0 16px;
+	position: relative;
+}
+.appDetailsTitle:after{
+	background-color: #888;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 60px;
+	height: 5px;
+}
+.contentbox{
+	position: relative;
+	width: 89%;
+}
+.contentbox ul.rating{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.contentbox ul.rating li{
+	font-size: 17px;
+}
+.contentbox-desc{
+	font-size: 12px;
+	line-height: 22px;
+	padding: 36px 0 39px;
+}
+ul.parameters{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+ul.parameters li{
+	display: block;
+	float: left;
+	min-height: 45px;
+	padding: 0 40px 0 50px;
+	position: relative;
+	margin-bottom: 10px;
+}
+ul.parameters li .circle{
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.parameters-label{
+	font-size: 12px;
+	line-height: 100%;
+	padding: 3px 0 5px;
+}
+.parameters-value{
+	font-size: 13px;
+	line-height: 100%;
+}
+.addToCartContainer{
+	border-bottom: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	margin: 38px 0 51px;
+	padding: 35px 0 37px;
+}
+.price-details{
+	padding-bottom: 32px;
+}
+.price-details_title{
+	float: left;
+	font-size: 16px;
+	line-height: 100%;
+	margin-right: 9px;
+	padding-top: 4px;
+}
+.price-details_sale{
+	color: #888;
+	float: left;
+	font-size: 21px;
+	line-height: 100%;
+	margin-right: 8px;
+}
+.price-details_price{
+	color: #cb595b;
+	float: left;
+	font-size: 21px;
+	line-height: 100%;
+}
+
+/* Tabs */
+
+.tabsBox{
+	background-color: #f7f7f7;
+	padding: 36px 27px;
+}
+.tabsBox .nav-tabs{
+	border: 0 none;
+	padding: 0 0 30px;
+}
+.tabsBox .nav-tabs > li{
+	margin-right: 30px;
+}
+.tabsBox .nav-tabs > li:last-child{
+	margin-right: 0;
+}
+.tabsBox .nav-tabs > li > a{
+	background-color: transparent;
+	border: 0 none;
+	color: #888;
+	font-size: 14px;
+	line-height: 100%;
+	margin: 0;
+	padding: 0 0 14px;
+	position: relative;
+}
+.tabsBox .nav-tabs > li > a:after{
+	background-color: #888;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	height: 3px;
+}
+.tabsBox .nav-tabs > li.active > a,
+.tabsBox .nav-tabs > li.active > a:focus,
+.tabsBox .nav-tabs > li.active > a:hover{
+	background-color: transparent;
+	border: 0 none;
+	color: #000;
+}
+.tabsBox .nav-tabs > li.active > a:after,
+.tabsBox .nav-tabs > li.active > a:focus:after,
+.tabsBox .nav-tabs > li > a:hover:after{
+	background-color: #05c3f9;
+}
+.tab-content_text{
+	font-size: 12px;
+	line-height: 22px;	
+}
+.relatedApps{
+	border-top: 1px solid #ebebeb;
+	margin-top: 79px;
+}

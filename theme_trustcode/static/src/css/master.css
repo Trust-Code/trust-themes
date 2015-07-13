@@ -1,0 +1,40 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:	App Landing HTML/CSS Theme
+Version:	1.1
+Author:	    Andrey Sokoltsov
+Profile:	http://themeforest.net/user/andreysokoltsov
+-------------------------------------------------------------------*/
+
+/* MAIN CSS */
+@import url('bootstrap.min.css');
+@import url('theme.css');
+@import url('blog.css');
+@import url('store.css');
+@import url('responsive.css');
+@import url('animate.css');
+@import url('hover-min.css');
+@import url('custom.css');
+
+
+
+/* FONTS*/
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+@import url(//fonts.googleapis.com/css?family=Raleway:400,600,300,500,700);
+@import url(//fonts.googleapis.com/css?family=Roboto:400,500,300,400italic);
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+
+
+/* PLUGIN CSS */
+@import url('../plugins/loader/css/loader.css');
+@import url('../plugins/owl-carousel/owl.carousel.css');
+@import url('../plugins/owl-carousel/owl.theme.css');
+@import url('../plugins/owl-carousel/owl.transitions.css');
+@import url('../plugins/ekko-lightbox/ekko-lightbox.min.css');
+
+
+
+
+
+

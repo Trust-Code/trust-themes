@@ -1,0 +1,67 @@
+.customColor:hover,
+.customColor:focus,
+.customColor{
+	color: #d94939 !important;
+}
+.customBgColor{
+	background-color: #d94939 !important;
+}
+.logo{
+	background-image: url("../../../img/logo-3.png");
+}
+.ellipseBtn.colorBtn,
+.ellipseBtn.customWhiteBtn{
+	background-color: #771a0f;
+}
+.skew-title:before,
+.ellipseBtn.colorBtn span{
+	background-color: #d94939;
+}
+.feature-item:hover .circle{
+	background-color: #d94939;
+}
+.ellipseSubmitBtn,
+.member-ava,
+.blog-info_body .ellipseLink,
+ul.storelinks li a.storelinks_item,
+.review-slide_autor-ava{
+	border-color: #771a0f;
+}
+.best .package-header{
+	background-color: #d94939;
+	border-color: #d94939;
+}
+.best .package-header .circle span{
+	background-color: #d94939;
+}
+.header-v2 .ellipseLink.customColorLink,
+.best .ellipseLink{
+	background-color: #d94939;
+	border-color: #771a0f;
+}
+.showallapp-link:hover,
+.circle span b{
+	color: #d94939;
+}
+.tags li a{
+	background-color: #d94939;
+}
+.tags li a:hover{
+	border-color: #d94939;
+}
+.ip-logo .logo{
+	background-image: url('../../../img/logo-3.png');
+}
+.tabsBox .nav-tabs > li.active > a:after,
+.tabsBox .nav-tabs > li.active > a:focus:after,
+.tabsBox .nav-tabs > li > a:hover:after,
+.showallapp-link:after,
+.section-title:after{
+	background-color: #d94939;
+}
+.ip-header .ip-loader svg path.ip-loader-circle{
+    stroke: #d94939;
+}
+ul.menu li .dropdown-menu > li > a:hover{
+	color: #d94939 !important;
+}

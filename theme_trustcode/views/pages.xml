@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+	<!-- === Página demonstração === -->
+	<template name="Demonstração" id="website.demo" page="True">
+	  <t t-call="website.layout">
+		 <div id="wrap" class="oe_structure oe_empty">
+	      <section class="s_image_gallery">
+	        <div class="container">
+	          <div class="row">
+	            <div class="col-md-12 text-center mt16 mb32">
+	              <h2>Veja abaixo as telas do Pelican</h2>
+	              <h4 class="text-muted">Ou você pode acessar nosso ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4>
+	              <span style="font-style:italic;">Usuário: admin Senha: admin</span>
+	            </div>
+	           </div>
+	        </div>
+	      </section>
+	    </div>
+	  </t>
+	</template>
+	
+	<record id="demo_page_link" model="website.menu">
+	  <field name="name">Demonstração</field>
+	  <field name="url">/page/demo</field>
+	  <field name="parent_id" ref="website.main_menu" />
+	  <field name="sequence" type="int">99</field>
+	</record>
+	
+    </data>
+  </openerp>
