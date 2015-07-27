@@ -2,112 +2,121 @@
 <openerp>
   <data> 
     	
-  	<template id="footer_default" inherit_id="website_less.footer_default" customize_show="True" name="Automatic Footer">
-	    <xpath expr="//div[@id='footer']" position="replace">
-	      <div class="pageRow">
-				<div class="wrapper">
-					<div class="footerV2Box row">
-						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInLeft" data-wow-delay="0.3s">
-							<a href="http://html.templines.com/sokolcov/appbox/" class="logo footerLogo pull-left clear"></a>
-							<div class="footer-desc robotoLight grayTxtColor pull-left clear">Lorem
- ipsum dolor amet consecte adipisicing elit sed do eiusmod tempor 
-incididunt ut labore  dolore magna aliqua. Ut enim ad minim veniam quis 
-nostrud exercitation ullamco.</div>
-							<div class="footer-desc robotoLight grayTxtColor pull-left clear">Laboris nisi dut aliquip ex ea commodo. conse quat. Duis aute irure dolor reprehenderit.</div>
-						</div>
-						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
-							<h4 class="footer-title customColor ralewayBold">Latest From Blog</h4>
-							<div class="footer_blog-item">
-								<div class="footer_blog-item_img">
-									<a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="footer_blog-item_link"><img src="AppBox2_arquivos/1_004.jpg" alt="Blog Item" /></a>
+  	<template id="footer_default" inherit_id="website.layout" customize_show="True" name="Automatic Footer">
+	    <xpath expr="//footer" position="replace">	
+	       
+	    	<footer class="footer">
+				<div id="footer_container" class="container">
+					<div class="footer-inner">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="tweets">
+									<i class="icon-twitter-1"></i>
+									<div class="rslides tweet-slider">
+										<p><a href="#.">@fajartemplate</a> nteger in enim dui. Suspendisse potenti. Sed placerat pellentesque nibh ut varius. Sed non orci sed <a href="#.">http://t.co/fs0ldQsnov</a><span class="tweet-time">5 hours ago</span></p>
+										<p><a href="#.">@fajartemplate</a> Suspendisse potenti. nteger in enim dui. Sed placerat pellentesque nibh ut varius. Sed non orci sed <a href="#.">http://t.co/fs0ldQsnov</a><span class="tweet-time">6 hours ago</span></p>
+										<p><a href="#.">@fajartemplate</a> nteger in enim dui. Sed placerat pellentesque nibh ut varius. Suspendisse potenti. Sed non orci sed <a href="#.">http://t.co/fs0ldQsnov</a><span class="tweet-time">7 hours ago</span></p>
+									</div>
 								</div>
-								<div class="footer_blog-item_text robotoLight grayTxtColor">Dolore magna aliqua. Ut enimad minim veniam quis nostrud</div>
-								<div class="footer_blog-item_date robotoLight">March 30, 2015</div>
 							</div>
-							<div class="footer_blog-item">
-								<div class="footer_blog-item_img">
-									<a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="footer_blog-item_link"><img src="AppBox2_arquivos/2.jpg" alt="Blog Item" /></a>
+							<div class="col-md-4">
+								<div class="footer-about">
+									<h3>About Fajar</h3>
+									<p>We believe in Latest Powerfull Technology Lorem ipsum dolor...<a href="#.">Read more</a></p>
 								</div>
-								<div class="footer_blog-item_text robotoLight grayTxtColor">Aboris nisi dut aliquip commodo conse quat. Duis aute irure.</div>
-								<div class="footer_blog-item_date robotoLight">March 30, 2015</div>
 							</div>
 						</div>
-						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
-							<h4 class="footer-title customColor ralewayBold">Popular Tags</h4>
-							<ul class="tags pageRow">
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">AppBox</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Android</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Games</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Themeforest</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">App Showcase</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Mobile</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Free Apps</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Apps theme</a></li>
-								<li><a href="http://html.templines.com/sokolcov/appbox/blog-details.html" class="robotoLight text-center grayTxtColor hvr-rectangle-in">Modern Apps</a></li>
-							</ul>
-						</div>
-						<div style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInRight;" class="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInRight" data-wow-delay="0.3s">
-							<h4 class="footer-title customColor ralewayBold">Flickr Widget</h4>
-							<ul class="widgets pageRow">
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/1_003.jpg" alt="Widget" />
-									</a>
-								</li>
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/2_002.jpg" alt="Widget" />
-									</a>
-								</li>
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/3_002.jpg" alt="Widget" />
-									</a>
-								</li>
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/4.jpg" alt="Widget" />
-									</a>
-								</li>
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/5.jpg" alt="Widget" />
-									</a>
-								</li>
-								<li>
-									<a href="http://html.templines.com/sokolcov/appbox/blog.html">
-										<img src="AppBox2_arquivos/6.jpg" alt="Widget" />
-									</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-	    </xpath>
-	</template>
-	
-	<template id="layout_footer_copyright" inherit_id="website.layout_footer_copyright" customize_show="True" name="Footer Copyright">
-	 	<xpath expr="//footer/div[@class='container mt16 mb8']" position="replace">	   
-	 		<div class="pageRow footerBottom">
-				<div class="wrapper">
-					<div class="footerV2Box row">
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
-							<div style="visibility: visible; animation-delay: 0.3s; animation-name: bounceIn;" class="copyrightV2Txt robotoLight whiteTxtColor wow bounceIn pull-left" data-wow-delay="0.3s">Copyright © 2015. Designed by Templines</div>
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
-							<ul style="visibility: visible; animation-delay: 0.5s; animation-name: bounceIn;" class="socialmenu wow bounceIn pull-right" data-wow-delay="0.5s">
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-google-plus"></i></a></li>
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-pinterest-p"></i></a></li>
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-behance"></i></a></li>
-								<li><a href="#" target="_blank" class="hvr-pop"><i class="fa fa-dribbble"></i></a></li>
-							</ul>
+						
+						<hr class="dotted" />
+						
+						<div class="row">
+							<div class="col-md-4">
+								<div class="footer-widget clearfix">
+									<h3>Keep in Touch</h3>
+									<ul class="address-list clearfix">
+										<li><i class="icon-telephon-1"></i>+11 (0) 202 1313 001</li>
+										<li><i class="icon-printer7"></i>+11 (0) 202 1313 002</li>
+										<li><i class="icon-envelope"></i><a href="mailto:support@fajar.com">support@fajar.com</a></li>
+										<li><i class="icon-icons180"></i>Australia place nice, RD nice DHA Road, state pace 786</li>
+									</ul>
+									<ul class="social list-unstyled bordered big">
+										<li><a href="#." class="facebook"><i class="icon-facebook2"></i></a></li>
+										<li><a href="#." class="twitter"><i class="icon-twitter-1"></i></a></li>
+										<li><a href="#." class="googleplus"><i class="icon-googleplus2"></i></a></li>
+										<li><a href="#." class="linkedin"><i class="icon-linkedin3"></i></a></li>
+										<li><a href="#." class="pinterest"><i class="icon-pinterest4"></i></a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="footer-widget clearfix">
+									<h3>Recent Posts</h3>
+									<article class="footer-post smooth">
+										<img src="images/recent-post-thumb1.jpg" alt="" />
+										<h4><a href="blog-detail.html">Amazing standard post</a></h4>
+										<p>March 15, 2015</p>
+									</article>
+									<article class="footer-post smooth">
+										<img src="images/recent-post-thumb2.jpg" alt="" />
+										<h4><a href="blog-sidebar.html">Amazing standard post</a></h4>
+										<p>March 15, 2015</p>
+									</article>
+									<article class="footer-post smooth">
+										<img src="images/recent-post-thumb3.jpg" alt="" />
+										<h4><a href="blog-detail-sidebar.html">Amazing standard post</a></h4>
+										<p>March 15, 2015</p>
+									</article>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="footer-widget clearfix">
+									<h3>Useful Links</h3>
+									<ul class="tags-cloud clearfix">
+										<li><a href="#.">Blog Posts</a></li>
+										<li><a href="#.">Wordpress</a></li>
+										<li><a href="#.">Logos</a></li>
+										<li><a href="#.">Web Designing</a></li>
+										<li><a href="#.">Themeforest</a></li>
+										<li><a href="#.">Business</a></li>
+										<li><a href="#.">Graphic</a></li>
+									</ul>
+									<div class="news-letter-widget">
+										<h3>Newsletter</h3>
+										<p>Keep in Touch Recive Our Daily Latest Updates.</p>
+										<div class="news-letter-form">
+											<div id="response2" style="display:none;"  class='success-msg'></div>
+											<form name="email_form" id="email_form" action="" method="post">
+												<input type="text" name="news_email_address" id="news_email_address" placeholder="Email Address"  class="validate[required,custom[email]]"
+												 data-prompt-position="topLeft:0" />
+												<input type="submit" value="GO!" name="email_newsletter_form" />
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
+				</div>		
+		 		<div class="footer-bottom">
+					<div class="row">
+						<div class="col-md-7">
+							<p class="copyright"> Copyright 2015 Fajar. All rights reserved.</p>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-5">
+							<nav class="footer-nav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="faq.html">FAQ's</a></li>
+									<li><a href="#.">Sitemap</a></li>
+									<li><a href="contact-us.html">Contact</a></li>
+									<li><a href="#.">Buy Now</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>	
+			</footer>
 		</xpath>
 	</template>
 	

@@ -10,7 +10,15 @@
 	   
 			 	
 	   <div id="top" class="masthead" role="main">
+	   				
+			<video class="covervid-video" id="covervid-video" loop="loop" autoplay="autoplay"
+					style="position:absolute;top:58%;left:52%;transform:translate(-50%, -50%);
+					height:auto;width:1349px; opacity:0.2">					
+				<source src="theme_pelican/static/src/videos/video.webm" type="video/webm" />					
+			</video>	
+	   
 			<div class="container">
+				
 				<div class="logo"> <a href="/"><img src="/theme_pelican/static/src/img/logo.png" alt="logo" /></a>
 				</div>
 	 

@@ -1,0 +1,77 @@
+/* v1.0.5 */
+/* Core RS CSS file. 95% of time you shouldn't change anything here. */
+.royalSlider {width: 100%;height: auto;position: relative;direction: ltr;}
+.royalSlider > * {float: left;}
+.rsWebkit3d .rsSlide {-webkit-transform: translateZ(0);}
+.rsWebkit3d .rsSlide,.rsWebkit3d .rsContainer,.rsWebkit3d .rsThumbs,.rsWebkit3d .rsPreloader,.rsWebkit3d img,.rsWebkit3d .rsOverflow,.rsWebkit3d .rsBtnCenterer,.rsWebkit3d .rsAbsoluteEl,.rsWebkit3d .rsABlock,.rsWebkit3d .rsLink {-webkit-backface-visibility: hidden;}
+.rsFade.rsWebkit3d .rsSlide,.rsFade.rsWebkit3d img,.rsFade.rsWebkit3d .rsContainer {-webkit-transform: none;}
+.rsOverflow {width: 100%;height: 100%;position: relative;overflow: hidden;float: left;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.rsVisibleNearbyWrap {width: 100%;height: 100%;position: relative;overflow: hidden;left: 0;top: 0;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.rsVisibleNearbyWrap .rsOverflow {position: absolute;left: 0;top: 0;}
+.rsContainer {position: relative;width: 100%;height: 100%;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.rsArrow,.rsThumbsArrow {cursor: pointer;}
+.rsThumb {float: left;position: relative;}
+.rsArrow{ width:54px; height:54px; border:1px solid #fff;-webkit-border-top-right-radius: 5px;-webkit-border-bottom-left-radius: 5px;-moz-border-radius-topright: 5px;-moz-border-radius-bottomleft: 5px;border-top-right-radius: 5px;border-bottom-left-radius: 5px; position:absolute; top:50%; margin-top:-26px;}
+.rsArrow.rsArrowLeft{ left:30px; background:url(../images/left-arrow.png) no-repeat center center;}
+.rsArrow.rsArrowRight{ right:30px; background:url(../images/right-arrow.png) no-repeat center center;}
+.rsArrow,.rsNav,.rsThumbsArrow {opacity: 1;-webkit-transition:opacity 0.3s linear;-moz-transition:opacity 0.3s linear;-o-transition:opacity 0.3s linear;transition:opacity 0.3s linear;}
+.rsHidden {opacity: 0;visibility: hidden;-webkit-transition:visibility 0s linear 0.3s,opacity 0.3s linear;-moz-transition:visibility 0s linear 0.3s,opacity 0.3s linear;-o-transition:visibility 0s linear 0.3s,opacity 0.3s linear;	transition:visibility 0s linear 0.3s,opacity 0.3s linear;}
+.rsGCaption {width: 100%;float: left;text-align: center;}
+/* Fullscreen options, very important ^^ */
+.royalSlider.rsFullscreen {position: fixed !important;height: auto !important;width: auto !important;margin: 0 !important;padding: 0 !important;z-index: 2147483647 !important;top: 0 !important;left: 0 !important;bottom: 0 !important;right: 0 !important;}
+.royalSlider .rsSlide.rsFakePreloader {opacity: 1 !important;-webkit-transition: 0s;-moz-transition: 0s;-o-transition:  0s;transition:  0s;display: none;}
+.rsSlide {position: absolute;left: 0;top: 0;display: block;overflow: hidden;	height: 100%;width: 100%;}
+.royalSlider.rsAutoHeight,.rsAutoHeight .rsSlide {height: auto;}
+.rsContent {width: 100%;height: 100%;position: relative;background:#000;}
+.rsPreloader {position:absolute;z-index: 0;}
+.rsNav {-moz-user-select: -moz-none;-webkit-user-select: none;user-select: none;}
+.rsNavItem {-webkit-tap-highlight-color:rgba(0,0,0,0.25);}
+.rsThumbs {cursor: pointer;position: relative;overflow: hidden;float: left;z-index: 22;}
+.rsTabs {float: left;background: none !important;}
+.rsTabs,.rsThumbs {-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:rgba(0,0,0,0);}
+.rsVideoContainer {width: auto;height: auto;line-height: 0;position: relative;}
+.rsVideoFrameHolder {position: absolute;left: 0;top: 0;background: #141414;opacity: 0;-webkit-transition: .3s;}
+.rsVideoFrameHolder.rsVideoActive {opacity: 1;}
+.rsVideoContainer iframe,.rsVideoContainer video,.rsVideoContainer embed,.rsVideoContainer .rsVideoObj {position: absolute;z-index: 50;left: 0;top: 0;width: 100%;height: 100%;}
+/* ios controls over video bug, shifting video */
+.rsVideoContainer.rsIOSVideo iframe,.rsVideoContainer.rsIOSVideo video,.rsVideoContainer.rsIOSVideo embed {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding-right: 44px;}
+.rsABlock {left: 0;top: 0;position: absolute;z-index: 15;}
+img.rsImg {max-width: none;opacity:.6;}
+img.rsImg.full-visible {	opacity:1;}
+.grab-cursor {cursor:url(../images/grab.png) 8 8, move; cursor:-webkit-grab;}
+.grabbing-cursor{ cursor:url(../images/grab.png) 8 8, move;cursor:-webkit-grabbing;}
+.rsNoDrag {cursor: auto;}
+.rsLink {left:0;top:0;position:absolute;width:100%;height:100%;display:block;z-index: 20;background: url(blank.gif);}
+.bContainer {position: absolute;top:38%;left:0;width:100%;}
+.blockHeadline{ font-size:60px; color:#fff; width:100%; text-transform:uppercase;font-family: 'Lato', sans-serif; font-weight:800;}
+.blockText{font-size:28px; color:#fff; width:100%;padding-top: 93px;}
+.blockBtn{ padding-top: 165px;width: 100%;}
+.blockBtn .btn{ margin:0 5px;}
+.rsBullets{ position:absolute; left:0; right:0; bottom:41px; text-align:center;}
+.rsBullets .rsBullet{ width:8px; height:8px; border:1px solid #fff; display:inline-block; border-radius:100%; margin:0 1.5px; cursor:pointer;}
+.rsBullets .rsBullet:hover, .rsBullets .rsBullet.rsNavSelected{ background:#fff;}
+.slide-dark .blockHeadline, .slide-dark .blockText{ color:#222222;}
+.slide-dark .rsBullets .rsBullet{ border-color:#303030}
+.slide-dark .rsBullets .rsBullet.rsNavSelected{ background:#303030}
+.rs-dark-slide .rsArrow.rsArrowLeft{ background:url(../images/left-arrow-dark.png) no-repeat center center; border-color:#222;}
+.rs-dark-slide .rsArrow.rsArrowRight{ background:url(../images/right-arrow-dark.png) no-repeat center center; border-color:#222;}
+.rs-dark-slide .rsArrow.rsArrowLeft:hover{ background:url(../images/left-arrow.png) no-repeat 20px center;}
+.rs-dark-slide .rsArrow.rsArrowRight:hover{ background:url(../images/right-arrow.png) no-repeat 65px center;}
+.rs-dark-slide .rsArrow.rsArrowLeft:hover, .rs-dark-slide .rsArrow.rsArrowRight:hover{ background-color:#222; color:#fff;}
+.rs-dark-slide .rsBullets .rsBullet{ border-color:#000;}
+.rs-dark-slide .rsBullets .rsBullet:hover{ border-color:#000; background:#000;}
+.rs-dark-slide .rsBullets .rsBullet.rsNavSelected{ background:#000;}
+.rsBtnCenterer {left: 50%;position: absolute;top: 50%;}
+.rsDefault .rsPlayBtn {cursor: pointer;height: 64px; margin-left: -32px; margin-top: -32px; width: 64px;}
+.rsPlayBtnIcon {background: url("rs-default.png") no-repeat scroll 0 -32px rgba(0, 0, 0, 0.75);border-radius: 4px;display: block;height: 64px;transition: all 0.3s ease 0s; width: 64px;}
+.rsArrow.rsArrowLeft .rsSlideCount{ position: absolute;left:-1px;top: -1px; color:#222;width: 100px; text-align: right;padding: 15px 14px 13px;border-bottom-left-radius: 5px;border-top-right-radius: 5px;-webkit-transition: all 300ms ease;-moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease;}
+.rsArrow.rsArrowRight .rsSlideCount2{ position: absolute;right: -1px;top: -1px;color:#222;width: 100px;text-align: left;padding: 15px 14px 13px;border-bottom-left-radius: 5px; border-top-right-radius: 5px;-webkit-transition: all 300ms ease;-moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease;}
+.rsArrow.rsArrowLeft:hover .rsSlideCount, .rsArrow.rsArrowRight:hover .rsSlideCount2{transform: scale(1, 1);}
+.rsArrow.rsArrowLeft:hover .rsSlideCount, .rsArrow.rsArrowRight:hover .rsSlideCount2{transform: scale(1, 1);}
+.rs-dark-slide .rsArrow.rsArrowLeft .rsSlideCount,.rs-dark-slide .rsArrow.rsArrowRight .rsSlideCount2{color:#fff;}
+.rsArrow.rsArrowLeft, .rsArrow.rsArrowRight{ overflow:hidden;-webkit-transition: all 300ms ease;-moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease;}
+.rsArrow.rsArrowLeft:hover, .rsArrow.rsArrowRight:hover{ background:#fff; width:100px;-webkit-transition: all 300ms ease;-moz-transition: all 300ms ease;-ms-transition: all 300ms ease;-o-transition: all 300ms ease;transition: all 300ms ease;}
+.rsArrow.rsArrowLeft:hover{ background:url("../images/left-arrow-dark.png") no-repeat 20px center #fff;}
+.rsArrow.rsArrowRight:hover{ background:url("../images/right-arrow-dark.png") no-repeat 65px center #fff;}
+.banner-video{ position:absolute; left:0; top:0; width:100%; height:100%;}
+.banner-video video{ opacity:.5;}
