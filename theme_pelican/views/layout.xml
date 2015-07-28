@@ -83,16 +83,20 @@
 		        </div>
 		      </section>
 		 	
-			<div class="section-title">
-				<h2>Pelican sobre o ombro de gigantes - Odoo #1 open source.</h2>
-				<h4>O sistema ideal para sua empresa gerenciar todos os seus processos.</h4>
-			</div>
-	
-			<section class="row heroimg breath">
-				<div class="col-md-12 text-center"> 
-					<img src="/theme_pelican/static/src/img/flat-mockup-template.png" alt="flat-mockup-template" />
-				</div>
-			</section>
+		 	 <div class="row">
+		        <div class="col-md-6 mt16 mb0">
+		          <h3 style="color:#333;">Módulo Comercial.</h3>
+		          <p style="text-align: justify;">- Deixe seu comercial focado em vender mais. Atenda melhor e mais rápido com o Pelican.</p>
+		          <p style="text-align: justify;">- Diminua o prazo de entrega disparando automaticamente ordens de entrega ou de produção diretamente pelo Pedidos de Vendas.</p>
+		          <p style="text-align: justify;">- Agilize o cadastro de clientes utilzando o guia CEP e a integração com o Sintegra.</p>
+		          <p style="text-align: justify;">- Saiba tudo o que está acontecendo com relatórios objetivos, ou crie os seus.</p>
+		          <p style="text-align: justify;">- Apresente-se bem personalizando e-mails e cotações.</p>
+		        </div>
+		        <div class="col-md-6 mt16">
+		          <img alt="Odoo text and image block" class="img img-responsive shadow mb16" src="/website/static/src/img/library/business_hands.jpg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+		        </div>
+		      </div>
+		 	
 	 
 			<div class="section-title">
 				<h2>Conheça algumas das características.</h2>
