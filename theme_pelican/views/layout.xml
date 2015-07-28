@@ -48,8 +48,41 @@
 			</div>
 		</div>
  
-	   <div class="container" id="explore">
-	 
+	   <div class="container" id="explore">	 
+	 		<div class="section-title">
+		        <h2>Entenda porque o Pelican é a sua melhor escolha.</h2>
+		        <h4>E junte-se aos mais de 2 milhões de usuários globais.</h4>
+		      </div>
+		      <section class="row heroimg breath" style="height: 256px; overflow: hidden;">
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-globe fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Presente em Mais de 120 Paises</h3>
+		              <p>Conte com o know-how e compartilhe conhecimentos com paises desenvolvidos e torne sua gestão globalizada.</p>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-cloud fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Servidor Local ou Web</h3>
+		              <p>Escolha o que é melhor para sua empresa. Oferecemos todo suporte para manuteção de seu servidor local e toda a praticidade de um servidor Web.</p>
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-sm-6 col-md-4">
+		          <div class="thumbnail">
+		            <span class="fa fa-smile-o fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
+		            <div class="caption">
+		              <h3>Modulado e Completo</h3>
+		              <p>Elimine a preocupação de ter que trocar de ERP quando a sua empresa crescer. Ao invés disso, ative módulos e insira recursos sem complicação.</p>
+		            </div>
+		          </div>
+		        </div>
+		      </section>
+		 	
 			<div class="section-title">
 				<h2>Pelican sobre o ombro de gigantes - Odoo #1 open source.</h2>
 				<h4>O sistema ideal para sua empresa gerenciar todos os seus processos.</h4>
