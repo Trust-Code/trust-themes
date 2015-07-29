@@ -2,12 +2,56 @@
 <openerp>
   <data>
   	
+  	<template id="header_default" inherit_id="website.layout" customize_show="True" name="Automatic Header">
+  		  		
+	  <xpath expr="//header" position="replace">
+	  	 <header>
+           <nav class="navbar navbar-default transparent" role="navigation">
+               <div class="container">
+                   <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                       </button>
+                       <a class="navbar-brand" href="/" t-field="res_company.name"/>
+                   </div>
+                   <div class="collapse navbar-collapse">
+                       <ul class="nav navbar-nav" id="top_menu">
+                           <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                               <t t-call="website.submenu"/>
+                           </t>
+                           <li class="divider" t-ignore="true" t-if="website.user_id != user_id"/>
+                           <li class="dropdown" t-ignore="true" t-if="website.user_id != user_id">
+                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                   <b>
+                                       <span t-esc="user_id.name"/>
+                                       <span class="caret"></span>
+                                   </b>
+                               </a>
+                               <ul class="dropdown-menu js_usermenu" role="menu">
+                                   <li><a href="/web" role="menuitem">My Account</a></li>
+                                   <li class="divider"/>
+                                   <li><a t-attf-href="/web/session/logout?redirect=/" role="menuitem">Logout</a></li>
+                               </ul>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+           </nav>
+       </header>
+	  </xpath>
+  	
+  	</template>
+  	
 	<!-- Customize header  -->
 	<template id="custom_header" inherit_id="website.homepage" name="Pagina principal">
 	
+	
 	  <!-- Add an element after the top menu  -->
 	  <xpath expr="//div[@id='wrap']" position="replace">
-	  
+	 
 	  
 		<section class="main-banner">
 			<div class="sliderContainer fullWidth clearfix">
