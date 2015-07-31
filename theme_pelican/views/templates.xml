@@ -36,7 +36,9 @@
 	 		<div class="container">
 				<section class="row breath">
 					<div class="col-md-12 footerlinks">
-						<p><strong>Pelican</strong> é desenvolvido pela<a href="http://www.trustcode.com.br" target="_blank">Trust-Code.</a> 2015 - Todos os direitos reservados</p>
+						<p><strong>Pelican</strong> é desenvolvido pela<a href="http://www.trustcode.com.br"
+						 target="_blank">Trust-Code.</a> 2015 - Todos os direitos reservados
+						 - Site feito com o Odoo CMS</p>
 					</div>
 				</section>
 			</div>	
