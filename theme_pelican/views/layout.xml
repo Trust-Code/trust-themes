@@ -82,7 +82,7 @@
 		          </div>
 		        </div>
 		      </section>
-		      		      
+		      <hr class="mb32" />
 		      <section class="mb16">
 		        <div class="container">
 		          <div class="row">
@@ -141,62 +141,61 @@
 		            </div>
 		          </div>
 		        </div>
-		      </section>
-			 <hr class="mb32" />		    
+		      </section>			 		    
 		      <section>
 		        <div class="container">
-		          <div class="row">
-		            <div class="col-md-6 mt16">
-		              <h3>Comercial Eficiente</h3>
-		              <p>- <strong>Agendamento de reuniões e ligações</strong> diretamente das cotações.</p>
-		              <p style="text-align: justify;">- Gerencie as<strong> necessidades de estoque</strong> através da demanda comercial.</p>
-		              <p style="text-align: justify;">- Cadastre empresas rapidamente usand<strong/><strong/><strong/>o a integração com o <strong>Sintegra</strong>.</p>
-		              <p style="text-align: justify;">- Saiba tudo o que está acontecendo com <strong>relatórios</strong> simples e objetivos.</p>
-		              <p style="text-align: justify;">- Apresente-se bem com <strong>e-mails personalizados</strong>.</p>
-		              <p style="text-align: justify;">- Gerenciamento de<strong> listas de preços</strong>.</p>
-		            </div>
-		            <div class="col-md-6 mt16">
+		          	<div class="row"> <div class="col-md-6 mt16">
 		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
 		              	src="/theme_pelican/static/src/img/comercial.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
 		            </div>
+		            <div class="col-md-6 mt16">
+		              <h3>Comercial Eficiente</h3>
+		              <p>&#10003; <strong>Agendamento de reuniões e ligações</strong> diretamente das cotações.</p>
+		              <p style="text-align: justify;">&#10003; Gerencie as<strong> necessidades de estoque</strong> através da demanda comercial.</p>
+		              <p style="text-align: justify;">&#10003; Cadastre empresas rapidamente usand<strong/><strong/><strong/>o a integração com o <strong>Sintegra</strong>.</p>
+		              <p style="text-align: justify;">&#10003; Saiba tudo o que está acontecendo com <strong>relatórios</strong> simples e objetivos.</p>
+		              <p style="text-align: justify;">&#10003; Apresente-se bem com <strong>e-mails personalizados</strong>.</p>
+		              <p style="text-align: justify;">&#10003; Gerenciamento de<strong> listas de preços</strong>.</p>
+		            </div>
+		           
 		          </div>
 		        </div>
 		      </section>
-		      <section style="height: 240px; overflow: hidden;">
+		      <section style="margin: 35px;">
 		        <div class="container">
-		          <div class="row">
+		          <div class="row">		            
+		            <div class="col-md-6 mt16 mb16">
+		              <h3>Ferramentas de Marketing</h3>
+		              <p>&#10003; <strong>CRM</strong> completo.</p>
+		              <p>&#10003; <strong>email marketing</strong> 100% personalizável.</p>
+		              <p>&#10003; <strong>WebSite e Blog</strong> integrados.</p>
+		              <p>&#10003; Crie formulários de <strong>pesquisa</strong> e gerencie as respostas coletadas.</p>
+		              <p>&#10003; Gerencie <strong>campanhas de marketing</strong>.</p>
+		            </div>
 		            <div class="col-md-6 mt16">
 		              <img alt="Odoo image and text block" class="img img-responsive shadow mb16" 
 		              		src="/theme_pelican/static/src/img/marketing.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
 		            </div>
-		            <div class="col-md-6 mt16 mb16">
-		              <h3>Ferramentas de Marketing</h3>
-		              <p>- <strong>CRM</strong> completo.</p>
-		              <p>- <strong>email marketing</strong> 100% personalizável.</p>
-		              <p>- <strong>WebSite e Blog</strong> integrados.</p>
-		              <p>- Crie formulários de <strong>pesquisa</strong> e gerencie as respostas coletadas.</p>
-		              <p>- Gerencie <strong>campanhas de marketing</strong>.</p>
-		            </div>
 		          </div>
 		        </div>
 		      </section>
-		      <section style="height: 304px; overflow: hidden;">
+		      <section>
 		        <div class="container">
 		          <div class="row">
-		            <div class="col-md-6 mt16">
-		              <h3>Armazem e Manufatura.</h3>
-		              <p>- <strong>Regras de estoque</strong> minimo.</p>
-		              <p>- <strong>Rotas avançadas</strong> para movimentação de estoque.</p>
-		              <p>- <span class="_Tgc">P<span class="_Tgc">lanejamento das necessidades de materiais</span></span> (<strong>MRP</strong>).</p>
-		              <p>- Controle de lotes e<strong> rastreabilidade</strong>.</p>
-		              <p>- <strong>Centros de trabalho</strong>.</p>
-		              <p>- <strong>Programação</strong> das ordens de produção e visualização em<strong> grafico Gantt</strong>.</p>
-		              <p/>
-		            </div>
-		            <div class="col-md-6 mt16">
+		          	<div class="col-md-6 mt16">
 		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
 		              	src="/theme_pelican/static/src/img/armazen_manufatura.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
 		            </div>
+		            <div class="col-md-6 mt16">
+		              <h3>Armazem e Manufatura.</h3>
+		              <p>&#10003; <strong>Regras de estoque</strong> minimo.</p>
+		              <p>&#10003; <strong>Rotas avançadas</strong> para movimentação de estoque.</p>
+		              <p>&#10003; <span class="_Tgc">P<span class="_Tgc">lanejamento das necessidades de materiais</span></span> (<strong>MRP</strong>).</p>
+		              <p>&#10003; Controle de lotes e<strong> rastreabilidade</strong>.</p>
+		              <p>&#10003; <strong>Centros de trabalho</strong>.</p>
+		              <p>&#10003; <strong>Programação</strong> das ordens de produção e visualização em<strong> grafico Gantt</strong>.</p>
+		              <p/>
+		            </div>		            
 		          </div>
 		        </div>
 		      </section>
@@ -253,6 +252,7 @@
 				</div>
 			</section>
 	
+			<!-- 
 			<div class="section-title">
 				<h2>Alguns de nosso clientes</h2>
 				<h4>Conheça nossos clientes satisfeitos</h4>
@@ -263,10 +263,11 @@
 					<img src="/theme_pelican/static/src/img/client-logos.png" alt="client-logos" />
 				</div>
 			</section>
+			-->
 	 
 		</div>
 	 
-
+		<!--		
 	 	<div class="highlight testimonials">
 			<div class="container">
 				<div class="section-title">
@@ -308,25 +309,24 @@
 				</section> 
 			</div>
 		</div>
+		-->
  
 		<div class="container">
  
 			<div class="section-title">
 				<h2>Preço honesto. Sem surpresas.</h2>
-				<h4>Pague via cartão de crédito e tenha seu sistema rodando na hora. </h4>
+				<h4>Preços promocionais para o 1º ano. </h4>
 			</div>
 			<section class="row breath planpricing">
 			
 				<div class="col-md-4">
 					<div class="pricing color1">
 						<div class="planname">Iniciante</div>
-						<div class="price"> <span class="curr">R$</span>150<span class="per">/mensais</span></div>
+						<div class="price"> <span class="curr">R$</span>100<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 3 usuários<br/>
-						    Todos os módulos disponíveis<br/>
-						    Até 3 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático
+						    Até 3 usuários<br/>						    
+						    Até 2 horas de suporte mensais<br/>				
+						    Módulos: Vendas, Compras, Estoque<br/>		    
 						</div>
 					</div>
 				</div>
@@ -334,27 +334,23 @@
 				<div class="col-md-4">
 					<div class="pricing color2">
 						<div class="planname">Profissional</div>
-						<div class="price"> <span class="curr">R$</span>250<span class="per">/mensais</span></div>
+						<div class="price"> <span class="curr">R$</span>180<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 10 usuários<br/>
-						    Todos os módulos disponíveis<br/>
+						    Até 10 usuários<br/>						    
 						    Até 5 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático
+						    *Módulos: Completo<br/>						    
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-md-4">
 					<div class="pricing color3">
-						<div class="planname">Expert</div>
-						<div class="price"> <span class="curr">R$</span>500<span class="per">/mensais</span></div>
+						<div class="planname">Expert (promocional)</div>
+						<div class="price"> <span class="curr">R$</span>240<span class="per">/mensais</span></div>
 						<div class="billing">
-						    Até 20 usuários<br/>
-						    Todos os módulos disponíveis<br/>
-						    Até 10 horas de suporte mensais<br/>
-						    Correção de bugs ilimitado<br/>
-						    Backup automático<br/>
+						    Até 20 usuários<br/>						    
+						    Até 10 horas de suporte mensais<br/>	
+						    *Módulos: Completo<br/>							    
 						</div>
 					</div>
 				</div>
