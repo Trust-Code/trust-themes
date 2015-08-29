@@ -6,10 +6,8 @@
 		<template id="custom_header" inherit_id="website.homepage"
 			name="Pagina principal">
 
-
 			<!-- Add an element after the top menu -->
 			<xpath expr="//div[@id='wrap']" position="replace">
-
 
 				<section class="main-banner">
 					<div class="sliderContainer fullWidth clearfix">

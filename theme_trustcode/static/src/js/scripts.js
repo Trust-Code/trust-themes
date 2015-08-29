@@ -703,6 +703,27 @@
 					
 						}  
 					   });
+						
+        			/* ------------------------------------------------------------------------ 
+        			   SMALL HEADER 
+        			------------------------------------------------------------------------ */ 
+        			jQuery(window).scroll(function() {    
+        				var scroll = jQuery(window).scrollTop();	
+        				if (scroll >= 1) {
+        					jQuery("header").addClass("smallHeader");
+        					jQuery(".navbar-brand img" ).attr("src", "/theme_trustcode/static/src/images/logo_trustcode.png"); //Dark
+        					if (jQuery(".navbar").hasClass("nav-dark")) {
+        						jQuery(".navbar-brand img" ).attr("src", "/theme_trustcode/static/src/images/logo_trustcode.png"); //Dark
+        					}
+        				}
+        				else {
+        					jQuery("header").removeClass("smallHeader");
+        					jQuery(".navbar-brand img" ).attr("src", "/theme_trustcode/static/src/images/logo_trustcode.png"); //white
+        					if (jQuery(".navbar").hasClass("nav-dark")) {
+        						jQuery(".navbar-brand img" ).attr("src", "/theme_trustcode/static/src/images/logo_trustcode.png"); //dark
+        					}
+        				}
+        			});
 					
 					
 			})(jQuery);

@@ -983,8 +983,8 @@ hr {
   border-top: 1px solid #dadada;
 }
 hr.dotted {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   border: 0;
   border-top: 1px dashed #dadada;
 }

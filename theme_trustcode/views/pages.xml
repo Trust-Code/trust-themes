@@ -1,32 +1,129 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
-  <data>
-	<!-- === Página demonstração === 
-	<template name="Demonstração" id="website.demo" page="True">
-	  <t t-call="website.layout">
-		 <div id="wrap" class="oe_structure oe_empty">
-	      <section class="s_image_gallery">
-	        <div class="container">
-	          <div class="row">
-	            <div class="col-md-12 text-center mt16 mb32">
-	              <h2>Veja abaixo as telas do Pelican</h2>
-	              <h4 class="text-muted">Ou você pode acessar nosso ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4>
-	              <span style="font-style:italic;">Usuário: admin Senha: admin</span>
-	            </div>
-	           </div>
-	        </div>
-	      </section>
-	    </div>
-	  </t>
-	</template>
-	
-	<record id="demo_page_link" model="website.menu">
-	  <field name="name">Demonstração</field>
-	  <field name="url">/page/demo</field>
-	  <field name="parent_id" ref="website.main_menu" />
-	  <field name="sequence" type="int">99</field>
-	</record>
-	-->
-	
-    </data>
-  </openerp>
+	<data>
+
+		<template id="website_event_trustcode" inherit_id="website_event.index"
+			name="TrustCode Event">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<section class="subpage-banner parallax event-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Nossos eventos</h1>
+						<p>Confira o que estamos aprontando</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_forum_trustcode" inherit_id="website_forum.header"
+			name="TrustCode Forum">
+			<xpath expr="//div[@class='container mt16 website_forum']"
+				position="before">
+				<section class="subpage-banner parallax forum-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Confira o fórum</h1>
+						<p>Confira o que estamos aprontando</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+
+		<template id="website_sale_trustcode" inherit_id="website_sale.products"
+			name="TrustCode Forum">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<section class="subpage-banner parallax shop-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Nossa loja</h1>
+						<p>Confira nossas promoções</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_sale_product_trustcode" inherit_id="website_sale.product"
+			name="TrustCode Forum">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<section class="subpage-banner parallax shop-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Você vai adorar</h1>
+						<p>Confira nossas promoções</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_documentation_trustcode" inherit_id="website_forum_doc.documentation"
+			name="TrustCode Documentation">
+			<xpath expr="//section[@class='container mt16']" position="before">
+				<section class="subpage-banner parallax documentation-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Conhecimento</h1>
+						<p>Tudo o que você precisa saber sobre o Odoo</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_contactus_trustcode" inherit_id="website.contactus"
+			name="TrustCode Contact">
+			<xpath expr="//div[@id='wrap']" position="before">				
+				<section class="subpage-banner contact-banner parallax text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Venha tomar um café</h1>
+						<p>Ou nos envie um e-mail com suas dúvidas</p>
+					</div>					
+				</section>				
+			</xpath>
+		</template>
+
+		<template id="website_login_trustcode" inherit_id="website.login_layout"
+			name="TrustCode Login">
+			<xpath expr="//div[@class='oe_website_login_container']" position="before">				
+				 <style type="text/css">
+	            	main { background:url(/theme_trustcode/static/src/images/banner-login.jpg) no-repeat}   
+	            	main > div { min-height:650px; }
+	            	main > div > form { background-color:rgba(111,111,111,.2); padding:20px; width:450px; border-radius:5px; }	
+	            	main button { height:62px;}
+	            </style>
+			
+				<section class="subpage-banner parallax text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">					
+					<div class="container">
+						<h1 class="site-title">Acessar o sistema</h1>
+						<p>Trustcode - Liberdade gera criatividade</p>
+					</div>					
+				</section>				
+			</xpath>
+		</template>
+
+
+
+
+
+
+		<!-- === Página demonstração === <template name="Demonstração" id="website.demo" 
+			page="True"> <t t-call="website.layout"> <div id="wrap" class="oe_structure 
+			oe_empty"> <section class="s_image_gallery"> <div class="container"> <div 
+			class="row"> <div class="col-md-12 text-center mt16 mb32"> <h2>Veja abaixo 
+			as telas do Pelican</h2> <h4 class="text-muted">Ou você pode acessar nosso 
+			ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4> 
+			<span style="font-style:italic;">Usuário: admin Senha: admin</span> </div> 
+			</div> </div> </section> </div> </t> </template> <record id="demo_page_link" 
+			model="website.menu"> <field name="name">Demonstração</field> <field name="url">/page/demo</field> 
+			<field name="parent_id" ref="website.main_menu" /> <field name="sequence" 
+			type="int">99</field> </record> -->
+
+	</data>
+</openerp>
