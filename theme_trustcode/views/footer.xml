@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+	<data>
+
+		<template id="footer_copyright_trustcode" inherit_id="website.layout_footer_copyright"
+			name="Footer Copyright">
+			<xpath expr="//div[@class='container mt16 mb8']" position="replace">
+			</xpath>
+		</template>
+
+		<template id="footer_default_trustcode" inherit_id="website.footer_default"
+			customize_show="True" name="Automatic Footer">
+			<xpath expr="//div[@class='container hidden-print']" position="replace">
+
+				<footer class="footer2">
+					<div class="container hidden-print">
+
+						<hr class="dotted" />
+
+						<div class="row">
+							<div class="col-md-4">
+								<div class="footer-widget clearfix">
+									<h3>Mantenha contato</h3>
+									<ul class="address-list clearfix">
+										<li>
+											<i class="icon-telephon-1"></i>
+											+55 (048) 3238-6621
+										</li>
+										<li>
+											<i class="icon-mobile-phone"></i>
+											+55 (048) 9801-6226
+										</li>
+										<li>
+											<i class="icon-envelope"></i>
+											<a href="mailto:suporte@trustcode.com.br">suporte@trustcode.com.br</a>
+										</li>
+										<li>
+											<i class="icon-icons180"></i>
+											Donicia Maria da Costa 83, Saco Grande - Florianópolis,SC											
+										</li>
+									</ul>
+									<ul class="social list-unstyled bordered big">
+										<li>
+											<a href="#." class="facebook">
+												<i class="icon-facebook2"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#." class="twitter">
+												<i class="icon-twitter-1"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#." class="googleplus">
+												<i class="icon-googleplus2"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#." class="linkedin">
+												<i class="icon-linkedin3"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="footer-widget clearfix">
+									<h3>Links uteis</h3>
+									<ul id="products" class="list-unstyled footer-nav-widget">
+										<li>
+											<a href="#.">
+												<i class="icon-angle-right"></i>
+												Home
+											</a>
+										</li>
+										<li>
+											<a href="#.">
+												<i class="icon-angle-right"></i>
+												Nosso trabalho
+											</a>
+										</li>																				
+										<li>
+											<a href="#.">
+												<i class="icon-angle-right"></i>
+												Politica de privacidade
+											</a>
+										</li>
+										<li>
+											<a href="#.">
+												<i class="icon-angle-right"></i>
+												Contato
+											</a>
+										</li>										
+									</ul>
+								</div>
+							</div>
+
+							<div class="col-md-3">
+								<div id="info" class="footer-widget clearfix">
+									<h3>Tags do blog</h3>
+									<ul class="tags-cloud clearfix">
+										<li>
+											<a href="#.">Blog Posts</a>
+										</li>
+										<li>
+											<a href="#.">Odoo</a>
+										</li>
+										<li>
+											<a href="#.">NF-e</a>
+										</li>
+										<li>
+											<a href="#.">Instalação Odoo</a>
+										</li>
+										<li>
+											<a href="#.">MDE</a>
+										</li>
+										<li>
+											<a href="#.">Python</a>
+										</li>
+										<li>
+											<a href="#.">Docker</a>
+										</li>
+									</ul>
+									<div class="news-letter-widget">
+										<h3>Newsletter</h3>
+										<p>Receba nossas postagens e atualizações.</p>
+										<div class="news-letter-form">
+											<div id="response2" style="display:none;" class='success-msg'></div>
+											<form name="email_form" id="email_form" action=""
+												method="post">
+												<input type="text" name="news_email_address" id="news_email_address"
+													placeholder="Endereço de email" class="validate[required,custom[email]]"
+													data-prompt-position="topLeft:0" />
+												<input type="submit" value="GO!" name="email_newsletter_form" />
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="footer-bottom">
+							<div class="row">
+								<div class="col-md-7">
+									<p class="copyright"> Copyright 2015 TrustCode. Todos os direitos reservados.</p>
+									<div class="clearfix"></div>
+								</div>
+								<div class="col-md-5">
+									<nav class="footer-nav">
+										<ul>
+											<li>
+												<a href="/">Home</a>
+											</li>
+											<li>
+												<a href="/forum/how-to">FAQ's</a>
+											</li>
+											<li>
+												<a href="/page/sitemap">Sitemap</a>
+											</li>
+											<li>
+												<a href="/page/website.contactus">Contato</a>
+											</li>											
+										</ul>
+									</nav>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</xpath>
+		</template>
+
+
+	</data>
+</openerp>

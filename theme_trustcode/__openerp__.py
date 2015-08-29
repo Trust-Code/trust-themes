@@ -26,13 +26,16 @@
     'version': '1.0',
     'description': """TrustCode WebSite Theme""",
     'author': 'TrustCode',
-    'depends': ['website', 'website_less'],
+    'depends': ['website', 'website_less',
+                'website_sale', 'website_blog',
+                'website_forum', 'website_forum_doc',
+                'website_hr', 'website_event', 'website_crm'],
     'data': [
         'views/header.xml',
         'views/main.xml',        
         'views/pages.xml',
         'views/assets.xml',
-        'views/templates.xml'
+        'views/footer.xml'
     ],
     'application': True,
 }
