@@ -28,7 +28,8 @@
     'author': 'TrustCode',
     'depends': ['website', 'website_less'],
     'data': [
-        'views/layout.xml',
+        'views/header.xml',
+        'views/main.xml',        
         'views/pages.xml',
         'views/assets.xml',
         'views/templates.xml'

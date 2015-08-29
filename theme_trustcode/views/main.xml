@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<!-- Customize header -->
+		<template id="custom_header" inherit_id="website.homepage"
+			name="Pagina principal">
+
+
+			<!-- Add an element after the top menu -->
+			<xpath expr="//div[@id='wrap']" position="replace">
+
+
+				<section class="main-banner">
+					<div class="sliderContainer fullWidth clearfix">
+						<div class="royalSlider heroSlider rsMinW main-banner-slider">
+							<div class="rsContent">
+								<img class="rsImg"
+									src="theme_trustcode/static/src/images/main-banner/banner1/1.jpg"
+									alt="" />
+								<div class="bContainer">
+									<div class="container text-center">
+										<span class="rsABlock txtCent blockHeadline" data-speed="1000"
+											data-move-offset="500" data-move-effect="bottom">TrustCode
+										</span>
+										<span class="rsABlock txtCent blockText" data-speed="1000"
+											data-move-offset="600" data-move-effect="bottom">Liberdade gera criatividade.</span>
+										<span class="rsABlock txtCent blockBtn" data-speed="1000"
+											data-move-offset="700" data-move-effect="bottom">
+											<a href="#." class="btn btn-default">Produtos</a>
+											<a href="#." class="btn btn-bordered white">nossa empresa</a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="rsContent">
+								<img class="rsImg"
+									src="theme_trustcode/static/src/images/main-banner/banner1/2.jpg"
+									alt="" />
+								<div class="bContainer">
+									<div class="container text-left">
+										<span class="rsABlock txtCent blockHeadline" data-speed="900"
+											data-move-offset="100" data-move-effect="top">asas a sua empresa
+										</span>
+										<span class="rsABlock txtCent blockText" data-speed="1000"
+											data-move-offset="400" data-move-effect="right">Pelican é um sistema completo de gestão para sua empresa.</span>
+										<span class="rsABlock txtCent blockBtn" data-speed="1200"
+											data-move-offset="500" data-move-effect="bottom">
+											<a href="#." class="btn btn-white btn-square">Conheça</a>
+											<a href="#." class="btn btn-bordered white btn-square">aprenda mais</a>
+										</span>
+									</div>
+								</div>
+							</div>							
+							<div class="rsContent slide-dark">
+								<img class="rsImg full-visible"
+									src="theme_trustcode/static/src/images/main-banner/banner1/3.jpg"
+									alt="" />
+								<div class="bContainer">
+									<div class="container text-center">
+										<span class="rsABlock txtCent blockHeadline" data-speed="900"
+											data-move-offset="200" data-move-effect="left">Possibilidades ilimitadas</span>
+										<span class="rsABlock txtCent blockText" data-speed="1000"
+											data-move-offset="300" data-move-effect="right">(Nome do produto) perfeito para sua industria crescer.</span>
+										<span class="rsABlock txtCent blockBtn" data-speed="1000"
+											data-move-offset="400" data-move-effect="bottom">
+											<a href="#." class="btn btn-dark">Veja mais</a>
+											<a href="#." class="btn btn-bordered black">aprenda mais</a>
+										</span>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+
+			</xpath>
+		</template>
+
+	</data>
+</openerp>
