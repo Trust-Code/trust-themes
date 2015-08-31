@@ -137,7 +137,7 @@
 								</t>
 								<div class="col-md-12 mb32 mt16 text-center">
 									<h1 class="site-title" t-field="blog.name" />
-									<h3 t-field="blog.subtitle" />
+									<p t-field="blog.subtitle" />
 								</div>
 							</div>
 						</div>
