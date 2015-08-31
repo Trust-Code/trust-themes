@@ -84,7 +84,8 @@
 			<xpath expr="//div[@id='wrap']" position="before">
 				<style type="text/css">
 					#wrap > div.container { margin-top: 40px;}
-					#wrap > div.container > h1 { display:none;}
+					#wrap >
+					div.container > h1 { display:none;}
 				</style>
 				<section class="subpage-banner parallax subpage-bg text-center"
 					data-stellar-background-ratio="0.3"
@@ -123,9 +124,27 @@
 			</xpath>
 		</template>
 
-
-
-
+		<template id="website_blog_trustcode" inherit_id="website_blog.blog_post_short"
+			name="TrustCode Blog">
+			<xpath expr="//div[@class='oe_structure']" position="replace">
+				<div class="oe_structure subpage-banner parallax subpage-bg text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<section class="mb0">
+						<div class="container">
+							<div class="row">
+								<t t-call="website.pager">
+									<t t-set="classname">pull-right</t>
+								</t>
+								<div class="col-md-12 mb32 mt16 text-center">
+									<h1 class="site-title" t-field="blog.name" />
+									<h3 t-field="blog.subtitle" />
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</xpath>
+		</template>
 
 
 		<!-- === Página demonstração === <template name="Demonstração" id="website.demo" 
