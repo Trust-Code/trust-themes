@@ -22,7 +22,9 @@
 											data-move-offset="500" data-move-effect="bottom">TrustCode
 										</span>
 										<span class="rsABlock txtCent blockText" data-speed="1000"
-											data-move-offset="600" data-move-effect="bottom">Liberdade gera criatividade.</span>
+											data-move-offset="600" data-move-effect="bottom">Liberdade gera
+											criatividade.
+										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="700" data-move-effect="bottom">
 											<a href="#." class="btn btn-default">Produtos</a>
@@ -41,7 +43,9 @@
 											data-move-offset="100" data-move-effect="top">asas a sua empresa
 										</span>
 										<span class="rsABlock txtCent blockText" data-speed="1000"
-											data-move-offset="400" data-move-effect="right">Pelican é um sistema completo de gestão para sua empresa.</span>
+											data-move-offset="400" data-move-effect="right">Pelican é um sistema
+											completo de gestão para sua empresa.
+										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1200"
 											data-move-offset="500" data-move-effect="bottom">
 											<a href="#." class="btn btn-white btn-square">Conheça</a>
@@ -49,7 +53,7 @@
 										</span>
 									</div>
 								</div>
-							</div>							
+							</div>
 							<div class="rsContent slide-dark">
 								<img class="rsImg full-visible"
 									src="theme_trustcode/static/src/images/main-banner/banner1/3.jpg"
@@ -57,9 +61,13 @@
 								<div class="bContainer">
 									<div class="container text-center">
 										<span class="rsABlock txtCent blockHeadline" data-speed="900"
-											data-move-offset="200" data-move-effect="left">Possibilidades ilimitadas</span>
+											data-move-offset="200" data-move-effect="left">Possibilidades
+											ilimitadas
+										</span>
 										<span class="rsABlock txtCent blockText" data-speed="1000"
-											data-move-offset="300" data-move-effect="right">(Nome do produto) perfeito para sua industria crescer.</span>
+											data-move-offset="300" data-move-effect="right">(Nome do produto)
+											perfeito para sua industria crescer.
+										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="400" data-move-effect="bottom">
 											<a href="#." class="btn btn-dark">Veja mais</a>
@@ -73,6 +81,1401 @@
 					</div>
 				</section>
 
+				<section class="incredible-sec text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 506.1px;">
+					<div class="container animations-on flipInX">
+						<h1 class="text-rotator light">
+							TrustCode é
+							<span class="rotate">liberdade, criatividade</span>
+							para você
+						</h1>
+						<p>Se você necessita de consultoria no Odoo está no lugar certo.
+							consectetur adipiscing elit. Ut volutpat eros adipiscing elit Ut
+							volutpat. cancer care is graphic and dummy.
+						</p>
+					</div>
+				</section>
+
+				<section class="no-padding-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 animations-on fadeInLeftBig">
+								<!-- Slider img -->
+								<ul
+									class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
+									style="max-width: 1000px;">
+									<li id="rslides1_s0" class="rslides1_on"
+										style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+										<img src="/theme_trustcode/static/src/images/tab-img1.jpg"
+											alt="" />
+									</li>
+									<li id="rslides1_s1" class=""
+										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+										<img src="/theme_trustcode/static/src/images/tab-img2.jpg"
+											alt="" />
+									</li>
+									<li id="rslides1_s2" class=""
+										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+										<img src="/theme_trustcode/static/src/images/tab-img3.jpg"
+											alt="" />
+									</li>
+									<li id="rslides1_s3" class=""
+										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+										<img src="/theme_trustcode/static/src/images/tab-img4.jpg"
+											alt="" />
+									</li>
+									<li id="rslides1_s4" class=""
+										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+										<img src="/theme_trustcode/static/src/images/tab-img5.jpg"
+											alt="" />
+									</li>
+								</ul>
+
+								<!-- Slider Pager -->
+								<ul
+									class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
+									<li class="rslides1_s1 rslides_here">
+										<a href="#">
+											<img src="/theme_trustcode/static/src/images/tab-thumb1.jpg"
+												alt="" />
+										</a>
+									</li>
+									<li class="rslides1_s2">
+										<a href="#">
+											<img src="/theme_trustcode/static/src/images/tab-thumb2.jpg"
+												alt="" />
+										</a>
+									</li>
+									<li class="rslides1_s3">
+										<a href="#">
+											<img src="/theme_trustcode/static/src/images/tab-thumb3.jpg"
+												alt="" />
+										</a>
+									</li>
+									<li class="rslides1_s4">
+										<a href="#">
+											<img src="/theme_trustcode/static/src/images/tab-thumb4.jpg"
+												alt="" />
+										</a>
+									</li>
+									<li class="rslides1_s5">
+										<a href="#">
+											<img src="/theme_trustcode/static/src/images/tab-thumb5.jpg"
+												alt="" />
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-6 animations-on fadeInRightBig">
+								<h2>Fajar Digital Agency</h2>
+								<div class="height10"></div>
+								<p>
+									We believe in coming up with original ideas Lorem ipsum dolor
+									sit amet, consectetur adipiscing elit. Fusce elementum, nulla
+									vel
+									<span>pellentesque</span>
+									consequat, ante nulla
+									<span>hendrerit arcu</span>
+									ac tincidunt mauris lacus sed leo, vamus suscipit molestie
+									vestibulum.
+								</p>
+								<ul class="list-unstyled feature-list padding-bottom-30">
+									<li>
+										<i class="icon-angle-right"></i>
+										We Belive in Coming up with Original Ideas.
+									</li>
+									<li>
+										<i class="icon-angle-right"></i>
+										Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+									</li>
+									<li>
+										<i class="icon-angle-right"></i>
+										Aenean commodo ligula eget dolor. Aenean massa.
+									</li>
+									<li>
+										<i class="icon-angle-right"></i>
+										We Belive in Coming up with Original Ideas.
+									</li>
+								</ul>
+								<a href="" class="btn btn-bordered black">Read more</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="height80"></div>
+
+					<div class="row text-center counter-iconic" id="counters">
+						<div class="col-md-3 col-sm-6">
+							<div class="counter">
+								<i class="icon-rocket text-left bottom"></i>
+								<span class="quantity-counter quantity-counter1 highlight">416</span>
+								<h6 class="counter-details">
+									Commits feitos
+									<span>Últimos 6 meses</span>
+								</h6>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="counter">
+								<i class="icon-icons96 text-left"></i>
+								<span class="quantity-counter quantity-counter2 highlight">23</span>
+								<h6 class="counter-details">
+									MÓDULOS DO ODOO
+									<span>em agosto 2015</span>
+								</h6>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="counter">
+								<i class="icon-umbrella3 text-right bottom right"></i>
+								<span class="quantity-counter quantity-counter3 highlight">55</span>
+								<h6 class="counter-details">
+									PIZZAS ORDERED
+									<span>April 2015</span>
+								</h6>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="counter">
+								<i class="icon-briefcase2 text-right right"></i>
+								<span class="quantity-counter quantity-counter4  highlight">15</span>
+								<h6 class="counter-details">
+									COPOS DE CAFÉ
+									<span>Esta semana</span>
+								</h6>
+							</div>
+						</div>
+					</div>
+
+				</section>
+
+				<section class="clents-section">
+					<div class="container">
+						<div class="heading text-center">
+							<h2 class="light">Worldwide Valuable Clients</h2>
+							<p>Separated they live in Bookmarksgrove right at the coast of
+								the Semantics,
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<div class="happy-clients">
+									<h2>
+										Over 180
+										<span>Happy Clients Worldwide</span>
+									</h2>
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="what-client-say text-center">
+									<h2>What Client’s Say</h2>
+									<i class="icon-quote-right"></i>
+									<i class="icon-quote-left"></i>
+									<div class="owl-carousel text-slider owl-theme" style="display: block; opacity: 1;">
+										<div class="owl-wrapper-outer">
+											<div class="owl-wrapper" style="width: 3366px; left: 0px; display: block;">
+												<div class="owl-item" style="width: 561px;">
+													<div class="item">
+														<p>We believe in coming up with original ideas Lorem ipsum
+															dolor sit amet, consectetur adipiscing elit. Fusce
+															elementum, nulla vel pellentesque consequat, ante nulla
+														</p>
+														<div class="about-client">
+															<span>Glen Lincoln</span>
+															<p>CEO &amp; Founder - Orange</p>
+														</div>
+													</div>
+												</div>
+												<div class="owl-item" style="width: 561px;">
+													<div class="item">
+														<p>We believe in coming up with original ideas Lorem ipsum
+															dolor sit amet, consectetur adipiscing elit. Fusce
+															elementum, nulla vel pellentesque consequat, ante nulla
+														</p>
+														<div class="about-client">
+															<span>Glen Lincoln</span>
+															<p>CEO &amp; Founder - Orange</p>
+														</div>
+													</div>
+												</div>
+												<div class="owl-item" style="width: 561px;">
+													<div class="item">
+														<p>We believe in coming up with original ideas Lorem ipsum
+															dolor sit amet, consectetur adipiscing elit. Fusce
+															elementum, nulla vel pellentesque consequat, ante nulla
+														</p>
+														<div class="about-client">
+															<span>Glen Lincoln</span>
+															<p>CEO &amp; Founder - Orange</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+
+										<div class="owl-controls clickable">
+											<div class="owl-pagination">
+												<div class="owl-page active">
+													<span class=""></span>
+												</div>
+												<div class="owl-page">
+													<span class=""></span>
+												</div>
+												<div class="owl-page">
+													<span class=""></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+						<div class="heading text-center">
+							<h2 class="light">
+								O que
+								<strong>Nós</strong>
+								Fizemos
+							</h2>
+							<p>Separated they live in Bookmarksgrove right at the coast of
+								the Semantics
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-icons96"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-arrowstreamlinetarget-1"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-paintbucketstreamline-1"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-handlestreamlinevector-1"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="boxed-tri-sec">
+									<div class="pointer-icon">
+										<span class="shadow"></span>
+										<i class="icon-icons20"></i>
+									</div>
+									<h3>Premium sliders</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="bg-grey">
+					<div class="container">
+						<div class="heading text-center animations-on flipInX">
+							<h2 class="light">
+								Últimos
+								<strong>Posts</strong>
+								do Blog
+							</h2>
+							<p>Separated they live in Bookmarksgrove right at the coast of
+								the Semantics
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<article class="latest-blog-post animations-on bounceIn"
+									data-delay="100">
+									<a href="blog-detail.php">
+										<img src="/theme_trustcode/static/src/images/blog-img1.jpg"
+											alt="" />
+									</a>
+									<div class="latest-blog-post-content">
+										<h3>
+											<a href="blog-detail.php">Premium sliders</a>
+										</h3>
+										<p>We believe in coming up with original ideas Lorem ipsum
+											dolor sit amet, consectetur adipiscing elit.
+										</p>
+										<ul class="latest-blog-meta clearfix">
+											<li>November 9, 2013</li>
+											<li>
+												<a href="#.">
+													<i class="icon-heart"></i>
+													10
+												</a>
+											</li>
+											<li>
+												<a href="blog-detail.php">
+													<i class="icon-chat-1"></i>
+													9
+												</a>
+											</li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<div class="col-md-4">
+								<article class="latest-blog-post animations-on bounceIn"
+									data-delay="300">
+									<a href="blog-detail.php">
+										<img src="/theme_trustcode/static/src/images/blog-img2.jpg"
+											alt="" />
+									</a>
+									<div class="latest-blog-post-content">
+										<h3>
+											<a href="blog-detail.php">Premium sliders</a>
+										</h3>
+										<p>We believe in coming up with original ideas Lorem ipsum
+											dolor sit amet, consectetur adipiscing elit.
+										</p>
+										<ul class="latest-blog-meta clearfix">
+											<li>November 9, 2013</li>
+											<li>
+												<a href="#.">
+													<i class="icon-heart"></i>
+													10
+												</a>
+											</li>
+											<li>
+												<a href="blog-detail.php">
+													<i class="icon-chat-1"></i>
+													9
+												</a>
+											</li>
+										</ul>
+									</div>
+								</article>
+							</div>
+							<div class="col-md-4">
+								<article class="latest-blog-post animations-on bounceIn"
+									data-delay="500">
+									<a href="blog-detail.php">
+										<img src="theme_trustcode/static/src/images/blog-img3.jpg"
+											alt="" />
+									</a>
+									<div class="latest-blog-post-content">
+										<h3>
+											<a href="blog-detail.php">Premium sliders</a>
+										</h3>
+										<p>We believe in coming up with original ideas Lorem ipsum
+											dolor sit amet, consectetur adipiscing elit.
+										</p>
+										<ul class="latest-blog-meta clearfix">
+											<li>November 9, 2013</li>
+											<li>
+												<a href="#.">
+													<i class="icon-heart"></i>
+													10
+												</a>
+											</li>
+											<li>
+												<a href="blog-detail.php">
+													<i class="icon-chat-1"></i>
+													9
+												</a>
+											</li>
+										</ul>
+									</div>
+								</article>
+							</div>
+						</div>
+
+					</div>
+				</section>
+
+				<section class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="team-member two animations-on bounceIn">
+								<div class="team-member-thumb">
+									<img
+										src="/theme_trustcode/static/src/images/team-member-large1.jpg"
+										alt="" />
+								</div>
+								<div class="team-member-content text-center">
+									<h3>
+										Danimar Ribeiro
+										<span>Co-Fundador / Desenvolvedor</span>
+									</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, graphic design cansectetur adipiscing elit.
+									</p>
+									<ul class="social-text">
+										<li>
+											<a href="#.">Facebok</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Twitter</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Youtube</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Linked in</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="team-member two animations-on bounceIn"
+								data-delay="200">
+								<div class="team-member-thumb">
+									<img
+										src="/theme_trustcode/static/src/images/team-member-large2.jpg"
+										alt="" />
+								</div>
+								<div class="team-member-content text-center">
+									<h3>
+										Jaqueline Barp
+										<span>Diretora Criativa</span>
+									</h3>
+									<p>We believe in coming up with original ideas Lorem ipsum
+										dolor sit amet, graphic design cansectetur adipiscing elit.
+									</p>
+									<ul class="social-text">
+										<li>
+											<a href="#.">Facebok</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Twitter</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Youtube</a>
+											/
+										</li>
+										<li>
+											<a href="#.">Linked in</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="bg-grey">
+					<div class="container">
+						<div class="heading text-center animations-on flipInX">
+							<h2>Our Services</h2>
+							<p>Separated they live in Bookmarksgrove right at the coast of
+								the Semantics
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn">
+									<img src="/theme_trustcode/static/src/images/services1.jpg"
+										alt="" />
+									<h3>Logo Design</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Nunc pharetra euismod enim, ac ultricies nunc fringilla nec.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn" data-delay="100">
+									<img src="/theme_trustcode/static/src/images/services2.jpg"
+										alt="" />
+									<h3>Printing Design</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Nunc pharetra euismod enim, ac ultricies nunc fringilla nec.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn" data-delay="200">
+									<img src="/theme_trustcode/static/src/images/services3.jpg"
+										alt="" />
+									<h3>Website Design</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										Nunc pharetra euismod enim, ac ultricies nunc fringilla nec.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="creative-process parallax text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 0px 21.9px;">
+					<div class="container">
+						<h1>
+							Processo Criativo
+							<span class="line"></span>
+						</h1>
+						<i
+							class="simple-round icon-designgraphictabletstreamlinetable-1 animations-on bounceIn"
+							data-toggle="tooltip" data-placement="top" title=""
+							data-original-title="Lorem Ipsum is simply dummy text of the industry."></i>
+						<i class="simple-round icon-icons96 bounceIn animations-on"
+							data-delay="100" data-toggle="tooltip" data-placement="top"
+							title="" data-original-title="Lorem Ipsum is simply dummy text of the industry."></i>
+						<i class="simple-round icon-icons104 bounceIn animations-on"
+							data-delay="200" data-toggle="tooltip" data-placement="top"
+							title="" data-original-title="Lorem Ipsum is simply dummy text of the industry."></i>
+						<i
+							class="simple-round icon-handlestreamlinevector-1 animations-on bounceIn"
+							data-delay="300" data-toggle="tooltip" data-placement="top"
+							title="" data-original-title="Lorem Ipsum is simply dummy text of the industry."></i>
+						<i class="simple-round icon-icons20 bounceIn animations-on"
+							data-delay="400" data-toggle="tooltip" data-placement="top"
+							title="" data-original-title="Lorem Ipsum is simply dummy text of the industry."></i>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 animations-on fadeInLeft">
+								<h2>
+									<strong>Who</strong>
+									i am
+								</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Integer lorem quam, adipiscing condimentum tristique vel,
+									eleifend sed turpis. Pellentesque cursus arcu id magna euismod
+									in elementum purus molestie. Curabitur pellentesque massa eu
+									nulla consequat sed porttitorarcu porttitor.
+								</p>
+								<p>Quisque volutpat pharetra felis, eu cursus lorem molestie
+									vitae. Nulla vehicula, lacus ut suscipit fermentum, turpis
+									felis ultricies dui, ut rhoncus libero augue at libero.
+								</p>
+							</div>
+							<div class="col-md-6">
+								<div class="skills-widget">
+									<div class="progress" data-width="92" style="width: 92%;">
+										<div class="progress-bar" role="progressbar"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+											style="overflow: visible;">
+											Web Design, Branding
+											<div class="percentage">92%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-widget">
+									<div class="progress" data-width="100" style="width: 100%;">
+										<div class="progress-bar" role="progressbar"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+											style="overflow: visible;">
+											Social Media, Marketing
+											<div class="percentage">100%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-widget">
+									<div class="progress" data-width="78" style="width: 78%;">
+										<div class="progress-bar" role="progressbar"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+											style="overflow: visible;">
+											Photoshop, Dreamweaver
+											<div class="percentage">78%</div>
+										</div>
+									</div>
+								</div>
+								<div class="skills-widget">
+									<div class="progress" data-width="83" style="width: 83%;">
+										<div class="progress-bar" role="progressbar"
+											aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+											style="overflow: visible;">
+											WordPress, Drupal, Joomla
+											<div class="percentage">83%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="clients-feedback clearfix" id="feedback-sec-wide">
+					<div class="clients-map"></div>
+					<div class="container">
+						<div class="heading text-center animations-on flipInX">
+							<h2 class="white light">
+								Clients
+								<strong>Feedback</strong>
+							</h2>
+							<p>We believe in coming up with original ideas Lorem ipsum dolor
+								graphic designing sit
+							</p>
+						</div>
+					</div>
+					<div class="clients-left">
+						<div class="testimonials animations-on fadeInLeft">
+							<div class="owl-carousel testimonial-carousel owl-theme"
+								style="display: block; opacity: 1;">
+								<div class="owl-wrapper-outer">
+									<div class="owl-wrapper"
+										style="width: 2808px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-936px, 0px, 0px);">
+										<div class="owl-item" style="width: 468px;">
+											<div class="item">
+												<div class="testimonial">
+													<p>We believe in coming up with original ideas Lorem ipsum
+														dolor sit amet, consectetur adipiscing elit. Fusce
+														elementum, grahic design nulla vel pellentesque grahic
+														designing that is the power consequat ante nulla.
+													</p>
+												</div>
+												<div class="client-detail">
+													<img src="/theme_trustcode/static/src/images/client-img.jpg"
+														alt="" />
+													<span>
+														<strong>Johny Bravo</strong>CEO
+														&amp; Founder - Fajar
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item" style="width: 468px;">
+											<div class="item">
+												<div class="testimonial">
+													<p>We believe in coming up with original ideas Lorem ipsum
+														dolor sit amet, consectetur adipiscing elit. Fusce
+														elementum, grahic design nulla vel pellentesque grahic
+														designing that is the power consequat ante nulla.
+													</p>
+												</div>
+												<div class="client-detail">
+													<img src="/theme_trustcode/static/src/images/client-img.jpg"
+														alt="" />
+													<span>
+														<strong>Johny Bravo</strong>CEO
+														&amp; Founder - Fajar
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="owl-item" style="width: 468px;">
+											<div class="item">
+												<div class="testimonial">
+													<p>We believe in coming up with original ideas Lorem ipsum
+														dolor sit amet, consectetur adipiscing elit. Fusce
+														elementum, grahic design nulla vel pellentesque grahic
+														designing that is the power consequat ante nulla.
+													</p>
+												</div>
+												<div class="client-detail">
+													<img src="/theme_trustcode/static/src/images/client-img.jpg"
+														alt="" />
+													<span>
+														<strong>Johny Bravo</strong>CEO
+														&amp; Founder - Fajar
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="owl-controls clickable">
+									<div class="owl-pagination">
+										<div class="owl-page">
+											<span class=""></span>
+										</div>
+										<div class="owl-page">
+											<span class=""></span>
+										</div>
+										<div class="owl-page active">
+											<span class=""></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clients-right">
+						<div
+							class="client-logos logos clearfix owl-carousel logos-carousel owl-theme"
+							style="display: block; opacity: 1;">
+							<div class="owl-wrapper-outer">
+								<div class="owl-wrapper" style="width: 1488px; left: 0px; display: block;">
+									<div class="owl-item" style="width: 186px;">
+										<ul class="list-unstyled rslides logo1-rotater rslides4"
+											style="max-width: 1000px;">
+											<li id="rslides4_s0" class="rslides4_on"
+												style="display: block; transition: opacity 700ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+												<img src="/theme_trustcode/static/src/images/client-logo2.png"
+													alt="" />
+											</li>
+											<li id="rslides4_s1" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo1.png"
+													alt="" />
+											</li>
+											<li id="rslides4_s2" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo3.png"
+													alt="" />
+											</li>
+											<li id="rslides4_s3" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo4.png"
+													alt="" />
+											</li>
+										</ul>
+									</div>
+									<div class="owl-item" style="width: 186px;">
+										<ul class="list-unstyled rslides logo2-rotater rslides6"
+											style="max-width: 1000px;">
+											<li id="rslides6_s0" class=""
+												style="display: block; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo2.png"
+													alt="" />
+											</li>
+											<li id="rslides6_s1" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo3.png"
+													alt="" />
+											</li>
+											<li id="rslides6_s2" class="rslides6_on"
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+												<img src="/theme_trustcode/static/src/images/client-logo4.png"
+													alt="" />
+											</li>
+											<li id="rslides6_s3" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo1.png"
+													alt="" />
+											</li>
+										</ul>
+									</div>
+									<div class="owl-item" style="width: 186px;">
+										<ul class="list-unstyled rslides logo3-rotater rslides8"
+											style="max-width: 1000px;">
+											<li id="rslides8_s0" class=""
+												style="display: block; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo3.png"
+													alt="" />
+											</li>
+											<li id="rslides8_s1" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo2.png"
+													alt="" />
+											</li>
+											<li id="rslides8_s2" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo1.png"
+													alt="" />
+											</li>
+											<li id="rslides8_s3" class="rslides8_on"
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+												<img src="/theme_trustcode/static/src/images/client-logo4.png"
+													alt="" />
+											</li>
+										</ul>
+									</div>
+									<div class="owl-item" style="width: 186px;">
+										<ul class="list-unstyled rslides logo4-rotater rslides10"
+											style="max-width: 1000px;">
+											<li id="rslides10_s0" class=""
+												style="display: block; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo4.png"
+													alt="" />
+											</li>
+											<li id="rslides10_s1" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo2.png"
+													alt="" />
+											</li>
+											<li id="rslides10_s2" class=""
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+												<img src="/theme_trustcode/static/src/images/client-logo3.png"
+													alt="" />
+											</li>
+											<li id="rslides10_s3" class="rslides10_on"
+												style="display: list-item; transition: opacity 700ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+												<img src="/theme_trustcode/static/src/images/client-logo1.png"
+													alt="" />
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="owl-controls clickable" style="display: none;">
+								<div class="owl-pagination">
+									<div class="owl-page active">
+										<span class=""></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="testimonials2 parallax text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% -63.3px;">
+					<div class="container">
+						<div class="owl-carousel text-slider animations-on tada owl-theme"
+							style="display: block; opacity: 1;">
+							<div class="owl-wrapper-outer">
+								<div class="owl-wrapper"
+									style="width: 5760px; left: 0px; display: block; transition: all 800ms ease; transform: translate3d(-1920px, 0px, 0px);">
+									<div class="owl-item" style="width: 960px;">
+										<div class="item">
+											<p>We believe in coming up with original ideas Lorem ipsum
+												dolor sit amet, consectetur adipiscing elit. Fusce
+												elementum, nulla vel pellentesque consequat, ante nulla
+											</p>
+											<div class="about-client">
+												<span>Glen Lincoln</span>
+												<p>CEO &amp; Founder - Orange</p>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 960px;">
+										<div class="item">
+											<p>We believe in coming up with original ideas Lorem ipsum
+												dolor sit amet, consectetur adipiscing elit. Fusce
+												elementum, nulla vel pellentesque consequat, ante nulla
+											</p>
+											<div class="about-client">
+												<span>Glen Lincoln</span>
+												<p>CEO &amp; Founder - Orange</p>
+											</div>
+										</div>
+									</div>
+									<div class="owl-item" style="width: 960px;">
+										<div class="item">
+											<p>We believe in coming up with original ideas Lorem ipsum
+												dolor sit amet, consectetur adipiscing elit. Fusce
+												elementum, nulla vel pellentesque consequat, ante nulla
+											</p>
+											<div class="about-client">
+												<span>Glen Lincoln</span>
+												<p>CEO &amp; Founder - Orange</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="owl-controls clickable">
+								<div class="owl-pagination">
+									<div class="owl-page">
+										<span class=""></span>
+									</div>
+									<div class="owl-page">
+										<span class=""></span>
+									</div>
+									<div class="owl-page active">
+										<span class=""></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="no-padding-bottom">
+					<div class="container">
+						<h2 class="light text-center">
+							<strong>Pricing </strong>
+							Tables
+						</h2>
+
+						<div class="normal-tabs-bordered-btns" style="display: block; width: 100%; margin: 0px;">
+							<ul class="resp-tabs-list tabs clearfix text-center">
+								<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0"
+									role="tab">
+									<a href="#.">Four Column</a>
+								</li>
+								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
+									<a href="#.">Three Column</a>
+								</li>
+								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab">
+									<a href="#.">Two Column</a>
+								</li>
+							</ul>
+							<div class="resp-tabs-container">
+								<h2 class="resp-accordion resp-tab-active" role="tab"
+									aria-controls="tab_item-0">
+									<span class="resp-arrow"></span>
+									<a href="#.">Four Column</a>
+								</h2>
+								<div class="resp-tab-content resp-tab-content-active"
+									aria-labelledby="tab_item-0" style="display:block">
+									<section>
+										<div class="row">
+											<div class="pricing-table text-center col-md-3">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-3">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-3 highlight">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-3">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-1">
+									<span class="resp-arrow"></span>
+									<a href="#.">Three Column</a>
+								</h2>
+								<div class="resp-tab-content" aria-labelledby="tab_item-1">
+									<section>
+										<div class="row">
+											<div class="pricing-table text-center col-md-4">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-4 highlight">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-4">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-2">
+									<span class="resp-arrow"></span>
+									<a href="#.">Two Column</a>
+								</h2>
+								<div class="resp-tab-content" aria-labelledby="tab_item-2">
+									<section>
+										<div class="row">
+											<div class="pricing-table text-center col-md-6">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+											<div class="pricing-table text-center col-md-6">
+												<h3 class="pricing-table-heading">Starter</h3>
+												<p class="table-price">
+													<span class="currency">€</span>
+													49
+													<span>per month</span>
+												</p>
+												<ul class="list list-unstyled">
+													<li>24/7 Free Tech Support</li>
+													<li>2GB Bandwidth Available</li>
+													<li>Unlimited User Access</li>
+													<li>200GB Storage Space</li>
+												</ul>
+												<br />
+												<div class="pricing-table-footer">
+													<a href="#." class="btn btn-default btn-medium">Sign up</a>
+												</div>
+											</div>
+										</div>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section>
+					<div class="container">
+						<div class="heading text-center animations-on flipInX">
+							<h2 class="light">
+								Our
+								<strong>Process</strong>
+							</h2>
+							<p>Almost every new client these days wants a mobile version of
+								their website so Lorem ipsum dolor sit amet technology
+								consectetur adipisicing elit.
+							</p>
+						</div>
+						<div class="our-process-tabs our-process-tab animations-on fadInUp"
+							style="display: block; width: 100%; margin: 0px;">
+							<ul class="resp-tabs-list tabs clearfix text-center">
+								<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0"
+									role="tab">
+									<a href="#." id="tab1">
+										<i class="icon-handlestreamlinevector-1"></i>
+										iDea Sketching
+									</a>
+								</li>
+								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
+									<a href="#." id="tab2">
+										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+										Web Desiging
+									</a>
+								</li>
+								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab">
+									<a href="#." id="tab3">
+										<i class="icon-icons96"></i>
+										Web Development
+									</a>
+								</li>
+								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab">
+									<a href="#." id="tab4">
+										<i class="icon-rocket"></i>
+										Launch Project
+									</a>
+								</li>
+							</ul>
+							<div class="resp-tabs-container">
+								<h2 class="resp-accordion resp-tab-active" role="tab"
+									aria-controls="tab_item-0">
+									<span class="resp-arrow"></span>
+									<a href="#." id="tab1">
+										<i class="icon-handlestreamlinevector-1"></i>
+										iDea Sketching
+									</a>
+								</h2>
+								<div class="resp-tab-content resp-tab-content-active"
+									aria-labelledby="tab_item-0" style="display:block">
+									<div class="process icon1">
+										<h2 class="light">
+											iDea
+											<strong>Sketching</strong>
+										</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Integer lorem quam, adipiscing condimentum tristique vel,
+											eleifend sed turpis. Pellentesque cursus arcu id magna
+											euismod in elementum purus molestie. Curabitur pellentesque
+											massa eu nulla consequat.
+										</p>
+										<br />
+										<ul class="list-unstyled list-bullets">
+											<li>Fashion brands</li>
+											<li>Fashion brands</li>
+											<li>Corporate companies and tools</li>
+											<li>Corporate companies and tools</li>
+											<li>Processional services</li>
+										</ul>
+									</div>
+								</div>
+								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-1">
+									<span class="resp-arrow"></span>
+									<a href="#." id="tab2">
+										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+										Web Desiging
+									</a>
+								</h2>
+								<div class="resp-tab-content" aria-labelledby="tab_item-1">
+									<div class="process icon2">
+										<h2 class="light">
+											Web
+											<strong>Desiging</strong>
+										</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Integer lorem quam, adipiscing condimentum tristique vel,
+											eleifend sed turpis. Pellentesque cursus arcu id magna
+											euismod in elementum purus molestie. Curabitur pellentesque
+											massa eu nulla consequat.
+										</p>
+										<br />
+										<ul class="list-unstyled list-bullets">
+											<li>Fashion brands</li>
+											<li>Fashion brands</li>
+											<li>Corporate companies and tools</li>
+											<li>Corporate companies and tools</li>
+											<li>Processional services</li>
+										</ul>
+									</div>
+								</div>
+								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-2">
+									<span class="resp-arrow"></span>
+									<a href="#." id="tab3">
+										<i class="icon-icons96"></i>
+										Web Development
+									</a>
+								</h2>
+								<div class="resp-tab-content" aria-labelledby="tab_item-2">
+									<div class="process icon3">
+										<h2 class="light">
+											Web
+											<strong>Development</strong>
+										</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Integer lorem quam, adipiscing condimentum tristique vel,
+											eleifend sed turpis. Pellentesque cursus arcu id magna
+											euismod in elementum purus molestie. Curabitur pellentesque
+											massa eu nulla consequat.
+										</p>
+										<br />
+										<ul class="list-unstyled list-bullets">
+											<li>Fashion brands</li>
+											<li>Fashion brands</li>
+											<li>Corporate companies and tools</li>
+											<li>Corporate companies and tools</li>
+											<li>Processional services</li>
+										</ul>
+									</div>
+								</div>
+								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-3">
+									<span class="resp-arrow"></span>
+									<a href="#." id="tab4">
+										<i class="icon-rocket"></i>
+										Launch Project
+									</a>
+								</h2>
+								<div class="resp-tab-content" aria-labelledby="tab_item-3">
+									<div class="process icon4">
+										<h2 class="light">
+											Launch
+											<strong>Project</strong>
+										</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											Integer lorem quam, adipiscing condimentum tristique vel,
+											eleifend sed turpis. Pellentesque cursus arcu id magna
+											euismod in elementum purus molestie. Curabitur pellentesque
+											massa eu nulla consequat.
+										</p>
+										<br />
+										<ul class="list-unstyled list-bullets">
+											<li>Fashion brands</li>
+											<li>Fashion brands</li>
+											<li>Corporate companies and tools</li>
+											<li>Corporate companies and tools</li>
+											<li>Processional services</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="parallax-background parallax">
+					<div class="container">
+						<div class="heading text-center">
+							<h1>Parallax Background</h1>
+							<p class="lead">
+								<i>We believe in coming up with original ideas Lorem ipsum dolor
+									graphc design adipiscing elit.</i>
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<div class="tri-sec text-center animations-on fadeInUp">
+									<i class="icon-icons96 simple-icon smooth"></i>
+									<h3>
+										<strong>Our Thinking</strong>
+									</h3>
+									<p class="small">Pellentesque habitant morbi tristique senectus.
+										Pellentesque habitant morbi.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="tri-sec text-center animations-on fadeInUp"
+									data-delay="100">
+									<i
+										class="icon-designgraphictabletstreamlinetable-1 simple-icon smooth"></i>
+									<h3>
+										<strong>Web Designer</strong>
+									</h3>
+									<p class="small">Pellentesque habitant morbi tristique senectus.
+										Pellentesque habitant morbi.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="tri-sec text-center animations-on fadeInUp"
+									data-delay="200">
+									<i class="icon-icons104 simple-icon smooth"></i>
+									<h3>
+										<strong>Development</strong>
+									</h3>
+									<p class="small">Pellentesque habitant morbi tristique senectus.
+										Pellentesque habitant morbi.</p>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<div class="tri-sec text-center animations-on fadeInUp"
+									data-delay="300">
+									<i class="icon-icons20 simple-icon smooth"></i>
+									<h3>
+										<strong>24/7 Support</strong>
+									</h3>
+									<p class="small">Pellentesque habitant morbi tristique senectus.
+										Pellentesque habitant morbi.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
 			</xpath>
 		</template>

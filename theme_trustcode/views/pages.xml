@@ -7,7 +7,8 @@
 			<xpath expr="//div[@id='wrap']" position="before">
 				<section class="subpage-banner parallax event-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 					<div class="container">
 						<h1 class="site-title">Nossos eventos</h1>
 						<p>Confira o que estamos aprontando</p>
@@ -22,7 +23,8 @@
 				position="before">
 				<section class="subpage-banner parallax forum-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 					<div class="container">
 						<h1 class="site-title">Confira o fórum</h1>
 						<p>Confira o que estamos aprontando</p>
@@ -37,7 +39,8 @@
 			<xpath expr="//div[@id='wrap']" position="before">
 				<section class="subpage-banner parallax shop-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 					<div class="container">
 						<h1 class="site-title">Nossa loja</h1>
 						<p>Confira nossas promoções</p>
@@ -51,7 +54,8 @@
 			<xpath expr="//div[@id='wrap']" position="before">
 				<section class="subpage-banner parallax shop-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 					<div class="container">
 						<h1 class="site-title">Você vai adorar</h1>
 						<p>Confira nossas promoções</p>
@@ -65,7 +69,8 @@
 			<xpath expr="//section[@class='container mt16']" position="before">
 				<section class="subpage-banner parallax documentation-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 					<div class="container">
 						<h1 class="site-title">Conhecimento</h1>
 						<p>Tudo o que você precisa saber sobre o Odoo</p>
@@ -76,35 +81,45 @@
 
 		<template id="website_contactus_trustcode" inherit_id="website.contactus"
 			name="TrustCode Contact">
-			<xpath expr="//div[@id='wrap']" position="before">				
-				<section class="subpage-banner contact-banner parallax text-center"
-					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+			<xpath expr="//div[@id='wrap']" position="before">
+				<style type="text/css">
+					#wrap > div.container { margin-top: 40px;}
+					#wrap > div.container > h1 { display:none;}
+				</style>
+				<section class="subpage-banner parallax subpage-bg text-center"
+					data-stellar-background-ratio="0.3"
+					style="background-position: 50% -318px; min-height:536px;">
 					<div class="container">
-						<h1 class="site-title">Venha tomar um café</h1>
-						<p>Ou nos envie um e-mail com suas dúvidas</p>
-					</div>					
-				</section>				
+						<h1 class="site-title" style="margin-top:13%;">Contact us</h1>
+						<p>Somos uma das empresas mais ativas do Brasil no Odoo</p>
+					</div>
+				</section>
 			</xpath>
 		</template>
 
 		<template id="website_login_trustcode" inherit_id="website.login_layout"
 			name="TrustCode Login">
-			<xpath expr="//div[@class='oe_website_login_container']" position="before">				
-				 <style type="text/css">
-	            	main { background:url(/theme_trustcode/static/src/images/banner-login.jpg) no-repeat}   
-	            	main > div { min-height:650px; }
-	            	main > div > form { background-color:rgba(111,111,111,.2); padding:20px; width:450px; border-radius:5px; }	
-	            	main button { height:62px;}
-	            </style>
-			
+			<xpath expr="//div[@class='oe_website_login_container']"
+				position="before">
+				<style type="text/css">
+					main {
+					background:url(/theme_trustcode/static/src/images/banner-login.jpg)
+					no-repeat}
+					main > div { min-height:650px; }
+					main > div > form {
+					background-color:rgba(111,111,111,.2);
+					padding:20px; width:450px;
+					border-radius:5px; }
+					main button { height:62px;}
+				</style>
+
 				<section class="subpage-banner parallax text-center"
-					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">					
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
 					<div class="container">
 						<h1 class="site-title">Acessar o sistema</h1>
 						<p>Trustcode - Liberdade gera criatividade</p>
-					</div>					
-				</section>				
+					</div>
+				</section>
 			</xpath>
 		</template>
 
