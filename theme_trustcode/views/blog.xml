@@ -93,7 +93,7 @@
 
 							<article t-foreach="blog_posts" t-as="blog_post" class="blog-post-centered">
 								<div class="blog-thumb animations-on fadeInUp">
-									<a href="#.">
+									<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">
 										<img t-att-src="blog_post.background_image"											
 											alt="" />
 									</a>
@@ -139,119 +139,25 @@
 						<aside class="col-md-4">
 							<div class="sidebar-widget">
 								<div class="heading">
-									<h3>Posts Recentes</h3>
+									<h3>Posts mais visitados</h3>
 								</div>
 								<ul class="list-arrow list-unstyled">
-									<li class="animations-on fadeInRight">
-										<a href="#.">
+									<li t-foreach="last_posts" t-as="post"  class="animations-on fadeInRight">
+										<a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }">
 											<i class="fa fa-angle-right"></i>
-											Featured (3)
+											<span t-field="post.name"></span>
 										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="100">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											General (4)
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="150">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Photography (1)
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="200">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Productivity (3)
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="250">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Videos (2)
-										</a>
-									</li>
+									</li>								
 								</ul>
-							</div>
-							<div class="sidebar-widget">
-								<div class="heading">
-									<h3>CATEGORIAS</h3>
-								</div>
-								<ul class="list-arrow list-unstyled">
-									<li class="animations-on fadeInRight">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Pelican
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="100">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Industria
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="150">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Instalação
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="200">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Desenvolvimento
-										</a>
-									</li>
-									<li class="animations-on fadeInRight" data-delay="250">
-										<a href="#.">
-											<i class="fa fa-angle-right"></i>
-											Configuração
-										</a>
-									</li>
-								</ul>
-							</div>
+							</div>						
 							<div class="sidebar-widget">
 								<div class="heading">
 									<h3>TAGS</h3>
 								</div>
 								<ul class="tags-cloud light clearfix">
-									<li class="animations-on bounceIn">
-										<a href="#.">Analysis</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="100">
-										<a href="#.">Wordpress Theme</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="150">
-										<a href="#.">Logo</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="200">
-										<a href="#.">Video</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="250">
-										<a href="#.">Business</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="300">
-										<a href="#.">Development</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="350">
-										<a href="#.">Company</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="400">
-										<a href="#.">Logo</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="450">
-										<a href="#.">Video</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="500">
-										<a href="#.">Business</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="550">
-										<a href="#.">Development</a>
-									</li>
-									<li class="animations-on bounceIn" data-delay="600">
-										<a href="#.">Company</a>
-									</li>
+									<li t-foreach="tags" t-as="tag" class="animations-on bounceIn">
+										<a t-field="tag.name" t-attf-href="#{blog_url(tag=tag)}">Analysis</a>
+									</li>						
 								</ul>
 							</div>
 							<div class="sidebar-widget">

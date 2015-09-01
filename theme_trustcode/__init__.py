@@ -5,3 +5,4 @@ Created on 03/07/2015
 '''
 
 from . import models
+from . import controllers
