@@ -37,18 +37,17 @@ $(document).ready(function () {
             this.set_category_id();
             this.set_tag_ids();
         },
-        slide_url: function (ev) {
+        slide_url: function (ev) {            
             var self = this,
                 value = {
                     'url': $(ev.target).val(),
                     'channel_id': self.channel_id
                 };
             this.$('.alert-warning').remove();
-            this.is_valid_url = false;
-            this.$('.save').button('loading');
-            debugger
+            this.is_valid_url = false;            
+            //this.$('.save').button('loading'); #TODO I had to commment this to work the video upload
             ajax.jsonRpc('/slides/dialog_preview/', 'call', value).then(function (data) {
-                self.$('.save').button('reset');
+                //self.$('.save').button('reset'); #TODO I had to commment this to work the video upload
                 if (data.error) {
                     self.display_alert(data.error);
                 } else {
