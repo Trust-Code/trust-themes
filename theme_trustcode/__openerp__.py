@@ -35,7 +35,8 @@
         'views/main.xml',        
         'views/pages.xml',
         'views/assets.xml',
-        'views/footer.xml'
+        'views/footer.xml',
+        'views/blog.xml'
     ],
     'application': True,
 }

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="website_blog_trustcode" inherit_id="website_blog.blog_post_short"
+			name="TrustCode Blog">
+			<xpath expr="//div[@class='oe_structure']" position="replace">
+				<div class="oe_structure subpage-banner parallax subpage-bg text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<section class="mb0">
+						<div class="container um">
+							<div class="row">
+								<t t-call="website.pager">
+									<t t-set="classname">pull-right</t>
+								</t>
+								<div class="col-md-12 mb32 mt16 text-center">
+									<h1 class="site-title" t-field="blog.name" />
+									<p t-field="blog.subtitle" />
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</xpath>
+			<xpath expr="//div[@class='container'][1]" position="replace">
+				<div class="container" style="margin-top:40px;">
+					<div class="row">
+						<div class="col-md-8" t-ignore="True" id="main_column">
+							<div t-if="not blog_posts" class="container mb64">
+								<p class="css_editable_hidden">
+									<h1>No blog post yet.</h1>
+								</p>
+								<p groups="base.group_document_user">
+									Click on "Content" on the top menu to write your
+									first blog post.
+								</p>
+							</div>
+
+							<article t-foreach="blog_posts" t-as="blog_post" class="blog-post-centered">
+								<div class="blog-thumb animations-on fadeInUp">
+									<a href="#.">
+										<img
+											src="/theme_trustcode/static/src/images/blog/large/blog-img1.jpg"
+											alt="" />
+									</a>
+								</div>
+								<ul class="blog-post-meta">
+									<li>
+										<span t-field="blog_post.author_avatar" t-field-options='{"widget": "image", "style": "max-width:42px;"}'/>										
+										<a t-field="blog_post.author_id" style="display: inline-block;"
+											t-field-options="{ &quot;widget&quot;: &quot;contact&quot;,&quot;fields&quot;: [&quot;name&quot;]}">																						
+										</a>
+									</li>
+									<li>
+										<i class="icon-clock"></i>
+										<span t-field="blog_post.create_date"
+											t-field-options="{&quot;format&quot;: &quot;MMMM yyyy&quot;}" />
+									</li>
+									<li>
+										<a href="blog-detail.php">
+											<i class="icon-chat-1"></i>
+											<span t-if="len(blog_post.message_ids) &gt; -1">
+												<t t-esc="len(blog_post.message_ids)" />
+												<t t-if="len(blog_post.message_ids) &lt;= 1">comment</t>
+												<t t-if="len(blog_post.message_ids) &gt; 1">comments</t>
+											</span>
+										</a>
+									</li>
+								</ul>
+								<h3>
+									<a
+										t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }"
+										t-field="blog_post.name" />
+								</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									Integer lorem quam, adipiscing condimentum tristique vel,
+									eleifend sed turpis. Pellentesque cursus arcu id magna euismod
+									in
+									elementum purus molestie. Curabitur pellentesque massa eu
+									porttitorarcu porttitor. Quisque volutpat pharetra felis, eu
+									cursus lorem molestie vitae. Nulla vehicula.
+								</p>
+								<a href="#." class="btn btn-dark btn-square btn-medium">leia mais</a>
+								<span t-if="not blog_post.website_published" class="label label-danger">not
+									published
+								</span>
+							</article>
+						</div>
+
+						<aside class="col-md-4">
+							<div class="sidebar-widget">
+								<div class="heading">
+									<h3>Posts Recentes</h3>
+								</div>
+								<ul class="list-arrow list-unstyled">
+									<li class="animations-on fadeInRight">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Featured (3)
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="100">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											General (4)
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="150">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Photography (1)
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="200">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Productivity (3)
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="250">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Videos (2)
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="sidebar-widget">
+								<div class="heading">
+									<h3>CATEGORIAS</h3>
+								</div>
+								<ul class="list-arrow list-unstyled">
+									<li class="animations-on fadeInRight">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Pelican
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="100">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Industria
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="150">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Instalação
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="200">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Desenvolvimento
+										</a>
+									</li>
+									<li class="animations-on fadeInRight" data-delay="250">
+										<a href="#.">
+											<i class="fa fa-angle-right"></i>
+											Configuração
+										</a>
+									</li>									
+								</ul>
+							</div>
+							<div class="sidebar-widget">
+								<div class="heading">
+									<h3>TAGS</h3>
+								</div>
+								<ul class="tags-cloud light clearfix">
+									<li class="animations-on bounceIn">
+										<a href="#.">Analysis</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="100">
+										<a href="#.">Wordpress Theme</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="150">
+										<a href="#.">Logo</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="200">
+										<a href="#.">Video</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="250">
+										<a href="#.">Business</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="300">
+										<a href="#.">Development</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="350">
+										<a href="#.">Company</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="400">
+										<a href="#.">Logo</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="450">
+										<a href="#.">Video</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="500">
+										<a href="#.">Business</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="550">
+										<a href="#.">Development</a>
+									</li>
+									<li class="animations-on bounceIn" data-delay="600">
+										<a href="#.">Company</a>
+									</li>
+								</ul>
+							</div>
+							<div class="sidebar-widget">
+								<div class="search-widget">
+									<form>
+										<input type="text" placeholder="Pesquisar aqui" />
+										<input type="submit" value="" class="search-icon" />
+									</form>
+								</div>
+							</div>
+						</aside>
+
+
+					</div>
+				</div>
+				<div class="oe_structure" />
+			</xpath>
+		</template>
+
+
+
+
+
+	</data>
+</openerp>

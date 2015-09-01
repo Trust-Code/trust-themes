@@ -21,6 +21,12 @@
 			name="TrustCode Forum">
 			<xpath expr="//div[@class='container mt16 website_forum']"
 				position="before">
+				<style type="text/css">					
+					#wrap { padding-bottom:70px; min-height: 600px;}
+					.website_forum .btn.btn-default { padding: 6px 12px; font-size:12px; }
+					#wrap .btn.btn-primary {padding: 6px 12px; font-size:12px;}		
+					section.container { padding:0px; }			
+				</style>
 				<section class="subpage-banner parallax forum-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
 					<div
@@ -67,6 +73,10 @@
 		<template id="website_documentation_trustcode" inherit_id="website_forum_doc.documentation"
 			name="TrustCode Documentation">
 			<xpath expr="//section[@class='container mt16']" position="before">
+				<style type="text/css">					
+					.form-group > .btn.btn-default  { padding: 6px 12px; font-size:12px; }		
+					section.container { padding:0px; }			
+				</style>
 				<section class="subpage-banner parallax documentation-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
 					<div
@@ -123,28 +133,29 @@
 				</section>
 			</xpath>
 		</template>
-
-		<template id="website_blog_trustcode" inherit_id="website_blog.blog_post_short"
-			name="TrustCode Blog">
-			<xpath expr="//div[@class='oe_structure']" position="replace">
-				<div class="oe_structure subpage-banner parallax subpage-bg text-center"
+	
+		
+		<template id="website_documentation_post_trustcode" inherit_id="website_forum_doc.documentation_post"
+			name="TrustCode Documentation Post">
+			<xpath expr="//section[@class='container mt16']" position="before">
+				<style type="text/css">					
+					.form-group > .btn.btn-default  { padding: 6px 12px; font-size:12px; }		
+					section.container { padding:0px; }			
+				</style>
+			
+				<section class="subpage-banner parallax documentation-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-					<section class="mb0">
-						<div class="container">
-							<div class="row">
-								<t t-call="website.pager">
-									<t t-set="classname">pull-right</t>
-								</t>
-								<div class="col-md-12 mb32 mt16 text-center">
-									<h1 class="site-title" t-field="blog.name" />
-									<p t-field="blog.subtitle" />
-								</div>
-							</div>
-						</div>
-					</section>
-				</div>
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Documentação do Odoo</h1>
+						<p>A Trustcode traz para você tudo sobre o Odoo</p>
+					</div>
+				</section>
 			</xpath>
 		</template>
+		
+		
 
 
 		<!-- === Página demonstração === <template name="Demonstração" id="website.demo" 

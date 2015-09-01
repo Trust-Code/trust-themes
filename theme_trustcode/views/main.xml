@@ -47,8 +47,8 @@
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1200"
 											data-move-offset="500" data-move-effect="bottom">
-											<a href="#." class="btn btn-white btn-square">Conheça</a>
-											<a href="#." class="btn btn-bordered white btn-square">aprenda mais</a>
+											<a target="_blank" href="http://www.t-pelican.com.br/" class="btn btn-white btn-square">Conheça</a>
+											<a href="/forum/how-to/pelican-1" class="btn btn-bordered white btn-square">aprenda mais</a>
 										</span>
 									</div>
 								</div>
@@ -69,8 +69,8 @@
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="400" data-move-effect="bottom">
-											<a href="#." class="btn btn-dark">Veja mais</a>
-											<a href="#." class="btn btn-bordered black">aprenda mais</a>
+											<a href="/page/industria" class="btn btn-dark">Veja mais</a>
+											<a href="/forum/how-to/industria-2" class="btn btn-bordered black">aprenda mais</a>
 										</span>
 									</div>
 								</div>
