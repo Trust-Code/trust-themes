@@ -29,14 +29,16 @@
     'depends': ['website', 'website_less',
                 'website_sale', 'website_blog',
                 'website_forum', 'website_forum_doc',
-                'website_hr', 'website_event', 'website_crm'],
+                'website_hr', 'website_event', 
+                'website_crm', 'website_slides'],
     'data': [
         'views/header.xml',
         'views/main.xml',        
         'views/pages.xml',
         'views/assets.xml',
         'views/footer.xml',
-        'views/blog.xml'
+        'views/blog.xml',
+        'views/slides.xml'
     ],
     'application': True,
 }
