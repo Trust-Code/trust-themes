@@ -18,8 +18,8 @@
 									<span class="icon-bar"></span>
 								</button>
 								<!--  <a class="navbar-brand" href="/" t-field="res_company.name" />  --> 
-								<a class="navbar-brand" href="/">
-									<img src="/theme_trustcode/static/src/images/logo_trustcode.png" alt="Logo TrustCode" />
+								<a class="navbar-brand" href="/" style="padding:0px;">
+									<img src="/theme_trustcode/static/src/images/logo_trustcode-branco.png" alt="Logo TrustCode" style="max-height:85px; margin-top:-6px;" />
 								</a>
 							</div>
 							<div class="collapse navbar-collapse">
