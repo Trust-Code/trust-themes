@@ -153,7 +153,7 @@
                 <div class="col-md-4 col-sm-12 col-xs-12 pul-right mt16 mb8">
                     <form t-attf-action="/slides/#{slug(channel)}" role="search" method="get">
                         <div class="input-group">
-                            <input type="text" class="form-control" name="search" t-attf-placeholder="Buscar en #{channel.name}" t-att-value="search"/>
+                            <input type="text" class="form-control" name="search" t-attf-placeholder="Buscar em #{channel.name}" t-att-value="search"/>
                             <span class="input-group-btn">
                                 <button class="btn btn-primary" type="submit">
                                     <i class="fa fa-search"></i>
