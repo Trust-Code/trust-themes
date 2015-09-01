@@ -24,7 +24,7 @@
 				<style type="text/css">					
 					#wrap { padding-bottom:70px; min-height: 600px;}
 					.website_forum .btn.btn-default { padding: 6px 12px; font-size:12px; }
-					#wrap .btn.btn-primary {padding: 6px 12px; font-size:12px;}		
+					#wrap .btn.btn-primary, #wrap .btn.btn-default {padding: 6px 12px; font-size:12px;}		
 					section.container { padding:0px; }			
 				</style>
 				<section class="subpage-banner parallax forum-banner text-center"
@@ -43,6 +43,7 @@
 		<template id="website_sale_trustcode" inherit_id="website_sale.products"
 			name="TrustCode Forum">
 			<xpath expr="//div[@id='wrap']" position="before">
+				
 				<section class="subpage-banner parallax shop-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
 					<div
@@ -58,6 +59,9 @@
 		<template id="website_sale_product_trustcode" inherit_id="website_sale.product"
 			name="TrustCode Forum">
 			<xpath expr="//div[@id='wrap']" position="before">
+				<style type="text/css">		
+					.oe_website_sale .btn.btn-default, .btn.btn-danger, .btn.btn-primary, .btn.btn-success { padding: 6px 12px; font-size:12px; }					
+				</style>
 				<section class="subpage-banner parallax shop-banner text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
 					<div
@@ -93,7 +97,7 @@
 			name="TrustCode Contact">
 			<xpath expr="//div[@id='wrap']" position="before">
 				<style type="text/css">
-					#wrap > div.container { margin-top: 40px;}
+					#wrap > div.container { margin-top: 40px; margin-bottom:40px;}
 					#wrap >
 					div.container > h1 { display:none;}
 				</style>

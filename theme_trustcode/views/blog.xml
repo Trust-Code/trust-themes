@@ -2,6 +2,61 @@
 <openerp>
 	<data>
 
+		<template id="website_blog_post_trustcode" inherit_id="website_blog.blog_post_complete"
+			name="TrustCode Blog Post">
+			<xpath expr="//div[@id='title']" position="replace">
+				<style type="text/css">
+					#wrap > div.cover { min-height:450px; }
+				</style>
+
+				<div class="cover" id="title"
+					t-attf-style="background-image: url(#{blog_post.background_image})"
+					t-ignore="True">
+					<div class="container">
+						<div class="container text-right mt16">
+							<div class="btn-group css_non_editable_mode_hidden">
+								<a id="change_cover" class="btn btn-primary">
+									Change Cover
+								</a>
+								<a id="clear_cover" class="btn btn-danger">
+									<span class="fa fa-times" />
+								</a>
+							</div>
+							<div class="cover-storage oe_hidden" />
+							<t t-call="website.publish_management">
+								<t t-set="object" t-value="blog_post" />
+								<t t-set="publish_edit" t-value="True" />
+								<li>
+									<form class="duplicate hidden" action="/blogpost/duplicate">
+										<input name="blog_post_id" t-att-value="blog_post.id" />
+									</form>
+									<a href="#" class="duplicate" onclick="$(this).prev('form').submit()">Duplicate</a>
+								</li>
+							</t>
+						</div>
+					</div>
+					<div class="blog_title">
+						<h1 t-field="blog_post.name" id="blog_post_name"
+							t-att-data-blog-id="blog_post.id" />
+						<h2 t-field="blog_post.subtitle" />
+						<p class="post-meta text-muted text-center" name="blog_post_data" />
+						<div>
+							<span t-field="blog_post.author_avatar"
+								t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;img-circle&quot;, &quot;style&quot;:&quot;width: 30px; margin-right: 10px; display:inline&quot;}" />
+							<span t-field="blog_post.author_id" style="display: inline-block;"
+								t-field-options="{                     &quot;widget&quot;: &quot;contact&quot;,                     &quot;fields&quot;: [&quot;name&quot;]                 }" />
+						</div>
+						<div t-if="blog_post.background_image" id="blog_angle_down">
+							<strong>
+								<a href="#blog_content" class="fa fa-angle-down fa-3x fa-inverse mt32" />
+							</strong>
+						</div>
+					</div>
+				</div>
+			</xpath>
+		</template>
+
+
 		<template id="website_blog_trustcode" inherit_id="website_blog.blog_post_short"
 			name="TrustCode Blog">
 			<xpath expr="//div[@class='oe_structure']" position="replace">
@@ -39,16 +94,16 @@
 							<article t-foreach="blog_posts" t-as="blog_post" class="blog-post-centered">
 								<div class="blog-thumb animations-on fadeInUp">
 									<a href="#.">
-										<img
-											src="/theme_trustcode/static/src/images/blog/large/blog-img1.jpg"
+										<img t-att-src="blog_post.background_image"											
 											alt="" />
 									</a>
 								</div>
 								<ul class="blog-post-meta">
 									<li>
-										<span t-field="blog_post.author_avatar" t-field-options='{"widget": "image", "style": "max-width:42px;"}'/>										
+										<span t-field="blog_post.author_avatar"
+											t-field-options='{"widget": "image", "style": "max-width:42px;"}' />
 										<a t-field="blog_post.author_id" style="display: inline-block;"
-											t-field-options="{ &quot;widget&quot;: &quot;contact&quot;,&quot;fields&quot;: [&quot;name&quot;]}">																						
+											t-field-options="{ &quot;widget&quot;: &quot;contact&quot;,&quot;fields&quot;: [&quot;name&quot;]}">
 										</a>
 									</li>
 									<li>
@@ -72,15 +127,9 @@
 										t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }"
 										t-field="blog_post.name" />
 								</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-									Integer lorem quam, adipiscing condimentum tristique vel,
-									eleifend sed turpis. Pellentesque cursus arcu id magna euismod
-									in
-									elementum purus molestie. Curabitur pellentesque massa eu
-									porttitorarcu porttitor. Quisque volutpat pharetra felis, eu
-									cursus lorem molestie vitae. Nulla vehicula.
+								<p t-field="blog_post.summary">
 								</p>
-								<a href="#." class="btn btn-dark btn-square btn-medium">leia mais</a>
+								<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }" class="btn btn-dark btn-square btn-medium">leia mais</a>
 								<span t-if="not blog_post.website_published" class="label label-danger">not
 									published
 								</span>
@@ -159,7 +208,7 @@
 											<i class="fa fa-angle-right"></i>
 											Configuração
 										</a>
-									</li>									
+									</li>
 								</ul>
 							</div>
 							<div class="sidebar-widget">
