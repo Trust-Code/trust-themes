@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+
+		<!-- === Página demonstração === -->
+		<template name="Industria" id="website.produtos-industria" page="True">
+			<t t-call="website.layout">
+				<div id="wrap" class="oe_structure oe_empty">
+					<section class="subpage-banner parallax event-banner text-center"
+						data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+						<div
+							style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+						<div class="container">
+							<h1 class="site-title">Produtos</h1>
+							<p>Confira os produtos da Trustcode</p>
+						</div>
+					</section>
+				</div>
+			</t>
+		</template>
+
+	</data>
+</openerp>

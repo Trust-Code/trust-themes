@@ -38,7 +38,10 @@
         'views/assets.xml',
         'views/footer.xml',
         'views/blog.xml',
-        'views/slides.xml'
+        'views/slides.xml',
+        'views/page_industria.xml',
+        'views/page_produtos.xml',
+        'views/page_nossa_empresa.xml',
     ],
     'application': True,
 }

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<!-- === Página demonstração === -->
+		<template name="Produtos" id="website.produtos" page="True">
+			<t t-call="website.layout">
+				<div id="wrap" class="oe_structure oe_empty">
+					<section class="subpage-banner parallax event-banner text-center"
+						data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+						<div
+							style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+						<div class="container">
+							<h1 class="site-title">Produtos</h1>
+							<p>Confira os produtos da Trustcode</p>
+						</div>
+					</section>
+
+					<section class="no-padding-bottom">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 animations-on fadeInLeftBig">
+									<!-- Slider img -->
+									<ul
+										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
+										style="max-width: 1000px;">
+										<li id="rslides1_s0" class="rslides1_on"
+											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+											<img src="images/tab-img1.jpg" alt="" />
+										</li>
+										<li id="rslides1_s1" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img2.jpg" alt="" />
+										</li>
+										<li id="rslides1_s2" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img3.jpg" alt="" />
+										</li>
+										<li id="rslides1_s3" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img4.jpg" alt="" />
+										</li>
+										<li id="rslides1_s4" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img5.jpg" alt="" />
+										</li>
+									</ul>
+
+									<!-- Slider Pager -->
+									<ul
+										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
+										<li class="rslides1_s1 rslides_here">
+											<a href="#">
+												<img src="images/tab-thumb1.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s2">
+											<a href="#">
+												<img src="images/tab-thumb2.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s3">
+											<a href="#">
+												<img src="images/tab-thumb3.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s4">
+											<a href="#">
+												<img src="images/tab-thumb4.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s5">
+											<a href="#">
+												<img src="images/tab-thumb5.jpg" alt="" />
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-6 animations-on fadeInRightBig">
+									<h2>Pelican ERP</h2>
+									<div class="height10"></div>
+									<p>
+										O Pelican ERP é baseado no <span>Odoo(antigo Openerp)</span>.
+										O Odoo é considerado o melhor ERP Opensource do mundo, a <span>Trustcode</span> 
+										traz o Odoo para a realidade brasileira.
+										Acesse hoje mesmo e tenha 15 dias de uso gratuito para teste.										
+									</p>
+									<ul class="list-unstyled feature-list padding-bottom-30">
+										<li>
+											<i class="icon-angle-right"></i>
+											Intuitivo e fácil de usar
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Segurança e confiança nos seus dados
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Suporte de primeira qualidade
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Todo o poder do Odoo configurado para o Brasil
+										</li>
+									</ul>
+									<a href="http://www.t-pelican.com.br/" class="btn btn-bordered black">Leia mais</a>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 animations-on fadeInRightBig">
+									<h2>Odoo para industrias</h2>
+									<div class="height10"></div>
+									<p>
+										A sua industria precisa de um software que atende a todas as suas necessidades?
+										Venha conhecer a solução que a Trustcode oferece para o ramo.
+										<span>Flexibilidade</span>
+										e a modularidade do Odoo permitem que o sistema se adapte 
+										<span>facilmente</span>
+										as características únicas da sua empresa.
+									</p>
+									<ul class="list-unstyled feature-list padding-bottom-30">
+										<li>
+											<i class="icon-angle-right"></i>
+											Lista de materiais completas
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Ordens de produção, controle de materiais
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Controle de qualidade dos produtos fabricados
+										</li>
+										<li>
+											<i class="icon-angle-right"></i>
+											Integração completa com os outros módulos do Odoo.
+										</li>
+									</ul>
+									<a href="/page/produtos-industria" class="btn btn-bordered black">Leia mais</a>
+								</div>
+								<div class="col-md-6 animations-on fadeInLeftBig">
+									<!-- Slider img -->
+									<ul
+										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
+										style="max-width: 1000px;">
+										<li id="rslides1_s0" class="rslides1_on"
+											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+											<img src="images/tab-img1.jpg" alt="" />
+										</li>
+										<li id="rslides1_s1" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img2.jpg" alt="" />
+										</li>
+										<li id="rslides1_s2" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img3.jpg" alt="" />
+										</li>
+										<li id="rslides1_s3" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img4.jpg" alt="" />
+										</li>
+										<li id="rslides1_s4" class=""
+											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+											<img src="images/tab-img5.jpg" alt="" />
+										</li>
+									</ul>
+
+									<!-- Slider Pager -->
+									<ul
+										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
+										<li class="rslides1_s1 rslides_here">
+											<a href="#">
+												<img src="images/tab-thumb1.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s2">
+											<a href="#">
+												<img src="images/tab-thumb2.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s3">
+											<a href="#">
+												<img src="images/tab-thumb3.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s4">
+											<a href="#">
+												<img src="images/tab-thumb4.jpg" alt="" />
+											</a>
+										</li>
+										<li class="rslides1_s5">
+											<a href="#">
+												<img src="images/tab-thumb5.jpg" alt="" />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+
+
+				</div>
+			</t>
+		</template>
+
+		<record id="demo_page_link" model="website.menu">
+			<field name="name">Produtos</field>
+			<field name="url">/page/produtos</field>
+			<field name="parent_id" ref="website.main_menu" />
+			<field name="sequence" type="int">99</field>
+		</record>
+
+	</data>
+</openerp>
