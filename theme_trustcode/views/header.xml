@@ -9,7 +9,7 @@
 				<header>
 					<nav class="navbar navbar-default transparent" role="navigation">
 						<div class="container">
-							<div class="navbar-header">
+							<div class="navbar-header cabecalho">
 								<button type="button" class="navbar-toggle" data-toggle="collapse"
 									data-target=".navbar-top-collapse">
 									<span class="sr-only">Toggle navigation</span>
@@ -19,7 +19,7 @@
 								</button>
 								<!--  <a class="navbar-brand" href="/" t-field="res_company.name" />  --> 
 								<a class="navbar-brand" href="/" style="padding:0px;">
-									<img src="/theme_trustcode/static/src/images/logo_trustcode-branco.png" alt="Logo TrustCode" style="max-height:85px; margin-top:-6px;" />
+									<img src="/theme_trustcode/static/src/images/logo_trustcode-branco.png" alt="Logo TrustCode" />
 								</a>
 							</div>
 							<div class="collapse navbar-collapse">
