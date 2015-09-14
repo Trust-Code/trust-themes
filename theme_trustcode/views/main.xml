@@ -99,157 +99,105 @@
 					</div>
 				</section>
 
-				<section class="no-padding-bottom">
+				<section class="creative-sec no-padding-top">
 					<div class="container">
-						<div class="row">
-							<div class="col-md-6 animations-on fadeInLeftBig">
-								<!-- Slider img -->
-								<ul
-									class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
-									style="max-width: 1000px;">
-									<li id="rslides1_s0" class="rslides1_on"
-										style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
-										<img src="/theme_trustcode/static/src/images/tab-img1.jpg"
-											alt="" />
-									</li>
-									<li id="rslides1_s1" class=""
-										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-										<img src="/theme_trustcode/static/src/images/tab-img2.jpg"
-											alt="" />
-									</li>
-									<li id="rslides1_s2" class=""
-										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-										<img src="/theme_trustcode/static/src/images/tab-img3.jpg"
-											alt="" />
-									</li>
-									<li id="rslides1_s3" class=""
-										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-										<img src="/theme_trustcode/static/src/images/tab-img4.jpg"
-											alt="" />
-									</li>
-									<li id="rslides1_s4" class=""
-										style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-										<img src="/theme_trustcode/static/src/images/tab-img5.jpg"
-											alt="" />
-									</li>
-								</ul>
+						<div class="heading text-center animations-on flipInX">
+							<h2 class="light">
+								Fajar
+								<strong>Process</strong>
+							</h2>
+							<p>We believe in coming up with original ideas Lorem ipsum dolor
+								sit amet design adipiscing elit.
+							</p>
+						</div>
+						<div class="creative-sec-thumb one animations-on bounceIn">
+							<figure>
+								<img src="/theme_trustcode/static/src/images/creative-sec-img1.jpg"
+									width="154" class="img-circle img-thumbnail img-responsive"
+									alt="" title="" />
+								<figcaption>Meeting</figcaption>
+							</figure>
+						</div>
 
-								<!-- Slider Pager -->
-								<ul
-									class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
-									<li class="rslides1_s1 rslides_here">
-										<a href="#">
-											<img src="/theme_trustcode/static/src/images/tab-thumb1.jpg"
-												alt="" />
-										</a>
-									</li>
-									<li class="rslides1_s2">
-										<a href="#">
-											<img src="/theme_trustcode/static/src/images/tab-thumb2.jpg"
-												alt="" />
-										</a>
-									</li>
-									<li class="rslides1_s3">
-										<a href="#">
-											<img src="/theme_trustcode/static/src/images/tab-thumb3.jpg"
-												alt="" />
-										</a>
-									</li>
-									<li class="rslides1_s4">
-										<a href="#">
-											<img src="/theme_trustcode/static/src/images/tab-thumb4.jpg"
-												alt="" />
-										</a>
-									</li>
-									<li class="rslides1_s5">
-										<a href="#">
-											<img src="/theme_trustcode/static/src/images/tab-thumb5.jpg"
-												alt="" />
-										</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col-md-6 animations-on fadeInRightBig">
-								<h2>Quem somos nós</h2>
-								<div class="height10"></div>
-								<p>
-									Escrever sobre a Trustcode aqui
-									<span>pellentesque</span>
-									consequat, ante nulla
-									<span>hendrerit arcu</span>
-									ac tincidunt mauris lacus sed leo, vamus suscipit molestie
-									vestibulum.
-								</p>
-								<ul class="list-unstyled feature-list padding-bottom-30">
-									<li>
-										<i class="icon-angle-right"></i>
-										Nós acreditamos no poder de colaboração do Open Source
-									</li>
-									<li>
-										<i class="icon-angle-right"></i>
-										Trabalhamos sempre para manter sua empresa com tecnologia de
-										ponta
-									</li>
-									<li>
-										<i class="icon-angle-right"></i>
-										Suporte de qualidade com preço justo
-									</li>
-									<li>
-										<i class="icon-angle-right"></i>
-										Sem restrições para sua empresa, sem limite para o que você
-										pode fazer
-									</li>
-								</ul>
-							</div>
+						<div class="creative-sec-thumb two animations-on bounceIn"
+							data-delay="100">
+							<figure>
+								<img src="/theme_trustcode/static/src/images/creative-sec-img2.jpg"
+									width="266" class="img-circle img-thumbnail img-responsive"
+									alt="" title="" />
+								<figcaption>Strategic Intelligence</figcaption>
+							</figure>
+						</div>
+
+						<div class="creative-sec-thumb three animations-on bounceIn"
+							data-delay="300">
+							<figure>
+								<img src="/theme_trustcode/static/src/images/creative-sec-img3.jpg"
+									width="162" class="img-circle img-thumbnail img-responsive"
+									alt="" title="" />
+								<figcaption>Development</figcaption>
+							</figure>
+						</div>
+
+						<div class="creative-sec-thumb four animations-on bounceIn"
+							data-delay="600">
+							<figure>
+								<img src="/theme_trustcode/static/src/images/creative-sec-img4.jpg"
+									width="305" class="img-circle img-thumbnail img-responsive"
+									alt="" title="" />
+								<figcaption>Launch Work</figcaption>
+							</figure>
 						</div>
 					</div>
-
-					<div class="height80"></div>
-
-					<div class="row text-center counter-iconic" id="counters">
-						<div class="col-md-3 col-sm-6">
-							<div class="counter">
-								<i class="icon-rocket text-left bottom"></i>
-								<span class="quantity-counter quantity-counter1 highlight">416</span>
-								<h6 class="counter-details">
-									Commits feitos
-									<span>Últimos 6 meses</span>
-								</h6>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="counter">
-								<i class="icon-icons96 text-left"></i>
-								<span class="quantity-counter quantity-counter2 highlight">23</span>
-								<h6 class="counter-details">
-									MÓDULOS DO ODOO
-									<span>em agosto 2015</span>
-								</h6>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="counter">
-								<i class="icon-umbrella3 text-right bottom right"></i>
-								<span class="quantity-counter quantity-counter3 highlight">55</span>
-								<h6 class="counter-details">
-									PIZZAS ORDERED
-									<span>April 2015</span>
-								</h6>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="counter">
-								<i class="icon-briefcase2 text-right right"></i>
-								<span class="quantity-counter quantity-counter4  highlight">15</span>
-								<h6 class="counter-details">
-									COPOS DE CAFÉ
-									<span>Esta semana</span>
-								</h6>
-							</div>
-						</div>
-					</div>
-
 				</section>
+
+
+				<div class="height80"></div>
+
+				<div class="row text-center counter-iconic" id="counters">
+					<div class="col-md-3 col-sm-6">
+						<div class="counter">
+							<i class="icon-rocket text-left bottom"></i>
+							<span class="quantity-counter quantity-counter1 highlight">416</span>
+							<h6 class="counter-details">
+								Commits feitos
+								<span>Últimos 6 meses</span>
+							</h6>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter">
+							<i class="icon-icons96 text-left"></i>
+							<span class="quantity-counter quantity-counter2 highlight">23</span>
+							<h6 class="counter-details">
+								MÓDULOS DO ODOO
+								<span>em agosto 2015</span>
+							</h6>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter">
+							<i class="icon-umbrella3 text-right bottom right"></i>
+							<span class="quantity-counter quantity-counter3 highlight">55</span>
+							<h6 class="counter-details">
+								PIZZAS ORDERED
+								<span>April 2015</span>
+							</h6>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="counter">
+							<i class="icon-briefcase2 text-right right"></i>
+							<span class="quantity-counter quantity-counter4  highlight">15</span>
+							<h6 class="counter-details">
+								COPOS DE CAFÉ
+								<span>Esta semana</span>
+							</h6>
+						</div>
+					</div>
+				</div>
+
+
 
 				<section>
 					<div class="container">
@@ -268,13 +216,12 @@
 								<div class="boxed-tri-sec">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
-										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+										<i class="icon-arrowstreamlinetarget-1"></i>
 									</div>
-									<h3>Processos definidos</h3>
-									<p>Temos processos bem definidos, desde o primeiro contato com
-										o cliente,
-										especificação das necessidades, implantação e
-										desenvolvimento.
+									<h3>Simplicidade</h3>
+									<p>Somos objetivos em nossos produtos e serviços, agregamos
+										valor continuamente aos clientes, para não gerar acumulos ou
+										complexidades.
 									</p>
 								</div>
 							</div>
@@ -295,13 +242,12 @@
 								<div class="boxed-tri-sec">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
-										<i class="icon-arrowstreamlinetarget-1"></i>
+										<i class="icon-globe"></i>
 									</div>
-									<h3>Entrega progressiva</h3>
-									<p>Favorecemos entregas de software parciais onde o
-										cliente pode
-										acompanhar em tempo real o progresso, e dar o feedback
-										instantaneamente.
+									<h3>Globalizado</h3>
+									<p>Colaboramos com grandes projetos open source e adequamos
+										para as empresa Brasileira. De forma colaborativa geramos
+										melhores resultados com menor custo.
 									</p>
 								</div>
 							</div>
@@ -311,12 +257,16 @@
 								<div class="boxed-tri-sec">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
-										<i class="icon-paintbucketstreamline-1"></i>
+										<i class="icon-trophy"></i>
 									</div>
 									<h3>Lideres no desenvolvimento</h3>
 									<p>Juntamente com outras duas empresas no Brasil somos lideres
 										no desenvolvimento
 										da versão Brasileira do Odoo
+										-
+										Pertencemos a
+										um seleto grupo de 3 empresas que mantem o versão Brasileira
+										do Odoo.
 									</p>
 								</div>
 							</div>
@@ -324,11 +274,12 @@
 								<div class="boxed-tri-sec">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
-										<i class="icon-handlestreamlinevector-1"></i>
+										<i class="icon-gears"></i>
 									</div>
-									<h3>Mais alguma coisa</h3>
-									<p>We believe in coming up with original ideas Lorem ipsum
-										dolor sit amet, consectetur adipiscing elit.
+									<h3>Completos</h3>
+									<p>Oferemos uma gama de produtos e serviços para que sua
+										empresa encontre tudo em um só lugar,
+										simplificando e criando relações profissionais duradouras.
 									</p>
 								</div>
 							</div>
@@ -336,11 +287,12 @@
 								<div class="boxed-tri-sec">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
-										<i class="icon-icons20"></i>
+										<i class="icon-group"></i>
 									</div>
-									<h3>Mais alguma coisa</h3>
-									<p>We believe in coming up with original ideas Lorem ipsum
-										dolor sit amet, consectetur adipiscing elit.
+									<h3>Rápida Evolução</h3>
+									<p>Transferimos a nossos clientes o mesmo diferencial que
+										projetos open source bem sucessidos possuem, fruto do
+										cooperativismo caracteristico.
 									</p>
 								</div>
 							</div>
@@ -352,10 +304,8 @@
 				<section class="bg-grey">
 					<div class="container">
 						<div class="heading text-center animations-on flipInX">
-							<h2>Nossos serviços</h2>
-							<p>Esta é uma pequena amostra do que podemos fazer por sua
-								empresa, entre em contato conosco
-								para saber mais.
+							<h2>Nossos Produtos</h2>
+							<p>Encontre aqui soluções que agregam valor ao seu négocio.
 							</p>
 						</div>
 						<div class="row">
@@ -363,10 +313,9 @@
 								<div class="service animations-on bounceIn">
 									<img src="/theme_trustcode/static/src/images/services1.jpg"
 										alt="" />
-									<h3>Consultoria Odoo</h3>
-									<p>Está implantando o Odoo na sua empresa, converse conosco sem
-										compromisso
-										lhe ajudaremos no que for possível para o sucesso.
+									<h3>Sistema de Gestão para Indústrias</h3>
+									<p>Segmento especializado na Indústria, com gráfico gantt para ordens de produção, 
+									MRP, rastreabilidade, centros de operação e muito mais, confira!
 									</p>
 								</div>
 							</div>
@@ -374,10 +323,9 @@
 								<div class="service animations-on bounceIn" data-delay="100">
 									<img src="/theme_trustcode/static/src/images/services2.jpg"
 										alt="" />
-									<h3>Desenvolvimento de módulos</h3>
-									<p>Já tem o Odoo instalado e precisa de novos desenvolvimentos?
-										Oferecemos código de qualidade testado e 100% Open Source para
-										sua total liberdade.
+									<h3>Sistema de Gestão Web</h3>
+									<p>Sistema para quem precisa de simplicidade sem poupar recursos. 
+									Gerencie sua empresa de qualquer lugar a qualquer hora.
 									</p>
 								</div>
 							</div>
@@ -385,9 +333,9 @@
 								<div class="service animations-on bounceIn" data-delay="200">
 									<img src="/theme_trustcode/static/src/images/services3.jpg"
 										alt="" />
-									<h3>Implantação de ERP</h3>
-									<p>Fizemos a implantação do Pelican para sua pequena empresa,
-										ou customizamos o Odoo conforme sua necessidade.
+									<h3>Desenvolvimento Sob Medida</h3>
+									<p>Já tem o Odoo instalado e precisa de novos desenvolvimentos? 
+										Oferecemos código de qualidade testado e 100% Open Source para sua total liberdade.
 									</p>
 								</div>
 							</div>
@@ -524,19 +472,18 @@
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab1">
 										<i class="icon-handlestreamlinevector-1"></i>
-										Fase de ideias
+										Quem somos
 									</a>
 								</h2>
 								<div class="resp-tab-content resp-tab-content-active"
 									aria-labelledby="tab_item-0" style="display:block">
 									<div class="process icon1">
 										<h2 class="light">
-											Fase de
-											<strong>Ideias</strong>
+											Quem é a 
+											<strong>Trustcode</strong>
 										</h2>
-										<p>Nessa fase vamos conversar com você, tentar entender suas
-											necessidades
-											e ajudar na construção de ideias que vão melhorar sua empresa.
+										<p>Buscamos estar conectados com as mais inovadoras e criativas organizações do setor em busca de Know-how que, somado uma rigorosa avalição de qualidade e se necessário ajustes, criamos nossos produtos e serviços.
+										 Toda essa dedicação é para que as empresas brasileiras usufruam do melhor da tecnologia mundial, de forma acessível.
 										</p>
 										<br />
 										<ul class="list-unstyled list-bullets">
@@ -640,16 +587,19 @@
 					<div class="container">
 						<div class="owl-carousel text-slider">
 							<div class="item">
-								<p>Eu acredito que esse site ta ficando muito bom porque fui eu que fiz</p>
+								<p>Eu acredito que esse site ta ficando muito bom porque fui eu
+									que fiz
+								</p>
 								<div class="about-client">
 									<span>Danimar Ribeiro</span>
 									<p>Desenvolvedor &amp; Fundador - Trustcode</p>
 								</div>
-							</div>						
+							</div>
 							<div class="item">
 								<p>We believe in coming up with original ideas Lorem ipsum dolor
 									sit amet, consectetur adipiscing elit. Fusce elementum, nulla
-									vel pellentesque consequat, ante nulla </p>
+									vel pellentesque consequat, ante nulla
+								</p>
 								<div class="about-client">
 									<span>Mackilem Junior</span>
 									<p>CEO &amp; Fundador - Trustcode</p>

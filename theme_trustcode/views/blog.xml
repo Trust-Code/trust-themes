@@ -7,6 +7,7 @@
 			<xpath expr="//div[@id='title']" position="replace">
 				<style type="text/css">
 					#wrap > div.cover { min-height:450px; }
+					.website_blog .btn.btn-default, .btn.btn-danger, .btn.btn-primary, .btn.btn-success { padding: 6px 12px; font-size:12px; }
 				</style>
 
 				<div class="cover" id="title"
