@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<!-- Customize header -->
+		<template id="page_coming_product" name="Product Coming"
+			page="True">
+			&lt;!DOCTYPE html&gt;
+			<!-- Eventually by HTML5 UP html5up.net | @n33co Free for personal and 
+				commercial use under the CCA 3.0 license (html5up.net/license) -->
+			<html>
+				<head>
+					<title>Trustcode Lançamento</title>
+					<meta charset="utf-8" />
+					<meta name="viewport"
+						content="width=device-width, initial-scale=1, user-scalable=no" />
+					<!--[if lte IE 8]><script src="/theme_coming_product/static/src/js/ie/html5shiv.js"></script><![endif] -->
+					<link rel="stylesheet" href="/theme_coming_product/static/src//css/main.css" />
+					<!--[if lte IE 8]><link rel="stylesheet" href="/theme_coming_product/static/src/css/ie8.css" 
+						/><![endif] -->
+					<!--[if lte IE 9]><link rel="stylesheet" href="/theme_coming_product/static/src/css/ie9.css" 
+						/><![endif] -->
+				</head>
+				<body>
+
+					<!-- Header -->
+					<header id="header">
+						<h1>Harpia</h1>
+						<p>
+							Temos um segredo para contar!
+							<br />
+							a
+							<a href="http://www.trustcode.com.br/">Trustcode</a> está preparando novidades.					
+							<br />
+							Seja o primeiro a saber
+						</p>
+					</header>
+					
+					<!-- Signup Form -->
+					<form id="signup-form" method="post" action="/coming_soon">
+						<input type="email" name="email" id="email" placeholder="Endereço de email" />
+						<input type="submit" value="Inscrever-se" />
+					</form>
+
+					<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li>
+								<a href="https://www.facebook.com/TrustCode-576356469175705/"
+									class="icon fa-facebook">
+									<span class="label">Facebook</span>
+								</a>
+							</li>
+							<li>
+								<a href="http://github.com/Trust-Code/" class="icon fa-github">
+									<span class="label">GitHub</span>
+								</a>
+							</li>
+							<li>
+								<a href="mailto:comercial@trustcode.com.br" class="icon fa-envelope-o">
+									<span class="label">Email</span>
+								</a>
+							</li>
+						</ul>
+						<ul class="copyright">
+							<li>Trustcode.</li>
+							<li>
+								Créditos:
+								<a href="http://html5up.net">HTML5 UP</a>
+							</li>
+						</ul>
+					</footer>
+
+					<!-- Scripts -->
+					<!--[if lte IE 8]><script src="/theme_coming_product/static/src/js/ie/respond.min.js"></script><![endif] -->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+					<script src="/theme_coming_product/static/src/js/main.js"></script>
+
+				</body>
+			</html>
+		</template>
+
+	</data>
+</openerp>
