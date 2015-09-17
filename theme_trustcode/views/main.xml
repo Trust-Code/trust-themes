@@ -68,11 +68,12 @@
 										</span>
 										<span class="rsABlock txtCent blockText" data-speed="1000"
 											data-move-offset="300" data-move-effect="right">
-											O software perfeito para sua indústria crescer.
+											O software perfeito
+											para sua indústria crescer.
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="400" data-move-effect="bottom">
-											<a target="_blank" href="/coming_soon" class="btn btn-dark">Veja mais</a>											
+											<a target="_blank" href="/coming_soon" class="btn btn-dark">Veja mais</a>
 										</span>
 									</div>
 								</div>
@@ -353,7 +354,7 @@
 								Nos conheça
 								<strong>melhor</strong>
 							</h2>
-							<p>e veja porque podemos ser grandes parceiro do seu negócio.
+							<p>e veja porque podemos ser grandes parceiros do seu negócio.
 							</p>
 						</div>
 						<div class="our-process-tabs our-process-tab animations-on fadInUp"
@@ -581,6 +582,68 @@
 				</section>
 
 
+				<section>
+				<div class="container">
+					<div class="logos owl-carousel logos-carousel-5-items">
+						<ul class="rslides logo1-rotater">
+							<li>
+								<i class="icon-git fa-5x"></i>
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/postgres.png" />
+							</li>							
+							<li>
+								<img src="/theme_trustcode/static/src/images/docker.png" />
+							</li>							
+						</ul>
+						<ul class="rslides logo2-rotater">
+							<li>
+								<i class="fa fa-amazon fa-5x"></i>
+							</li>
+							<li>
+								<i class="icon-github fa-5x"></i>
+							</li>
+							<li>
+								<i class="icon-firefox fa-5x"></i>
+							</li>							
+						</ul>
+						<ul class="rslides logo3-rotater">
+							<li>
+								<i class="icon-linux fa-5x"></i>
+							</li>
+							<li>
+								<i class="icon-bitbucket fa-5x"></i>
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/ubuntu.png" />
+							</li>							
+						</ul>
+						<ul class="rslides logo4-rotater">
+							<li>
+								<i class="icon-stack-overflow fa-5x"></i>
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/python.png" />
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/eclipse.png" />
+							</li>							
+						</ul>
+						<ul class="rslides logo5-rotater">
+							<li>
+								<img src="/theme_trustcode/static/src/images/postgres.png" />
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/nginx.png" />
+							</li>
+							<li>
+								<img src="/theme_trustcode/static/src/images/digital-ocean.png" />
+							</li>							
+						</ul>
+					</div>
+					</div>
+				</section>
+
 				<section class="testimonials2 parallax text-center"
 					data-stellar-background-ratio="0.3"
 					style="background-position: 50% -63.3px;padding:50px 0;">
@@ -590,9 +653,12 @@
 								<p>Costumo comparar open source com a ciência. A
 									ciência tomou
 									toda esta noção de desenvolvimento
-									e melhoria de idéias das outras pessoas e a tornou o que a
-									ciência é hoje e os incríveis avanços que tivemos.
-									E eu comparo isso à bruxaria e a alquimia, onde a abertura
+									e melhoria de idéias das
+									outras pessoas e a tornou o que a
+									ciência é hoje e os incríveis
+									avanços que tivemos.
+									E eu comparo isso à bruxaria e a alquimia,
+									onde a abertura
 									era algo que você não tinha.
 								</p>
 								<div class="about-client">
