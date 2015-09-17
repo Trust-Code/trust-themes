@@ -42,22 +42,12 @@
 									</ul>
 									<ul class="social list-unstyled bordered big">
 										<li>
-											<a href="#." class="facebook">
+											<a href="https://www.facebook.com/TrustCode-576356469175705/" class="facebook">
 												<i class="icon-facebook2"></i>
 											</a>
-										</li>
+										</li>										
 										<li>
-											<a href="#." class="twitter">
-												<i class="icon-twitter-1"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#." class="googleplus">
-												<i class="icon-googleplus2"></i>
-											</a>
-										</li>
-										<li>
-											<a href="#." class="linkedin">
+											<a href="https://www.linkedin.com/company/trustcode" class="linkedin">
 												<i class="icon-linkedin3"></i>
 											</a>
 										</li>
@@ -69,25 +59,20 @@
 									<h3>Links uteis</h3>
 									<ul id="products" class="list-unstyled footer-nav-widget">
 										<li>
-											<a href="#.">
+											<a href="/">
 												<i class="icon-angle-right"></i>
 												Home
 											</a>
 										</li>
 										<li>
-											<a href="#.">
+											<a href="/page/produtos">
 												<i class="icon-angle-right"></i>
 												Nosso trabalho
 											</a>
-										</li>																				
+										</li>																			
+										
 										<li>
-											<a href="#.">
-												<i class="icon-angle-right"></i>
-												Politica de privacidade
-											</a>
-										</li>
-										<li>
-											<a href="#.">
+											<a href="/page/website.contactus">
 												<i class="icon-angle-right"></i>
 												Contato
 											</a>
@@ -100,6 +85,7 @@
 								<div id="info" class="footer-widget clearfix">
 									<h3>Tags do blog</h3>
 									<ul class="tags-cloud clearfix">
+										<!-- 
 										<li>
 											<a href="#.">Blog Posts</a>
 										</li>
@@ -121,6 +107,7 @@
 										<li>
 											<a href="#.">Docker</a>
 										</li>
+										 -->
 									</ul>
 									<div class="news-letter-widget">
 										<h3>Newsletter</h3>
@@ -153,7 +140,7 @@
 												<a href="/">Home</a>
 											</li>
 											<li>
-												<a href="/forum/how-to">FAQ's</a>
+												<a href="/blog/1">News</a>
 											</li>
 											<li>
 												<a href="/page/sitemap">Sitemap</a>

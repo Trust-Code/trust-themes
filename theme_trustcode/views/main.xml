@@ -28,8 +28,8 @@
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="700" data-move-effect="bottom">
-											<a href="/page/produtos" class="btn btn-default">Produtos</a>
-											<a href="/page/nossa-empresa." class="btn btn-bordered white">nossa empresa</a>
+											<a href="#section-produtos" class="btn btn-default scroll">Produtos</a>
+											<a href="#section-empresa" class="btn btn-bordered white scroll">nossa empresa</a>
 										</span>
 									</div>
 								</div>
@@ -49,7 +49,7 @@
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1200"
 											data-move-offset="500" data-move-effect="bottom">
-											<a target="_blank" href="http://www.t-pelican.com.br/"
+											<a target="_blank" href="http://www.pelicanerp.com.br/"
 												class="btn btn-white btn-square">Conheça</a>
 											<a href="/forum/how-to/pelican-1" class="btn btn-bordered white btn-square">aprenda mais</a>
 										</span>
@@ -67,13 +67,12 @@
 											ilimitadas
 										</span>
 										<span class="rsABlock txtCent blockText" data-speed="1000"
-											data-move-offset="300" data-move-effect="right">(Nome do produto)
-											perfeito para sua indústria crescer.
+											data-move-offset="300" data-move-effect="right">
+											O software perfeito para sua indústria crescer.
 										</span>
 										<span class="rsABlock txtCent blockBtn" data-speed="1000"
 											data-move-offset="400" data-move-effect="bottom">
-											<a href="/page/industria" class="btn btn-dark">Veja mais</a>
-											<a href="/forum/how-to/industria-2" class="btn btn-bordered black">aprenda mais</a>
+											<a target="_blank" href="/coming_soon" class="btn btn-dark">Veja mais</a>											
 										</span>
 									</div>
 								</div>
@@ -87,45 +86,49 @@
 					data-stellar-background-ratio="0.3" style="background-position: 50% 506.1px;">
 					<div class="container animations-on flipInX">
 						<h1 class="text-rotator light">
-							TrustCode é
+							Trustcode é
 							<span class="rotate">liberdade, criatividade</span>
 							para você
 						</h1>
-						<p>Se você necessita de consultoria no Odoo está no lugar certo.
-							Temos orgulho de trabalhar com Open Source, acreditamos que
-							podemos oferecer
-							o melhor produto para sua empresa.
+						<p>Criatividade é quando nos permitimos ir além do tradicional,
+							pensando dessa forma oferecemos sistemas de gestão práticos com
+							implantação amigável.
+							Temos orgulho de contribuir para um dia de
+							trabalho mais leve e
+							produtivo.
 						</p>
 					</div>
 				</section>
 
 				<section class="creative-sec no-padding-top">
 					<div class="container">
-						<div class="heading text-center animations-on flipInX">
-							<h2 class="light">
-								Fajar
-								<strong>Process</strong>
-							</h2>
-							<p>We believe in coming up with original ideas Lorem ipsum dolor
-								sit amet design adipiscing elit.
-							</p>
+						<div class="heading text-center animations-on flipInX" style="margin-top:60px;">
+							<h3 class="light">
+								Através de nossos métodos oferecemos softwares
+								<strong>mundialmente</strong>
+								utilizados
+							</h3>
 						</div>
 						<div class="creative-sec-thumb one animations-on bounceIn">
 							<figure>
 								<img src="/theme_trustcode/static/src/images/creative-sec-img1.jpg"
 									width="154" class="img-circle img-thumbnail img-responsive"
 									alt="" title="" />
-								<figcaption>Meeting</figcaption>
+								<figcaption>Necessidades</figcaption>
 							</figure>
 						</div>
 
 						<div class="creative-sec-thumb two animations-on bounceIn"
 							data-delay="100">
 							<figure>
-								<img src="/theme_trustcode/static/src/images/creative-sec-img2.jpg"
-									width="266" class="img-circle img-thumbnail img-responsive"
-									alt="" title="" />
-								<figcaption>Strategic Intelligence</figcaption>
+								<a href="https://www.youtube.com/embed/QpIaje2NKBI?autoplay=1"
+									class="various fancybox" data-fancybox-type="iframe"
+									data-fancybox-width="620" data-fancybox-height="400">
+									<img src="/theme_trustcode/static/src/images/creative-sec-img4.jpg"
+										width="266" class="img-circle img-thumbnail img-responsive"
+										alt="" title="" />
+								</a>
+								<figcaption>Análise de Soluções</figcaption>
 							</figure>
 						</div>
 
@@ -135,17 +138,17 @@
 								<img src="/theme_trustcode/static/src/images/creative-sec-img3.jpg"
 									width="162" class="img-circle img-thumbnail img-responsive"
 									alt="" title="" />
-								<figcaption>Development</figcaption>
+								<figcaption>Adequação e Implantação</figcaption>
 							</figure>
 						</div>
 
 						<div class="creative-sec-thumb four animations-on bounceIn"
 							data-delay="600">
 							<figure>
-								<img src="/theme_trustcode/static/src/images/creative-sec-img4.jpg"
+								<img src="/theme_trustcode/static/src/images/creative-sec-img2.jpg"
 									width="305" class="img-circle img-thumbnail img-responsive"
 									alt="" title="" />
-								<figcaption>Launch Work</figcaption>
+								<figcaption>Acompanhamento</figcaption>
 							</figure>
 						</div>
 					</div>
@@ -158,10 +161,10 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="counter">
 							<i class="icon-rocket text-left bottom"></i>
-							<span class="quantity-counter quantity-counter1 highlight">416</span>
+							<span class="quantity-counter quantity-counter1 highlight">500</span>
 							<h6 class="counter-details">
 								Commits feitos
-								<span>Últimos 6 meses</span>
+								<span>Últimos 2 meses</span>
 							</h6>
 						</div>
 					</div>
@@ -178,10 +181,10 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="counter">
 							<i class="icon-umbrella3 text-right bottom right"></i>
-							<span class="quantity-counter quantity-counter3 highlight">55</span>
+							<span class="quantity-counter quantity-counter3 highlight">1</span>
 							<h6 class="counter-details">
-								PIZZAS ORDERED
-								<span>April 2015</span>
+								Cloud no ar
+								<span>sem erros</span>
 							</h6>
 						</div>
 					</div>
@@ -197,7 +200,52 @@
 					</div>
 				</div>
 
-
+				<section id="section-produtos" class="bg-grey">
+					<div class="container">
+						<div class="heading text-center animations-on flipInX">
+							<h2>Nossos Produtos</h2>
+							<p>Encontre aqui soluções que agregam valor ao seu négocio.
+							</p>
+						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn">
+									<img src="/theme_trustcode/static/src/images/services1.jpg"
+										alt="" />
+									<h3>Sistema de Gestão para Indústrias</h3>
+									<p>Segmento especializado na Indústria, com gráfico gantt para
+										ordens de produção,
+										MRP, rastreabilidade, centros de operação e
+										muito mais, confira!
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn" data-delay="100">
+									<img src="/theme_trustcode/static/src/images/services2.jpg"
+										alt="" />
+									<h3>Sistema de Gestão Web</h3>
+									<p>Sistema para quem precisa de simplicidade sem poupar
+										recursos.
+										Gerencie sua empresa de qualquer lugar a qualquer
+										hora.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="service animations-on bounceIn" data-delay="200">
+									<img src="/theme_trustcode/static/src/images/services3.jpg"
+										alt="" />
+									<h3>Desenvolvimento Sob Medida</h3>
+									<p>Já tem o Odoo instalado e precisa de novos desenvolvimentos?
+										Oferecemos código de qualidade testado e 100% Open Source para
+										sua total liberdade.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
 				<section>
 					<div class="container">
@@ -207,7 +255,7 @@
 								<strong>nossa</strong>
 								empresa ?
 							</h2>
-							<p>Veja os motivos que você deve escolher trabalhar com a
+							<p>Veja os motivos porque você deve escolher trabalhar com a
 								Trustcode
 							</p>
 						</div>
@@ -246,8 +294,9 @@
 									</div>
 									<h3>Globalizado</h3>
 									<p>Colaboramos com grandes projetos open source e adequamos
-										para as empresa Brasileira. De forma colaborativa geramos
-										melhores resultados com menor custo.
+										para o Brasil. De forma colaborativa geramos
+										melhores
+										resultados com menor custo.
 									</p>
 								</div>
 							</div>
@@ -259,14 +308,10 @@
 										<span class="shadow"></span>
 										<i class="icon-trophy"></i>
 									</div>
-									<h3>Lideres no desenvolvimento</h3>
-									<p>Juntamente com outras duas empresas no Brasil somos lideres
+									<h3>Líderes no desenvolvimento</h3>
+									<p>Juntamente com outras duas empresas no Brasil somos líderes
 										no desenvolvimento
 										da versão Brasileira do Odoo
-										-
-										Pertencemos a
-										um seleto grupo de 3 empresas que mantem o versão Brasileira
-										do Odoo.
 									</p>
 								</div>
 							</div>
@@ -279,7 +324,8 @@
 									<h3>Completos</h3>
 									<p>Oferemos uma gama de produtos e serviços para que sua
 										empresa encontre tudo em um só lugar,
-										simplificando e criando relações profissionais duradouras.
+										simplificando e criando
+										relações duradouras.
 									</p>
 								</div>
 							</div>
@@ -291,8 +337,8 @@
 									</div>
 									<h3>Rápida Evolução</h3>
 									<p>Transferimos a nossos clientes o mesmo diferencial que
-										projetos open source bem sucessidos possuem, fruto do
-										cooperativismo caracteristico.
+										projetos open source bem sucedidos possuem, fruto do
+										cooperativismo característico.
 									</p>
 								</div>
 							</div>
@@ -300,141 +346,14 @@
 					</div>
 				</section>
 
-
-				<section class="bg-grey">
-					<div class="container">
-						<div class="heading text-center animations-on flipInX">
-							<h2>Nossos Produtos</h2>
-							<p>Encontre aqui soluções que agregam valor ao seu négocio.
-							</p>
-						</div>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="service animations-on bounceIn">
-									<img src="/theme_trustcode/static/src/images/services1.jpg"
-										alt="" />
-									<h3>Sistema de Gestão para Indústrias</h3>
-									<p>Segmento especializado na Indústria, com gráfico gantt para ordens de produção, 
-									MRP, rastreabilidade, centros de operação e muito mais, confira!
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="service animations-on bounceIn" data-delay="100">
-									<img src="/theme_trustcode/static/src/images/services2.jpg"
-										alt="" />
-									<h3>Sistema de Gestão Web</h3>
-									<p>Sistema para quem precisa de simplicidade sem poupar recursos. 
-									Gerencie sua empresa de qualquer lugar a qualquer hora.
-									</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="service animations-on bounceIn" data-delay="200">
-									<img src="/theme_trustcode/static/src/images/services3.jpg"
-										alt="" />
-									<h3>Desenvolvimento Sob Medida</h3>
-									<p>Já tem o Odoo instalado e precisa de novos desenvolvimentos? 
-										Oferecemos código de qualidade testado e 100% Open Source para sua total liberdade.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-				<section class="container">
-					<div class="heading text-center animations-on flipInX">
-						<h2 class="light">
-							Nosso
-							<strong>Time</strong>
-						</h2>
-					</div>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="team-member two animations-on bounceIn">
-								<div class="team-member-thumb">
-									<img
-										src="/theme_trustcode/static/src/images/team-member-large1.jpg"
-										alt="" />
-								</div>
-								<div class="team-member-content text-center">
-									<h3>
-										Danimar Ribeiro
-										<span>Co-Fundador / Desenvolvedor</span>
-									</h3>
-									<p>Um dia da caça outro da pesca
-									</p>
-									<ul class="social-text">
-										<li>
-											<a href="#.">Facebok</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Twitter</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Youtube</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Linked in</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="team-member two animations-on bounceIn"
-								data-delay="200">
-								<div class="team-member-thumb">
-									<img
-										src="/theme_trustcode/static/src/images/team-member-large2.jpg"
-										alt="" />
-								</div>
-								<div class="team-member-content text-center">
-									<h3>
-										Jaqueline Barp
-										<span>Diretora Criativa</span>
-									</h3>
-									<p>We believe in coming up with original ideas Lorem ipsum
-										dolor sit amet, graphic design cansectetur adipiscing elit.
-									</p>
-									<ul class="social-text">
-										<li>
-											<a href="#.">Facebok</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Twitter</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Youtube</a>
-											/
-										</li>
-										<li>
-											<a href="#.">Linked in</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
-
-				<section class="clents-section">
+				<section id="section-empresa" class="clents-section">
 					<div class="container">
 						<div class="heading text-center animations-on flipInX">
 							<h2 class="light">
-								Nosso
-								<strong>Processo</strong>
+								Nos conheça
+								<strong>melhor</strong>
 							</h2>
-							<p>Almost every new client these days wants a mobile version of
-								their website so Lorem ipsum dolor sit amet technology
-								consectetur adipisicing elit.
+							<p>e veja porque podemos ser grandes parceiro do seu negócio.
 							</p>
 						</div>
 						<div class="our-process-tabs our-process-tab animations-on fadInUp"
@@ -444,25 +363,25 @@
 									role="tab">
 									<a href="#." id="tab1">
 										<i class="icon-handlestreamlinevector-1"></i>
-										Fase de ideias
+										Quem somos
 									</a>
 								</li>
 								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
 									<a href="#." id="tab2">
 										<i class="icon-designgraphictabletstreamlinetable-1"></i>
-										Levantamento
+										Para onde vamos
 									</a>
 								</li>
 								<li class="resp-tab-item" aria-controls="tab_item-2" role="tab">
-									<a href="#." id="tab3">
+									<a href="#." id="tab3" style="padding:15px 22px 13px;">
 										<i class="icon-icons96"></i>
-										Desenvolvimento
+										Por que opensource?
 									</a>
 								</li>
 								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab">
 									<a href="#." id="tab4">
 										<i class="icon-rocket"></i>
-										Implantação
+										Social
 									</a>
 								</li>
 							</ul>
@@ -477,21 +396,74 @@
 								</h2>
 								<div class="resp-tab-content resp-tab-content-active"
 									aria-labelledby="tab_item-0" style="display:block">
-									<div class="process icon1">
+									<div class="process icon1" style="min-height:300px;">
 										<h2 class="light">
-											Quem é a 
+											Quem é a
 											<strong>Trustcode</strong>
 										</h2>
-										<p>Buscamos estar conectados com as mais inovadoras e criativas organizações do setor em busca de Know-how que, somado uma rigorosa avalição de qualidade e se necessário ajustes, criamos nossos produtos e serviços.
-										 Toda essa dedicação é para que as empresas brasileiras usufruam do melhor da tecnologia mundial, de forma acessível.
+										<p style="text-indent:35px;">A Trustcode é uma empresa de tecnologia da
+											informação (TI)
+											que busca estar conectada
+											globalmente com as
+											mais modernas
+											organizações do setor gerando sinergia
+											e
+											inovação,
+											dessa forma
+											recriamos nossos produtos e serviços a
+											cada dia em
+											busca de
+											ousadia e perfeição.
+											Toda essa dedicação é
+											para que as
+											empresas brasileiras usufruam
+											do melhor da
+											tecnologia mundial
+											e nos orgulhamos disso.
 										</p>
 										<br />
+										<p style="text-indent:35px;">
+											Empresa fundada em 2015 por Danimar Ribeiro,
+											desenvolvedor
+											e
+											Mackilem Van der Laan Soares, administrador,
+											dois apaixonados
+											pelas facilidades que a tecnologia pode gerar
+											para o
+											crescimento e o bem de pessoas e organizações.
+										</p>
+										<p class="quote">Nos conhecemos em fóruns da internet pesquisando
+											soluções para ajudar empresas a serem melhores e descobrimos
+											projetos em comum aonde passamos a trocar informações e
+											favores, ideias que anos depois estão se tornando os
+											produtos
+											e serviços de nossa empresa.
+										</p>
+										<p style="text-indent:35px;">
+											Levamos a sério nossos principios por acreditar que
+											através
+											deles o
+											crescimento do ser humano vai estar sempre em
+											primeiro
+											lugar
+											nos valores de nossa empresa.
+										</p>
 										<ul class="list-unstyled list-bullets">
-											<li>Fashion brands</li>
-											<li>Fashion brands</li>
-											<li>Corporate companies and tools</li>
-											<li>Corporate companies and tools</li>
-											<li>Processional services</li>
+											<li style="width:100%;">Liderança: Buscar o que é melhor para a
+												sociedade e para
+												os stakeholders, e não a satisfação de seus
+												egos e ambições.
+											</li>
+											<li style="width:100%;">Garra: é a vontade de gerar as melhores
+												respostas frente
+												a desafios constantes.
+											</li>
+											<li style="width:100%;">Doação: Doar-se profissionalmente é gerar
+												inovação e
+												valor da mesma dedicação que um artista cria uma
+												obra de
+												arte.
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -499,52 +471,77 @@
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab2">
 										<i class="icon-designgraphictabletstreamlinetable-1"></i>
-										Levantamento das necessidades
+										Para onde vamos
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="process icon2">
+									<div class="process icon2" style="min-height:300px;">
 										<h2 class="light">
-											Levantamento das
-											<strong>Necessidades</strong>
+											<strong>Visão</strong>
 										</h2>
-										<p>Nesta fase vamos realmente colocar no papel o que vamos
-											fazer para você
+										<p class="quote">Atender a qualquer demanda por tecnologia da
+											informação de nossos clientes
 										</p>
-										<br />
-										<ul class="list-unstyled list-bullets">
-											<li>Lista de necessidades</li>
-											<li>Pesquisa de soluções existentes</li>
-											<li>Projeto de desenvolvimento</li>
-											<li>Orçamento do projeto</li>
-											<li>Separação do processo em etapas</li>
-										</ul>
+										<p style="text-indent:35px;">
+											Sabemos que tecnologia impacta diretamente no
+											planejamento
+											estratégico de qualquer empresa. Por tanto,
+											buscamos conhecer
+											ao máximo nossos clientes e oportunizar a
+											eles as melhores
+											soluções, ajustadas para cada realidade.
+										</p>
+										<p style="text-indent:35px;">
+											Contudo, buscamos a cada dia nos tormar mais
+											completos seja
+											em
+											conhecimento, produtos ou serviços, para que
+											nossos
+											clientes
+											se sintam seguros de que com tecnologia da
+											informação
+											estarão
+											sempre bem atendidos.
+										</p>
 									</div>
 								</div>
 								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-2">
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab3">
 										<i class="icon-icons96"></i>
-										Desenvolvimento
+										Por que open source?
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-2">
-									<div class="process icon3">
+									<div class="process icon3" style="min-height:300px;">
 										<h2 class="light">
-											<strong>Desenvolvimento</strong>
+											Porque projetos
+											<strong>open source</strong>
+											são uma excelente altenativa?
 										</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Integer lorem quam, adipiscing condimentum tristique vel,
-											eleifend sed turpis. Pellentesque cursus arcu id magna
-											euismod in elementum purus molestie. Curabitur pellentesque
-											massa eu nulla consequat.
+										<p style="text-indent:35px;">Software's open source se caracterizam por terem o
+											seu código aberto, aonde pessoas qualificadas possam ter
+											acesso, acrescentar recursos e melhorias, contribuindo para
+											um projeto melhor e mais completo.
+										</p>
+										<p style="text-indent:35px;">
+											Portanto, quando um projeto open source é bem
+											estruturado ele tende a
+											atrair um volume grande de pessoas de
+											diferentes nações e
+											níveis de conhecimento, gerando uma
+											riqueza de informações
+											sem igual, o que torna tais projetos
+											uma tendência de
+											mercado.
 										</p>
 										<br />
 										<ul class="list-unstyled list-bullets">
-											<li>Novos módulos</li>
-											<li>Relatórios</li>
-											<li>Melhoria de módulos existentes</li>
-											<li>Testes unitários</li>
+											<li>Pluralidade de Conhecimentos</li>
+											<li>Rápida Evolução e Flexibilidade</li>
+											<li>Melhores Processos</li>
+											<li>Qualidade do Desenvolvimento</li>
+											<li>Transparência e Segurança</li>
 										</ul>
 									</div>
 								</div>
@@ -556,7 +553,7 @@
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-3">
-									<div class="process icon4">
+									<div class="process icon4" style="min-height:300px;">
 										<h2 class="light">
 											Implantar o
 											<strong>Projeto</strong>
@@ -569,7 +566,9 @@
 										</p>
 										<br />
 										<ul class="list-unstyled list-bullets">
-											<li>Treinamento</li>
+											<li>Liderança: Buscar o que é melhor para a sociedade e para
+												os stakeholders, e não a satisfação de seus egos e ambições.
+											</li>
 											<li>Acompanhamento de possíveis bugs</li>
 											<li>Correções necessárias</li>
 											<li>Fase de feedback dos usuários</li>
@@ -583,15 +582,21 @@
 
 
 				<section class="testimonials2 parallax text-center"
-					data-stellar-background-ratio="0.3" style="background-position: 50% -63.3px;">
+					data-stellar-background-ratio="0.3"
+					style="background-position: 50% -63.3px;padding:50px 0;">
 					<div class="container">
 						<div class="owl-carousel text-slider">
 							<div class="item">
-								<p>Eu acredito que esse site ta ficando muito bom porque fui eu
-									que fiz
+								<p>Costumo comparar open source com a ciência. A
+									ciência tomou
+									toda esta noção de desenvolvimento
+									e melhoria de idéias das outras pessoas e a tornou o que a
+									ciência é hoje e os incríveis avanços que tivemos.
+									E eu comparo isso à bruxaria e a alquimia, onde a abertura
+									era algo que você não tinha.
 								</p>
 								<div class="about-client">
-									<span>Danimar Ribeiro</span>
+									<span>Linus Torvalds</span>
 									<p>Desenvolvedor &amp; Fundador - Trustcode</p>
 								</div>
 							</div>

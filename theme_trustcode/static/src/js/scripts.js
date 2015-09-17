@@ -427,9 +427,7 @@
 								}  
 							}
 						});
-					});
-					
-						
+					});						
 						
 						
 					/* ------------------------------------------------------------------------ 
@@ -450,7 +448,7 @@
 						maxHeight	: 800,
 						fitToView	: false,
 						width		: '100%',
-						height		: '70%',
+						height		: '400px',
 						autoSize	: false,
 						autoHeight : true,
 						closeClick	: false,
