@@ -6,8 +6,10 @@
 			customize_show="True" name="Automatic Header">
 
 			<xpath expr="//header" position="replace">
-				<div id="preloader"><div class="pulse"></div></div>
-				
+				<div id="preloader">
+					<div class="pulse"></div>
+				</div>
+
 				<header>
 					<nav class="navbar navbar-default transparent" role="navigation">
 						<div class="container">
@@ -19,9 +21,12 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
-								<!--  <a class="navbar-brand" href="/" t-field="res_company.name" />  --> 
+								<!-- <a class="navbar-brand" href="/" t-field="res_company.name" 
+									/> -->
 								<a class="navbar-brand" href="/" style="padding:0px;">
-									<img src="/theme_trustcode/static/src/images/logo_trustcode-branco.png" alt="Logo TrustCode" />
+									<img
+										src="/theme_trustcode/static/src/images/logo_trustcode-branco.png"
+										alt="Logo TrustCode" />
 								</a>
 							</div>
 							<div class="collapse navbar-collapse">
