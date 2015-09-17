@@ -26,24 +26,20 @@
 										style="max-width: 1000px;">
 										<li id="rslides1_s0" class="rslides1_on"
 											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
-											<img src="images/tab-img1.jpg" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img1.png" alt="" />
 										</li>
 										<li id="rslides1_s1" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img2.jpg" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img2.png" alt="" />
 										</li>
 										<li id="rslides1_s2" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img3.jpg" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img3.png" alt="" />
 										</li>
 										<li id="rslides1_s3" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img4.jpg" alt="" />
-										</li>
-										<li id="rslides1_s4" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img5.jpg" alt="" />
-										</li>
+											<img src="/theme_trustcode/static/src/images/tab-img4.png" alt="" />
+										</li>										
 									</ul>
 
 									<!-- Slider Pager -->
@@ -51,29 +47,24 @@
 										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
 										<li class="rslides1_s1 rslides_here">
 											<a href="#">
-												<img src="images/tab-thumb1.jpg" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb1.png" alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s2">
 											<a href="#">
-												<img src="images/tab-thumb2.jpg" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb2.png" alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s3">
 											<a href="#">
-												<img src="images/tab-thumb3.jpg" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb3.png" alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s4">
 											<a href="#">
-												<img src="images/tab-thumb4.jpg" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb4.png" alt="" />
 											</a>
-										</li>
-										<li class="rslides1_s5">
-											<a href="#">
-												<img src="images/tab-thumb5.jpg" alt="" />
-											</a>
-										</li>
+										</li>										
 									</ul>
 								</div>
 								<div class="col-md-6 animations-on fadeInRightBig">
@@ -103,7 +94,7 @@
 											Todo o poder do Odoo configurado para o Brasil
 										</li>
 									</ul>
-									<a href="http://www.t-pelican.com.br/" class="btn btn-bordered black">Leia mais</a>
+									<a href="http://www.pelicanerp.com.br/" class="btn btn-bordered black">Leia mais</a>
 								</div>
 							</div>
 						</div>
