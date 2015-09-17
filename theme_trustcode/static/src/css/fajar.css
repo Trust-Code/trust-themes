@@ -999,9 +999,9 @@ transform: scale(0); -webkit-transform: scale(0); -moz-transform: scale(0); -web
 .align-middle h3{ transform: translateY(-50%); position:absolute; left:0; top:50%; right:0; text-align:center;}
 
 /************************************ ZOOM THUMBNAIL *************************************/
-.zoom-thumbnail{ position:relative; overflow:hidden; background:#fff;}
-.zoom-thumbnail img{ transform: scale(1.12); -webkit-transform: scale(1.12); -moz-transform: scale(1.12);  width: 100%;}
-.zoom-thumbnail:hover img{ transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); opacity:.3;}
+.zoom-thumbnail{ position:relative; overflow:hidden; }
+.zoom-thumbnail img{ transform: scale(0.95); -webkit-transform: scale(0.95); -moz-transform: scale(0.95);  width: 100%;}
+.zoom-thumbnail:hover img{ transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1); opacity:.6;}
 .zoom-thumbnail figcaption{ position:absolute; left:0; right:0; top:0; bottom:0; opacity:0;transform: scale(1.1); -webkit-transform: scale(1.1); -moz-transform: scale(1.1);}
 .zoom-thumbnail:hover figcaption{ opacity:1;transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1);}
 .zoom-thumbnail figcaption h3{ padding:10% 50px 20px;}

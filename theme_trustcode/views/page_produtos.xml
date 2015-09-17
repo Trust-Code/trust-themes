@@ -11,35 +11,39 @@
 						<div
 							style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
 						<div class="container">
-							<h1 class="site-title">Produtos</h1>
-							<p>Confira os produtos da Trustcode</p>
+							<h1 class="site-title">Serviços</h1>
+							<p>Confira os Serviços da Trustcode</p>
 						</div>
 					</section>
 
 					<section class="no-padding-bottom">
 						<div class="container">
 							<div class="row">
-								<div class="col-md-6 animations-on fadeInLeftBig">
+								<div class="col-md-6 animate-it fadeInLeftBig">
 									<!-- Slider img -->
 									<ul
 										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
 										style="max-width: 1000px;">
 										<li id="rslides1_s0" class="rslides1_on"
 											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
-											<img src="/theme_trustcode/static/src/images/tab-img1.png" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img1.png"
+												alt="" />
 										</li>
 										<li id="rslides1_s1" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img2.png" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img2.png"
+												alt="" />
 										</li>
 										<li id="rslides1_s2" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img3.png" alt="" />
+											<img src="/theme_trustcode/static/src/images/tab-img3.png"
+												alt="" />
 										</li>
 										<li id="rslides1_s3" class=""
 											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img4.png" alt="" />
-										</li>										
+											<img src="/theme_trustcode/static/src/images/tab-img4.png"
+												alt="" />
+										</li>
 									</ul>
 
 									<!-- Slider Pager -->
@@ -47,54 +51,60 @@
 										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
 										<li class="rslides1_s1 rslides_here">
 											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb1.png" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb1.png"
+													alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s2">
 											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb2.png" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb2.png"
+													alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s3">
 											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb3.png" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb3.png"
+													alt="" />
 											</a>
 										</li>
 										<li class="rslides1_s4">
 											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb4.png" alt="" />
+												<img src="/theme_trustcode/static/src/images/tab-thumb4.png"
+													alt="" />
 											</a>
-										</li>										
+										</li>
 									</ul>
 								</div>
-								<div class="col-md-6 animations-on fadeInRightBig">
-									<h2>Pelican ERP</h2>
+								<div class="col-md-6 animate-it fadeInRightBig">
+									<h2>Desenvolvimento</h2>
 									<div class="height10"></div>
 									<p>
-										O Pelican ERP é baseado no <span>Odoo(antigo Openerp)</span>.
-										O Odoo é considerado o melhor ERP Opensource do mundo, a <span>Trustcode</span> 
-										traz o Odoo para a realidade brasileira.
-										Acesse hoje mesmo e tenha 15 dias de uso gratuito para teste.										
+										Contamos uma uma equipe especializada no framework do Odoo,
+										com conhecimento das regras de negócio e processos do Odoo.
+										Conte conosco para desenvolver as melhores soluções.
 									</p>
+									<p>Vantagens:</p>
 									<ul class="list-unstyled feature-list padding-bottom-30">
 										<li>
 											<i class="icon-angle-right"></i>
-											Intuitivo e fácil de usar
+											Plataforma de integração continua;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Segurança e confiança nos seus dados
+											Testes unitários;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Suporte de primeira qualidade
+											3 anos de experiência com Odoo;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Todo o poder do Odoo configurado para o Brasil
+											10 anos de experiência em programação.
 										</li>
 									</ul>
-									<a href="http://www.pelicanerp.com.br/" class="btn btn-bordered black">Leia mais</a>
+									<a href="http://www.pelicanerp.com.br/" class="btn btn-bordered black">Leia mais no
+										blog
+									</a>
 								</div>
 							</div>
 						</div>
@@ -103,38 +113,39 @@
 					<section>
 						<div class="container">
 							<div class="row">
-								<div class="col-md-6 animations-on fadeInRightBig">
-									<h2>Odoo para industrias</h2>
+								<div class="col-md-6 animate-it fadeInLeftBig">
+									<h2>Mapeamento de Processos</h2>
 									<div class="height10"></div>
 									<p>
-										A sua industria precisa de um software que atende a todas as suas necessidades?
-										Venha conhecer a solução que a Trustcode oferece para o ramo.
-										<span>Flexibilidade</span>
-										e a modularidade do Odoo permitem que o sistema se adapte 
-										<span>facilmente</span>
-										as características únicas da sua empresa.
+										Consultoria para o completo mapeamento de processos de sua
+										empresa, utilizando o business process management (BPM).
+									</p>
+									<p>
+										Vantagens para sua empresa:
 									</p>
 									<ul class="list-unstyled feature-list padding-bottom-30">
 										<li>
 											<i class="icon-angle-right"></i>
-											Lista de materiais completas
+											A gestão de processos diminui erros, elimina retrabalhos;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Ordens de produção, controle de materiais
+											Proporciona maior foco no core business e maior foco nas
+											necessidades do cliente;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Controle de qualidade dos produtos fabricados
+											Facilita a adequação do ERP para um número maior de
+											processos;
 										</li>
 										<li>
 											<i class="icon-angle-right"></i>
-											Integração completa com os outros módulos do Odoo.
+											Forte aliado para auditoria interna gerando confiança nas
+											informações base para tomada de decisões.
 										</li>
-									</ul>
-									<a href="/page/produtos-industria" class="btn btn-bordered black">Leia mais</a>
+									</ul>									
 								</div>
-								<div class="col-md-6 animations-on fadeInLeftBig">
+								<div class="col-md-6 animate-it fadeInRightBig">
 									<!-- Slider img -->
 									<ul
 										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"

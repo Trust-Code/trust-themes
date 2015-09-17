@@ -11,7 +11,7 @@ from openerp.addons.website_blog.controllers.main import WebsiteBlog
 
 class LeadCapture(http.Controller):
 
-    @http.route('/coming_soon', type='http', auth='public', website=True)
+    @http.route('/coming-soon', type='http', auth='public', website=True)
     def coming_soon(self):
         return request.render('theme_coming_product.page_coming_product')
 

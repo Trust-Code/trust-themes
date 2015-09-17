@@ -85,7 +85,7 @@
 
 				<section class="incredible-sec text-center"
 					data-stellar-background-ratio="0.3" style="background-position: 50% 506.1px;">
-					<div class="container animations-on flipInX">
+					<div class="container animate-it flipInX">
 						<h1 class="text-rotator light">
 							Trustcode é
 							<span class="rotate">liberdade, criatividade</span>
@@ -103,14 +103,14 @@
 
 				<section class="creative-sec no-padding-top">
 					<div class="container">
-						<div class="heading text-center animations-on flipInX" style="margin-top:60px;">
+						<div class="heading text-center animate-it flipInX" style="margin-top:60px;">
 							<h3 class="light">
 								Através de nossos métodos oferecemos softwares
 								<strong>mundialmente</strong>
 								utilizados
 							</h3>
 						</div>
-						<div class="creative-sec-thumb one animations-on bounceIn">
+						<div class="creative-sec-thumb one animate-it bounceIn">
 							<figure>
 								<img src="/theme_trustcode/static/src/images/creative-sec-img1.jpg"
 									width="154" class="img-circle img-thumbnail img-responsive"
@@ -119,21 +119,21 @@
 							</figure>
 						</div>
 
-						<div class="creative-sec-thumb two animations-on bounceIn"
+						<div class="creative-sec-thumb two animate-it bounceIn"
 							data-delay="100">
 							<figure>
 								<a href="https://www.youtube.com/embed/QpIaje2NKBI?autoplay=1"
-									class="various fancybox" data-fancybox-type="iframe"
+									class="various fancybox zoom-thumbnail" data-fancybox-type="iframe"
 									data-fancybox-width="620" data-fancybox-height="400">
 									<img src="/theme_trustcode/static/src/images/creative-sec-img4.jpg"
-										width="266" class="img-circle img-thumbnail img-responsive"
+										width="266" class="img-circle img-thumbnail img-responsive smooth"
 										alt="" title="" />
 								</a>
 								<figcaption>Análise de Soluções</figcaption>
 							</figure>
 						</div>
 
-						<div class="creative-sec-thumb three animations-on bounceIn"
+						<div class="creative-sec-thumb three animate-it bounceIn"
 							data-delay="300">
 							<figure>
 								<img src="/theme_trustcode/static/src/images/creative-sec-img3.jpg"
@@ -143,7 +143,7 @@
 							</figure>
 						</div>
 
-						<div class="creative-sec-thumb four animations-on bounceIn"
+						<div class="creative-sec-thumb four animate-it bounceIn"
 							data-delay="600">
 							<figure>
 								<img src="/theme_trustcode/static/src/images/creative-sec-img2.jpg"
@@ -203,45 +203,56 @@
 
 				<section id="section-produtos" class="bg-grey">
 					<div class="container">
-						<div class="heading text-center animations-on flipInX">
+						<div class="heading text-center animate-it flipInX">
 							<h2>Nossos Produtos</h2>
 							<p>Encontre aqui soluções que agregam valor ao seu négocio.
 							</p>
 						</div>
 						<div class="row">
 							<div class="col-md-4">
-								<div class="service animations-on bounceIn">
-									<img src="/theme_trustcode/static/src/images/services1.jpg"
-										alt="" />
+								<div class="service animate-it bounceIn">
+									<a class="zoom-thumbnail" href="/coming-soon">
+										<img class="smooth" src="/theme_trustcode/static/src/images/harpia.jpeg"
+											alt="" />
+									</a>
 									<h3>Sistema de Gestão para Indústrias</h3>
 									<p>Segmento especializado na Indústria, com gráfico gantt para
-										ordens de produção,
-										MRP, rastreabilidade, centros de operação e
-										muito mais, confira!
+										ordens de produção, MRP, rastreabilidade, centros de operação.
 									</p>
+									<a class="btn btn-bordered black" href="/coming-soon">Saiba mais</a>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="service animations-on bounceIn" data-delay="100">
-									<img src="/theme_trustcode/static/src/images/services2.jpg"
-										alt="" />
+								<div class="service animate-it bounceIn" data-delay="100">
+									<a target="_blank" class="zoom-thumbnail" href="http://www.pelicanerp.com.br">
+										<img class="smooth" src="/theme_trustcode/static/src/images/pelican.jpeg"
+											alt="" />
+									</a>
 									<h3>Sistema de Gestão Web</h3>
 									<p>Sistema para quem precisa de simplicidade sem poupar
 										recursos.
 										Gerencie sua empresa de qualquer lugar a qualquer
 										hora.
 									</p>
+									<br />
+									<a target="_blank" class="btn btn-bordered black" href="http://www.pelicanerp.com.br">Saiba
+										mais
+									</a>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="service animations-on bounceIn" data-delay="200">
-									<img src="/theme_trustcode/static/src/images/services3.jpg"
-										alt="" />
-									<h3>Desenvolvimento Sob Medida</h3>
-									<p>Já tem o Odoo instalado e precisa de novos desenvolvimentos?
-										Oferecemos código de qualidade testado e 100% Open Source para
-										sua total liberdade.
+								<div class="service animate-it bounceIn" data-delay="200">
+									<a class="zoom-thumbnail" href="/coming-soon">
+										<img class="smooth" src="/theme_trustcode/static/src/images/uirapuru.jpeg"
+											alt="" />
+									</a>
+									<h3>Sistema e-commerce</h3>
+									<p>Imprescindível nos dias atuais. Oferecemos o sistema
+										e-commerce integrado ao sistema de gestão ou de forma
+										independente
 									</p>
+									<br />
+									<a class="btn btn-bordered black" href="/coming-soon">Saiba mais</a>
 								</div>
 							</div>
 						</div>
@@ -262,7 +273,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-arrowstreamlinetarget-1"></i>
@@ -275,7 +286,7 @@
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-icons96"></i>
@@ -288,7 +299,7 @@
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-globe"></i>
@@ -304,7 +315,7 @@
 						</div>
 						<div class="row">
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-trophy"></i>
@@ -317,7 +328,7 @@
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-gears"></i>
@@ -331,7 +342,7 @@
 								</div>
 							</div>
 							<div class="col-md-4">
-								<div class="boxed-tri-sec">
+								<div class="boxed-tri-sec animate-it bounceIn">
 									<div class="pointer-icon">
 										<span class="shadow"></span>
 										<i class="icon-group"></i>
@@ -349,7 +360,7 @@
 
 				<section id="section-empresa" class="clents-section">
 					<div class="container">
-						<div class="heading text-center animations-on flipInX">
+						<div class="heading text-center animate-it flipInX">
 							<h2 class="light">
 								Nos conheça
 								<strong>melhor</strong>
@@ -357,19 +368,19 @@
 							<p>e veja porque podemos ser grandes parceiros do seu negócio.
 							</p>
 						</div>
-						<div class="our-process-tabs our-process-tab animations-on fadInUp"
-							style="display: block; width: 100%; margin: 0px;">
-							<ul class="resp-tabs-list tabs clearfix text-center">
+						<div class="our-process-tabs our-process-tab" style="display: block; width: 100%; margin: 0px;">
+							<ul
+								class="resp-tabs-list tabs clearfix text-center animate-it fadeInUp">
 								<li class="resp-tab-item resp-tab-active" aria-controls="tab_item-0"
 									role="tab">
 									<a href="#." id="tab1">
-										<i class="icon-handlestreamlinevector-1"></i>
+										<i class="icon-home"></i>
 										Quem somos
 									</a>
 								</li>
 								<li class="resp-tab-item" aria-controls="tab_item-1" role="tab">
 									<a href="#." id="tab2">
-										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+										<i class="icon-thumbs-o-up"></i>
 										Para onde vamos
 									</a>
 								</li>
@@ -381,17 +392,18 @@
 								</li>
 								<li class="resp-tab-item" aria-controls="tab_item-3" role="tab">
 									<a href="#." id="tab4">
-										<i class="icon-rocket"></i>
+										<i class="icon-smile-o"></i>
 										Social
 									</a>
 								</li>
 							</ul>
-							<div class="resp-tabs-container" style="background:none;">
+							<div class="resp-tabs-container animate-it fadeInRightBig"
+								style="background:none;">
 								<h2 class="resp-accordion resp-tab-active" role="tab"
 									aria-controls="tab_item-0">
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab1">
-										<i class="icon-handlestreamlinevector-1"></i>
+										<i class="icon-home"></i>
 										Quem somos
 									</a>
 								</h2>
@@ -471,12 +483,12 @@
 								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-1">
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab2">
-										<i class="icon-designgraphictabletstreamlinetable-1"></i>
+										<i class="icon-thums-o-up"></i>
 										Para onde vamos
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-1">
-									<div class="process icon2" style="min-height:300px;">
+									<div class="process icon3" style="min-height:300px;">
 										<h2 class="light">
 											<strong>Visão</strong>
 										</h2>
@@ -514,7 +526,7 @@
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-2">
-									<div class="process icon3" style="min-height:300px;">
+									<div class="process icon2" style="min-height:300px;">
 										<h2 class="light">
 											Porque projetos
 											<strong>open source</strong>
@@ -583,71 +595,72 @@
 
 
 				<section>
-				<div class="container">
-					<div class="logos owl-carousel logos-carousel-5-items">
-						<ul class="rslides logo1-rotater">
-							<li>
-								<i class="icon-git fa-5x"></i>
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/postgres.png" />
-							</li>							
-							<li>
-								<img src="/theme_trustcode/static/src/images/docker.png" />
-							</li>							
-						</ul>
-						<ul class="rslides logo2-rotater">
-							<li>
-								<i class="fa fa-amazon fa-5x"></i>
-							</li>
-							<li>
-								<i class="icon-github fa-5x"></i>
-							</li>
-							<li>
-								<i class="icon-firefox fa-5x"></i>
-							</li>							
-						</ul>
-						<ul class="rslides logo3-rotater">
-							<li>
-								<i class="icon-linux fa-5x"></i>
-							</li>
-							<li>
-								<i class="icon-bitbucket fa-5x"></i>
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/ubuntu.png" />
-							</li>							
-						</ul>
-						<ul class="rslides logo4-rotater">
-							<li>
-								<i class="icon-stack-overflow fa-5x"></i>
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/python.png" />
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/eclipse.png" />
-							</li>							
-						</ul>
-						<ul class="rslides logo5-rotater">
-							<li>
-								<img src="/theme_trustcode/static/src/images/odoo.png" />
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/nginx.png" />
-							</li>
-							<li>
-								<img src="/theme_trustcode/static/src/images/digital-ocean.png" />
-							</li>							
-						</ul>
-					</div>
+					<div class="container">
+						<div
+							class="logos owl-carousel logos-carousel-5-items animate-it fadeInLeft">
+							<ul class="rslides logo1-rotater">
+								<li>
+									<i class="icon-git fa-5x"></i>
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/postgres.png" />
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/docker.png" />
+								</li>
+							</ul>
+							<ul class="rslides logo2-rotater">
+								<li>
+									<i class="fa fa-amazon fa-5x"></i>
+								</li>
+								<li>
+									<i class="icon-github fa-5x"></i>
+								</li>
+								<li>
+									<i class="icon-firefox fa-5x"></i>
+								</li>
+							</ul>
+							<ul class="rslides logo3-rotater">
+								<li>
+									<i class="icon-linux fa-5x"></i>
+								</li>
+								<li>
+									<i class="icon-bitbucket fa-5x"></i>
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/ubuntu.png" />
+								</li>
+							</ul>
+							<ul class="rslides logo4-rotater">
+								<li>
+									<i class="icon-stack-overflow fa-5x"></i>
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/python.png" />
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/eclipse.png" />
+								</li>
+							</ul>
+							<ul class="rslides logo5-rotater">
+								<li>
+									<img src="/theme_trustcode/static/src/images/odoo.png" />
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/nginx.png" />
+								</li>
+								<li>
+									<img src="/theme_trustcode/static/src/images/digital-ocean.png" />
+								</li>
+							</ul>
+						</div>
 					</div>
 				</section>
 
 				<section class="testimonials2 parallax text-center"
 					data-stellar-background-ratio="0.3"
 					style="background-position: 50% -63.3px;padding:50px 0;">
-					<div class="container">
+					<div class="container">					
 						<div class="owl-carousel text-slider">
 							<div class="item">
 								<p>Costumo comparar open source com a ciência. A
@@ -663,7 +676,7 @@
 								</p>
 								<div class="about-client">
 									<span>Linus Torvalds</span>
-									<p>Desenvolvedor &amp; Fundador - Trustcode</p>
+									<p>Criador Linux e Git</p>
 								</div>
 							</div>
 							<div class="item">

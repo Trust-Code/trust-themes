@@ -6,6 +6,8 @@
 			customize_show="True" name="Automatic Header">
 
 			<xpath expr="//header" position="replace">
+				<div id="preloader"><div class="pulse"></div></div>
+				
 				<header>
 					<nav class="navbar navbar-default transparent" role="navigation">
 						<div class="container">
