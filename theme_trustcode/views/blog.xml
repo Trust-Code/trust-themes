@@ -2,58 +2,15 @@
 <openerp>
 	<data>
 
+
 		<template id="website_blog_post_trustcode" inherit_id="website_blog.blog_post_complete"
 			name="TrustCode Blog Post">
-			<xpath expr="//div[@id='title']" position="replace">
+			<xpath expr="//div[@id='title']" position="before">
 				<style type="text/css">
-					#wrap > div.cover { min-height:450px; }
-					.website_blog .btn.btn-default, .btn.btn-danger, .btn.btn-primary, .btn.btn-success { padding: 6px 12px; font-size:12px; }
-				</style>
-
-				<div class="cover" id="title"
-					t-attf-style="background-image: url(#{blog_post.background_image})"
-					t-ignore="True">
-					<div class="container">
-						<div class="container text-right mt16">
-							<div class="btn-group css_non_editable_mode_hidden">
-								<a id="change_cover" class="btn btn-primary">
-									Change Cover
-								</a>
-								<a id="clear_cover" class="btn btn-danger">
-									<span class="fa fa-times" />
-								</a>
-							</div>
-							<div class="cover-storage oe_hidden" />
-							<t t-call="website.publish_management">
-								<t t-set="object" t-value="blog_post" />
-								<t t-set="publish_edit" t-value="True" />
-								<li>
-									<form class="duplicate hidden" action="/blogpost/duplicate">
-										<input name="blog_post_id" t-att-value="blog_post.id" />
-									</form>
-									<a href="#" class="duplicate" onclick="$(this).prev('form').submit()">Duplicate</a>
-								</li>
-							</t>
-						</div>
-					</div>
-					<div class="blog_title">
-						<h1 t-field="blog_post.name" id="blog_post_name"
-							t-att-data-blog-id="blog_post.id" />
-						<h2 t-field="blog_post.subtitle" />
-						<p class="post-meta text-muted text-center" name="blog_post_data" />
-						<div>
-							<span t-field="blog_post.author_avatar"
-								t-field-options="{&quot;widget&quot;: &quot;image&quot;, &quot;class&quot;: &quot;img-circle&quot;, &quot;style&quot;:&quot;width: 30px; margin-right: 10px; display:inline&quot;}" />
-							<span t-field="blog_post.author_id" style="display: inline-block;"
-								t-field-options="{                     &quot;widget&quot;: &quot;contact&quot;,                     &quot;fields&quot;: [&quot;name&quot;]                 }" />
-						</div>
-						<div t-if="blog_post.background_image" id="blog_angle_down">
-							<strong>
-								<a href="#blog_content" class="fa fa-angle-down fa-3x fa-inverse mt32" />
-							</strong>
-						</div>
-					</div>
-				</div>
+					#wrap div.container div.container { top: 40px; }					
+					.btn.btn-default, .btn.btn-danger, .btn.btn-primary,
+					.btn.btn-success { padding: 6px 12px; font-size:12px; }
+				</style>			
 			</xpath>
 		</template>
 
@@ -94,9 +51,9 @@
 
 							<article t-foreach="blog_posts" t-as="blog_post" class="blog-post-centered">
 								<div class="blog-thumb animations-on fadeInUp">
-									<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">
-										<img t-att-src="blog_post.background_image"											
-											alt="" />
+									<a
+										t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }">
+										<img t-att-src="blog_post.background_image" alt="" />
 									</a>
 								</div>
 								<ul class="blog-post-meta">
@@ -130,7 +87,9 @@
 								</h3>
 								<p t-field="blog_post.summary">
 								</p>
-								<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }" class="btn btn-dark btn-square btn-medium">leia mais</a>
+								<a
+									t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }"
+									class="btn btn-dark btn-square btn-medium">leia mais</a>
 								<span t-if="not blog_post.website_published" class="label label-danger">not
 									published
 								</span>
@@ -143,14 +102,14 @@
 									<h3>Posts mais visitados</h3>
 								</div>
 								<ul class="list-arrow list-unstyled">
-									<li t-foreach="last_posts" t-as="post"  class="animations-on fadeInRight">
+									<li t-foreach="last_posts" t-as="post" class="animations-on fadeInRight">
 										<a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }">
 											<i class="fa fa-angle-right"></i>
 											<span t-field="post.name"></span>
 										</a>
-									</li>								
+									</li>
 								</ul>
-							</div>						
+							</div>
 							<div class="sidebar-widget">
 								<div class="heading">
 									<h3>TAGS</h3>
@@ -158,17 +117,12 @@
 								<ul class="tags-cloud light clearfix">
 									<li t-foreach="tags" t-as="tag" class="animations-on bounceIn">
 										<a t-field="tag.name" t-attf-href="#{blog_url(tag=tag)}">Analysis</a>
-									</li>						
+									</li>
 								</ul>
 							</div>
-							<div class="sidebar-widget">
-								<div class="search-widget">
-									<form>
-										<input type="text" placeholder="Pesquisar aqui" />
-										<input type="submit" value="" class="search-icon" />
-									</form>
-								</div>
-							</div>
+							<!-- <div class="sidebar-widget"> <div class="search-widget"> <form> 
+								<input type="text" placeholder="Pesquisar aqui" /> <input type="submit" value="" 
+								class="search-icon" /> </form> </div> </div> -->
 						</aside>
 
 
