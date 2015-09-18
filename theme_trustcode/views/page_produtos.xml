@@ -52,7 +52,8 @@
             <div class="col-md-6 animate-it fadeInRightBig animated">
               <h2>Desenvolvimento</h2>
               <div class="height10"/>
-              <p>Contamos uma uma equipe especializada no framework do Odoo, com conhecimento das regras de negócio e processos do Odoo. Conte conosco para desenvolver as melhores soluções.</p>
+              <p>Contamos uma uma equipe especializada no framework Odoo,
+ com conhecimento das suas regras de negócio e processos. Conte conosco para desenvolver as melhores soluções.</p>
               <p>Vantagens:</p>
               <ul class="list-unstyled feature-list padding-bottom-30">
                 <li><i class="icon-angle-right"/> Plataforma de integração continua;</li>
