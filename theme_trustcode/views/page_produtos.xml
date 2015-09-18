@@ -122,13 +122,13 @@
 		    </div>
 		  </t>
 	</template>
--
--		<record id="demo_page_link" model="website.menu">
--			<field name="name">Produtos</field>
--			<field name="url">/page/produtos</field>
--			<field name="parent_id" ref="website.main_menu" />
--			<field name="sequence" type="int">99</field>
--		</record>
--
--	</data>
--</openerp>
+
+		<record id="demo_page_link" model="website.menu">
+			<field name="name">Produtos</field>
+			<field name="url">/page/produtos</field>
+			<field name="parent_id" ref="website.main_menu" />
+			<field name="sequence" type="int">99</field>
+		</record>
+
+	</data>
+</openerp>
