@@ -1,221 +1,118 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<openerp>
-	<data>
-
-		<!-- === Página demonstração === -->
-		<template name="Produtos" id="website.produtos" page="True">
-			<t t-call="website.layout">
-				<div id="wrap" class="oe_structure oe_empty">
-					<section class="subpage-banner parallax event-banner text-center"
-						data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
-						<div
-							style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
-						<div class="container">
-							<h1 class="site-title">Serviços</h1>
-							<p>Confira os Serviços da Trustcode</p>
-						</div>
-					</section>
-
-					<section class="no-padding-bottom">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6 animate-it fadeInLeftBig">
-									<!-- Slider img -->
-									<ul
-										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
-										style="max-width: 1000px;">
-										<li id="rslides1_s0" class="rslides1_on"
-											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
-											<img src="/theme_trustcode/static/src/images/tab-img1.png"
-												alt="" />
-										</li>
-										<li id="rslides1_s1" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img2.png"
-												alt="" />
-										</li>
-										<li id="rslides1_s2" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img3.png"
-												alt="" />
-										</li>
-										<li id="rslides1_s3" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="/theme_trustcode/static/src/images/tab-img4.png"
-												alt="" />
-										</li>
-									</ul>
-
-									<!-- Slider Pager -->
-									<ul
-										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
-										<li class="rslides1_s1 rslides_here">
-											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb1.png"
-													alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s2">
-											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb2.png"
-													alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s3">
-											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb3.png"
-													alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s4">
-											<a href="#">
-												<img src="/theme_trustcode/static/src/images/tab-thumb4.png"
-													alt="" />
-											</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-md-6 animate-it fadeInRightBig">
-									<h2>Desenvolvimento</h2>
-									<div class="height10"></div>
-									<p>
-										Contamos uma uma equipe especializada no framework do Odoo,
-										com conhecimento das regras de negócio e processos do Odoo.
-										Conte conosco para desenvolver as melhores soluções.
-									</p>
-									<p>Vantagens:</p>
-									<ul class="list-unstyled feature-list padding-bottom-30">
-										<li>
-											<i class="icon-angle-right"></i>
-											Plataforma de integração continua;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											Testes unitários;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											3 anos de experiência com Odoo;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											10 anos de experiência em programação.
-										</li>
-									</ul>
-									<a href="http://www.pelicanerp.com.br/" class="btn btn-bordered black">Leia mais no
-										blog
-									</a>
-								</div>
-							</div>
-						</div>
-					</section>
-
-					<section>
-						<div class="container">
-							<div class="row">
-								<div class="col-md-6 animate-it fadeInLeftBig">
-									<h2>Mapeamento de Processos</h2>
-									<div class="height10"></div>
-									<p>
-										Consultoria para o completo mapeamento de processos de sua
-										empresa, utilizando o business process management (BPM).
-									</p>
-									<p>
-										Vantagens para sua empresa:
-									</p>
-									<ul class="list-unstyled feature-list padding-bottom-30">
-										<li>
-											<i class="icon-angle-right"></i>
-											A gestão de processos diminui erros, elimina retrabalhos;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											Proporciona maior foco no core business e maior foco nas
-											necessidades do cliente;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											Facilita a adequação do ERP para um número maior de
-											processos;
-										</li>
-										<li>
-											<i class="icon-angle-right"></i>
-											Forte aliado para auditoria interna gerando confiança nas
-											informações base para tomada de decisões.
-										</li>
-									</ul>									
-								</div>
-								<div class="col-md-6 animate-it fadeInRightBig">
-									<!-- Slider img -->
-									<ul
-										class="rslides fajar-digital-agency img-slider-with-thumbs rslides1"
-										style="max-width: 1000px;">
-										<li id="rslides1_s0" class="rslides1_on"
-											style="display: block; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
-											<img src="images/tab-img1.jpg" alt="" />
-										</li>
-										<li id="rslides1_s1" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img2.jpg" alt="" />
-										</li>
-										<li id="rslides1_s2" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img3.jpg" alt="" />
-										</li>
-										<li id="rslides1_s3" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img4.jpg" alt="" />
-										</li>
-										<li id="rslides1_s4" class=""
-											style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-											<img src="images/tab-img5.jpg" alt="" />
-										</li>
-									</ul>
-
-									<!-- Slider Pager -->
-									<ul
-										class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs">
-										<li class="rslides1_s1 rslides_here">
-											<a href="#">
-												<img src="images/tab-thumb1.jpg" alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s2">
-											<a href="#">
-												<img src="images/tab-thumb2.jpg" alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s3">
-											<a href="#">
-												<img src="images/tab-thumb3.jpg" alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s4">
-											<a href="#">
-												<img src="images/tab-thumb4.jpg" alt="" />
-											</a>
-										</li>
-										<li class="rslides1_s5">
-											<a href="#">
-												<img src="images/tab-thumb5.jpg" alt="" />
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</section>
-
-				</div>
-			</t>
-		</template>
-
-		<record id="demo_page_link" model="website.menu">
-			<field name="name">Produtos</field>
-			<field name="url">/page/produtos</field>
-			<field name="parent_id" ref="website.main_menu" />
-			<field name="sequence" type="int">99</field>
-		</record>
-
-	</data>
-</openerp>
+<t name="Produtos" t-name="website.produtos">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="subpage-banner parallax event-banner text-center" data-scroll-background-offset="0" data-stellar-background-ratio="0.3" style="background-attachment: scroll; background-position: 0px 0px;">
+        <div style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"/>
+        <div class="container">
+          <h1 class="site-title">Serviços</h1>
+          <p>Confira os Serviços da Trustcode</p>
+        </div>
+      </section>
+      <section class="no-padding-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 animate-it fadeInLeftBig animated">
+              <ul class="rslides fajar-digital-agency img-slider-with-thumbs rslides1" style="max-width: 1000px;">
+                <li id="rslides1_s0" style="display: block; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="/theme_trustcode/static/src/images/site_desenv.jpg"/>
+                </li>
+                <li id="rslides1_s1" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="/theme_trustcode/static/src/images/odoo_develop.png"/>
+                </li>
+                <li id="rslides1_s2" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="/theme_trustcode/static/src/images/site_python.png"/>
+                </li>
+                <!--li class="rslides1_on" id="rslides1_s3" style="display: list-item; transition: opacity 500ms ease-in-out; float: left; position: relative; opacity: 1; z-index: 2;">
+                  <img alt="" src="/website/image/ir.attachment/126_7487173/datas" style=""/>
+                </li-->
+              </ul>
+              <ul class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs rslides2_tabs">
+                <li class="rslides1_s1 rslides2_s1">
+                  <a href="#">
+                    <img alt="" src="/theme_trustcode/static/src/images/site_desenv.jpg" style="max-height: 90px; max-width: 90px"/>
+                  </a>
+                </li>
+                <li class="rslides1_s2 rslides2_s2">
+                  <a href="#">
+                    <img alt="" src="/theme_trustcode/static/src/images/odoo_develop.png" style="max-height: 90px; max-width: 90px"/>
+                  </a>
+                </li>
+                <li class="rslides1_s3 rslides2_s3">
+                  <a href="#">
+                    <img alt="" src="/theme_trustcode/static/src/images/site_python.png" style="max-height: 90px; max-width: 90px"/>
+                  </a>
+                </li>
+                <!--li class="rslides1_s4 rslides2_s4">
+                  <a href="#">
+                    <img alt="" src="/theme_trustcode/static/src/images/tab-thumb4.png"/>
+                  </a>
+                </li-->
+              </ul>
+            </div>
+            <div class="col-md-6 animate-it fadeInRightBig animated">
+              <h2>Desenvolvimento</h2>
+              <div class="height10"/>
+              <p>Contamos uma uma equipe especializada no framework do Odoo, com conhecimento das regras de negócio e processos do Odoo. Conte conosco para desenvolver as melhores soluções.</p>
+              <p>Vantagens:</p>
+              <ul class="list-unstyled feature-list padding-bottom-30">
+                <li><i class="icon-angle-right"/> Plataforma de integração continua;</li>
+                <li><i class="icon-angle-right"/> Testes unitários;</li>
+                <li><i class="icon-angle-right"/> 3 anos de experiência com Odoo;</li>
+                <li><i class="icon-angle-right"/> 10 anos de experiência em programação.</li>
+              </ul>
+              <a class="btn btn-bordered black" href="http://www.pelicanerp.com.br/">Leia mais no blog </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 animate-it fadeInLeftBig animated">
+              <h2>Mapeamento de Processos</h2>
+              <div class="height10"/>
+              <p>Consultoria para o completo mapeamento de processos de sua empresa, utilizando o business process management (BPM).</p>
+              <p>Vantagens para sua empresa:</p>
+              <ul class="list-unstyled feature-list padding-bottom-30">
+                <li><i class="icon-angle-right"/> A gestão de processos diminui erros, elimina retrabalhos;</li>
+                <li><i class="icon-angle-right"/> Proporciona maior foco no core business e maior foco nas necessidades do cliente;</li>
+                <li><i class="icon-angle-right"/> Facilita a adequação do ERP para um número maior de processos;</li>
+                <li><i class="icon-angle-right"/> Forte aliado para auditoria interna gerando confiança nas informações base para tomada de decisões.</li>
+              </ul>
+            </div>
+            <div class="col-md-6 animate-it fadeInRightBig animated">
+              <ul class="rslides fajar-digital-agency img-slider-with-thumbs rslides1 rslides2" style="max-width: 1000px;">
+                <li class="rslides1_on" id="rslides2_s0" style="display: block; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="/theme_trustcode/static/src/images/site_process.png"/>
+                </li>
+                <li id="rslides2_s1" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="images/tab-img2.jpg"/>
+                </li>
+                <!--li id="rslides2_s2" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
+                  <img alt="" src="images/tab-img3.jpg"/>
+                </li-->
+              </ul>
+              <ul class="clearfix img-slider-pager fajar-digital-agency img-slider-with-thumbs-pager rslides_tabs rslides1_tabs rslides2_tabs">
+                <li class="rslides1_s1 rslides1_s5 rslides2_s5 rslides_here">
+                  <a href="#">
+                    <img alt="" src="/theme_trustcode/static/src/images/site_process.png" style="max-height: 90px; max-width: 90px"/>
+                  </a>
+                </li>
+                <li class="rslides1_s2 rslides1_s6 rslides2_s6">
+                  <a href="#">
+                    <img alt="" src="images/tab-thumb2.jpg"/>
+                  </a>
+                </li>
+                <!--li class="rslides1_s3 rslides1_s7 rslides2_s7">
+                  <a href="#">
+                    <img alt="" src="images/tab-thumb3.jpg"/>
+                  </a>
+                </li-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
