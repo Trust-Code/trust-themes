@@ -561,31 +561,30 @@
 								<h2 class="resp-accordion" role="tab" aria-controls="tab_item-3">
 									<span class="resp-arrow"></span>
 									<a href="#." id="tab4">
-										<i class="icon-rocket"></i>
+										<i class="icon-smile"></i>
 										Implantar o projeto
 									</a>
 								</h2>
 								<div class="resp-tab-content" aria-labelledby="tab_item-3">
 									<div class="process icon4" style="min-height:300px;">
 										<h2 class="light">
-											Implantar o
-											<strong>Projeto</strong>
+											Em Construção!
 										</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+										<!-- p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 											Integer lorem quam, adipiscing condimentum tristique vel,
 											eleifend sed turpis. Pellentesque cursus arcu id magna
 											euismod in elementum purus molestie. Curabitur pellentesque
 											massa eu nulla consequat.
-										</p>
+										</p-->
 										<br />
-										<ul class="list-unstyled list-bullets">
+										<!-- >ul class="list-unstyled list-bullets">
 											<li>Liderança: Buscar o que é melhor para a sociedade e para
 												os stakeholders, e não a satisfação de seus egos e ambições.
 											</li>
 											<li>Acompanhamento de possíveis bugs</li>
 											<li>Correções necessárias</li>
 											<li>Fase de feedback dos usuários</li>
-										</ul>
+										</ul-->
 									</div>
 								</div>
 							</div>
