@@ -86,7 +86,7 @@
                   <img alt="" src="/theme_trustcode/static/src/images/site_process.png"/>
                 </li>
                 <li id="rslides2_s1" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
-                  <img alt="" src="images/tab-img2.jpg"/>
+                  <img alt="" src="/theme_trustcode/static/src/images/site_foco_process.png"/>
                 </li>
                 <!--li id="rslides2_s2" style="display: list-item; transition: opacity 500ms ease-in-out; float: none; position: absolute; opacity: 0; z-index: 1;">
                   <img alt="" src="images/tab-img3.jpg"/>
@@ -100,7 +100,7 @@
                 </li>
                 <li class="rslides1_s2 rslides1_s6 rslides2_s6">
                   <a href="#">
-                    <img alt="" src="images/tab-thumb2.jpg"/>
+                    <img alt="" src="/theme_trustcode/static/src/images/site_foco_process.png" style="max-height: 90px; max-width: 90px"/>
                   </a>
                 </li>
                 <!--li class="rslides1_s3 rslides1_s7 rslides2_s7">
