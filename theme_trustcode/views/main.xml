@@ -125,7 +125,7 @@
 								<a href="https://www.youtube.com/embed/QpIaje2NKBI?autoplay=1"
 									class="various fancybox zoom-thumbnail" data-fancybox-type="iframe"
 									data-fancybox-width="620" data-fancybox-height="400">
-									<img src="/theme_trustcode/static/src/images/creative-sec-img4.jpg"
+									<img src="/theme_trustcode/static/src/images/site_video.png"
 										width="266" class="img-circle img-thumbnail img-responsive smooth"
 										alt="" title="" />
 								</a>
@@ -170,7 +170,7 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
-						<div class="counter">
+						<div class="counter">							
 							<i class="icon-icons96 text-left"></i>
 							<span class="quantity-counter quantity-counter2 highlight">23</span>
 							<h6 class="counter-details">
@@ -212,8 +212,8 @@
 							<div class="col-md-4">
 								<div class="service animate-it bounceIn">
 									<a class="zoom-thumbnail" href="/coming-soon">
-										<img class="smooth" src="/theme_trustcode/static/src/images/harpia.jpeg"
-											alt="" />
+										<img class="smooth"
+											src="/theme_trustcode/static/src/images/harpia.jpeg" alt="" />
 									</a>
 									<h3>Sistema de Gestão para Indústrias</h3>
 									<p>Segmento especializado na Indústria, com gráfico gantt para
@@ -225,8 +225,8 @@
 							<div class="col-md-4">
 								<div class="service animate-it bounceIn" data-delay="100">
 									<a target="_blank" class="zoom-thumbnail" href="http://www.pelicanerp.com.br">
-										<img class="smooth" src="/theme_trustcode/static/src/images/pelican.jpeg"
-											alt="" />
+										<img class="smooth"
+											src="/theme_trustcode/static/src/images/pelican.jpeg" alt="" />
 									</a>
 									<h3>Sistema de Gestão Web</h3>
 									<p>Sistema para quem precisa de simplicidade sem poupar
@@ -243,8 +243,8 @@
 							<div class="col-md-4">
 								<div class="service animate-it bounceIn" data-delay="200">
 									<a class="zoom-thumbnail" href="/coming-soon">
-										<img class="smooth" src="/theme_trustcode/static/src/images/uirapuru.jpeg"
-											alt="" />
+										<img class="smooth"
+											src="/theme_trustcode/static/src/images/uirapuru.jpeg" alt="" />
 									</a>
 									<h3>Sistema e-commerce</h3>
 									<p>Imprescindível nos dias atuais. Oferecemos o sistema
@@ -570,21 +570,15 @@
 										<h2 class="light">
 											Em Construção!
 										</h2>
-										<!-- p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-											Integer lorem quam, adipiscing condimentum tristique vel,
-											eleifend sed turpis. Pellentesque cursus arcu id magna
-											euismod in elementum purus molestie. Curabitur pellentesque
-											massa eu nulla consequat.
-										</p-->
+										<!-- p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+											Integer lorem quam, adipiscing condimentum tristique vel, eleifend sed turpis. 
+											Pellentesque cursus arcu id magna euismod in elementum purus molestie. Curabitur 
+											pellentesque massa eu nulla consequat. </p -->
 										<br />
-										<!-- >ul class="list-unstyled list-bullets">
-											<li>Liderança: Buscar o que é melhor para a sociedade e para
-												os stakeholders, e não a satisfação de seus egos e ambições.
-											</li>
-											<li>Acompanhamento de possíveis bugs</li>
-											<li>Correções necessárias</li>
-											<li>Fase de feedback dos usuários</li>
-										</ul-->
+										<!-- >ul class="list-unstyled list-bullets"> <li>Liderança: Buscar 
+											o que é melhor para a sociedade e para os stakeholders, e não a satisfação 
+											de seus egos e ambições. </li> <li>Acompanhamento de possíveis bugs</li> 
+											<li>Correções necessárias</li> <li>Fase de feedback dos usuários</li> </ul -->
 									</div>
 								</div>
 							</div>
@@ -659,7 +653,7 @@
 				<section class="testimonials2 parallax text-center"
 					data-stellar-background-ratio="0.3"
 					style="background-position: 50% -63.3px;padding:50px 0;">
-					<div class="container">					
+					<div class="container">
 						<div class="owl-carousel text-slider">
 							<div class="item">
 								<p>Costumo comparar open source com a ciência. A
@@ -679,13 +673,13 @@
 								</div>
 							</div>
 							<div class="item">
-								<p>We believe in coming up with original ideas Lorem ipsum dolor
-									sit amet, consectetur adipiscing elit. Fusce elementum, nulla
-									vel pellentesque consequat, ante nulla
+								<p>O software livre constrói uma sociedade melhor. As obras de
+									conhecimento devem ser livres, não há desculpas para que não
+									sejam assim
 								</p>
 								<div class="about-client">
-									<span>Mackilem Junior</span>
-									<p>CEO &amp; Fundador - Trustcode</p>
+									<span>Richard Stallman</span>
+									<p>fundador do movimento software livre</p>
 								</div>
 							</div>
 						</div>
