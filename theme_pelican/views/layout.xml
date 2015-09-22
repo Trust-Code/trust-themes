@@ -1,425 +1,710 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
-  <data>
-  	
-	<!-- Customize header  -->
-	<template id="custom_header" inherit_id="website.homepage" name="Pagina principal">
-	
-	  <!-- Add an element after the top menu  -->
-	  <xpath expr="//div[@id='wrap']" position="replace">
-	   
-			 	
-	   <div id="top" class="masthead" role="main">
-	   				
-			<video class="covervid-video" id="covervid-video" loop="loop" autoplay="autoplay"
-					style="position:absolute;top:52%;left:50%;transform:translate(-50%, -50%);
-					height:auto;width:1349px; opacity:0.2">					
-				<source src="theme_pelican/static/src/videos/video.webm" type="video/webm" />					
-			</video>	
-	   
-			<div class="container">
-				
-				<div class="logo"> <a href="/"><img src="/theme_pelican/static/src/img/logo.png" alt="logo" /></a>
+	<data>
+
+		<!-- Customize header -->
+		<template id="custom_header" inherit_id="website.homepage"
+			name="Pagina principal">
+
+			<!-- Add an element after the top menu -->
+			<xpath expr="//div[@id='wrap']" position="replace">
+
+
+				<div id="top" class="masthead" role="main">
+
+					<video class="covervid-video" id="covervid-video" loop="loop"
+						autoplay="autoplay"
+						style="position:absolute;top:52%;left:50%;transform:translate(-50%, -50%);
+					height:auto;width:1349px; opacity:0.2">
+						<source src="theme_pelican/static/src/videos/video.webm"
+							type="video/webm" />
+					</video>
+
+					<div class="container">
+
+						<div class="logo">
+							<a href="/">
+								<img src="/theme_pelican/static/src/img/logo.png" alt="logo" />
+							</a>
+						</div>
+
+						<h1>
+							O melhor sistema de
+							<strong>Gestão</strong>
+							<br />
+							para sua
+							<strong>Empresa</strong>
+							.
+						</h1>
+
+						<div class="row">
+							<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
+								<form class="form-horizontal" role="form" action="/web/signup"
+									id="subscribeForm" method="POST">
+									<div class="form-group">
+										<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
+											<input class="form-control input-lg" name="email" type="email"
+												id="address" placeholder="Digite seu e-mail" data-validate="validate(required, email)"
+												required="required" />
+										</div>
+										<div class="col-md-5 col-sm-4">
+											<button type="submit" class="btn btn-success btn-lg">Cadastre-se agora</button>
+										</div>
+									</div>
+								</form>
+								<span id="result" class="alertMsg"></span>
+							</div>
+						</div>
+
+						<a href="#explore" class="scrollto">
+							<p>Conheça mais</p>
+							<p class="scrollto--arrow">
+								<img src="/theme_pelican/static/src/img/scroll_down.png"
+									alt="scroll down arrow" />
+							</p>
+						</a>
+					</div>
 				</div>
-	 
-				<h1>O melhor sistema de <strong>Gestão</strong> <br />
-				para sua <strong>Empresa</strong>.</h1>
-	 
-				<div class="row">
-					<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-						<form class="form-horizontal" role="form" action="/web/signup" id="subscribeForm" method="POST">
-							<div class="form-group">
-								<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-									<input class="form-control input-lg" name="email" type="email" id="address"
-									 placeholder="Digite seu e-mail" data-validate="validate(required, email)" required="required" />
-								</div>
-								<div class="col-md-5 col-sm-4">
-									<button type="submit" class="btn btn-success btn-lg">Cadastre-se agora</button>
+
+				<div class="container" id="explore">
+					<div class="section-title">
+						<h2>Entenda porque o Pelican é a sua melhor escolha.</h2>
+						<h4>E junte-se aos mais de 2 milhões de usuários globais.</h4>
+					</div>
+					<section class="row heroimg breath" style="height: 256px; overflow: hidden;">
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<span class="fa fa-globe fa-4x"
+									style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s" />
+								<div class="caption">
+									<h3>Presente em Mais de 120 Paises</h3>
+									<p>Conte com o know-how e compartilhe conhecimentos com paises
+										desenvolvidos e torne sua gestão globalizada.
+									</p>
 								</div>
 							</div>
-						</form>
-						<span id="result" class="alertMsg"></span> </div>
-					</div>
-	 
-					<a href="#explore" class="scrollto">
-					<p>Conheça mais</p>
-					<p class="scrollto--arrow"><img src="/theme_pelican/static/src/img/scroll_down.png" alt="scroll down arrow" /></p>
-					</a>
-			</div>
-		</div>
- 
-	   <div class="container" id="explore">	 
-	 		<div class="section-title">
-		        <h2>Entenda porque o Pelican é a sua melhor escolha.</h2>
-		        <h4>E junte-se aos mais de 2 milhões de usuários globais.</h4>
-		      </div>
-		      <section class="row heroimg breath" style="height: 256px; overflow: hidden;">
-		        <div class="col-sm-6 col-md-4">
-		          <div class="thumbnail">
-		            <span class="fa fa-globe fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
-		            <div class="caption">
-		              <h3>Presente em Mais de 120 Paises</h3>
-		              <p>Conte com o know-how e compartilhe conhecimentos com paises desenvolvidos e torne sua gestão globalizada.</p>
-		            </div>
-		          </div>
-		        </div>
-		        <div class="col-sm-6 col-md-4">
-		          <div class="thumbnail">
-		            <span class="fa fa-cloud fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
-		            <div class="caption">
-		              <h3>Servidor Local ou Web</h3>
-		              <p>Escolha o que é melhor para sua empresa. Oferecemos todo suporte para manuteção de seu servidor local e toda a praticidade de um servidor Web.</p>
-		            </div>
-		          </div>
-		        </div>
-		        <div class="col-sm-6 col-md-4">
-		          <div class="thumbnail">
-		            <span class="fa fa-smile-o fa-4x" style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s"/>
-		            <div class="caption">
-		              <h3>Modulado e Completo</h3>
-		              <p>Elimine a preocupação de ter que trocar de ERP quando a sua empresa crescer. Ao invés disso, ative módulos e insira recursos sem complicação.</p>
-		            </div>
-		          </div>
-		        </div>
-		      </section>
-		      <hr class="mb32" />
-		      <section class="mb16">
-		        <div class="container">
-		          <div class="row">
-		            <div class="text-center">
-		              <h2>Principais Módulos</h2>
-		              <h4 class="text-muted">*Milhares de módulos a sua disposição.</h4>
-		            </div>
-		          </div>
-		          <div class="row">
-		            <div class="col-md-12 mt16 mb16">
-		              <div class="row icone-modulos">
-		                <div class="col-md-2 col-md-offset-1">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-financeiro.png" style="min-width: 45px"/>
-		                  <h3>Financeiro</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-projetos.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3 style="margin:0px;">Gestão de Projetos</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-rh.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Recursos Humanos</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-compras.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Compras</h3>
-		                </div>	
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-armazen.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Armazens (WMS)</h3>
-		                  <p class="text-muted"/>
-		                </div>	              
-		              </div>
-		              <div class="row icone-modulos">
-		                <div class="col-md-2 col-md-offset-1">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-manufatura.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Manufatura</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-website.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>WebSite (CMS)</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-forum.png" style="min-width: 45px"/>
-		                  <h3>WebSite Fórum</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-comercial.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Comercial (CRM)</h3>
-		                </div>
-		                <div class="col-md-2">
-		                  <img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-marketing.png" style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s"/>
-		                  <h3>Marketing</h3>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </section>			 		    
-		      <section>
-		        <div class="container">
-		          	<div class="row"> <div class="col-md-6 mt16">
-		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
-		              	src="/theme_pelican/static/src/img/comercial.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
-		            </div>
-		            <div class="col-md-6 mt16">
-		              <h3>Comercial Eficiente</h3>
-		              <p>&#10003; <strong>Agendamento de reuniões e ligações</strong> diretamente das cotações.</p>
-		              <p style="text-align: justify;">&#10003; Gerencie as<strong> necessidades de estoque</strong> através da demanda comercial.</p>
-		              <p style="text-align: justify;">&#10003; Cadastre empresas rapidamente usand<strong/><strong/><strong/>o a integração com o <strong>Sintegra</strong>.</p>
-		              <p style="text-align: justify;">&#10003; Saiba tudo o que está acontecendo com <strong>relatórios</strong> simples e objetivos.</p>
-		              <p style="text-align: justify;">&#10003; Apresente-se bem com <strong>e-mails personalizados</strong>.</p>
-		              <p style="text-align: justify;">&#10003; Gerenciamento de<strong> listas de preços</strong>.</p>
-		            </div>
-		           
-		          </div>
-		        </div>
-		      </section>
-		      <section style="margin: 35px;">
-		        <div class="container">
-		          <div class="row">		            
-		            <div class="col-md-6 mt16 mb16">
-		              <h3>Ferramentas de Marketing</h3>
-		              <p>&#10003; <strong>CRM</strong> completo.</p>
-		              <p>&#10003; <strong>email marketing</strong> 100% personalizável.</p>
-		              <p>&#10003; <strong>WebSite e Blog</strong> integrados.</p>
-		              <p>&#10003; Crie formulários de <strong>pesquisa</strong> e gerencie as respostas coletadas.</p>
-		              <p>&#10003; Gerencie <strong>campanhas de marketing</strong>.</p>
-		            </div>
-		            <div class="col-md-6 mt16">
-		              <img alt="Odoo image and text block" class="img img-responsive shadow mb16" 
-		              		src="/theme_pelican/static/src/img/marketing.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
-		            </div>
-		          </div>
-		        </div>
-		      </section>
-		      <section>
-		        <div class="container">
-		          <div class="row">
-		          	<div class="col-md-6 mt16">
-		              <img alt="Odoo text and image block" class="img img-responsive shadow mb16" 
-		              	src="/theme_pelican/static/src/img/armazen_manufatura.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
-		            </div>
-		            <div class="col-md-6 mt16">
-		              <h3>Armazem e Manufatura.</h3>
-		              <p>&#10003; <strong>Regras de estoque</strong> minimo.</p>
-		              <p>&#10003; <strong>Rotas avançadas</strong> para movimentação de estoque.</p>
-		              <p>&#10003; <span class="_Tgc">P<span class="_Tgc">lanejamento das necessidades de materiais</span></span> (<strong>MRP</strong>).</p>
-		              <p>&#10003; Controle de lotes e<strong> rastreabilidade</strong>.</p>
-		              <p>&#10003; <strong>Centros de trabalho</strong>.</p>
-		              <p>&#10003; <strong>Programação</strong> das ordens de produção e visualização em<strong> grafico Gantt</strong>.</p>
-		              <p/>
-		            </div>		            
-		          </div>
-		        </div>
-		      </section>
-		      <hr class="mb32"/>
-		      		
-			<section class="row features">			
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
-						<div class="caption">
-							<h3>Contabilidade Brasileira</h3>
-							<p>Emissão de NF-e, Plano de contas Brasileiro, todo o poder do Odoo 
-							configurado para a realidade brasileira. Organize suas contas bancarias, 
-							recebimentos de maneira fácil. Tenha tudo vinculado através do plano de contas.</p>
 						</div>
-					</div>
-				</div>
-		
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
-						<div class="caption">
-							<h3>Relatórios</h3>
-							<p>Tome decisões inteligentes e concretas com base em números. Os relatórios 
-							online do Pelican te auxiliam a tomar as melhores decisões, independente 
-							de local e hora do dia. Relatórios customizaveis.</p>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<span class="fa fa-cloud fa-4x"
+									style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s" />
+								<div class="caption">
+									<h3>Servidor Local ou Web</h3>
+									<p>Escolha o que é melhor para sua empresa. Oferecemos todo
+										suporte para manuteção de seu servidor local e toda a
+										praticidade de um servidor Web.
+									</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-	 
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-clock-o" style="font-size:7em;color:black;"></span>
-						<div class="caption">
-							<h3>Atualizações periódicas</h3>
-							<p>Nossa equipe está trabalhando constantemente para desenvolver novos módulos, 
-							trabalhamos na melhorias dos módulos atuais. Você pode acompanhar nosso 
-							desenvolvimento em <a href="https://github.com/Trust-Code" target="_blank">https://github.com/Trust-Code</a>.</p>
+						<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+								<span class="fa fa-smile-o fa-4x"
+									style="font-size: 6em; color: black; animation-play-state: paused; transition: none 0s ease 0s" />
+								<div class="caption">
+									<h3>Modulado e Completo</h3>
+									<p>Elimine a preocupação de ter que trocar de ERP quando a sua
+										empresa crescer. Ao invés disso, ative módulos e insira
+										recursos sem complicação.
+									</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-	 
-				<div class="col-sm-6 col-md-3">
-					<div class="thumbnail"> 
-						<span class="fa fa-download" style="font-size:7em;color:black;"></span>
-						<div class="caption">
-							<h3>Backup automático</h3>
-							<p>Automaticamente quando você passa a ser nosso cliente já estamos 
-							cuidando dos seus dados, realizamos backup diariamente de todos os 
-							dados e salvamos eles na nuvem onde você pode solicitar uma cópia 
-							antiga no momento que quiser.</p>
+					</section>
+					<hr class="mb32" />
+					<section class="mb16">
+						<div class="container">
+							<div class="row">
+								<div class="text-center">
+									<h2>Principais Módulos</h2>
+									<h4 class="text-muted">*Milhares de módulos a sua disposição.</h4>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 mt16 mb16">
+									<div class="row icone-modulos">
+										<div class="col-md-2 col-md-offset-1">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-financeiro.png"
+												style="min-width: 45px" />
+											<h3>Financeiro</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-projetos.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3 style="margin:0px;">Gestão de Projetos</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-rh.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Recursos Humanos</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-compras.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Compras</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-armazen.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Armazens (WMS)</h3>
+											<p class="text-muted" />
+										</div>
+									</div>
+									<div class="row icone-modulos">
+										<div class="col-md-2 col-md-offset-1">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-manufatura.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Manufatura</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-website.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>WebSite (CMS)</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16" src="/theme_pelican/static/src/img/icon-forum.png"
+												style="min-width: 45px" />
+											<h3>WebSite Fórum</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-comercial.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Comercial (CRM)</h3>
+										</div>
+										<div class="col-md-2">
+											<img class="fa-3x mb16"
+												src="/theme_pelican/static/src/img/icon-marketing.png"
+												style="min-width: 45px; animation-play-state: paused; transition: none 0s ease 0s" />
+											<h3>Marketing</h3>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</section>
-	
-			<!-- 
-			<div class="section-title">
-				<h2>Alguns de nosso clientes</h2>
-				<h4>Conheça nossos clientes satisfeitos</h4>
-			</div>
-		
-			<section class="row clientlogo breath">
-				<div class="col-md-12 text-center"> 
-					<img src="/theme_pelican/static/src/img/client-logos.png" alt="client-logos" />
-				</div>
-			</section>
-			-->
-	 
-		</div>
-	 
-		<!--		
-	 	<div class="highlight testimonials">
-			<div class="container">
-				<div class="section-title">
-					<h2>O que nossos clientes dizem sobre nós</h2>
-					<h4>Não acredite em nós. Veja os depoimentos sobre nós </h4>
-				</div>
-				
-				<section class="row breath">
-					<div class="col-md-6">
-						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-						<div class="clientblock"> 
-							<img src="/theme_pelican/static/src/img/customer-img-1.jpg" alt="." />
-							<p><strong>Marcio</strong> <br />
-								Fundador da <a href="http://www.verdesaine.net">verdesaine.com.br</a>
-							</p>
-						</div>
-					</div>
-					
-					<div class="col-md-6">
-						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-						<div class="clientblock"> 
-							<img src="/theme_pelican/static/src/img/customer-img-2.jpg" alt="." />
-							<p><strong>Pai do Mackilem</strong> <br />
-								 Dono da <a href="http://isotelha.com">isotelha.com.br</a>
-							</p>
-						</div>
-					</div>
-					
-					<div class="col-md-6">
-						<div class="testblock">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </div>
-						<div class="clientblock"> 
-							<img src="/theme_pelican/static/src/img/customer-img-1.jpg" alt="." />
-							<p><strong>Thomaz Franseze</strong> <br />
-								Fundador da <a href="http://www.bomcorpo.com.br">bomcorpo.com.br</a>
-							</p>
-						</div>
-					</div>
-					
-				</section> 
-			</div>
-		</div>
-		-->
- 
-		<div class="container">
- 
-			<div class="section-title">
-				<h2>Preço honesto. Sem surpresas.</h2>
-				<h4>Preços promocionais para o 1º ano. </h4>
-			</div>
-			<section class="row breath planpricing">
-			
-				<div class="col-md-4">
-					<div class="pricing color1">
-						<div class="planname">Iniciante</div>
-						<div class="price"> <span class="curr">R$</span>100<span class="per">/mensais</span></div>
-						<div class="billing">
-						    Até 3 usuários<br/>						    
-						    Até 2 horas de suporte mensais<br/>				
-						    Módulos: Vendas, Compras, Estoque<br/>		    
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="pricing color2">
-						<div class="planname">Profissional</div>
-						<div class="price"> <span class="curr">R$</span>180<span class="per">/mensais</span></div>
-						<div class="billing">
-						    Até 10 usuários<br/>						    
-						    Até 5 horas de suporte mensais<br/>
-						    *Módulos: Completo<br/>						    
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="pricing color3">
-						<div class="planname">Expert (promocional)</div>
-						<div class="price"> <span class="curr">R$</span>240<span class="per">/mensais</span></div>
-						<div class="billing">
-						    Até 20 usuários<br/>						    
-						    Até 10 horas de suporte mensais<br/>	
-						    *Módulos: Completo<br/>							    
-						</div>
-					</div>
-				</div>
-			</section>
- 
+					</section>
+					<section>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 mt16">
+									<img alt="Odoo text and image block" class="img img-responsive shadow mb16"
+										src="/theme_pelican/static/src/img/comercial.jpeg"
+										style="animation-play-state: paused; transition: none 0s ease 0s" />
+								</div>
+								<div class="col-md-6 mt16">
+									<h3>Comercial Eficiente</h3>
+									<p>
+										&#10003;
+										<strong>Agendamento de reuniões e ligações</strong>
+										diretamente das cotações.
+									</p>
+									<p style="text-align: justify;">
+										&#10003; Gerencie as
+										<strong> necessidades de estoque</strong>
+										através da demanda comercial.
+									</p>
+									<p style="text-align: justify;">
+										&#10003; Cadastre empresas rapidamente usand
+										<strong />
+										<strong />
+										<strong />
+										o a integração com o
+										<strong>Sintegra</strong>
+										.
+									</p>
+									<p style="text-align: justify;">
+										&#10003; Saiba tudo o que está acontecendo com
+										<strong>relatórios</strong>
+										simples e objetivos.
+									</p>
+									<p style="text-align: justify;">
+										&#10003; Apresente-se bem com
+										<strong>e-mails personalizados</strong>
+										.
+									</p>
+									<p style="text-align: justify;">
+										&#10003; Gerenciamento de
+										<strong> listas de preços</strong>
+										.
+									</p>
+								</div>
 
-		<div class="section-title">
-			<h5>Perguntas frequentes</h5>
-		</div>
-		
-		<section class="row faq breath">
-			<div class="col-md-6">
-				<h6>Como funciona o período de teste?</h6>
-				<p>Nós disponibilizamos o ambiente para você sem custos durante 30 dias,
-				se no final dos 30 dias você decidir permanecer conosco (esperamos que sim) 
-				iremos pedir suas informações de pagamento, caso não queira continuar você 
-				pode cancelar sua conta ou sua conta será marcada como inativa, e você pode
-				reativar ela no futuro.</p>
-				<h6>Posso mudar de planos depois?</h6>
-				<p>Absolutamente. Você pode mudar entre nossos planos pagos a qualquer momento 
-				 ou mesmo cancelar sua conta, da maneira que você preferir. Nós iremos ajustar 
-				 os pagamentos ou mesmo reembolsar o valor já pago.</p>
-			</div>
-			
-			<div class="col-md-6">
-				<h6>Preciso escolher meu plano agora?</h6>
-				<p>Não, você pode desfrutar de nosso sistema sem nenhum limite
-				completamente grátis por 30 dias. Quando você estiver disponível para iniciar
-				você deve escolher um plano que se adequa as suas necessidades.</p>
-				<h6>Que tipo de pagamentos vocês aceitam?</h6>
-				<p>Nos utilizamos a plataforma de pagamento <a target="_blank" href="http://www.cielo.com.br">Cielo Checkout.</a>
-				com isso nossos clientes tem total segurança ao efetuar seus pagamentos</p>
-			</div>
-		</section>
-		<section class="row faq breath">
-			<div class="col-md-6">
-				<h6>Quais os módulos disponíveis</h6>
-				<p>Todos os módulos descritos acima estão disponíveis apartir do momento que você 
-				efetuar sua inscrição, porém o Odoo conta com milhares de módulos que lhe propõe 
-				maior flexibilidade. Se você tem interesse em outros modulos do Odoo que não estão 
-				disponíveis na versão do Pelican você pode entrar em contato conosco que fazemos 
-				todo o serviço de teste de novos módulos, bem como desenvolvimento se necessário, 
-				e a instalação do mesmo para a sua empresa.</p>
-				<h6>Mas o Odoo é OpenSource, porque estão cobrando?</h6>
-				<p>Sim, toda a nossa plataforma é Open Source, todos os módulos desenvolvidos pela
-				<a href="http://www.trustcode.com.br">Trust-Code</a> ou pela Odoo SA são livres para serem usados conforme sua necessidade, nós 
-				cobramos apenas pelo serviço de hospedagem e pela manutenção e correçao automática de bugs.</p>
-			</div>
-			
-			<div class="col-md-6">
-				<h6>Como funciona a correção de bugs?</h6>
-				<p>A <a href="http://www.trustcode.com.br">Trust-Code</a> se compromete a efetuar correções de bugs
-				e a manter o sistema sempre funcionando, todos os bugs corrigidos por nós são disponibilizados
-				em nosso <a href="https://github.com/Trust-Code/">Github</a> e são automaticamente aplicados 
-				no Pelican para todos os clientes. Os mesmos também são disponibilizados para a comunidade 
-				brasileira, estamos 100% comprometidos com a comunidade.
-				.</p>
-				<h6>O que são as atualizações períodicas?</h6>
-				<p>Além da correção de bugs, estamos sempre desenvolvendo novas funcionalidades, se você for 
-				nosso cliente você terá a chance de votar por novas funcionalidades para o Odoo, para isto 
-				acesse o site da <a href="http://www.trustcode.com.br">Trust-Code</a> e vá para a página de 
-				Roadmap e vote na sua necessidade. Lá você também pode acompanhar o andamento das mesmas.
-				</p>
-			</div>			
-		</section>
-	</div>
-	   
-	  </xpath>
-	</template>
-  	
-  </data>
+							</div>
+						</div>
+					</section>
+					<section style="margin: 35px;">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 mt16 mb16">
+									<h3>Ferramentas de Marketing</h3>
+									<p>
+										&#10003;
+										<strong>CRM</strong>
+										completo.
+									</p>
+									<p>
+										&#10003;
+										<strong>email marketing</strong>
+										100% personalizável.
+									</p>
+									<p>
+										&#10003;
+										<strong>WebSite e Blog</strong>
+										integrados.
+									</p>
+									<p>
+										&#10003; Crie formulários de
+										<strong>pesquisa</strong>
+										e gerencie as respostas coletadas.
+									</p>
+									<p>
+										&#10003; Gerencie
+										<strong>campanhas de marketing</strong>
+										.
+									</p>
+								</div>
+								<div class="col-md-6 mt16">
+									<img alt="Odoo image and text block" class="img img-responsive shadow mb16"
+										src="/theme_pelican/static/src/img/marketing.png"
+										style="animation-play-state: paused; transition: none 0s ease 0s" />
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6 mt16">
+									<img alt="Odoo text and image block" class="img img-responsive shadow mb16"
+										src="/theme_pelican/static/src/img/armazen_manufatura.jpeg"
+										style="animation-play-state: paused; transition: none 0s ease 0s" />
+								</div>
+								<div class="col-md-6 mt16">
+									<h3>Armazem e Manufatura.</h3>
+									<p>
+										&#10003;
+										<strong>Regras de estoque</strong>
+										minimo.
+									</p>
+									<p>
+										&#10003;
+										<strong>Rotas avançadas</strong>
+										para movimentação de estoque.
+									</p>
+									<p>
+										&#10003;
+										<span class="_Tgc">
+											P
+											<span class="_Tgc">lanejamento das necessidades de materiais
+											</span>
+										</span>
+										(
+										<strong>MRP</strong>
+										).
+									</p>
+									<p>
+										&#10003; Controle de lotes e
+										<strong> rastreabilidade</strong>
+										.
+									</p>
+									<p>
+										&#10003;
+										<strong>Centros de trabalho</strong>
+										.
+									</p>
+									<p>
+										&#10003;
+										<strong>Programação</strong>
+										das ordens de produção e visualização em
+										<strong> grafico Gantt</strong>
+										.
+									</p>
+									<p />
+								</div>
+							</div>
+						</div>
+					</section>
+					<hr class="mb32" />
+
+					<section class="row features">
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<img src="/theme_pelican/static/src/img/service_04.png" alt="analytics-icon" />
+								<div class="caption">
+									<h3>Contabilidade Brasileira</h3>
+									<p>Emissão de NF-e, Plano de contas Brasileiro, todo o poder do
+										Odoo
+										configurado para a realidade brasileira. Organize suas
+										contas bancarias,
+										recebimentos de maneira fácil. Tenha tudo
+										vinculado através do
+										plano de contas.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<img src="/theme_pelican/static/src/img/service_02.png" alt="analytics-icon" />
+								<div class="caption">
+									<h3>Relatórios</h3>
+									<p>Tome decisões inteligentes e concretas com base em números.
+										Os relatórios
+										online do Pelican te auxiliam a tomar as melhores
+										decisões,
+										independente
+										de local e hora do dia. Relatórios
+										customizaveis.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<span class="fa fa-clock-o" style="font-size:7em;color:black;"></span>
+								<div class="caption">
+									<h3>Atualizações periódicas</h3>
+									<p>
+										Nossa equipe está trabalhando constantemente para desenvolver
+										novos módulos,
+										trabalhamos na melhorias dos módulos atuais.
+										Você pode acompanhar nosso
+										desenvolvimento em
+										<a href="https://github.com/Trust-Code" target="_blank">https://github.com/Trust-Code
+										</a>
+										.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-3">
+							<div class="thumbnail">
+								<span class="fa fa-download" style="font-size:7em;color:black;"></span>
+								<div class="caption">
+									<h3>Backup automático</h3>
+									<p>Automaticamente quando você passa a ser nosso cliente já
+										estamos
+										cuidando dos seus dados, realizamos backup diariamente
+										de todos os
+										dados e salvamos eles na nuvem onde você pode
+										solicitar uma
+										cópia
+										antiga no momento que quiser.
+									</p>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<!-- <div class="section-title"> <h2>Alguns de nosso clientes</h2> <h4>Conheça 
+						nossos clientes satisfeitos</h4> </div> <section class="row clientlogo breath"> 
+						<div class="col-md-12 text-center"> <img src="/theme_pelican/static/src/img/client-logos.png" 
+						alt="client-logos" /> </div> </section> -->
+
+				</div>
+
+				<!-- <div class="highlight testimonials"> <div class="container"> <div 
+					class="section-title"> <h2>O que nossos clientes dizem sobre nós</h2> <h4>Não 
+					acredite em nós. Veja os depoimentos sobre nós </h4> </div> <section class="row 
+					breath"> <div class="col-md-6"> <div class="testblock">Lorem Ipsum is simply 
+					dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+					the industry's standard dummy text ever since the 1500s, when an unknown 
+					printer took a galley of type and scrambled it to make a type specimen book. 
+					</div> <div class="clientblock"> <img src="/theme_pelican/static/src/img/customer-img-1.jpg" 
+					alt="." /> <p><strong>Marcio</strong> <br /> Fundador da <a href="http://www.verdesaine.net">verdesaine.com.br</a> 
+					</p> </div> </div> <div class="col-md-6"> <div class="testblock">Lorem Ipsum 
+					is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+					has been the industry's standard dummy text ever since the 1500s, when an 
+					unknown printer took a galley of type and scrambled it to make a type specimen 
+					book. </div> <div class="clientblock"> <img src="/theme_pelican/static/src/img/customer-img-2.jpg" 
+					alt="." /> <p><strong>Pai do Mackilem</strong> <br /> Dono da <a href="http://isotelha.com">isotelha.com.br</a> 
+					</p> </div> </div> <div class="col-md-6"> <div class="testblock">Lorem Ipsum 
+					is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+					has been the industry's standard dummy text ever since the 1500s, when an 
+					unknown printer took a galley of type and scrambled it to make a type specimen 
+					book. </div> <div class="clientblock"> <img src="/theme_pelican/static/src/img/customer-img-1.jpg" 
+					alt="." /> <p><strong>Thomaz Franseze</strong> <br /> Fundador da <a href="http://www.bomcorpo.com.br">bomcorpo.com.br</a> 
+					</p> </div> </div> </section> </div> </div> -->
+
+
+
+				<div class="container">
+
+					<div class="section-title">
+						<h2>Preço honesto. Sem surpresas.</h2>
+						<h4>Preços promocionais para o 1º ano. </h4>
+					</div>
+
+					<section class="row breath planpricing">
+
+						<div class="pricing animated swing col-md-3 col-md-offset-1">
+							<div class="thumbnail animated pulse infinite">
+								<div class="fa fa-paper-plane"></div>
+							</div>
+							<div class="title">
+								Pelican Iniciante
+							</div>
+							<div class="content" style="display: block;">
+								<div class="sub-title">
+									R$ 190,00
+									<i>por mês</i>
+								</div>
+								<ul>
+									<li>
+										<div class="fa fa-check"></div>
+										Acesso completo ao sistema
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de usuários
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de NF-e*
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										2 horas de suporte técnico
+									</li>
+									<li>
+										<div class="fa fa-close"></div>
+										Sem reaproveitamento de horas
+									</li>									
+									<li>
+										<div class="fa fa-close"></div>
+										Sem desenvolvimento
+									</li>
+								</ul>
+								<a
+									href="/web/signup">
+									Cadastre-se
+								</a>
+							</div>							
+						</div>
+
+						<div class="pricing animated swing col-md-3 col-md-offset-1">
+							<div class="thumbnail animated pulse infinite">
+								<div class="fa fa-graduation-cap"></div>
+							</div>
+							<div class="title">
+								Pelican Pro
+							</div>
+							<div class="content" style="display: block;">
+								<div class="sub-title">
+									R$ 240,00
+									<i>por mês</i>
+								</div>
+								<ul>
+									<li>
+										<div class="fa fa-check"></div>
+										Acesso completo ao sistema
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de usuários
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de NF-e*
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										4 horas de suporte técnico
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Reaproveitamento de horas
+									</li>	
+									<li>
+										<div class="fa fa-close"></div>
+										Sem desenvolvimento
+									</li>
+								</ul>
+								<a
+									href="/web/signup">
+									Cadastre-se
+								</a>
+							</div>							
+						</div>
+
+
+						<div class="pricing animated swing col-md-3 col-md-offset-1">
+							<div class="thumbnail animated pulse infinite">
+								<div class="fa fa-star-o"></div>
+							</div>
+							<div class="title">
+								Pelican +
+							</div>
+							<div class="content" style="display: block;">
+								<div class="sub-title">
+									R$ 360,00
+									<i>por mês</i>
+								</div>
+								<ul>
+									<li>
+										<div class="fa fa-check"></div>
+										Acesso completo ao sistema
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de usuários
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Sem limite de NF-e*
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										7 horas de suporte técnico e dev
+									</li>
+									<li>
+										<div class="fa fa-check"></div>
+										Reaproveitamento de horas
+									</li>	
+									<li>
+										<div class="fa fa-check"></div>
+										Com desenvolvimento
+									</li>
+								</ul>
+								<a
+									href="/web/signup">
+									Cadastre-se
+								</a>
+							</div>							
+						</div>
+					</section>
+
+					<div class="section-title">
+						<h5>Perguntas frequentes</h5>
+					</div>
+
+					<section class="row faq breath">
+						<div class="col-md-6">
+							<h6>Como funciona o período de teste?</h6>
+							<p>Nós disponibilizamos o ambiente para você sem custos durante
+								30 dias,
+								se no final dos 30 dias você decidir permanecer conosco
+								(esperamos
+								que sim)
+								iremos pedir suas informações de pagamento,
+								caso não queira continuar
+								você
+								pode cancelar sua conta ou sua
+								conta será marcada como inativa, e
+								você pode
+								reativar ela no
+								futuro.
+							</p>
+							<h6>Posso mudar de planos depois?</h6>
+							<p>Absolutamente. Você pode mudar entre nossos planos pagos a
+								qualquer momento
+								ou mesmo cancelar sua conta, da maneira que você
+								preferir. Nós
+								iremos ajustar
+								os pagamentos ou mesmo reembolsar o
+								valor já pago.
+							</p>
+						</div>
+
+						<div class="col-md-6">
+							<h6>Preciso escolher meu plano agora?</h6>
+							<p>Não, você pode desfrutar de nosso sistema sem nenhum limite
+								completamente grátis por 30 dias. Quando você estiver disponível
+								para iniciar
+								você deve escolher um plano que se adequa as suas
+								necessidades.
+							</p>
+							<h6>Que tipo de pagamentos vocês aceitam?</h6>
+							<p>
+								Nos utilizamos a plataforma de pagamento
+								<a target="_blank" href="http://www.cielo.com.br">Cielo Checkout.</a>
+								com isso nossos clientes tem total segurança ao efetuar seus
+								pagamentos
+							</p>
+						</div>
+					</section>
+					<section class="row faq breath">
+						<div class="col-md-6">
+							<h6>Quais os módulos disponíveis</h6>
+							<p>Todos os módulos descritos acima estão disponíveis apartir do
+								momento que você
+								efetuar sua inscrição, porém o Odoo conta com
+								milhares de módulos que
+								lhe propõe
+								maior flexibilidade. Se você
+								tem interesse em outros modulos do Odoo
+								que não estão
+								disponíveis
+								na versão do Pelican você pode entrar em contato conosco que
+								fazemos
+								todo o serviço de teste de novos módulos, bem como
+								desenvolvimento
+								se necessário,
+								e a instalação do mesmo para a sua
+								empresa.
+							</p>
+							<h6>Mas o Odoo é OpenSource, porque estão cobrando?</h6>
+							<p>
+								Sim, toda a nossa plataforma é Open Source, todos os módulos
+								desenvolvidos pela
+								<a href="http://www.trustcode.com.br">Trust-Code</a>
+								ou pela Odoo SA são livres para serem usados conforme sua
+								necessidade, nós
+								cobramos apenas pelo serviço de hospedagem e
+								pela manutenção e correçao
+								automática de bugs.
+							</p>
+						</div>
+
+						<div class="col-md-6">
+							<h6>Como funciona a correção de bugs?</h6>
+							<p>
+								A
+								<a href="http://www.trustcode.com.br">Trust-Code</a>
+								se compromete a efetuar correções de bugs
+								e a manter o sistema
+								sempre funcionando, todos os bugs corrigidos
+								por nós são
+								disponibilizados
+								em nosso
+								<a href="https://github.com/Trust-Code/">Github</a>
+								e são automaticamente aplicados
+								no Pelican para todos os
+								clientes. Os mesmos também são
+								disponibilizados para a comunidade
+								brasileira, estamos 100% comprometidos com a comunidade.
+								.
+							</p>
+							<h6>O que são as atualizações períodicas?</h6>
+							<p>
+								Além da correção de bugs, estamos sempre desenvolvendo novas
+								funcionalidades, se você for
+								nosso cliente você terá a chance de
+								votar por novas funcionalidades
+								para o Odoo, para isto
+								acesse o
+								site da
+								<a href="http://www.trustcode.com.br">Trust-Code</a>
+								e vá para a página de
+								Roadmap e vote na sua necessidade. Lá você
+								também pode acompanhar o
+								andamento das mesmas.
+							</p>
+						</div>
+					</section>
+				</div>
+
+			</xpath>
+		</template>
+
+	</data>
 </openerp>

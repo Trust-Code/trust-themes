@@ -1,0 +1,93 @@
+.pricing {  
+  background: #1abc9c;;      
+  padding: 40px 0 20px;
+  color: #fff;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.pricing .thumbnail {
+  background: #fff;
+  /* IE Fall */
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-size: 36px;
+  line-height: 90px;
+  text-align: center;
+}
+.pricing .title {
+  cursor: pointer;
+  background: #16a085;
+  margin: 40px 0 0;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.pricing .content {
+  display: none;
+}
+.pricing .content .sub-title {
+  background: #eee;
+  padding: 10px;
+  color: #666;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.pricing .content ul {
+  list-style: none;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 14px;
+}
+.pricing .content ul li {
+  padding: 10px 20px;
+  text-align: left;
+}
+.pricing .content ul li:nth-child(2n) {
+  background: #f3f3f3;
+}
+.pricing .content ul li .fa {
+  width: 16px;
+  margin-right: 10px;
+  text-align: center;
+}
+.pricing .content ul li .fa-check {
+  color: #2ecc71;
+}
+.pricing .content ul li .fa-close {
+  color: #e74c3c;
+}
+.pricing .content a {
+  display: block;
+  background: #16a085;
+  max-width: 160px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.pricing .content a:hover {
+  background: #34495e;
+  /* IE Fallback */
+  background: rgba(52, 73, 94, 0.7);
+}
