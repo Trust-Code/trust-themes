@@ -111,7 +111,26 @@
 				</section>
 			</xpath>
 		</template>
-
+		
+		<template id="website_contactus_thanks_trustcode" inherit_id="website_crm.contactus_thanks"
+			name="TrustCode Contact">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<style type="text/css">
+					#wrap > div.container { margin-top: 40px; margin-bottom:40px;}
+					#wrap >
+					div.container > h1 { display:none;}
+				</style>
+				<section class="subpage-banner parallax subpage-bg text-center"
+					data-stellar-background-ratio="0.3"
+					style="background-position: 50% -318px; min-height:536px;">
+					<div class="container">
+						<h1 class="site-title" style="margin-top:13%;">Contato</h1>
+						<p>Estamos entre as empresas mais ativas do Odoo no Brasil</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+		
 		<template id="website_login_trustcode" inherit_id="website.login_layout"
 			name="TrustCode Login">
 			<xpath expr="//div[@class='oe_website_login_container']"
