@@ -373,7 +373,7 @@ a, a:hover{-webkit-transition: all 500ms ease;-moz-transition: all 500ms ease;-m
 .smallHeader.top-bar-header .navbar-default.nav-boxed .navbar-nav > li { padding: 0 0 9px;}
 .smallHeader.top-bar-header .navbar-default.nav-boxed .search input[type="text"] { padding-bottom:9px;}
 
-.smallHeader .cabecalho .navbar-brand > img { max-height:75px; margin-top:-6px; }
+.smallHeader .cabecalho .navbar-brand > img { max-height:75px; margin-top: 0px; }
 header .cabecalho .navbar-brand > img { max-height:85px; margin-top:-6px; }
 
 /******************************** TOP BAR DEFAULT ********************************/
