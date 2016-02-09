@@ -550,3 +550,13 @@ padding: 40px 15px;
 .icone-modulos div { height:160px;text-align:center; }
 .icone-modulos h3 { margin: 0px; }
 .icone-modulos img { filter: grayscale(0.3); }
+
+.navbar.navbar-static-top {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a { padding: 15px; }
+	.navbar-nav>li>a>span { font-size: 18px; color:#000;}
+}

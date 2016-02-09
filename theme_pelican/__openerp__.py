@@ -31,7 +31,8 @@
         'views/layout.xml',
         'views/pages.xml',
         'views/assets.xml',
-        'views/templates.xml'
+        'views/templates.xml',
+        'views/menu.xml',
     ],
     'application': True,
 }

@@ -14,7 +14,7 @@
 
 					<video class="covervid-video" id="covervid-video" loop="loop"
 						autoplay="autoplay"
-						style="position:absolute;top:52%;left:50%;transform:translate(-50%, -50%);
+						style="position:absolute;top:53%;left:50%;transform:translate(-50%, -50%);
 					height:auto;width:1349px; opacity:0.2">
 						<source src="theme_pelican/static/src/videos/video.webm"
 							type="video/webm" />

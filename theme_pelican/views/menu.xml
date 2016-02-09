@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<!-- Customize header -->
+		<template id="demo_menu" inherit_id="website.layout"
+			name="Demo Menu">
+
+			<xpath expr="//ul[@id='top_menu']/t" position="after">
+				<li>
+					<a href="/page/demo" class="btn" style="background-color:#07ad61;">
+						<span style="color:#fff;">Acesse o demo Já</span>
+					</a>
+				</li>
+			</xpath>
+		</template>
+	</data>
+</openerp>

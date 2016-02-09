@@ -6,7 +6,7 @@
 	<template id="layout_logo_show" inherit_id="website.layout_logo_show" customize_show="True" name="Show Logo">
 	    <xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
 	        <a href="/" class="navbar-brand logo">
-	            <img src="/theme_pelican/static/src/img/logo-white-pelican-small.png" t-att-alt="'Logo of %s' % res_company.name" 
+	            <img src="/theme_pelican/static/src/img/logo-black-small.png" t-att-alt="'Logo of %s' % res_company.name" 
 	            t-att-title="res_company.name"/>
 	        </a>
 	    </xpath>
