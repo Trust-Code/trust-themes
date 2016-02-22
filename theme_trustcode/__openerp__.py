@@ -22,10 +22,10 @@
 {
     'name': 'TrustCode Theme',
     'category': 'Theme/Corporate',
-    'summary': 'TrustCode WebSite Theme',
+    'summary': 'Trustcode WebSite Theme',
     'version': '1.0',
-    'description': """TrustCode WebSite Theme""",
-    'author': 'TrustCode',
+    'description': """Trustcode WebSite Theme""",
+    'author': 'Trustcode',
     'depends': ['website', 'website_less',
                 'website_sale', 'website_blog',
                 'website_forum', 'website_forum_doc',

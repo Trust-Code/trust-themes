@@ -25,7 +25,7 @@
     'summary': 'Pelican WebSite Theme',
     'version': '1.0',
     'description': """Pelican WebSite Theme""",
-    'author': 'TrustCode',
+    'author': 'Trustcode',
     'depends': ['website', 'website_less'],
     'data': [
         'views/layout.xml',

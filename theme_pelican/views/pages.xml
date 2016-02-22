@@ -1,86 +1,151 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
-  <data>
-	<!-- === Página demonstração === -->
-	<template name="Demonstração" id="website.demo" page="True">
-	  <t t-call="website.layout">
-		 <div id="wrap" class="oe_structure oe_empty">
-	      <section class="s_image_gallery">
-	        <div class="container">
-	          <div class="row">
-	            <div class="col-md-12 text-center mt16 mb32">
-	              <h2>Veja abaixo as telas do Pelican</h2>
-	              <h4 class="text-muted">Ou você pode acessar nosso ambiente de demonstração: <a href="http://demo.t-pelican.com.br" target="_blank">Pelican</a></h4>
-	              <span style="font-style:italic;">Usuário: admin Senha: admin</span>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-success">Gerencie seus e-mails</label>
-	              <img alt="Pelican Comunicação" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-email.png" style=""/>
-	            </div>
-	            <div class="col-md-6 mb48">
-	              <label class="label label-primary">Fatura e NF-e</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-fatura.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-danger">Veja seus prospectos</label>
-	              <img alt="Pelican CRM" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-crm.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
-	            </div>
-	            <div class="col-md-6 mb48">
-	              <label class="label label-info">Controle seu estoque</label>
-	              <img alt="Pelican Estoque" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-estoque.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-warning">Cadastro de produtos</label>
-	              <img alt="Pelican Produtos" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-produtos.png" style=""/>
-	            </div>
-	            <div class="col-md-6 mb48">
-	              <label class="label label-danger">Relatórios para visualização</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-relatorios.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-success">Compras e recebimento de produtos</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-purchase.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-warning">Controle de produção</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-manufatura.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-info">Clientes</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-clientes.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-success">Informações completas do cliente</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-clientes-2.png" style=""/>
-	            </div>
-	            <div class="col-md-6">
-	              <label class="label label-primary">Cadastro de funcionários</label>
-	              <img alt="Pelican Relatórios" class="img img-responsive mb16 img-thumbnail shadow" 
-	              	src="/theme_pelican/static/src/img/pelican-employees.png" style=""/>
-	            </div>
-	           </div>
-	        </div>
-	      </section>
-	    </div>
-	  </t>
-	</template>
-	
-	<record id="demo_page_link" model="website.menu">
-	  <field name="name">Demonstração</field>
-	  <field name="url">/page/demo</field>
-	  <field name="parent_id" ref="website.main_menu" />
-	  <field name="sequence" type="int">99</field>
-	</record>
-	
-    </data>
-  </openerp>
+	<data>
+		<!-- === Página demonstração === -->
+		<template name="Demonstração" id="website.demo" page="True">
+			<t t-call="website.layout">
+				<style type="text/css">
+					.featured-icons {
+					padding:8px;
+					}
+					.featured-icons li {
+					padding:6px;
+					}
+				</style>
+				<div id="wrap" class="oe_structure oe_empty">
+					<section class="s_image_gallery">
+						<div class="container" style="padding-top:30px;">
+							<div class="row" style="margin:70px 0;">
+								<div class="col-md-5">
+									<div class="thumbnail">
+										<img src="/theme_pelican/static/src/img/icon-trustcode.png"
+											alt="Logo Trustcode" />
+										<div class="caption" style="padding:30px; text-align:left;">
+											<ul>
+												<li>
+													<h3>Perfeito para suas necessidades</h3>
+													<ul class="list-unstyled featured-icons">
+														<li>
+															<i class="fa fa-paper-plane"></i>
+															CRM completo
+														</li>
+														<li>
+															<i class="fa fa-shopping-cart"></i>
+															Venda de forma eficiente
+														</li>
+														<li>
+															<i class="fa fa-calendar"></i>
+															Calendário e tarefas para gerenciar seu dia
+														</li>
+														<li>
+															<i class="fa fa-barcode"></i>
+															Controle total do estoque
+														</li>
+														<li>
+															<i class="fa fa-gears"></i>
+															NF-e, *NFS-e (consulte cidades atendidas), Importação XML
+														</li>
+														<li>
+															<i class="fa fa-bank"></i>
+															Integração Bancária
+														</li>
+													</ul>
+												</li>
+												<li>
+													<h3>Não sabe onde começar?</h3>
+													<p>
+														Veja nosso
+														<a href="#">vídeo</a>
+														de demonstração para conhecer as funcionalidades.
+													</p>
+												</li>
+												<li>
+													<h3>Precisa de mais informações?</h3>
+													<p>
+														Entre em contato por telefone
+														<b>(48) 3771-0507</b>
+														, ou e-mail:
+														<b>comercial@trustcode.com.br</b>
+													</p>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-7">
+									<header
+										style="background-color:#16a085;padding:40px;display:block;color:white;">
+										<h2>Acesse a demonstração!</h2>
+										<p>Preencha alguns dados para acessar</p>
+									</header>
+									<section style="background-color:#f5f5f5;padding:40px;">
+										<form>
+											<div class="form-group">
+												<label for="">Nome*</label>
+												<input id="contato_nome" name="contato_nome"
+													placeholder="Nome" class="form-control" size="60" type="text"
+													required="required" />
+											</div>
+											<div class="form-group">
+												<label for="">E-mail*</label>
+												<input id="contato_email" name="contato_email"
+													placeholder="seunome@empresa.com.br" class="form-control"
+													size="60" type="email" required="required" />
+											</div>
+											<div class="form-group">
+												<label for="">Área de atuação da empresa*</label>
+												<select name="contato_atuacao_emrpesa" id="contato_atuacao_empresa"
+													class="form-control" required="required">
+													<option value="">Selecione</option>
+													<option value="Software e Cloud">Software e Cloud</option>
+													<option value="Telecomunicações">Telecomunicações</option>
+													<option value="Educação">Educação</option>
+													<option value="Agência">Agência</option>
+													<option value="Consultoria">Consultoria</option>
+													<option value="Veículo de comunicação">Veículo de comunicação</option>
+													<option value="Serviços para o consumidor">Serviços para o consumidor</option>
+													<option value="Hardware">Hardware</option>
+													<option value="Serviços corporativos">Serviços corporativos</option>
+													<option value="Turismo e Lazer">Turismo e Lazer</option>
+													<option value="Saúde">Saúde</option>
+													<option value="Ecommerce">Ecommerce</option>
+													<option value="Indústria de manufatura">Indústria de manufatura</option>
+													<option value="RH e Recrutamento">RH e Recrutamento</option>
+													<option value="Serviços financeiros">Serviços financeiros</option>
+													<option value="Jurídico">Jurídico</option>
+													<option value="Imóveis">Imóveis</option>
+													<option value="Eventos">Eventos</option>
+												</select>
+											</div>
+											<div class="actions">
+												<input type="submit" class="btn btn-success" id="form_submit"
+													value="Enviar dados e acessar demonstração" style="font-size:18px;font-weight:bold;" />
+											</div>
+											<p style="margin-top:20px; font-size:12px;">
+												Estamos comprometidos em resguardar suas informações.
+												<br />
+												<a href="http://www.trustcode.com.br/privacidade/" target="”_blank”">
+													Conheça
+													nossa Política de Privacidade
+												</a>
+											</p>
+										</form>
+									</section>
+								</div>
+							</div>
+							<hr style="margin-bottom:60px;" />
+						</div>
+					</section>
+				</div>
+			</t>
+		</template>
+
+		<record id="demo_page_link" model="website.menu">
+			<field name="name">Demonstração</field>
+			<field name="url">/page/demo</field>
+			<field name="parent_id" ref="website.main_menu" />
+			<field name="sequence" type="int">99</field>
+		</record>
+
+	</data>
+</openerp>
