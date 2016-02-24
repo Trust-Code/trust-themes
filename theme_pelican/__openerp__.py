@@ -26,13 +26,14 @@
     'version': '1.0',
     'description': """Pelican WebSite Theme""",
     'author': 'Trustcode',
-    'depends': ['website', 'website_less'],
+    'depends': ['crm', 'website', 'website_less'],
     'data': [
         'views/layout.xml',
         'views/pages.xml',
         'views/assets.xml',
         'views/templates.xml',
         'views/menu.xml',
+        "mail_templates/pelican_mail_templates.xml",
     ],
     'application': True,
 }

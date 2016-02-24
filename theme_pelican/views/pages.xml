@@ -65,7 +65,7 @@
 														Entre em contato por telefone
 														<b>(48) 3771-0507</b>
 														, ou e-mail:
-														<b>comercial@trustcode.com.br</b>
+														<b><a href="mailto:comercial@trustcode.com.br">comercial@trustcode.com.br</a></b>
 													</p>
 												</li>
 											</ul>
@@ -79,22 +79,22 @@
 										<p>Preencha alguns dados para acessar</p>
 									</header>
 									<section style="background-color:#f5f5f5;padding:40px;">
-										<form>
+										<form id="demo-page-contact-form">
 											<div class="form-group">
 												<label for="">Nome*</label>
-												<input id="contato_nome" name="contato_nome"
+												<input id="demo-page-contact-name" name="demo-page-contact-name"
 													placeholder="Nome" class="form-control" size="60" type="text"
 													required="required" />
 											</div>
 											<div class="form-group">
 												<label for="">E-mail*</label>
-												<input id="contato_email" name="contato_email"
+												<input id="demo-page-contact-email" name="demo-page-contact-email"
 													placeholder="seunome@empresa.com.br" class="form-control"
 													size="60" type="email" required="required" />
 											</div>
 											<div class="form-group">
 												<label for="">Área de atuação da empresa*</label>
-												<select name="contato_atuacao_emrpesa" id="contato_atuacao_empresa"
+												<select name="demo-page-contact-company-segment" id="demo-page-contact-company-segment"
 													class="form-control" required="required">
 													<option value="">Selecione</option>
 													<option value="Software e Cloud">Software e Cloud</option>
@@ -124,7 +124,7 @@
 											<p style="margin-top:20px; font-size:12px;">
 												Estamos comprometidos em resguardar suas informações.
 												<br />
-												<a href="http://www.trustcode.com.br/privacidade/" target="”_blank”">
+												<a href="http://www.trustcode.com.br/page/privacidade/" target="”_blank”">
 													Conheça
 													nossa Política de Privacidade
 												</a>
