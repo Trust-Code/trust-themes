@@ -13,7 +13,7 @@
 	    success : function(data) {		
 		$form.reset();
 		$submit.disabled = false;		
-		document.location = 'http://demo.pelicanerp.com.br/';
+		$('#demo-page-alert').slideDown();
 	    },
 	    data : {
 		'contact_name' : $('#demo-page-contact-name').val(),

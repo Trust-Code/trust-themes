@@ -5,8 +5,8 @@
 		<!--Email template -->
 		<record id="email_template_welcome_pelican" model="email.template">
 			<field name="name">Acesso a demonstracao Pelican - Template</field>
-			<field name="email_from">${object.company_id.name}
-				&lt;${object.company_id.email}&gt;</field>
+			<field name="email_from">${user.name}
+				&lt;${user.email}&gt;</field>
 			<field name="subject">Link de acesso a Demonstração Pelican</field>
 			<field name="email_to">${object.email_from}</field>
 			<field name="model_id" ref="crm.model_crm_lead" />
@@ -43,7 +43,7 @@
 				<tr>
 					<td
 						style="font-size: 30px; font-weight: 600; line-height:30px; text-align:center">
-						<p style="margin:0" class="o_default_snippet_text">${object.name}</p>
+						<p style="margin:0" class="o_default_snippet_text">${object.contact_name}</p>
 					</td>
 				</tr>
 				<tr>

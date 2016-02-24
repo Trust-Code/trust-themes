@@ -117,8 +117,12 @@
 													<option value="Eventos">Eventos</option>
 												</select>
 											</div>
+											<div id="demo-page-alert" class="alert alert-success" style="display:none;">
+												<strong>Sucesso!</strong>
+												Recebemos seus dados e enviamos um e-mail com os dados de acesso para sua caixa de entrada
+											</div>
 											<div class="actions">
-												<input type="submit" class="btn btn-success" id="form_submit"
+												<input type="submit" class="btn btn-success" id="demo-page-form-submit"
 													value="Enviar dados e acessar demonstração" style="font-size:18px;font-weight:bold;" />
 											</div>
 											<p style="margin-top:20px; font-size:12px;">
