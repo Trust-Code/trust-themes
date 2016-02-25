@@ -39,8 +39,8 @@
 
 						<div class="row">
 							<div class="col-md-6 col-sm-12 col-md-offset-3 subscribe">
-								<form class="form-horizontal" role="form" action="/web/signup"
-									id="subscribeForm" method="POST">
+								<form class="form-horizontal" role="form" action="/page/demo"
+									id="subscribeForm" method="GET">
 									<div class="form-group">
 										<div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
 											<input class="form-control input-lg" name="email" type="email"
@@ -48,7 +48,7 @@
 												required="required" />
 										</div>
 										<div class="col-md-5 col-sm-4">
-											<button type="submit" class="btn btn-success btn-lg">Cadastre-se agora</button>
+											<button type="submit" class="btn btn-success btn-lg">Veja a demonstração</button>
 										</div>
 									</div>
 								</form>
@@ -485,7 +485,7 @@
 									</li>
 								</ul>
 								<a
-									href="/web/signup">
+									href="/page/contactus">
 									Cadastre-se
 								</a>
 							</div>							
@@ -530,7 +530,7 @@
 									</li>
 								</ul>
 								<a
-									href="/web/signup">
+									href="/page/contactus">
 									Cadastre-se
 								</a>
 							</div>							
@@ -576,7 +576,7 @@
 									</li>
 								</ul>
 								<a
-									href="/web/signup">
+									href="/page/contactus">
 									Cadastre-se
 								</a>
 							</div>							
