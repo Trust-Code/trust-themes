@@ -167,7 +167,8 @@
 					
 					$.ajax({
                                             url: 'http://www.pelicanerp.com.br/lead-capture',
-                                            type: 'post',                                            
+                                            type: 'post',
+                                            crossDomain: true,
                                             success: function (data) {
                                         	$form.reset();
                                         	$submit.disabled = false;
