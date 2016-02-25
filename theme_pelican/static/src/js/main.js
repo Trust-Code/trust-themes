@@ -35,13 +35,9 @@
 				$('#demo-page-alert').slideDown();
 			    },
 			    data : {
-				'contact_name' : $('#demo-page-contact-name')
-					.val(),
-				'email_from' : $('#demo-page-contact-email')
-					.val(),
-				'company_segment' : $(
-					'#demo-page-contact-company-segment')
-					.val(),
+				'contact_name' : $('#demo-page-contact-name').val(),
+				'email_from' : $('#demo-page-contact-email').val(),
+				'company_segment' : $('#demo-page-contact-company-segment').val(),
 				'origin' : 'demo-page-pelican',
 			    },
 			    error : function(error) {

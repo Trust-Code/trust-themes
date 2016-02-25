@@ -219,7 +219,7 @@
 									<p>Segmento especializado na Indústria, com gráfico gantt para
 										ordens de produção, MRP, rastreabilidade, centros de operação.
 									</p>
-									<a class="btn btn-bordered black" href="/coming-soon">Saiba mais</a>
+									<a class="btn btn-bordered black" href="/coming-soon?origem=harpia">Saiba mais</a>
 								</div>
 							</div>
 							<div class="col-md-4">
@@ -252,7 +252,7 @@
 										independente
 									</p>
 									<br />
-									<a class="btn btn-bordered black" href="/coming-soon">Saiba mais</a>
+									<a class="btn btn-bordered black" href="/coming-soon?origem=uirapuru">Saiba mais</a>
 								</div>
 							</div>
 						</div>

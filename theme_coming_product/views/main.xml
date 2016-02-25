@@ -38,7 +38,32 @@
 					
 					<!-- Signup Form -->
 					<form id="signup-form" method="post" action="/coming_soon">
-						<input type="email" name="email" id="email" placeholder="Endereço de email" />
+						<input type="text" name="em-breve-page-name" id="em-breve-page-name" placeholder="Nome" 
+							required="required" style="max-width:260px;" />
+						<input type="email" name="em-breve-page-email" id="em-breve-page-email" placeholder="Endereço de email"
+							required="required" style="max-width:260px;" />
+						<select name="em-breve-page-company-segment" id="em-breve-page-company-segment"
+												required="required" style="max-width:260px;color:green;">
+							<option value="">Selecione</option>
+							<option value="Software e Cloud">Software e Cloud</option>
+							<option value="Telecomunicações">Telecomunicações</option>
+							<option value="Educação">Educação</option>
+							<option value="Agência">Agência</option>
+							<option value="Consultoria">Consultoria</option>
+							<option value="Veículo de comunicação">Veículo de comunicação</option>
+							<option value="Serviços para o consumidor">Serviços para o consumidor</option>
+							<option value="Hardware">Hardware</option>
+							<option value="Serviços corporativos">Serviços corporativos</option>
+							<option value="Turismo e Lazer">Turismo e Lazer</option>
+							<option value="Saúde">Saúde</option>
+							<option value="Ecommerce">Ecommerce</option>
+							<option value="Indústria de manufatura">Indústria de manufatura</option>
+							<option value="RH e Recrutamento">RH e Recrutamento</option>
+							<option value="Serviços financeiros">Serviços financeiros</option>
+							<option value="Jurídico">Jurídico</option>
+							<option value="Imóveis">Imóveis</option>
+							<option value="Eventos">Eventos</option>
+						</select>
 						<input type="submit" value="Inscrever-se" />
 					</form>
 

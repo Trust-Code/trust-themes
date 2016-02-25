@@ -142,37 +142,47 @@
 				    $message.classList.remove('visible');
 				};
 
-			// Events.
-			// Note: If you're *not* using AJAX, get rid of this
-			// event listener.
+                        	function getUrlVars() {
+                                	var vars = [], hash;
+                                	var hashes = window.location.href.slice(
+                                		window.location.href.indexOf('?') + 1).split('&');
+                                	for (var i = 0; i < hashes.length; i++) {
+                                	    hash = hashes[i].split('=');
+                                	    vars.push(hash[0]);
+                                	    vars[hash[0]] = hash[1];
+                                	}
+                                	return vars;
+                        	};                            
+				
 				$form.addEventListener('submit', function(event) {
-
+				    	var origem = getUrlVars()["origem"] == 'harpia'?'em-breve-page-harpia':'em-breve-page-uirapuru';
+				    
 					event.stopPropagation();
 					event.preventDefault();
-
 					// Hide message.
 					$message._hide();
-
 					// Disable submit.
-					$submit.disabled = true;
-
+					$submit.disabled = true;					
 					
-					// Process form.
-					// Note: Doesn't actually do anything
-					// yet (other than report back with a
-					// "thank you"),
-					// but there's enough here to piece
-					// together a working AJAX submission
-					// call that does.
+					
 					$.ajax({
-                                            url: '/lead_capture',
+                                            url: 'http://www.pelicanerp.com.br/lead-capture',
                                             type: 'post',                                            
                                             success: function (data) {
                                         	$form.reset();
                                         	$submit.disabled = false;
                                         	$message._show('success', 'Muito obrigado! Em breve lhe enviaremos novidades');
                                             },
-                                            data: { 'email': $('#email').val() }
+                                            data: { 
+                                        	'contact_name' : $('#em-breve-page-name').val(),
+                				'email_from' : $('#em-breve-page-email').val(),
+                				'company_segment' : $('#em-breve-page-company-segment').val(),
+                				'origin' : origem,
+                			    },
+                			    error:function(error) {
+                				alert('Falha ao executar comando!');
+                				$submit.disabled = false;
+                			    }
                                         });					
 
 				});
