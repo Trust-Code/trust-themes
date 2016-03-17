@@ -28,7 +28,7 @@
               "Incaser Informatica - Sergio Teruel, "
               "Odoo Community Association (OCA)",
     'website': 'https://github.com/OCA/website',
-    'depends': ['website', 'website_mail'],
+    'depends': ['website', 'website_mail', 'marketing'],
     'data': [
         'view/res_config.xml',
         'view/website_slides.xml',

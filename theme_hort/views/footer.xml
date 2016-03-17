@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<!-- Customize header -->
+		<template id="hort_footer" inherit_id="website.footer_default"
+			name="Rodape Hort">
+
+			<!-- Add an element after the top menu -->
+			<xpath expr="//div[@class='container hidden-print']" position="replace">
+
+				<section id="footer">
+					<div class="container hidden-print" style="display:none;">
+						<div id="info">
+						 	<ul></ul>
+						 	<ul id="products"></ul>
+						</div>
+					</div>
+				
+					<div class="container">
+						<div class="col-lg-3 col-sm-4 text-center">
+							<a href="#">
+								<img src="/theme_hort/static/src/images/footer-logo.png" alt="" />
+							</a>
+						</div>
+						<div class="col-lg-5 col-sm-5 sm-text-center none">
+							<h3>acesse nosso blog</h3>
+							<div class="col-lg-6 col-sm-12 none">
+								<h4>Veja Também:</h4>
+								<a href="#">
+									<span>
+										<img src="/theme_hort/static/src/images/facebook-icon.png" alt="" />
+									</span>
+									facebook.com/HortCult
+								</a>
+							</div>
+							<div class="col-lg-6 col-sm-12 none">
+								<h4>Fale Conosco</h4>
+								<a href="#">
+									<span>
+										<img src="/theme_hort/static/src/images/mail-icon.png" alt="" />
+									</span>
+									hortcult@gmail.com
+								</a>
+							</div>
+							<div class="col-lg-12 none">
+								<p>Copyright 2016 HortCult. Todos os direitos reservados. Criado
+									com o Odoo
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-3 text">
+							<h3>nós</h3>
+							<p class="yellow">Acreditamos que todos juntos semeiam uma sociedade
+								melhor!
+							</p>
+							<p>
+								Nós do HortCult trabalhamos para unir aqueles que procuram uma
+								vida saudável, com alimentação consciente e a troca de
+								conhecimentos, experiências e excedentes em uma rede dinâmica e
+								interativa.
+							</p>
+						</div>
+					</div>
+				</section>
+
+
+			</xpath>
+		</template>
+		
+		<template id="custom_header" inherit_id="website.layout_footer_copyright"
+			name="Rodape Copyright Hort">
+			
+			<xpath expr="//div[@class='container mt16 mb8']" position="replace">			
+			</xpath>			
+		</template>
+
+	</data>
+</openerp>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="theme_hort_main_layout" inherit_id="website.homepage"
+			name="Theme Hort Inicio">
+
+			<xpath expr="//div[@id='wrap']" position="replace">
+
+				<section id="banner">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="col-lg-12">
+								<ul class="bxslider">
+									<li>
+										<div class="text col-lg-5">
+											<h2>
+												<label>plante</label>
+												sua saúde!
+											</h2>
+										</div>
+									</li>
+									<li>
+										<div class="text col-lg-5">
+											<h2>
+												<label>plante</label>
+												sua saúde!
+											</h2>
+										</div>
+									</li>
+									<li>
+										<div class="text col-lg-5">
+											<h2>
+												<label>plante</label>
+												sua saúde!
+											</h2>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="services">
+					<div class="container">
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="images">
+								<img src="/theme_hort/static/src/images/sem.png" alt="" />
+							</div>
+							<h3>
+								sem sair
+								<br />
+								de casa
+							</h3>
+							<p>Independente de sua rotina, tenha produtos orgânicos ao seu
+								alcance!
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="images">
+								<img src="/theme_hort/static/src/images/mais.png" alt="" />
+							</div>
+							<h3 class="oragne">
+								mais
+								<br />
+								saúde
+							</h3>
+							<p>Legumes, verduras, frutas e muito mais para seu dia a dia ser
+								ainda melhor!
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="images">
+								<img src="/theme_hort/static/src/images/chat.png" alt="" />
+							</div>
+							<h3 class="parpal">Comunidade Colaborativa</h3>
+							<p>Em contato com outros que buscam uma vida saúdavel, todos
+								aprendem juntos!
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="images">
+								<img src="/theme_hort/static/src/images/agri.png" alt="" />
+							</div>
+							<h3 class="blue">Agricultura Consciente</h3>
+							<p>Compartilhamos alimentos com origem em hortas domiciliares e
+								pomares urbanos.
+							</p>
+						</div>
+					</div>
+				</section>
+				<section id="arede">
+					<div class="container">
+						<div class="col-lg-12">
+							<div class="col-lg-6 col-sm-12 none text-center">
+								<div class="embed-responsive embed-responsive-4by3">
+									<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-12 none text-center">
+								<div class="text">
+									<h3>a rede</h3>
+									<p>Ambiente virtual criado para conectar pessoas que buscam uma
+										vida saudável através de uma alimentação consciente:
+									</p>
+								</div>
+								<div class="details">
+									<div class="col-lg-12 none">
+										<div class="col-lg-6 col-sm-6">
+											<div class="images">
+												<img src="/theme_hort/static/src/images/lamp-icon.png"
+													alt="" />
+											</div>
+											<p>Dicas sobre botânica e melhores práticas.</p>
+										</div>
+										<div class="col-lg-6 col-sm-6">
+											<div class="images">
+												<img src="/theme_hort/static/src/images/play-icon.png"
+													alt="" />
+											</div>
+											<p>Fotos e vídeos dos processos de cultivo.</p>
+										</div>
+									</div>
+									<div class="col-lg-12 none">
+										<div class="col-lg-6 col-sm-6">
+											<div class="images">
+												<img src="/theme_hort/static/src/images/chat-icon.png"
+													alt="" />
+											</div>
+											<p>Dicas sobre botânica e melhores práticas.</p>
+										</div>
+										<div class="col-lg-6 col-sm-6">
+											<div class="images">
+												<img src="/theme_hort/static/src/images/car-mart.png"
+													alt="" />
+											</div>
+											<p>Fotos e vídeos dos processos de cultivo.</p>
+										</div>
+									</div>
+									<div class="col-lg-12 none">
+										<div class="col-lg-9 col-sm-8 col-xs-9 none">
+											<input type="text" placeholder="Deixe aqui seu e-mail e faça parte!" />
+										</div>
+										<div class="col-lg-3 col-sm-4 col-xs-3 none">
+											<input type="submit" value="" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="virtual">
+					<div class="container">
+						<div class="col-lg-6 col-sm-6 top">
+							<div class="col-lg-4 col-sm-12">
+								<div class="text">
+									<h4>semeadora</h4>
+									<h3>virtual</h3>
+								</div>
+							</div>
+							<div class="col-lg-8 col-sm-12">
+								<p>A Rede HortCult oferece um fórum para discussão de diferentes
+									temas relacionados aos cultivos, plantas, insumos e as muitas
+									formas de vivenciar uma alimentação consciente e saudável.
+								</p>
+								<button type="button" class="btn btn-success">plante suas ideias!</button>
+							</div>
+						</div>
+						<div class="col-lg-6  col-sm-6 bg-color top">
+							<div class="col-lg-4 col-sm-12">
+								<div class="text">
+									<h4>semeadora</h4>
+									<h3>virtual</h3>
+								</div>
+							</div>
+							<div class="col-lg-8 col-sm-12">
+								<p>Neste espaço separamos para você uma vasta quantidade de
+									material online, disponíveis para trazer a sua vida as melhores
+									formas de lidar com a comida e os hábitos que farão um
+									diferencial de qualidade no seu cotidiano.
+								</p>
+								<button type="button" class="btn btn-success">Faça sua colheita!</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section id="organico">
+					<div class="container">
+						<div class="col-lg-12 text-center">
+							<h3>
+								Orgânico
+								<br />
+								<label>como serviço</label>
+							</h3>
+							<p class="head">Uma rede de produtores que faz por você o plantio que
+								deseja para levar uma vida saudável:
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="servico">
+								<img src="/theme_hort/static/src/images/img-1.png" alt="" />
+							</div>
+							<p>
+								Escolha o que receber
+								<br />
+								na sua casa e quando.
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="servico">
+								<img src="/theme_hort/static/src/images/img-2.png" alt="" />
+							</div>
+							<p>
+								Visita aos produtores e
+								<br />
+								acompanhamento do cultivo.
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="servico">
+								<img src="/theme_hort/static/src/images/img-3.png" alt="" />
+							</div>
+							<p>
+								Produção inteligente
+								<br />
+								e integrada.
+							</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 text-center">
+							<div class="servico">
+								<img src="/theme_hort/static/src/images/img-4.png" alt="" />
+							</div>
+							<p>
+								Torne-se um
+								<a href="#">Patrono HortCult!</a>
+							</p>
+						</div>
+					</div>
+				</section>
+				<section id="e-mail">
+					<div class="container">
+						<div class="col-lg-6 col-sm-6 text-center">
+							<p>
+								Fique por dentro das novidades e lançamentos do
+								<b>Orgânico como Serviço:</b>
+							</p>
+						</div>
+						<div class="col-lg-6 col-sm-6">
+							<div class="col-lg-9 col-sm-8 col-xs-9  none">
+								<input type="text" placeholder="Deixe aqui seu e-mail e faça parte!" />
+							</div>
+							<div class="col-lg-3 col-sm-4 col-xs-3 none">
+								<input type="submit" value="" />
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="nossos">
+					<div class="container">
+						<div class="col-lg-12 text-center">
+							<h3>
+								nossos
+								<br />
+								<label>cultivadores</label>
+							</h3>
+						</div>
+						<ul class="bxslider-two">
+							<li class="text-center">
+								<a href="#">
+									<img src="/theme_hort/static/src/images/photo-1.png" alt="" />
+								</a>
+								<h5>Yannick Bellot</h5>
+								<img src="/theme_hort/static/src/images/prog-1.png" alt="" />
+								<br />
+								<span>1.579</span>
+							</li>
+							<li class="text-center">
+								<a href="#">
+									<img src="/theme_hort/static/src/images/photo-2.png" alt="" />
+								</a>
+								<h5>Paola Baby</h5>
+								<img src="/theme_hort/static/src/images/prog-2.png" alt="" />
+								<br />
+								<span>0075</span>
+							</li>
+							<li class="text-center">
+								<a href="#">
+									<img src="/theme_hort/static/src/images/photo-3.png" alt="" />
+								</a>
+								<h5>Henrique Dias</h5>
+								<img src="/theme_hort/static/src/images/prog-3.png" alt="" />
+								<br />
+								<span>5.008</span>
+							</li>
+							<li class="text-center">
+								<a href="#">
+									<img src="/theme_hort/static/src/images/photo-4.png" alt="" />
+								</a>
+								<h5>Rochel Loirin</h5>
+								<img src="/theme_hort/static/src/images/prog-4.png" alt="" />
+								<br />
+								<span>0352</span>
+							</li>
+							<li class="text-center">
+								<a href="#">
+									<img src="/theme_hort/static/src/images/photo-5.png" alt="" />
+								</a>
+								<h5>Francisco Massacre</h5>
+								<img src="/theme_hort/static/src/images/prog-5.png" alt="" />
+								<br />
+								<span>1.579</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
+
+			</xpath>
+
+		</template>
+	</data>
+</openerp>
+			
