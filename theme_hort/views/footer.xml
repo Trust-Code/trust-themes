@@ -27,7 +27,7 @@
 							<h3>acesse nosso blog</h3>
 							<div class="col-lg-6 col-sm-12 none">
 								<h4>Veja Também:</h4>
-								<a href="#">
+								<a href="http://facebook.com/HortCult">
 									<span>
 										<img src="/theme_hort/static/src/images/facebook-icon.png" alt="" />
 									</span>
@@ -36,7 +36,7 @@
 							</div>
 							<div class="col-lg-6 col-sm-12 none">
 								<h4>Fale Conosco</h4>
-								<a href="#">
+								<a href="mailto:hortcult@gmail.com">
 									<span>
 										<img src="/theme_hort/static/src/images/mail-icon.png" alt="" />
 									</span>
