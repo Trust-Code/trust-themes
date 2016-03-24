@@ -41,6 +41,12 @@
 											</a>
 											<ul class="dropdown-menu">
 												<li>
+													<a href="/page/semeadora-virtual">Semeadora Virtual </a>
+												</li>
+												<li>
+													<a href="/page/prateleira-verde">Prateleira Verde</a>
+												</li>
+												<li>
 													<a href="/page/quem-somos">Quem somos </a>
 												</li>
 												<li>
@@ -59,16 +65,20 @@
 											</a>
 										</li>
 										<li>
-											<a href="/blog">blog</a>
+											<a href="/event">Eventos</a>
 										</li>
-										<li class="active color-yellow">
-											<a class="meu" href="/web/login">
+										<li class="color-yellow" groups="base.group_public">
+											<a style="padding:48px 35px;" t-attf-href="/web/login">Login</a>
+										</li>
+
+										<li class="active color-yellow" t-if="website.user_id != user_id">
+											<a href="/web" class="meu">
 												Meu
 												<br />
 												<label class="size">Quintal</label>
 												<img src="/theme_hort/static/src/images/prog.png" alt="" />
 												<br />
-												<span>1.579</span>
+												<span t-field="website.user_id.id"></span>												
 											</a>
 										</li>
 										<li>
@@ -78,7 +88,7 @@
 											</a>
 										</li>
 									</ul>
-								</div><!--/.nav-collapse -->
+								</div>
 							</div>
 						</nav>
 					</div>

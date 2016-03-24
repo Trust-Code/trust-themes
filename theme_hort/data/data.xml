@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+
+		<!--Email template -->
+		<record id="email_template_welcome_hort" model="email.template">
+			<field name="name">Bem vindo Hortcult - Template</field>
+			<field name="email_from">${user.name}
+				&lt;${user.email}&gt;</field>
+			<field name="subject">Bem vindo a Hortcult</field>
+			<field name="email_to">${object.email_from}</field>
+			<field name="model_id" ref="crm.model_res_partner" />
+			<field name="auto_delete" eval="True" />
+			<field name="lang">${object.lang}</field>
+			<field name="body_html"><![CDATA[
+<div class="o_editable note-air-editor note-editable o_dirty"
+	data-oe-model="mail.mass_mailing" data-oe-field="body_html"
+	data-oe-type="html" data-note-id="1" contenteditable="true">
+	<div class="snippet_row bg-color"
+		style="padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;border-bottom:3px solid #3bcdc3;color:#37302d;width:600px">
+		<table cellspacing="0" cellpadding="0"
+			style="margin: 0 auto;border-collapse:collapse;width:600px">
+			<tbody>
+				<tr>
+					<td style="font-size: 30px; text-align:center">
+						<b>Pelican ERP</b>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="snippet_row bg-color"
+		style="padding:0px;width:600px;margin:auto;background: #fff repeat top /100%;color:#37302d;border-bottom:3px solid #3bcdc3;">
+		<table width="100%" cellspacing="0" cellpadding="0"
+			style="border-collapse:collapse;color:inherit">
+			<tbody>
+				<tr>
+					<td
+						style="font-size: 45px; font-weight: 900;text-align:center;padding-top:35px">
+						<p style="margin:0" class="o_default_snippet_text">Bem Vindo</p>
+					</td>
+				</tr>
+				<tr>
+					<td
+						style="font-size: 30px; font-weight: 600; line-height:30px; text-align:center">
+						<p style="margin:0" class="o_default_snippet_text">${object.contact_name}</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center;padding:20px 0">
+						<span class="fa fa-10x fa-gift"></span>
+					</td>
+				</tr>
+				<tr>
+					<td
+						style="padding:0 75px;text-align:center;font-size:14px;line-height:20px">
+						<p style="margin:0" class="o_default_snippet_text">Estes são os dados de acesso a base de demonstração:
+						<br />
+						Usuário: admin
+						<br />
+						Senha: admin
+						</p>
+						<p style="margin:0" class="o_default_snippet_text">
+							<br />
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:center; margin:0 auto;padding:10px 0 25px 0">
+						<a href="http://demo.pelicanerp.com.br/"
+							style="-webkit-user-select: none; padding: 6px 12px; font-size: 14px; line-height: 20px; color: rgb(255,255,255); border: none; text-decoration: none; display: inline-block; margin-bottom: 0px; font-weight: 400; text-align: center; vertical-align: middle; cursor: pointer; white-space: nowrap; background-image: none; background-color: #11877B;border-radius:4px"
+							class="o_default_snippet_text">Acesse agora a base de demonstração</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<div class="snippet_row bg-color"
+		style="padding:0px;width:600px;margin:auto;background: #FFFFFF repeat top /100%;color:#37302d">
+		<table cellspacing="0" cellpadding="0"
+			style="margin: 0 auto;width:100%;border-collapse:collapse;color:inherit">
+			<tbody>
+				<tr>
+					<td>
+						<center>
+							<table cellspacing="0" cellpadding="0"
+								style="margin: 0 auto;width:80%;border-collapse:collapse;color:inherit;font-size:14px;border-bottom:3px solid #3bcdc3;">
+								<tbody>
+									<tr>
+										<td style="padding-top:25px;padding-bottom:25px">
+											<p style="margin:0;text-align:left" class="o_default_snippet_text">
+												<span style="font-weight: bold;">Por onde começar</span>
+											</p>
+											<p style="margin:0;text-align:left" class="o_default_snippet_text">
+												<span style="font-weight: bold;">
+													<br />
+												</span>
+											</p>
+											<p style="margin:0;text-align:left" class="o_default_snippet_text">As vezes pode ser
+												intimidante acessar um sistema novo onde não temos nenhuma
+												familiaridade com o mesmo, porém não exite em entrar em
+												contato conosco e também olhar o material de estudo que
+												temos para você:
+											</p>
+											<p style="margin:0;text-align:left" class="o_default_snippet_text">
+												<br />
+											</p>
+											<p style="margin:0;text-align:left" class="o_default_snippet_text"></p>
+											<ul>
+												<li>
+													<a
+														href="http://www.trustcode.com.br/forum/how-to/documentacao-pelican-1/conhecendo-o-sistema-2">Conheça o sistema</a>
+												</li>
+												<li>
+													<a
+														href="http://www.trustcode.com.br/forum/how-to/documentacao-pelican-1/emitindo-sua-primeira-nf-e-3">Emitindo sua primeira NF-e</a>
+												</li>
+												<li>
+													<a href="http://www.trustcode.com.br/forum/how-to">Documentação do Pelican</a>
+												</li>
+												<li>
+													<a
+														href="http://www.trustcode.com.br/blog/blog-trustcode-1/post/open-source-como-diferencial-estrategico-1">Dúvidas em relação ao Open Source?</a>
+												</li>
+												<li>
+													<a
+														href="http://www.trustcode.com.br/slides/apresentacoes-trustcode-1">Apresentações da Trustcode</a>
+												</li>
+											</ul>
+											<p></p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<table cellspacing="0" cellpadding="0"
+								style="margin:20px auto;width:80%;border-collapse:collapse;color:inherit;font-size:14px">
+								<tbody>
+									<tr>
+										<td style="text-align:left;border-left:none;padding:5px 0">
+											<p style="margin:0">
+												<strong class="o_default_snippet_text">Entre em contato conosco em caso de
+													dúvidas:
+												</strong>
+											</p>
+											<p style="margin:0">
+												<strong class="o_default_snippet_text">
+													<br />
+												</strong>
+											</p>
+											<p style="margin:0">
+												<strong class="o_default_snippet_text">Trustcode</strong>
+											</p>
+											<p style="margin:0" class="o_default_snippet_text">suporte@trustcode.com.br</p>
+											<p style="margin:0" class="o_default_snippet_text">
+												comercial@trustcode.com.br
+												<br />
+												(48) 3771-0507
+											</p>
+										</td>
+										<td
+											style="text-align:right; vertical-align:top;border-left:none;padding:5px 0">
+											<p style="margin:0">
+												<br />
+											</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</center>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="snippet_row bg-color"
+		style="padding:0px;width:600px;margin:auto;background: #C2C2C2 repeat top /100%;color:#37302d">
+		<div style="padding:10px">
+			<table cellspacing="0" cellpadding="0"
+				style="margin: 0 auto;width:100%;border-collapse:collapse;color:inherit">
+				<tbody>
+					<tr>
+						<td style="font-size:12px;text-align:center;padding:10px"
+							class="o_default_snippet_text">
+							<a style="color:#37302d" href="http://www.pelicanerp.com.br/page/contactus"
+								class="o_default_snippet_text">Desinscrever
+							</a>
+							|
+							<a style="color:#37302d" href="http://www.pelicanerp.com.br/page/contactus"
+								class="o_default_snippet_text">Contato
+							</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+ ]]></field>
+		</record>
+
+
+		<record id="ir_signup_template_email" model="ir.config_parameter">
+			<field name="key">theme_hort.signup_email_template_id</field>
+			<field name="value" ref="email_template_welcome_hort" />
+		</record>
+
+	</data>
+</openerp>

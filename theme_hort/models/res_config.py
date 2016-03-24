@@ -19,24 +19,30 @@
 #                                                                             #
 ###############################################################################
 
-{
-    'name': 'Hort Theme',
-    'category': 'Theme/Corporate',
-    'summary': 'Trustcode Theme',
-    'version': '1.0',
-    'description': """Trustcode WebSite Theme""",
-    'author': 'Trustcode',
-    'depends': ['website', 'website_less', 'portal', 'website_event',
-                'website_blog', 'website_forum', 'product',
-                'website_crm', 'website_slides'],
-    'data': [
-        'data/data.xml',
-        'views/assets.xml',
-        'views/main_layout.xml',
-        'views/footer.xml',
-        'views/menu.xml',
-        'views/page_profile.xml',
-        'views/res_partner_view.xml',
-    ],
-    'application': True,
-}
+
+from openerp.osv import osv, fields
+from openerp.tools.safe_eval import safe_eval
+
+
+class base_config_settings(osv.TransientModel):
+    _inherit = 'base.config.settings'
+
+    _columns = {
+        'signup_email_template_id': fields.many2one(
+            'email.template',
+            string='Template user for new users created through signup'),
+    }
+
+    def get_signup_email_template_id(
+            self, cr, uid, fields, context=None):
+        icp = self.pool.get('ir.config_parameter')
+        return {
+            'signup_email_template_id': safe_eval(icp.get_param(
+                cr, uid, 'theme_hort.signup_email_template_id', 'False')),
+        }
+
+    def set_signup_email_template_id(self, cr, uid, ids, context=None):
+        config = self.browse(cr, uid, ids[0], context=context)
+        icp = self.pool.get('ir.config_parameter')
+        icp.set_param(cr, uid, 'theme_hort.signup_email_template_id',
+                      repr(config.signup_email_template_id))

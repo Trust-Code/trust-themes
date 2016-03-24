@@ -19,24 +19,7 @@
 #                                                                             #
 ###############################################################################
 
-{
-    'name': 'Hort Theme',
-    'category': 'Theme/Corporate',
-    'summary': 'Trustcode Theme',
-    'version': '1.0',
-    'description': """Trustcode WebSite Theme""",
-    'author': 'Trustcode',
-    'depends': ['website', 'website_less', 'portal', 'website_event',
-                'website_blog', 'website_forum', 'product',
-                'website_crm', 'website_slides'],
-    'data': [
-        'data/data.xml',
-        'views/assets.xml',
-        'views/main_layout.xml',
-        'views/footer.xml',
-        'views/menu.xml',
-        'views/page_profile.xml',
-        'views/res_partner_view.xml',
-    ],
-    'application': True,
-}
+
+from . import res_partner
+from . import res_users
+from . import res_config

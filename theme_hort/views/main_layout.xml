@@ -111,7 +111,7 @@
 												<img src="/theme_hort/static/src/images/lamp-icon.png"
 													alt="" />
 											</div>
-											<p>Dicas sobre botânica e melhores práticas.</p>
+											<p>Dicas sobre plantio e melhores práticas.</p>
 										</div>
 										<div class="col-lg-6 col-sm-6">
 											<div class="images">
@@ -127,23 +127,29 @@
 												<img src="/theme_hort/static/src/images/chat-icon.png"
 													alt="" />
 											</div>
-											<p>Dicas sobre botânica e melhores práticas.</p>
+											<p>Converse com nossos especialistas e obtenha informações de
+												valor.
+											</p>
 										</div>
 										<div class="col-lg-6 col-sm-6">
 											<div class="images">
 												<img src="/theme_hort/static/src/images/car-mart.png"
 													alt="" />
 											</div>
-											<p>Fotos e vídeos dos processos de cultivo.</p>
+											<p>Faça parte do nosso clube de compras de orgânicos.</p>
 										</div>
 									</div>
-									<div class="col-lg-12 none">
+									<div class="input-group js_subscribe hidden col-lg-12 none"
+										data-list-id="1" data-subscribe="off">
 										<div class="col-lg-9 col-sm-8 col-xs-9 none">
-											<input type="text" placeholder="Deixe aqui seu e-mail e faça parte!" />
+											<input class="js_subscribe_email form-control" name="email"
+												placeholder="Deixe aqui seu e-mail e faça parte!"  type="text" />
 										</div>
 										<div class="col-lg-3 col-sm-4 col-xs-3 none">
-											<input type="submit" value="" />
+											<input class="js_subscribe_btn" type="submit" value="" />
+											<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />	
 										</div>
+										<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
 									</div>
 								</div>
 							</div>
@@ -246,13 +252,17 @@
 								<b>Orgânico como Serviço:</b>
 							</p>
 						</div>
-						<div class="col-lg-6 col-sm-6">
-							<div class="col-lg-9 col-sm-8 col-xs-9  none">
-								<input type="text" placeholder="Deixe aqui seu e-mail e faça parte!" />
+						<div class="input-group js_subscribe hidden col-lg-6 col-sm-6"
+							data-list-id="1" data-subscribe="off">
+							<div class="col-lg-9 col-sm-8 col-xs-9 none">
+								<input class="js_subscribe_email form-control" name="email"
+									placeholder="Deixe aqui seu e-mail e faça parte!" type="text" />
 							</div>
 							<div class="col-lg-3 col-sm-4 col-xs-3 none">
-								<input type="submit" value="" />
+								<input class="js_subscribe_btn" type="submit" value="" />
+								<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />								
 							</div>
+							<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
 						</div>
 					</div>
 				</section>

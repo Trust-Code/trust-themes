@@ -19,24 +19,25 @@
 #                                                                             #
 ###############################################################################
 
-{
-    'name': 'Hort Theme',
-    'category': 'Theme/Corporate',
-    'summary': 'Trustcode Theme',
-    'version': '1.0',
-    'description': """Trustcode WebSite Theme""",
-    'author': 'Trustcode',
-    'depends': ['website', 'website_less', 'portal', 'website_event',
-                'website_blog', 'website_forum', 'product',
-                'website_crm', 'website_slides'],
-    'data': [
-        'data/data.xml',
-        'views/assets.xml',
-        'views/main_layout.xml',
-        'views/footer.xml',
-        'views/menu.xml',
-        'views/page_profile.xml',
-        'views/res_partner_view.xml',
-    ],
-    'application': True,
-}
+
+from openerp import api, fields, models
+from openerp.exceptions import Warning
+
+
+class ResPartner(models.Model):
+    _inherit = 'res.partner'
+
+    gender = fields.Selection([('0', 'Masculino'), ('1', 'Feminino')],
+                              string=u"Sexo")
+    profile = fields.Selection([('0', u'Produtor'), ('1', u'Consumidor')],
+                               string=u"Perfil")
+    date_birth = fields.Date(string=u"Data de Nascimento")
+    join_events = fields.Boolean(string=u"Gostaria de participar em eventos")
+
+    produce_ids = fields.Many2many(
+        comodel_name='product.product', string="Produz",
+        help="Itens que o parceiro produz")
+
+    interest_in_ids = fields.Many2many(
+        comodel_name='product.product', string="Tem interesse",
+        help="Itens que o parceiro gostaria de adquirir")

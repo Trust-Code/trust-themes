@@ -99,9 +99,9 @@ p {
 }
 
 .dropdown-menu > li > a {
+	color: #ffffff !important;
 	padding:20px 20px !important;
-	text-transform:uppercase;
-	
+	text-transform:uppercase;	
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -164,7 +164,7 @@ p {
 	border:none;
 }
 
-#header .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+#header .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus, .dropdown-menu > li > a:hover {
 	background:#168b69 !important;
 }
 

@@ -8,9 +8,16 @@
 					rel="stylesheet" type="text/css" />
 				<link href="/theme_hort/static/src/css/style.css" rel="stylesheet"
 					type="text/css" />
+				<link href="/theme_hort/static/src/css/perfil1.css" rel="stylesheet"
+					type="text/css" />
+				<link href="/theme_hort/static/src/css/perfil2.css" rel="stylesheet"
+					type="text/css" />
+				<link href="/theme_hort/static/src/css/perfil3.css" rel="stylesheet"
+					type="text/css" />
 				<script src="/theme_hort/static/src/js/jquery.bxslider.js"
 					type="text/javascript"></script>
 				<script src="/theme_hort/static/src/js/main.js" type="text/javascript"></script>
+				<script src="/theme_hort/static/src/js/perfil.js" type="text/javascript"></script>
 			</xpath>
 		</template>
 	</data>

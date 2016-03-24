@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+
+		<record id="view_theme_hort_res_partner_form" model="ir.ui.view">
+			<field name="name">theme_hort.res.partner.form</field>
+			<field name="model">res.partner</field>
+			<field name="inherit_id" ref="base.view_partner_form" />
+			<field name="arch" type="xml">
+				<field name="website" position="after">
+					<field name="gender" />
+					<field name="profile" />
+					<field name="produce_ids" widget="many2many_tags" />
+				</field>
+				<field name="title" position="after">
+					<field name="date_birth" />
+					<field name="interest_in_ids" widget="many2many_tags" />
+				</field>
+				<field name="opt_out" position="after">
+					<field name="join_events" />
+				</field>
+			</field>
+		</record>
+
+	</data>
+</openerp>
+		
