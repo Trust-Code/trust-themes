@@ -37,6 +37,7 @@
         'views/menu.xml',
         'views/page_profile.xml',
         'views/res_partner_view.xml',
+        'views/404.xml',
     ],
     'application': True,
 }
