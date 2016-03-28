@@ -702,3 +702,29 @@ p {
 
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1169px) {}
+
+main > div.website_forum {
+	margin-top:40px;
+}
+
+main > div.oe_website_login_container{
+	min-height:600px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+.navbar-default a.navbar-brand {
+	margin-top:0px;
+}
+
+#wrap {
+	min-height:600px;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+
+#wrap.js_blog {
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
