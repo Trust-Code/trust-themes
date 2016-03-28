@@ -11,9 +11,9 @@
 
 			<xpath expr="//div[@id='wrapwrap']/header" position="before">
 				<section id="header">
-					<div class="container">
+					<div class="container-fluid">
 						<nav class="navbar navbar-default navbar-static-top " role="navigation">
-							<div class="container">
+							<div id="row-menu-top" class="row">
 								<div class="navbar-header col-lg-3 none">
 									<button type="button" class="navbar-toggle collapsed"
 										data-toggle="collapse" data-target="#navbar" aria-expanded="false"
@@ -23,7 +23,7 @@
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 									</button>
-									<div id="logo" class="navbar-brand ">
+									<div id="logo" class="navbar-brand " style="float:right;margin:0;">
 										<a href="/">
 											<img src="/theme_hort/static/src/images/logo.png" alt="" />
 										</a>
@@ -78,7 +78,7 @@
 												<label class="size">Quintal</label>
 												<img src="/theme_hort/static/src/images/prog.png" alt="" />
 												<br />
-												<span t-field="website.user_id.id"></span>												
+												<span t-field="website.user_id.karma"></span>
 											</a>
 										</li>
 										<li>

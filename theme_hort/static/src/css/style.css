@@ -703,6 +703,12 @@ p {
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1169px) {}
 
+@media (min-width: 768px){
+	#row-menu-top {
+		padding-top: 50px;
+	} 
+}
+
 main > div.website_forum {
 	margin-top:40px;
 }
