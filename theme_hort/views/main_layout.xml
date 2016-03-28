@@ -139,7 +139,7 @@
 											<p>Faça parte do nosso clube de compras de orgânicos.</p>
 										</div>
 									</div>
-									<div class="input-group js_subscribe hidden col-lg-12 none"
+									<div class="js_subscribe hidden col-lg-12 none"
 										data-list-id="1" data-subscribe="off">
 										<div class="col-lg-9 col-sm-8 col-xs-9 none">
 											<input class="js_subscribe_email form-control" name="email"
@@ -252,7 +252,7 @@
 								<b>Orgânico como Serviço:</b>
 							</p>
 						</div>
-						<div class="input-group js_subscribe hidden col-lg-6 col-sm-6"
+						<div class="js_subscribe hidden col-lg-6 col-sm-6"
 							data-list-id="1" data-subscribe="off">
 							<div class="col-lg-9 col-sm-8 col-xs-9 none">
 								<input class="js_subscribe_email form-control" name="email"
