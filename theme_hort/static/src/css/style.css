@@ -115,7 +115,7 @@ p {
 	padding:41px 35px; 
 }
 
-#header .navbar-default .navbar-nav > li:nth-child(3n) a {
+#header .navbar-default .navbar-nav > li:nth-child(2n) a {
 	padding:48px 35px; 
 }
 

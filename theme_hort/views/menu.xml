@@ -11,83 +11,78 @@
 
 			<xpath expr="//div[@id='wrapwrap']/header" position="before">
 				<section id="header">
-					<div class="container-fluid">
+					<div class="container">
 						<nav class="navbar navbar-default navbar-static-top " role="navigation">
-							<div id="row-menu-top" class="row">
-								<div class="navbar-header col-lg-3 none">
-									<button type="button" class="navbar-toggle collapsed"
-										data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-										aria-controls="navbar">
-										<span class="sr-only">Toggle navigation</span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-										<span class="icon-bar"></span>
-									</button>
-									<div id="logo" class="navbar-brand " style="float:right;margin:0;">
-										<a href="/">
-											<img src="/theme_hort/static/src/images/logo.png" alt="" />
-										</a>
+							<div class="col-lg-12" style="float: none; margin: 0 auto;">
+								<div id="row-menu-top" class="row">
+									<div class="navbar-header col-lg-3 none">
+										<button type="button" class="navbar-toggle collapsed"
+											data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+											aria-controls="navbar">
+											<span class="sr-only">Toggle navigation</span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+											<span class="icon-bar"></span>
+										</button>
+										<div id="logo" class="navbar-brand " style="float:right;margin:0;">
+											<a href="/">
+												<img src="/theme_hort/static/src/images/logo.png" alt="" />
+											</a>
+										</div>
 									</div>
-								</div>
-								<div id="navbar" class="navbar-collapse  col-lg-9 collapse">
-									<ul class="nav navbar-nav navbar-right">
-										<li class="dropdown">
-											<a class="dropdown-toggle" data-toggle="dropdown" href="#">
-												a rede
-												<b class="caret">
-													<img src="/theme_hort/static/src/images/dwn-arrow.png"
-														alt="" />
-												</b>
-											</a>
-											<ul class="dropdown-menu">
-												<li>
-													<a href="/page/semeadora-virtual">Semeadora Virtual </a>
-												</li>
-												<li>
-													<a href="/page/prateleira-verde">Prateleira Verde</a>
-												</li>
-												<li>
-													<a href="/page/quem-somos">Quem somos </a>
-												</li>
-												<li>
-													<a href="/page/nossos-valores">Nossos valores </a>
-												</li>
-												<li>
-													<a href="/crm/contactus">Contato </a>
-												</li>
-											</ul>
-										</li>
-										<li class="color-yellow">
-											<a href="/page/organico-como-servico">
-												<b>Orgânico</b>
-												<br />
-												<label>como serviço</label>
-											</a>
-										</li>
-										<li>
-											<a href="/event">Eventos</a>
-										</li>
-										<li class="color-yellow" groups="base.group_public">
-											<a style="padding:48px 35px;" t-attf-href="/web/login">Login</a>
-										</li>
+									<div id="navbar" class="navbar-collapse  col-lg-9 collapse">
+										<ul class="nav navbar-nav navbar-right">
+											<li class="dropdown">
+												<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+													a rede
+													<b class="caret">
+														<img src="/theme_hort/static/src/images/dwn-arrow.png"
+															alt="" />
+													</b>
+												</a>
+												<ul class="dropdown-menu">
+													<li>
+														<a href="/page/semeadora-virtual">Semeadora Virtual </a>
+													</li>
+													<li>
+														<a href="/page/prateleira-verde">Prateleira Verde</a>
+													</li>
+													<li>
+														<a href="/page/quem-somos">Quem somos </a>
+													</li>
+													<li>
+														<a href="/page/nossos-valores">Nossos valores </a>
+													</li>
+													<li>
+														<a href="/crm/contactus">Contato </a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="/event">Eventos</a>
+											</li>
+											<li class="color-yellow" groups="base.group_public">
+												<a style="padding:48px 35px;" t-attf-href="/web/login">Login</a>
+											</li>
 
-										<li class="active color-yellow" t-if="website.user_id != user_id">
-											<a href="/web" class="meu">
-												Meu
-												<br />
-												<label class="size">Quintal</label>
-												<img src="/theme_hort/static/src/images/prog.png" alt="" />
-												<br />
-												<span t-field="website.user_id.karma"></span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												<img src="/theme_hort/static/src/images/facebook.png"
-													alt="" />
-											</a>
-										</li>
-									</ul>
+											<li class="active color-yellow" t-if="website.user_id != user_id">
+												<a href="/web" class="meu">
+													Meu
+													<br />
+													<label class="size">Quintal</label>
+													<img src="/theme_hort/static/src/images/prog.png" alt="" />
+													<br />
+													<span t-field="website.user_id.karma"></span>
+												</a>
+											</li>
+											<li>
+												<a href="#">
+													<img src="/theme_hort/static/src/images/facebook.png"
+														alt="" />
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</nav>
