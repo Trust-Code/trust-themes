@@ -66,13 +66,13 @@
 											</li>
 
 											<li class="active color-yellow" t-if="website.user_id != user_id">
-												<a href="/web" class="meu">
+												<a href="/page/perfil" class="meu" data-bind="with: user">
 													Meu
 													<br />
 													<label class="size">Quintal</label>
 													<img src="/theme_hort/static/src/images/prog.png" alt="" />
 													<br />
-													<span t-field="website.user_id.karma"></span>
+													<span data-bind="text: karma"></span>
 												</a>
 											</li>
 											<li>

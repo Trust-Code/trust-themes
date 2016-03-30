@@ -2,307 +2,66 @@
 <openerp>
 	<data>
 
-		<template id="website.semeadora-virtual" name="Theme Hort Perfil"
-			page="True">
-			<t t-call="website.layout">
+		<template id="website.perfil" name="Theme Hort Perfil" page="True">
 
+			<t t-call="website.layout">
 				<link
 					href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
 					rel="stylesheet" media="screen" />
 
-				<h1>Perfil número 1</h1>
-				<hr></hr>
-
-				<div class="container">
-					<div class="row user-menu-container square">
-						<div class="col-md-7 user-details">
-							<div class="row coralbg white">
-								<div class="col-md-6 no-pad">
-									<div class="user-pad">
-										<h3>Welcome back, Jessica</h3>
-										<h4 class="white">
-											<i class="fa fa-check-circle-o"></i>
-											San Antonio, TX
-										</h4>
-										<h4 class="white">
-											<i class="fa fa-twitter"></i>
-											CoolesOCool
-										</h4>
-										<button type="button" class="btn btn-labeled btn-info"
-											href="#">
-											<span class="btn-label">
-												<i class="fa fa-pencil"></i>
-											</span>
-											Update
-										</button>
-									</div>
-								</div>
-								<div class="col-md-6 no-pad">
-									<div class="user-image">										
-										<img
-											src="https://farm7.staticflickr.com/6163/6195546981_200e87ddaf_b.jpg"
-											class="img-responsive thumbnail" />
-									</div>
-								</div>
-							</div>
-							<div class="row overview">
-								<div class="col-md-4 user-pad text-center">
-									<h3>FOLLOWERS</h3>
-									<h4>2,784</h4>
-								</div>
-								<div class="col-md-4 user-pad text-center">
-									<h3>FOLLOWING</h3>
-									<h4>456</h4>
-								</div>
-								<div class="col-md-4 user-pad text-center">
-									<h3>APPRECIATIONS</h3>
-									<h4>4,901</h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-1 user-menu-btns">
-							<div class="btn-group-vertical square" id="responsive">
-								<a href="#" class="btn btn-block btn-default active">
-									<i class="fa fa-bell-o fa-3x"></i>
-								</a>
-								<a href="#" class="btn btn-default">
-									<i class="fa fa-envelope-o fa-3x"></i>
-								</a>
-								<a href="#" class="btn btn-default">
-									<i class="fa fa-laptop fa-3x"></i>
-								</a>
-								<a href="#" class="btn btn-default">
-									<i class="fa fa-cloud-upload fa-3x"></i>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-4 user-menu user-pad">
-							<div class="user-menu-content active">
-								<h3>
-									Recent Interactions
-								</h3>
-								<ul class="user-menu-list">
-									<li>
-										<h4>
-											<i class="fa fa-user coral"></i>
-											Roselynn Smith followed you.
-										</h4>
-									</li>
-									<li>
-										<h4>
-											<i class="fa fa-heart-o coral"></i>
-											Jonathan Hawkins followed you.
-										</h4>
-									</li>
-									<li>
-										<h4>
-											<i class="fa fa-paper-plane-o coral"></i>
-											Gracie Jenkins followed you.
-										</h4>
-									</li>
-									<li>
-										<button type="button" class="btn btn-labeled btn-success"
-											href="#">
-											<span class="btn-label">
-												<i class="fa fa-bell-o"></i>
-											</span>
-											View all activity
-										</button>
-									</li>
-								</ul>
-							</div>
-							<div class="user-menu-content">
-								<h3>
-									Your Inbox
-								</h3>
-								<ul class="user-menu-list">
-									<li>
-										<h4>
-											From Roselyn Smith
-											<small class="coral">
-												<strong>NEW</strong>
-												<i class="fa fa-clock-o"></i>
-												7:42 A.M.
-											</small>
-										</h4>
-									</li>
-									<li>
-										<h4>
-											From Jonathan Hawkins
-											<small class="coral">
-												<i class="fa fa-clock-o"></i>
-												10:42 A.M.
-											</small>
-										</h4>
-									</li>
-									<li>
-										<h4>
-											From Georgia Jennings
-											<small class="coral">
-												<i class="fa fa-clock-o"></i>
-												10:42 A.M.
-											</small>
-										</h4>
-									</li>
-									<li>
-										<button type="button" class="btn btn-labeled btn-danger"
-											href="#">
-											<span class="btn-label">
-												<i class="fa fa-envelope-o"></i>
-											</span>
-											View All Messages
-										</button>
-									</li>
-								</ul>
-							</div>
-							<div class="user-menu-content">
-								<h3>
-									Trending
-								</h3>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="view">
-											<div class="caption">
-												<p>47LabsDesign</p>
-												<a href="" rel="tooltip" title="Appreciate">
-													<span class="fa fa-heart-o fa-2x"></span>
-												</a>
-												<a href="" rel="tooltip" title="View">
-													<span class="fa fa-search fa-2x"></span>
-												</a>
-											</div>
-											<img
-												src="http://24.media.tumblr.com/273167b30c7af4437dcf14ed894b0768/tumblr_n5waxesawa1st5lhmo1_1280.jpg"
-												class="img-responsive" />
-										</div>
-										<div class="info">
-											<p class="small" style="text-overflow: ellipsis">An Awesome Title</p>
-											<p class="small coral text-right">
-												<i class="fa fa-clock-o"></i>
-												Posted Today | 10:42 A.M.
-											</p>
-										</div>
-										<div class="stats turqbg">
-											<span class="fa fa-heart-o">
-												<strong>47</strong>
-											</span>
-											<span class="fa fa-eye pull-right">
-												<strong>137</strong>
-											</span>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="view">
-											<div class="caption">
-												<p>47LabsDesign</p>
-												<a href="" rel="tooltip" title="Appreciate">
-													<span class="fa fa-heart-o fa-2x"></span>
-												</a>
-												<a href="" rel="tooltip" title="View">
-													<span class="fa fa-search fa-2x"></span>
-												</a>
-											</div>
-											<img
-												src="http://24.media.tumblr.com/282fadab7d782edce9debf3872c00ef1/tumblr_n3tswomqPS1st5lhmo1_1280.jpg"
-												class="img-responsive" />
-										</div>
-										<div class="info">
-											<p class="small" style="text-overflow: ellipsis">An Awesome Title</p>
-											<p class="small coral text-right">
-												<i class="fa fa-clock-o"></i>
-												Posted Today | 10:42 A.M.
-											</p>
-										</div>
-										<div class="stats turqbg">
-											<span class="fa fa-heart-o">
-												<strong>47</strong>
-											</span>
-											<span class="fa fa-eye pull-right">
-												<strong>137</strong>
-											</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="user-menu-content">
-								<h2 class="text-center">
-									START SHARING
-								</h2>
-								<center>
-									<i class="fa fa-cloud-upload fa-4x"></i>
-								</center>
-								<div class="share-links">
-									<center>
-										<button type="button" class="btn btn-lg btn-labeled btn-success"
-											href="#" style="margin-bottom: 15px;">
-											<span class="btn-label">
-												<i class="fa fa-bell-o"></i>
-											</span>
-											A FINISHED PROJECT
-										</button>
-									</center>
-									<center>
-										<button type="button" class="btn btn-lg btn-labeled btn-warning"
-											href="#">
-											<span class="btn-label">
-												<i class="fa fa-bell-o"></i>
-											</span>
-											A WORK IN PROGRESS
-										</button>
-									</center>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-
-				<h1>Perfil número 2</h1>
-				<hr></hr>
-				<div class="container bootstrap snippet">
+				<div class="container bootstrap snippet" data-bind="with: user">
 					<div class="row">
 						<div class="profile-nav col-md-3">
 							<div class="panel">
 								<div class="user-heading round">
 									<a href="#">
-										<img src="http://bootdey.com/img/Content/avatar/avatar3.png"
-											alt="" />
+										<img data-bind="attr: {src: image}" alt="" />
 									</a>
-									<h1>Camila Smith</h1>
-									<p>deydey@theEmail.com</p>
+									<h1 data-bind="text: name"></h1>
+									<p data-bind="text: email"></p>
 								</div>
 
-								<ul class="nav nav-pills nav-stacked">
+								<ul class="nav nav-pills nav-stacked" role="tablist">
 									<li class="active">
-										<a href="#">
+										<a href="#perfil-tab" aria-controls="perfil-tab" role="tab"
+											data-toggle="tab">
 											<i class="fa fa-user"></i>
-											Profile
+											Perfil
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="#atividades-tab" aria-controls="atividades-tab"
+											role="tab" data-toggle="tab">
 											<i class="fa fa-calendar"></i>
-											Recent Activity
-											<span class="label label-warning pull-right r-activity">9</span>
+											Atividade Recente
+											<span class="label label-success pull-right r-activity">9</span>
 										</a>
 									</li>
 									<li>
-										<a href="#">
+										<a href="#editar-tab" aria-controls="editar-tab" role="tab"
+											data-toggle="tab">
 											<i class="fa fa-edit"></i>
-											Edit profile
+											Editar perfil
+										</a>
+									</li>
+									<li>
+										<a href="#senha-tab" aria-controls="senha-tab" role="tab"
+											data-toggle="tab">
+											<i class="fa fa-edit"></i>
+											Alterar Senha
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div class="profile-info col-md-9">
-							<div class="panel">
+						<div class="profile-info col-md-9 tab-content">
+							<div class="panel" style="display:none;">
 								<form>
 									<textarea placeholder="Whats in your mind today?"
 										rows="2" class="form-control input-lg p-text-area"></textarea>
 								</form>
 								<footer class="panel-footer">
-									<button class="btn btn-warning pull-right">Post</button>
+									<button class="btn btn-success pull-right">Post</button>
 									<ul class="nav nav-pills">
 										<li>
 											<a href="#">
@@ -327,145 +86,335 @@
 									</ul>
 								</footer>
 							</div>
-							<div class="panel">
-								<div class="bio-graph-heading">
-									Aliquam ac magna metus. Nam sed arcu non tellus
-									fringilla fringilla ut
-									vel ispum. Aliquam ac magna metus.
+							<div role="tabpanel" class="tab-pane active" id="perfil-tab">
+								<div class="panel">
+									<div class="bio-graph-heading" data-bind="text:comment">
+									</div>
+									<div class="panel-body bio-graph-info">
+										<h1>Bio</h1>
+										<div class="row">
+											<div class="bio-row">
+												<p>
+													<span>Nome </span>
+													:
+													<b data-bind="text: name"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Nascimento</span>
+													:
+													<b data-bind="text: birthday"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Endereço: </span>
+													:
+													<b data-bind="text: address"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Cidade: </span>
+													:
+													<b data-bind="text: city"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>País </span>
+													:
+													<b data-bind="text: country"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Ocupação </span>
+													:
+													<b data-bind="text: occupation"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Email </span>
+													:
+													<b data-bind="text: email"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Telefone </span>
+													:
+													<b data-bind="text: phone"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Celular </span>
+													:
+													<b data-bind="text: mobile"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Outra </span>
+													:
+													<b data-bind="text: mobile"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Interesses </span>
+													:
+													<select id="tokenize-interesse" multiple="multiple"
+														disabled="disabled">
+														<option value="1" selected="selected">Horta</option>
+														<option value="2">Paul</option>
+														<option value="3">Michel</option>
+														<option value="4">Anna</option>
+														<option value="5">Eleanor</option>
+													</select>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Produz </span>
+													:
+													<select id="tokenize-produz" multiple="multiple"
+														disabled="disabled">
+														<option value="1">Dave</option>
+														<option value="2" selected="selected">Alface</option>
+														<option value="3" selected="selected">Tomate</option>
+														<option value="4" selected="selected">Feijão</option>
+														<option value="5">Eleanor</option>
+													</select>
+												</p>
+											</div>
+
+
+										</div>
+									</div>
 								</div>
-								<div class="panel-body bio-graph-info">
-									<h1>Bio Graph</h1>
+								<div>
 									<div class="row">
-										<div class="bio-row">
-											<p>
-												<span>First Name </span>
-												: Camila
-											</p>
+										<div class="col-md-6">
+											<div class="panel">
+												<div class="panel-body">
+													<div class="bio-chart">
+														<div style="display:inline;width:100px;height:100px;">
+															<canvas width="100" height="100px"></canvas>
+															<input class="knob" data-width="100" data-height="100"
+																data-displayprevious="true" data-thickness=".2" value="35"
+																data-fgcolor="#e06b7d" data-bgcolor="#e8e8e8"
+																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(224, 107, 125); padding: 0px; -webkit-appearance: none; background: none;" />
+														</div>
+													</div>
+													<div class="bio-desk">
+														<h4 class="red">Envato Website</h4>
+														<p>Started : 15 July</p>
+														<p>Deadline : 15 August</p>
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="bio-row">
-											<p>
-												<span>Last Name </span>
-												: Smith
-											</p>
+										<div class="col-md-6">
+											<div class="panel">
+												<div class="panel-body">
+													<div class="bio-chart">
+														<div style="display:inline;width:100px;height:100px;">
+															<canvas width="100" height="100px"></canvas>
+															<input class="knob" data-width="100" data-height="100"
+																data-displayprevious="true" data-thickness=".2" value="63"
+																data-fgcolor="#4CC5CD" data-bgcolor="#e8e8e8"
+																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(76, 197, 205); padding: 0px; -webkit-appearance: none; background: none;" />
+														</div>
+													</div>
+													<div class="bio-desk">
+														<h4 class="terques">ThemeForest CMS </h4>
+														<p>Started : 15 July</p>
+														<p>Deadline : 15 August</p>
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="bio-row">
-											<p>
-												<span>Country </span>
-												: Australia
-											</p>
+										<div class="col-md-6">
+											<div class="panel">
+												<div class="panel-body">
+													<div class="bio-chart">
+														<div style="display:inline;width:100px;height:100px;">
+															<canvas width="100" height="100px"></canvas>
+															<input class="knob" data-width="100" data-height="100"
+																data-displayprevious="true" data-thickness=".2" value="75"
+																data-fgcolor="#96be4b" data-bgcolor="#e8e8e8"
+																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(150, 190, 75); padding: 0px; -webkit-appearance: none; background: none;" />
+														</div>
+													</div>
+													<div class="bio-desk">
+														<h4 class="green">VectorLab Portfolio</h4>
+														<p>Started : 15 July</p>
+														<p>Deadline : 15 August</p>
+													</div>
+												</div>
+											</div>
 										</div>
-										<div class="bio-row">
-											<p>
-												<span>Birthday</span>
-												: 13 July 1983
-											</p>
-										</div>
-										<div class="bio-row">
-											<p>
-												<span>Occupation </span>
-												: UI Designer
-											</p>
-										</div>
-										<div class="bio-row">
-											<p>
-												<span>Email </span>
-												: jsmith@flatlab.com
-											</p>
-										</div>
-										<div class="bio-row">
-											<p>
-												<span>Mobile </span>
-												: (12) 03 4567890
-											</p>
-										</div>
-										<div class="bio-row">
-											<p>
-												<span>Phone </span>
-												: 88 (02) 123456
-											</p>
+										<div class="col-md-6">
+											<div class="panel">
+												<div class="panel-body">
+													<div class="bio-chart">
+														<div style="display:inline;width:100px;height:100px;">
+															<canvas width="100" height="100px"></canvas>
+															<input class="knob" data-width="100" data-height="100"
+																data-displayprevious="true" data-thickness=".2" value="50"
+																data-fgcolor="#cba4db" data-bgcolor="#e8e8e8"
+																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(203, 164, 219); padding: 0px; -webkit-appearance: none; background: none;" />
+														</div>
+													</div>
+													<div class="bio-desk">
+														<h4 class="purple">Adobe Muse Template</h4>
+														<p>Started : 15 July</p>
+														<p>Deadline : 15 August</p>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="panel">
-											<div class="panel-body">
-												<div class="bio-chart">
-													<div style="display:inline;width:100px;height:100px;">
-														<canvas width="100" height="100px"></canvas>
-														<input class="knob" data-width="100" data-height="100"
-															data-displayprevious="true" data-thickness=".2" value="35"
-															data-fgcolor="#e06b7d" data-bgcolor="#e8e8e8"
-															style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(224, 107, 125); padding: 0px; -webkit-appearance: none; background: none;" />
-													</div>
+
+							<div class="panel tab-pane" id="atividades-tab">
+								atividades no fórum
+							</div>
+							<div class="tab-pane panel" id="editar-tab">
+
+								<div class="panel">
+									<div class="bio-graph-heading" data-bind="text:comment">
+									</div>
+									<div class="panel-body bio-graph-info">
+										<h1>Alterar Perfil</h1>
+										<div class="row">
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nome</label>
+													<input class="form-control" data-bind="value: name" />
 												</div>
-												<div class="bio-desk">
-													<h4 class="red">Envato Website</h4>
-													<p>Started : 15 July</p>
-													<p>Deadline : 15 August</p>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nascimento</label>
+													<input class="form-control" data-bind="value: birthday" />
 												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Endereço</label>
+													<input class="form-control" data-bind="value: address" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Número</label>
+													<input class="form-control" data-bind="value: number" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Cidade</label>
+													<input class="form-control" data-bind="value: city" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Estado</label>
+													<input class="form-control" data-bind="value: state" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>País</label>
+													<input class="form-control" data-bind="value: country" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Ocupação</label>
+													<input class="form-control" data-bind="value: occupation" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Telefone</label>
+													<input class="form-control" data-bind="value: phone" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Celular</label>
+													<input class="form-control" data-bind="value: mobile" />
+												</div>
+											</div>
+
+											<div class="bio-row">
+												<p>
+													<span>Interesses </span>
+													:
+													<select id="tokenize-interesse-editar" multiple="multiple">
+														<option value="1" selected="selected">Horta</option>
+														<option value="2">Paul</option>
+														<option value="3">Michel</option>
+														<option value="4">Anna</option>
+														<option value="5">Eleanor</option>
+													</select>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Produz </span>
+													:
+													<select id="tokenize-produz-editar" multiple="multiple">
+														<option value="1">Dave</option>
+														<option value="2" selected="selected">Alface</option>
+														<option value="3" selected="selected">Tomate</option>
+														<option value="4" selected="selected">Feijão</option>
+														<option value="5">Eleanor</option>
+													</select>
+												</p>
+											</div>
+											<div class="bio-row">
+												<button type="button" class="btn btn-success">Salvar</button>
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="panel">
-											<div class="panel-body">
-												<div class="bio-chart">
-													<div style="display:inline;width:100px;height:100px;">
-														<canvas width="100" height="100px"></canvas>
-														<input class="knob" data-width="100" data-height="100"
-															data-displayprevious="true" data-thickness=".2" value="63"
-															data-fgcolor="#4CC5CD" data-bgcolor="#e8e8e8"
-															style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(76, 197, 205); padding: 0px; -webkit-appearance: none; background: none;" />
-													</div>
+								</div>
+
+							</div>
+							<div class="tab-pane panel" id="senha-tab">
+								<div class="panel">
+									<div class="bio-graph-heading" data-bind="text:comment">
+									</div>
+									<div class="panel-body bio-graph-info">
+										<h1>Alterar senha</h1>
+										<div class="row">
+											<div class="bio-row" style="width:100%;">
+												<div class="form-group">
+													<label>Senha Antiga</label>
+													<input class="form-control" data-bind="value: phone" />
 												</div>
-												<div class="bio-desk">
-													<h4 class="terques">ThemeForest CMS </h4>
-													<p>Started : 15 July</p>
-													<p>Deadline : 15 August</p>
+											</div>											
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nova Senha</label>
+													<input class="form-control" data-bind="value: phone" />
 												</div>
 											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="panel">
-											<div class="panel-body">
-												<div class="bio-chart">
-													<div style="display:inline;width:100px;height:100px;">
-														<canvas width="100" height="100px"></canvas>
-														<input class="knob" data-width="100" data-height="100"
-															data-displayprevious="true" data-thickness=".2" value="75"
-															data-fgcolor="#96be4b" data-bgcolor="#e8e8e8"
-															style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(150, 190, 75); padding: 0px; -webkit-appearance: none; background: none;" />
-													</div>
-												</div>
-												<div class="bio-desk">
-													<h4 class="green">VectorLab Portfolio</h4>
-													<p>Started : 15 July</p>
-													<p>Deadline : 15 August</p>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Repita a senha</label>
+													<input class="form-control" data-bind="value: phone" />
 												</div>
 											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="panel">
-											<div class="panel-body">
-												<div class="bio-chart">
-													<div style="display:inline;width:100px;height:100px;">
-														<canvas width="100" height="100px"></canvas>
-														<input class="knob" data-width="100" data-height="100"
-															data-displayprevious="true" data-thickness=".2" value="50"
-															data-fgcolor="#cba4db" data-bgcolor="#e8e8e8"
-															style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(203, 164, 219); padding: 0px; -webkit-appearance: none; background: none;" />
-													</div>
-												</div>
-												<div class="bio-desk">
-													<h4 class="purple">Adobe Muse Template</h4>
-													<p>Started : 15 July</p>
-													<p>Deadline : 15 August</p>
-												</div>
+											<div class="bio-row">
+												<button type="button" class="btn btn-success">Salvar</button>
 											</div>
 										</div>
 									</div>
@@ -475,403 +424,6 @@
 					</div>
 				</div>
 
-
-				<h1>Perfil número 3</h1>
-				<hr />
-				<div class="container bootstrap snippet">
-					<div class="content-hero">
-						<img class="content-hero-embed" src="http://lorempixel.com/250/250/nature/8/"
-							alt="cover" />
-						<div class="content-hero-overlay bg-grd-red"></div>
-						<div class="content-hero-body">
-							<div class="pull-right" role="group">
-								<a class="btn btn-icon btn-default">
-									<span class="fa fa-user"></span>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="content-hero content-hero-sm">
-						<div class="row">
-							<div class="col-md-6 col-xs-8">
-								<div class="media">
-									<div class="media-left">
-										<a
-											class="kit-avatar kit-avatar-64 no-padding border-white hidden-xs"
-											href="#">
-											<img alt="cover"
-												src="http://bootdey.com/img/Content/avatar/avatar1.png" />
-										</a>
-										<a
-											class="kit-avatar kit-avatar-42 no-padding border-white visible-xs"
-											href="#">
-											<img alt="cover"
-												src="http://bootdey.com/img/Content/avatar/avatar1.png" />
-										</a>
-									</div>
-									<div class="media-body">
-										<h2 class="display-name media-heading text-red hidden-xs">Angela Fowler</h2>
-										<h3 class="display-name media-heading text-red visible-xs">Angela Fowler</h3>
-										<p class="text-muted">
-											<span class="mr-2x">Since April 21, 2010</span>
-											<span>
-												<i class="fa fa-skype fa-fw hidden-xs"></i>
-												(+44) 212 008 5656
-											</span>
-										</p>
-									</div><!-- /.pull -->
-								</div>
-							</div><!-- /.cols -->
-
-							<div class="col-md-2 col-xs-4 col-md-push-4 text-right">
-								<a href="#" rel="button" class="btn btn-default" data-toggle="tooltip"
-									data-placement="left" title="" aria-label="Poke"
-									data-original-title="Jawil sitik">
-									<i class="fa fa-thumbs-o-up"></i>
-								</a>
-								<a href="#" rel="button" class="btn btn-default" data-toggle="tooltip"
-									data-placement="left" title="" aria-label="Send a Messege"
-									data-original-title="Send a Messege">
-									<i class="fa fa-envelope-o"></i>
-								</a>
-							</div><!-- /.cols -->
-
-							<div class="col-md-4 col-xs-12 col-md-pull-2 text-center">
-								<div class="row">
-									<div class="col-xs-4">
-										<div class="p-1x">
-											<span class="headline">
-												<strong>1,5K</strong>
-											</span>
-											<p>Activities</p>
-										</div>
-									</div><!-- /.cols -->
-									<div class="col-xs-4">
-										<div class="p-1x">
-											<span class="headline">
-												<strong>23</strong>
-											</span>
-											<p>Events</p>
-										</div>
-									</div><!-- /.cols -->
-									<div class="col-xs-4">
-										<div class="p-1x">
-											<span class="headline">
-												<strong>2,4K</strong>
-											</span>
-											<p>Followers</p>
-										</div>
-									</div><!-- /.cols -->
-								</div><!-- /.row -->
-							</div><!-- /.cols -->
-						</div><!-- /.row -->
-					</div>
-					<div class="content-body">
-						<ul class="timeline">
-							<li class="timeline-line"></li>
-							<li class="timeline-group">
-								<a href="#" class="btn btn-default">Today</a>
-							</li>
-						</ul>
-						<ul class="timeline">
-							<li class="timeline-line" style="height:600px;"></li>
-							<li class="timeline-item timeline-poster">
-								<div class="timeline-badge">
-									<a class="border-teal" rel="tooltip" title="" data-container="body"
-										href="#" data-original-title="What will you do?"></a>
-								</div>
-								<div class="timeline-panel panel fade in panel-default panel-fill"
-									data-fill-color="true" data-init-panel="true">
-									<div class="panel-body">
-										<ul class="nav nav-tabs nav-contrast-red">
-											<li class="">
-												<a data-toggle="tab" href="#" aria-expanded="false">Status</a>
-											</li>
-											<li class="">
-												<a data-toggle="tab" href="#" aria-expanded="false">Photo</a>
-											</li>
-											<li class="">
-												<a data-toggle="tab" href="#" aria-expanded="false">Place</a>
-											</li>
-											<li class="active">
-												<a data-toggle="tab" href="#" aria-expanded="true">Events</a>
-											</li>
-										</ul>
-										<div class="tab-content pt-1x">
-											<textarea name="timelinePost" rows="6"
-												class="form-control autogrow no-border no-resize"
-												placeholder="Write in timeline"
-												style="overflow: hidden; min-height: 6em; height: 52px;"></textarea>
-											<div class="autogrow-textarea-mirror"
-												style="display: none; word-wrap: break-word; white-space: normal; padding: 6px 12px; width: 461px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px;">
-												.
-												<br />
-												.
-											</div>
-										</div>
-									</div><!-- /.panel-body -->
-									<div class="panel-footer">
-										<div class="btn-group">
-											<button type="button" class="btn btn-link">
-												<i class="fa fa-user"></i>
-											</button>
-											<button type="button" class="btn btn-link">
-												<i class="fa fa-map-marker"></i>
-											</button>
-											<button type="button" class="btn btn-link">
-												<i class="fa fa-camera"></i>
-											</button>
-											<button type="button" class="btn btn-link">
-												<i class="fa fa-smile-o"></i>
-											</button>
-										</div>
-										<div class="pull-right">
-											<button type="submit" class="btn btn-success">Post</button>
-										</div>
-									</div><!-- /.panel-footer -->
-								</div><!-- /.timeline-panel.panel -->
-							</li>
-
-							<li class="timeline-item">
-								<div class="timeline-badge">
-									<a class="border-orange" rel="tooltip" title=""
-										data-container="body" href="#" data-original-title="Post"></a>
-								</div>
-								<div class="timeline-panel panel fade in panel-default panel-fill"
-									data-fill-color="true" data-init-panel="true">
-									<div class="panel-body">
-										<div class="media mb-2x">
-											<div class="media-left">
-												<a href="#" class="timeline-avatar kit-avatar kit-avatar-36">
-													<img class="media-object"
-														src="http://bootdey.com/img/Content/avatar/avatar2.png"
-														alt="" />
-												</a>
-											</div><!-- /.media-left -->
-											<div class="media-body">
-												<p class="media-heading">
-													<strong>Angela Fowler</strong>
-													<br />
-													<small class="text-muted">30 minutes</small>
-												</p>
-											</div><!-- /.media-body -->
-										</div><!-- /.media -->
-
-										<p>Assumenda, pariatur repellendus voluptatum eaque sint,
-											quibusdam voluptatem nulla nesciunt placeat sunt tempore ad
-											reiciendis ducimus dicta neque minima debitis delectus ab!
-										</p>
-									</div><!-- /.panel-body -->
-
-									<div class="panel-body timeline-resume">
-										<div class="pull-right" data-toggle="tooltip" title=""
-											data-original-title="in this post">
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar3.png" />
-											</a>
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar4.png" />
-											</a>
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar5.png" />
-											</a>
-											<a href="#" class="btn btn-xs btn-default btn-circle">+4</a>
-										</div>
-										<a href="#" class="btn btn-bordered btn-default btn-sm">+33</a>
-										<a href="#" class="btn btn-bordered btn-default btn-sm">
-											<span class="fa fa-share fa-fw"></span>
-											7
-										</a>
-									</div><!-- /.panel-body -->
-
-									<div class="panel-body timeline-livelines">
-										<p>
-											<a href="#">
-												<small>
-													<i class="fa fa-comment-o fa-fw"></i>
-													View 4 more comments
-												</small>
-											</a>
-										</p>
-										<div class="media">
-											<div class="media-left">
-												<a class="kit-avatar kit-avatar-28" href="#">
-													<img class="media-object"
-														src="http://bootdey.com/img/Content/avatar/avatar6.png" />
-												</a>
-											</div>
-											<div class="media-body bordered-bottom">
-												<p class="media-heading">
-													<strong>Arina Rosetti</strong>
-													Consequuntur illo accusantium, expedita ratione dolorem
-													fuga minima!
-												</p>
-												<p class="text-muted">
-													<small>22 minutes</small>
-												</p>
-											</div>
-										</div><!-- /.media -->
-										<div class="media">
-											<div class="media-left">
-												<a class="kit-avatar kit-avatar-28" href="#">
-													<img class="media-object"
-														src="http://bootdey.com/img/Content/avatar/avatar1.png" />
-												</a>
-											</div>
-											<div class="media-body bordered-bottom">
-												<p class="media-heading">
-													<strong>Júlia Ribeiro</strong>
-													Veritatis aspernatur totam illum quisquam ipsa
-													accusantium, animi voluptatum rem placeat.
-												</p>
-												<p class="text-muted">
-													<small>18 minutes</small>
-												</p>
-											</div>
-										</div><!-- /.media -->
-										<div class="media">
-											<div class="media-left">
-												<a class="kit-avatar kit-avatar-28" href="#">
-													<img class="media-object"
-														src="http://bootdey.com/img/Content/avatar/avatar2.png" />
-												</a>
-											</div>
-											<div class="media-body">
-												<p class="media-heading">
-													<strong>Felix Koller</strong>
-													Molestias ipsum hic voluptas soluta expedita, ab, dolorum
-													aperiam neque nesciunt.
-												</p>
-												<p class="text-muted">
-													<small>10 minutes</small>
-												</p>
-											</div>
-										</div><!-- /.media -->
-									</div><!-- /.panel-body -->
-
-									<div class="panel-footer timeline-livelines">
-										<form action="#">
-											<a class="kit-avatar kit-avatar-28 no-border pull-left"
-												href="#">
-												<img class="media-object"
-													src="http://bootdey.com/img/Content/avatar/avatar3.png" />
-											</a>
-											<div class="input-group input-group-in no-border">
-												<input class="form-control" placeholder="write comment..." />
-												<div class="input-group-btn">
-													<button type="submit" class="btn">
-														<i class="fa fa-chevron-circle-right"></i>
-													</button>
-												</div>
-											</div>
-										</form>
-									</div><!-- /.panel-footer -->
-								</div><!-- /.timeline-panel.panel -->
-							</li>
-							<li class="timeline-item">
-								<div class="timeline-badge">
-									<a class="border-red" rel="tooltip" title="" data-container="body"
-										href="#" data-original-title="photo"></a>
-								</div>
-								<div class="timeline-panel panel fade in panel-default panel-fill"
-									data-fill-color="true" data-init-panel="true">
-									<div class="panel-body">
-										<div class="media mb-1x">
-											<div class="media-left">
-												<a href="#" class="timeline-avatar kit-avatar kit-avatar-36">
-													<img src="http://bootdey.com/img/Content/avatar/avatar4.png"
-														alt="" />
-												</a>
-											</div>
-											<div class="media-body">
-												<div class="timeline-actions pull-right">
-													<div class="dropdown">
-														<a href="#" class="btn btn-icon btn-default dropdown-toggle"
-															data-toggle="dropdown">
-															<i class="icon-options-vertical text-muted"></i>
-														</a>
-														<ul class="dropdown-menu dropdown-menu-right">
-															<li>
-																<a href="#">Edit</a>
-															</li>
-															<li>
-																<a href="#">Hide</a>
-															</li>
-															<li>
-																<a href="#">Mark</a>
-															</li>
-															<li class="divider"></li>
-															<li>
-																<a href="#">Delete</a>
-															</li>
-														</ul>
-													</div>
-												</div><!-- /.timeline-actions -->
-												<p class="media-heading">
-													<strong>Angela Fowler</strong>
-													<br />
-													<small class="text-muted">Share photo about 2 hours</small>
-												</p>
-											</div><!-- /.media-body -->
-										</div><!-- /.media -->
-
-										<p>Quia laboriosam architecto est quisquam cumque obcaecati
-											quasi voluptas saepe minus nam.
-										</p>
-									</div><!-- /.panel-body -->
-
-									<a href="#" class="embed-responsive embed-responsive-16by9">
-										<img src="http://lorempixel.com/250/250/nature/8/" alt="embed image"
-											class="embed-responsive-item" />
-									</a>
-
-									<div class="panel-body">
-										<div class="pull-right" data-toggle="tooltip" title=""
-											data-original-title="in this post">
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar1.png" />
-											</a>
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar3.png" />
-											</a>
-											<a class="kit-avatar kit-avatar-24 align-middle no-border"
-												href="#">
-												<img alt="avatar" title="friend name"
-													src="http://bootdey.com/img/Content/avatar/avatar2.png" />
-											</a>
-											<a href="#" class="btn btn-xs btn-default btn-circle">+4</a>
-										</div>
-										<a href="#" class="btn btn-bordered btn-default btn-sm">+12</a>
-										<a href="#" class="btn btn-bordered btn-default btn-sm">
-											<span class="fa fa-share fa-fw"></span>
-											7
-										</a>
-									</div><!-- /.timeline-resume -->
-
-									<div class="panel-body timeline-liveliness">
-										<a href="#">
-											<small>
-												<i class="fa fa-comment-o fa-fw"></i>
-												View all comments (34)
-											</small>
-										</a>
-									</div><!-- /.timeline-liveliness -->
-								</div><!-- /.timeline-panel -->
-							</li>
-						</ul>
-					</div>
-				</div>
 
 			</t>
 		</template>

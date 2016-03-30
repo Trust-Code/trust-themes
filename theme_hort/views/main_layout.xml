@@ -276,52 +276,16 @@
 								<label>cultivadores</label>
 							</h3>
 						</div>
-						<ul class="bxslider-two">
+						<ul class="bxslider-two" data-bind='foreach: users'>
 							<li class="text-center">
 								<a href="#">
-									<img src="/theme_hort/static/src/images/photo-1.png" alt="" />
+									<img data-bind="attr: {src: image}" alt="" />
 								</a>
-								<h5>Yannick Bellot</h5>
+								<h5 data-bind="text: name"></h5>
 								<img src="/theme_hort/static/src/images/prog-1.png" alt="" />
 								<br />
-								<span>1.579</span>
-							</li>
-							<li class="text-center">
-								<a href="#">
-									<img src="/theme_hort/static/src/images/photo-2.png" alt="" />
-								</a>
-								<h5>Paola Baby</h5>
-								<img src="/theme_hort/static/src/images/prog-2.png" alt="" />
-								<br />
-								<span>0075</span>
-							</li>
-							<li class="text-center">
-								<a href="#">
-									<img src="/theme_hort/static/src/images/photo-3.png" alt="" />
-								</a>
-								<h5>Henrique Dias</h5>
-								<img src="/theme_hort/static/src/images/prog-3.png" alt="" />
-								<br />
-								<span>5.008</span>
-							</li>
-							<li class="text-center">
-								<a href="#">
-									<img src="/theme_hort/static/src/images/photo-4.png" alt="" />
-								</a>
-								<h5>Rochel Loirin</h5>
-								<img src="/theme_hort/static/src/images/prog-4.png" alt="" />
-								<br />
-								<span>0352</span>
-							</li>
-							<li class="text-center">
-								<a href="#">
-									<img src="/theme_hort/static/src/images/photo-5.png" alt="" />
-								</a>
-								<h5>Francisco Massacre</h5>
-								<img src="/theme_hort/static/src/images/prog-5.png" alt="" />
-								<br />
-								<span>1.579</span>
-							</li>
+								<span data-bind="text: karma"></span>
+							</li>							
 						</ul>
 					</div>
 				</section>
