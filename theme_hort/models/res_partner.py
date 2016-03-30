@@ -36,8 +36,10 @@ class ResPartner(models.Model):
 
     produce_ids = fields.Many2many(
         comodel_name='product.product', string="Produz",
+        relation="product_product_res_partner_rel_produces",
         help="Itens que o parceiro produz")
 
     interest_in_ids = fields.Many2many(
         comodel_name='product.product', string="Tem interesse",
+        relation="product_product_res_partner_rel_interest",
         help="Itens que o parceiro gostaria de adquirir")

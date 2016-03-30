@@ -116,6 +116,20 @@
 											</div>
 											<div class="bio-row">
 												<p>
+													<span>Número: </span>
+													:
+													<b data-bind="text: number"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Estado: </span>
+													:
+													<b data-bind="text: state"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
 													<span>Cidade: </span>
 													:
 													<b data-bind="text: city"></b>
@@ -137,13 +151,6 @@
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Email </span>
-													:
-													<b data-bind="text: email"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
 													<span>Telefone </span>
 													:
 													<b data-bind="text: phone"></b>
@@ -158,36 +165,39 @@
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Outra </span>
+													<span>Sexo </span>
 													:
-													<b data-bind="text: mobile"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Interesses </span>
-													:
-													<select id="tokenize-interesse" multiple="multiple"
-														disabled="disabled">
-														<option value="1" selected="selected">Horta</option>
-														<option value="2">Paul</option>
-														<option value="3">Michel</option>
-														<option value="4">Anna</option>
-														<option value="5">Eleanor</option>
+													<select data-bind="value: gender" disabled="disabled">
+														<option value="0">Masculino</option>
+														<option value="1">Feminino</option>
 													</select>
 												</p>
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Produz </span>
+													<span>Perfil </span>
 													:
-													<select id="tokenize-produz" multiple="multiple"
-														disabled="disabled">
-														<option value="1">Dave</option>
-														<option value="2" selected="selected">Alface</option>
-														<option value="3" selected="selected">Tomate</option>
-														<option value="4" selected="selected">Feijão</option>
-														<option value="5">Eleanor</option>
+													<select data-bind="value: profile" disabled="disabled">
+														<option value="0">Produtor</option>
+														<option value="1">Consumidor</option>
+													</select>
+												</p>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Interesses </span>
+													<select id="tokenize-interesse"
+														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id'"
+														multiple="true" disabled="disabled">
+													</select>
+												</p>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Produz </span>
+													<select id="tokenize-produz"
+														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id'"
+														multiple="true" disabled="disabled">
 													</select>
 												</p>
 											</div>
@@ -196,7 +206,7 @@
 										</div>
 									</div>
 								</div>
-								<div>
+								<div style="display:none;">
 									<div class="row">
 										<div class="col-md-6">
 											<div class="panel">
@@ -288,7 +298,8 @@
 							<div class="tab-pane panel" id="editar-tab">
 
 								<div class="panel">
-									<div class="bio-graph-heading" data-bind="text:comment">
+									<div class="bio-graph-heading">
+										<input class="form-control" data-bind="value: comment" />
 									</div>
 									<div class="panel-body bio-graph-info">
 										<h1>Alterar Perfil</h1>
@@ -301,7 +312,7 @@
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
-													<label>Nascimento</label>
+													<label>Nascimento (dd-mm-AAAA)</label>
 													<input class="form-control" data-bind="value: birthday" />
 												</div>
 											</div>
@@ -353,35 +364,46 @@
 													<input class="form-control" data-bind="value: mobile" />
 												</div>
 											</div>
-
 											<div class="bio-row">
+												<div class="form-group">
+													<label>Sexo</label>
+													<select class="form-control" data-bind="value: gender">
+														<option value="0">Masculino</option>
+														<option value="1">Feminino</option>
+													</select>
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Perfil</label>
+													<select class="form-control" data-bind="value: profile">
+														<option value="0">Produtor</option>
+														<option value="1">Consumidor</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="bio-select">
 												<p>
 													<span>Interesses </span>
-													:
-													<select id="tokenize-interesse-editar" multiple="multiple">
-														<option value="1" selected="selected">Horta</option>
-														<option value="2">Paul</option>
-														<option value="3">Michel</option>
-														<option value="4">Anna</option>
-														<option value="5">Eleanor</option>
+													<select id="tokenize-interesse-editar"
+														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id'"
+														multiple="true">
 													</select>
 												</p>
 											</div>
-											<div class="bio-row">
+											<div class="bio-select">
 												<p>
 													<span>Produz </span>
-													:
-													<select id="tokenize-produz-editar" multiple="multiple">
-														<option value="1">Dave</option>
-														<option value="2" selected="selected">Alface</option>
-														<option value="3" selected="selected">Tomate</option>
-														<option value="4" selected="selected">Feijão</option>
-														<option value="5">Eleanor</option>
+													<select id="tokenize-produz-editar"
+														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id'"
+														multiple="true">
 													</select>
 												</p>
 											</div>
 											<div class="bio-row">
-												<button type="button" class="btn btn-success">Salvar</button>
+												<button type="button" class="btn btn-success"
+													data-bind="click: salvar_perfil">Salvar</button>
 											</div>
 										</div>
 									</div>
@@ -398,23 +420,27 @@
 											<div class="bio-row" style="width:100%;">
 												<div class="form-group">
 													<label>Senha Antiga</label>
-													<input class="form-control" data-bind="value: phone" />
+													<input type="password" class="form-control"
+														data-bind="value: old_password" />
 												</div>
-											</div>											
+											</div>
 											<div class="bio-row">
 												<div class="form-group">
 													<label>Nova Senha</label>
-													<input class="form-control" data-bind="value: phone" />
+													<input type="password" class="form-control"
+														data-bind="value: new_password" />
 												</div>
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
 													<label>Repita a senha</label>
-													<input class="form-control" data-bind="value: phone" />
+													<input type="password" class="form-control"
+														data-bind="value: confirm_password" />
 												</div>
 											</div>
 											<div class="bio-row">
-												<button type="button" class="btn btn-success">Salvar</button>
+												<button type="button" class="btn btn-success"
+													data-bind="click: alterar_senha">Salvar</button>
 											</div>
 										</div>
 									</div>
