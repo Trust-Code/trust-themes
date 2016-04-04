@@ -25,6 +25,7 @@ from openerp.addons.web import http
 from openerp.addons.web.http import request
 from openerp.addons.website_blog.controllers.main import WebsiteBlog
 from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
+from openerp.addons.website.models.website import slug
 
 
 class UserProfile(http.Controller):
@@ -34,6 +35,7 @@ class UserProfile(http.Controller):
         user = request.env.user.sudo()
         user.name = post['name']
         user.partner_id.write({
+            'zip': post['zip'],
             'street': post['address'],
             'street2': post['number'],
             'city': post['city'],
@@ -42,13 +44,18 @@ class UserProfile(http.Controller):
             'gender': post['gender'],
             'function': post['occupation'],
             'date_birth': post['birthday'],
-            'profile': post['profile'],
+            'supplier': post['supplier'],
+            'customer': post['customer'],
         })
-        user.partner_id.product_ids.unlink()
-        user.partner_id.interest_in_ids.unlink()
-        user.partner_id.product_ids = [int(x) for x in post['produce_ids']]
-        user.partner_id.interest_in_ids = [
-            int(x) for x in post['interest_in_ids']]
+        print [int(x) for x in post['produce_ids']]
+        print post['interest_in_ids']
+        print post['post_category_ids']
+        user.partner_id.write({
+            'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],
+            'interest_in_ids': [[6, False, [int(x) for x in post['interest_in_ids']]]],
+            'post_category_ids': [[6, False, [int(x) for x in post['post_category_ids']]]],
+        })
+
         return ""
 
     @http.route('/password/update', type='json', auth="user", cors="*")
@@ -78,12 +85,44 @@ class UserProfile(http.Controller):
         for interest in user.partner_id.interest_in_ids:
             interests.append(interest.id)
 
+        categories = []
+        category_ids = request.env['blog.post.category'].sudo().search([])
+        for categ in category_ids:
+            categories.append({'id': categ.id, 'name': categ.name})
+
+        category_interest = []
+        for cat in user.partner_id.post_category_ids:
+            category_interest.append(cat.id)
+
+        user_question_ids = request.env['forum.post'].search([
+            ('parent_id', '=', False),
+            ('create_uid', '=', user.id),
+        ], order='create_date desc', limit=20)
+        user_answer_ids = request.env['forum.post'].search([
+            ('parent_id', '!=', False),
+            ('create_uid', '=', user.id),
+        ], order='create_date desc', limit=20)
+
+        model, comment = request.env[
+            'ir.model.data'].get_object_reference('mail', 'mt_comment')
+        activities = []
+        activity_ids = request.env['mail.message'].search(
+            [('res_id', 'in', user_question_ids.ids + user_answer_ids.ids), ('model', '=', 'forum.post'),
+             ('subtype_id', '!=', comment)], order='date DESC', limit=100)
+        for act in activity_ids:
+            post = request.env['forum.post'].browse(act.res_id)
+            activities.append({'id': act.id, 'date': act.date, 'subtype': act.subtype_id.name,
+                               'url': '/forum/%s/question/%s' % (slug(post.forum_id), slug(post)), 'name': act.subject})
+
         return {
             'id': user.id, 'name': user.name, 'email': user.login,
+            'partner_id': user.partner_id.id,
             'birthday': birthday,
             'gender': user.partner_id.gender,
             'join_events': user.partner_id.join_events,
-            'profile': user.partner_id.profile,
+            'supplier': user.partner_id.supplier,
+            'customer': user.partner_id.customer,
+            'zip': user.partner_id.zip or '',
             'address': user.partner_id.street or '',
             'number': user.partner_id.street2 or '',
             'city': user.partner_id.city or '',
@@ -96,8 +135,11 @@ class UserProfile(http.Controller):
             'comment': user.partner_id.comment,
             'image': "/website/image/res.partner/%s/image_small" % user.partner_id.id,
             'products': products,
+            'categories': categories,
             'produce_ids': produces,
             'interest_in_ids': interests,
+            'post_category_ids': category_interest,
+            'activities': activities,
         }
 
     @http.route('/forum/users', type='json', auth="public", cors="*")
@@ -108,5 +150,5 @@ class UserProfile(http.Controller):
         for user in users:
             result.append(
                 {'id': user.id, 'name': user.name, 'karma': user.karma,
-                 'image': "/website/image/res.partner/%s/image_small" % user.id})
+                 'image': "/website/image/res.partner/%s/image_small" % user.partner_id.id})
         return result

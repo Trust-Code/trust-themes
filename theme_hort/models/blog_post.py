@@ -19,27 +19,17 @@
 #                                                                             #
 ###############################################################################
 
-{
-    'name': 'Hort Theme',
-    'category': 'Theme/Corporate',
-    'summary': 'Trustcode Theme',
-    'version': '1.0',
-    'description': """Trustcode WebSite Theme""",
-    'author': 'Trustcode',
-    'depends': ['website', 'website_less', 'portal', 'website_event',
-                'website_blog', 'website_forum', 'product',
-                'website_crm', 'website_slides'],
-    'data': [
-        'data/data.xml',
-        'views/assets.xml',
-        'views/main_layout.xml',
-        'views/footer.xml',
-        'views/menu.xml',
-        'views/page_profile.xml',
-        'views/res_partner_view.xml',
-        'views/blog_post_view.xml',
-        'views/404.xml',
-        'views/general_fixes_view.xml',
-    ],
-    'application': True,
-}
+
+from openerp import api, fields, models
+
+
+class BlogPostCategory(models.Model):
+    _name = 'blog.post.category'
+
+    name = fields.Char('Nome', size=50, required=True)
+
+
+class BlogPost(models.Model):
+    _inherit = 'blog.post'
+
+    category_id = fields.Many2one('blog.post.category', string="Categoria")

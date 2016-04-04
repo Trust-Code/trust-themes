@@ -706,7 +706,7 @@ p {
 
 @media (min-width: 768px){
 	#row-menu-top {
-		padding-top: 50px;
+		padding-top: 10px;
 	} 
 }
 
@@ -735,3 +735,6 @@ main > div.oe_website_login_container{
 	padding-bottom:0px;
 }
 
+.select2-container {
+	width:100%;
+}

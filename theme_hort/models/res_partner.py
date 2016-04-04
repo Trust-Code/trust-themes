@@ -28,9 +28,7 @@ class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     gender = fields.Selection([('0', 'Masculino'), ('1', 'Feminino')],
-                              string=u"Sexo")
-    profile = fields.Selection([('0', u'Produtor'), ('1', u'Consumidor')],
-                               string=u"Perfil")
+                              string=u"Sexo")    
     date_birth = fields.Date(string=u"Data de Nascimento")
     join_events = fields.Boolean(string=u"Gostaria de participar em eventos")
 
@@ -43,3 +41,8 @@ class ResPartner(models.Model):
         comodel_name='product.product', string="Tem interesse",
         relation="product_product_res_partner_rel_interest",
         help="Itens que o parceiro gostaria de adquirir")
+
+    post_category_ids = fields.Many2many(
+        comodel_name='blog.post.category', string="Temas de interesse",
+        relation="blog_post_category_res_partner_rel",
+        help="Temas que o parceiro tem interesse")

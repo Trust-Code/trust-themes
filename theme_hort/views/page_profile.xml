@@ -21,7 +21,8 @@
 									<p data-bind="text: email"></p>
 								</div>
 
-								<ul class="nav nav-pills nav-stacked" role="tablist">
+								<ul id="tab-list-menu" class="nav nav-pills nav-stacked"
+									role="tablist">
 									<li class="active">
 										<a href="#perfil-tab" aria-controls="perfil-tab" role="tab"
 											data-toggle="tab">
@@ -34,7 +35,7 @@
 											role="tab" data-toggle="tab">
 											<i class="fa fa-calendar"></i>
 											Atividade Recente
-											<span class="label label-success pull-right r-activity">9</span>
+											<span data-bind="text: activities().length" class="label label-success pull-right r-activity"></span>
 										</a>
 									</li>
 									<li>
@@ -175,12 +176,18 @@
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Perfil </span>
+													<span>Produtor? </span>
 													:
-													<select data-bind="value: profile" disabled="disabled">
-														<option value="0">Produtor</option>
-														<option value="1">Consumidor</option>
-													</select>
+													<input type="checkbox" data-bind="checked: supplier"
+														disabled="disabled" />
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Consumidor? </span>
+													:
+													<input type="checkbox" data-bind="checked: customer"
+														disabled="disabled" />
 												</p>
 											</div>
 											<div class="bio-select">
@@ -201,12 +208,20 @@
 													</select>
 												</p>
 											</div>
-
+											<div class="bio-select">
+												<p>
+													<span>Temas de interesse </span>
+													<select id="tokenize-temas"
+														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
+														multiple="true" disabled="disabled">
+													</select>
+												</p>
+											</div>
 
 										</div>
 									</div>
 								</div>
-								<div style="display:none;">
+								<div>
 									<div class="row">
 										<div class="col-md-6">
 											<div class="panel">
@@ -293,7 +308,17 @@
 							</div>
 
 							<div class="panel tab-pane" id="atividades-tab">
-								atividades no fórum
+
+								<ul class="list-group" data-bind="foreach: activities">
+									<li class="list-group-item">
+										<span data-bind="text: date" />
+										<span data-bind="text: subtype" class="label label-info" />
+										<a data-bind="attr: { href: url }">
+											<span data-bind="text: name" />
+										</a>
+									</li>
+								</ul>
+
 							</div>
 							<div class="tab-pane panel" id="editar-tab">
 
@@ -314,6 +339,13 @@
 												<div class="form-group">
 													<label>Nascimento (dd-mm-AAAA)</label>
 													<input class="form-control" data-bind="value: birthday" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>CEP</label>
+													<input class="form-control"
+														data-bind="value: zip, event: { change: search_zip }" />
 												</div>
 											</div>
 											<div class="bio-row">
@@ -373,16 +405,26 @@
 													</select>
 												</div>
 											</div>
-											<div class="bio-row">
-												<div class="form-group">
-													<label>Perfil</label>
-													<select class="form-control" data-bind="value: profile">
-														<option value="0">Produtor</option>
-														<option value="1">Consumidor</option>
-													</select>
+
+											<div class="bio-row" style="height:62px;">
+												<div class="checkbox">
+													<label style="padding-left:0px;">
+														Produtor?
+														<input type="checkbox" data-bind="checked: supplier"
+															style="margin-left:0px;" />
+													</label>
 												</div>
 											</div>
 
+											<div class="bio-row" style="height:62px;">
+												<div class="checkbox">
+													<label style="padding-left:0px;">
+														Consumidor?
+														<input type="checkbox" data-bind="checked: customer"
+															style="margin-left:0px;" />
+													</label>
+												</div>
+											</div>
 											<div class="bio-select">
 												<p>
 													<span>Interesses </span>
@@ -397,6 +439,15 @@
 													<span>Produz </span>
 													<select id="tokenize-produz-editar"
 														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id'"
+														multiple="true">
+													</select>
+												</p>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Temas de interesse </span>
+													<select id="tokenize-temas-editar"
+														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
 														multiple="true">
 													</select>
 												</p>
