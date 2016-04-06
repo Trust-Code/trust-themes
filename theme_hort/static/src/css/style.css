@@ -583,6 +583,10 @@ p {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	
+.oe_website_login_container {
+	width:100%;
+}
 
 .navbar-default .navbar-brand img {
 	height:50px;
@@ -707,7 +711,7 @@ p {
 @media (min-width: 768px){
 	#row-menu-top {
 		padding-top: 10px;
-	} 
+	}
 }
 
 main > div.website_forum {
