@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
-	<data noupdate="1">
+	<data noupdate="0">
+
+		<record id="action_open_profile" model="ir.actions.act_url">
+			<field name="name">Perfil Hortcult</field>
+			<field name="target">self</field>
+			<field name="url" eval="'/page/perfil'" />
+		</record>
 
 		<!--Email template -->
 		<record id="email_template_welcome_hort" model="email.template">
