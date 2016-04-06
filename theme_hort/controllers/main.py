@@ -32,36 +32,50 @@ class UserProfile(http.Controller):
 
     @http.route('/zip/search', type='json', auth="user", cors="*")
     def zip_search(self, **post):
-        zip_ids = request.env['l10n_br.zip'].sudo().zip_search_multi(
-            zip_code=post['zip'])
+        if len(post['zip']) == 8:
+            cep = post['zip'][:5] + '-' + post['zip'][5:]
+            zip_ids = request.env['l10n_br.zip'].sudo().zip_search_multi(
+                zip_code=cep)
 
-        if len(zip_ids) == 1:
+            if len(zip_ids) == 1:
+                return {'sucesso': True,
+                        'street': zip_ids[0].street,
+                        'district': zip_ids[0].district,
+                        'city': zip_ids[0].l10n_br_city_id.name,
+                        'city_id': zip_ids[0].l10n_br_city_id.id,
+                        'state': zip_ids[0].state_id.name,
+                        'country': zip_ids[0].country_id.name}
 
-            return {'street': zip_ids[0].street,
-                    'district': zip_ids[0].district,
-                    'city': zip_ids[0].l10n_br_city_id.name,
-                    'state': zip_ids[0].state_id.name,
-                    'country': zip_ids[0].country_id.name}
-        else:
-            return {'sucesso': False}
+        return {'sucesso': False}
 
     @http.route('/user/update', type='json', auth="user", cors="*")
     def user_update(self, **post):
         user = request.env.user.sudo()
         user.name = post['name']
-        user.partner_id.write({
+        birthday = None
+        if post['birthday']:
+            birthday = datetime.strptime(post['birthday'], '%d-%m-%Y')
+        vals = {
             'zip': post['zip'],
             'street': post['address'],
             'street2': post['number'],
-            'city': post['city'],
-            #'state_id': post['state_id'],
-            #'country_id': post['country_id'],
             'gender': post['gender'],
             'function': post['occupation'],
-            'date_birth': post['birthday'],
+            'date_birth': birthday or datetime.now(),
             'supplier': post['supplier'],
             'customer': post['customer'],
-        })
+        }
+        if post['city_id']:
+            city = request.env['l10n_br_base.city'].sudo().browse(
+                post['city_id'])
+            if city:
+                vals.update({
+                    'state_id': city.state_id.id,
+                    'l10n_br_city_id': city.id,
+                    'country_id': city.state_id.country_id.id,
+                })
+        print vals
+        user.partner_id.write(vals)
         user.partner_id.write({
             'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],
             'interest_in_ids': [[6, False, [int(x) for x in post['interest_in_ids']]]],
@@ -137,14 +151,15 @@ class UserProfile(http.Controller):
             'zip': user.partner_id.zip or '',
             'address': user.partner_id.street or '',
             'number': user.partner_id.street2 or '',
-            'city': user.partner_id.city or '',
+            'city': user.partner_id.l10n_br_city_id.name or '',
+            'city_id': user.partner_id.l10n_br_city_id.id or '',
             'state': user.partner_id.state_id.name or '',
             'country': user.partner_id.country_id.name or '',
-            'occupation': user.partner_id.function,
-            'phone': user.partner_id.phone,
-            'mobile': user.partner_id.mobile,
+            'occupation': user.partner_id.function or '',
+            'phone': user.partner_id.phone or '',
+            'mobile': user.partner_id.mobile or '',
             'karma': user.karma,
-            'comment': user.partner_id.comment,
+            'comment': user.partner_id.comment or '',
             'image': "/website/image/res.partner/%s/image_small" % user.partner_id.id,
             'products': products,
             'categories': categories,

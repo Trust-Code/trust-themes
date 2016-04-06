@@ -16,7 +16,9 @@
 	    self.zip = ko.observable(user.zip);
 	    self.address = ko.observable(user.address);
 	    self.number = ko.observable(user.number);
+	    self.district = ko.observable(user.district);
 	    self.city = ko.observable(user.city);
+	    self.city_id = ko.observable(user.city_id);
 	    self.state = ko.observable(user.state);
 	    self.country = ko.observable(user.country);
 	    self.occupation = ko.observable(user.occupation);
@@ -45,36 +47,17 @@
 	    self.activities = ko.observableArray(user.activities);
 	    
 	    self.search_zip = function(){
-		openerp.jsonRpc('/web/dataset/call_kw/res.partner/write', 'call', 
-		    {
-			'args': [self.partner_id(), {'zip': self.zip()}],
-			'method': 'write', 
-			'model': 'res.partner',
-			'kwargs': { 'context': { 'lang': 'pt_BR', 'tz': 'America/Sao_Paulo'}}
-		    }		    
-		).then(function (){
-		
-		openerp.jsonRpc('/web/dataset/call_button', 'call', {
-		   'args': [ self.partner_id(), {'lang': 'pt_BR', 'tz': 'America/Sao_Paulo',
-		       'params': { 'action': 60, 'id': self.partner_id(), 
-			       'menu_id': 74,'model': "res.partner",'view_type': "form"}}],
-		   'method': 'zip_search', 
-		   'model': 'res.partner',
-		   'context_id': self.id(),
-		}).then(function (data){
-		    openerp.jsonRpc('/user/profile').then(function(user) {
-            	       model.user(new UserModel(user));
-            	       $("#tokenize-interesse").select2();
-            	       $('#tokenize-produz').select2();
-            	       $('#tokenize-temas').select2();
-            	       $('#tokenize-interesse-editar').select2();
-            	       $('#tokenize-produz-editar').select2();
-            	       $('#tokenize-temas-editar').select2();
-            	       $('#tab-list-menu li:eq(2) a').tab('show');
-            	    });		    
-		}).fail(function(){
-		   alert('Nenhum cep encontrado'); 
-		});		
+		openerp.jsonRpc('/zip/search', '' ,{'zip': self.zip()}).then(function (data){
+		    if(data['sucesso']){
+			self.city_id(data['city_id']);
+			self.city(data['city']);
+			self.state(data['state']);
+			self.country(data['country']);
+			self.address(data['street']);
+			self.district(data['district']);
+		    }else{
+			alert('CEP não encontrado');
+		    }
 		});
 		
 	    };
@@ -100,7 +83,7 @@
 		    'mobile' : self.mobile(), 'birthday': self.birthday(),
 		    'join_events' : self.join_events(), 'supplier': self.supplier(),
 		    'customer': self.customer(), 'zip': self.zip(),
-		    'gender': self.gender(), 
+		    'gender': self.gender(), 'city_id': self.city_id(),
 		    'comment': self.comment(), 
 		    'produce_ids': produces,
 		    'interest_in_ids': interests,

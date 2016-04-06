@@ -23,6 +23,15 @@
 from openerp import api, fields, models
 
 
+class BlogBlog(models.Model):
+    _inherit = 'blog.blog'
+
+    writer_partner_ids = fields.Many2many(
+        comodel_name='res.partner', string="Escritores",
+        relation="res_partner_blog_blog_rel_writer",
+        help="Parceiros que tem permissão de escrver no blog")
+
+
 class BlogPostCategory(models.Model):
     _name = 'blog.post.category'
 

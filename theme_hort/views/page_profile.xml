@@ -35,7 +35,8 @@
 											role="tab" data-toggle="tab">
 											<i class="fa fa-calendar"></i>
 											Atividade Recente
-											<span data-bind="text: activities().length" class="label label-success pull-right r-activity"></span>
+											<span data-bind="text: activities().length"
+												class="label label-success pull-right r-activity"></span>
 										</a>
 									</li>
 									<li>
@@ -110,6 +111,13 @@
 											</div>
 											<div class="bio-row">
 												<p>
+													<span>CEP: </span>
+													:
+													<b data-bind="text: zip"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
 													<span>Endereço: </span>
 													:
 													<b data-bind="text: address"></b>
@@ -120,6 +128,13 @@
 													<span>Número: </span>
 													:
 													<b data-bind="text: number"></b>
+												</p>
+											</div>
+											<div class="bio-row">
+												<p>
+													<span>Bairro: </span>
+													:
+													<b data-bind="text: district"></b>
 												</p>
 											</div>
 											<div class="bio-row">
@@ -169,11 +184,23 @@
 													<span>Sexo </span>
 													:
 													<select data-bind="value: gender" disabled="disabled">
+														<option>Escolher</option>
 														<option value="0">Masculino</option>
 														<option value="1">Feminino</option>
 													</select>
 												</p>
 											</div>
+											<div class="bio-select">
+												<p>
+													<span>Temas de interesse </span>
+													<select id="tokenize-temas"
+														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
+														multiple="true" disabled="disabled">
+													</select>
+												</p>
+											</div>
+										</div>
+										<div class="row">
 											<div class="bio-row">
 												<p>
 													<span>Produtor? </span>
@@ -208,16 +235,6 @@
 													</select>
 												</p>
 											</div>
-											<div class="bio-select">
-												<p>
-													<span>Temas de interesse </span>
-													<select id="tokenize-temas"
-														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
-														multiple="true" disabled="disabled">
-													</select>
-												</p>
-											</div>
-
 										</div>
 									</div>
 								</div>
@@ -318,6 +335,11 @@
 										</a>
 									</li>
 								</ul>
+								<ul class="list-group" data-bind="if: activities().length == 0">
+									<li class="list-group-item">
+										<span class="label label-info">Nenhuma atividade até o momento</span>
+									</li>
+								</ul>
 
 							</div>
 							<div class="tab-pane panel" id="editar-tab">
@@ -362,6 +384,12 @@
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
+													<label>Bairro</label>
+													<input class="form-control" data-bind="value: district" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
 													<label>Cidade</label>
 													<input class="form-control" data-bind="value: city" />
 												</div>
@@ -400,22 +428,23 @@
 												<div class="form-group">
 													<label>Sexo</label>
 													<select class="form-control" data-bind="value: gender">
+														<option>Escolher</option>
 														<option value="0">Masculino</option>
 														<option value="1">Feminino</option>
 													</select>
 												</div>
 											</div>
-
-											<div class="bio-row" style="height:62px;">
-												<div class="checkbox">
-													<label style="padding-left:0px;">
-														Produtor?
-														<input type="checkbox" data-bind="checked: supplier"
-															style="margin-left:0px;" />
-													</label>
-												</div>
+											<div class="bio-select">
+												<p>
+													<span>Temas de interesse </span>
+													<select id="tokenize-temas-editar"
+														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
+														multiple="true">
+													</select>
+												</p>
 											</div>
-
+										</div>
+										<div class="row">
 											<div class="bio-row" style="height:62px;">
 												<div class="checkbox">
 													<label style="padding-left:0px;">
@@ -425,11 +454,20 @@
 													</label>
 												</div>
 											</div>
+											<div class="bio-row" style="height:62px;">
+												<div class="checkbox">
+													<label style="padding-left:0px;">
+														Produtor?
+														<input type="checkbox" data-bind="checked: supplier"
+															style="margin-left:0px;" />
+													</label>
+												</div>
+											</div>
 											<div class="bio-select">
 												<p>
 													<span>Interesses </span>
 													<select id="tokenize-interesse-editar"
-														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id'"
+														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id', enable: customer"
 														multiple="true">
 													</select>
 												</p>
@@ -438,16 +476,7 @@
 												<p>
 													<span>Produz </span>
 													<select id="tokenize-produz-editar"
-														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id'"
-														multiple="true">
-													</select>
-												</p>
-											</div>
-											<div class="bio-select">
-												<p>
-													<span>Temas de interesse </span>
-													<select id="tokenize-temas-editar"
-														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
+														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id', enable: supplier"
 														multiple="true">
 													</select>
 												</p>
