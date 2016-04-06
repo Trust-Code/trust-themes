@@ -30,6 +30,21 @@ from openerp.addons.website.models.website import slug
 
 class UserProfile(http.Controller):
 
+    @http.route('/zip/search', type='json', auth="user", cors="*")
+    def zip_search(self, **post):
+        zip_ids = request.env['l10n_br.zip'].sudo().zip_search_multi(
+            zip_code=post['zip'])
+
+        if len(zip_ids) == 1:
+
+            return {'street': zip_ids[0].street,
+                    'district': zip_ids[0].district,
+                    'city': zip_ids[0].l10n_br_city_id.name,
+                    'state': zip_ids[0].state_id.name,
+                    'country': zip_ids[0].country_id.name}
+        else:
+            return {'sucesso': False}
+
     @http.route('/user/update', type='json', auth="user", cors="*")
     def user_update(self, **post):
         user = request.env.user.sudo()
@@ -47,9 +62,6 @@ class UserProfile(http.Controller):
             'supplier': post['supplier'],
             'customer': post['customer'],
         })
-        print [int(x) for x in post['produce_ids']]
-        print post['interest_in_ids']
-        print post['post_category_ids']
         user.partner_id.write({
             'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],
             'interest_in_ids': [[6, False, [int(x) for x in post['interest_in_ids']]]],
