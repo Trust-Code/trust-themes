@@ -11,7 +11,7 @@
 					padding: 10px 15px;
 					}
 				</style>
-			</xpath>	
+			</xpath>
 		</template>
 
 		<template id="theme_hort_forum_header" inherit_id="website_forum.header"
@@ -49,6 +49,33 @@
 			</xpath>
 
 		</template>
+
+		<template id="theme_hort_forum_post" inherit_id="website_forum.post_description_full"
+			name="Theme Hort Forum Post">
+
+			<xpath expr="//div[@t-field='question.create_uid']" position="before">
+				<div style="margin-left:10px;">
+					<a target="_Blank"
+						t-attf-href="https://www.facebook.com/sharer/sharer.php?u=http://hortcult.com/forum/#{ slug(forum) }/question/#{ slug(question) }">
+						<i class="fa fa-facebook-square fa-2x"></i>
+					</a>
+					<a target="_Blank"
+						t-attf-href="https://twitter.com/intent/tweet?text=http://hortcult.com/forum/#{ slug(forum) }/question/#{ slug(question) }">
+						<i class="fa fa-twitter-square fa-2x"></i>
+					</a>
+					<a target="_Blank"
+						t-attf-href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://hortcult.com/forum/#{ slug(forum) }/question/#{ slug(question) }">
+						<i class="fa fa-linkedin-square fa-2x"></i>
+					</a>
+					<a target="_Blank"
+						t-attf-href="https://plus.google.com/share?url=http://hortcult.com/forum/#{ slug(forum) }/question/#{ slug(question) }">
+						<i class="fa fa-google-plus-square fa-2x"></i>
+					</a>
+				</div>
+			</xpath>
+
+		</template>
+
 
 	</data>
 </openerp>

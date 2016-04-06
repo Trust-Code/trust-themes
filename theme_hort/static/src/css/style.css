@@ -585,7 +585,7 @@ p {
 @media (max-width: 767px) {
 	
 .oe_website_login_container {
-	width:100%;
+	width:90%;
 }
 
 .navbar-default .navbar-brand img {
