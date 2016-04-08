@@ -28,7 +28,7 @@
     'author': 'Trustcode',
     'depends': ['website', 'website_less', 'portal', 'website_event',
                 'website_blog', 'website_forum', 'product',
-                'website_crm', 'website_slides'],
+                'website_crm', 'website_slides', 'l10n_br_crm_zip'],
     'data': [
         'data/data.xml',
         'views/assets.xml',

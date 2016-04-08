@@ -8,7 +8,8 @@
 			<field name="inherit_id" ref="website_blog.view_blog_blog_form" />
 			<field name="arch" type="xml">
 				<field name="description" position="after">
-					<field name="writer_partner_ids" widget="many2many_tags" />
+					<field name="writer_id" />
+					<field name="writer_partner_ids" widget="many2many_tags" invisible="1" />
 				</field>
 			</field>
 		</record>
@@ -65,4 +66,3 @@
 
 	</data>
 </openerp>
-		

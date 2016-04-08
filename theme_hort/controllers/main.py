@@ -23,9 +23,18 @@
 from datetime import datetime
 from openerp.addons.web import http
 from openerp.addons.web.http import request
-from openerp.addons.website_blog.controllers.main import WebsiteBlog
 from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
 from openerp.addons.website.models.website import slug
+
+
+class BlogController(http.Controller):
+
+    @http.route('/blog/list', type='http', auth="public", website=True)
+    def blog_list(self):
+        blogs = request.env['blog.blog'].sudo().search([])
+        return request.website.render("theme_hort.blog_list", {
+            'blogs': blogs,
+        })
 
 
 class UserProfile(http.Controller):
@@ -78,8 +87,10 @@ class UserProfile(http.Controller):
         user.partner_id.write(vals)
         user.partner_id.write({
             'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],
-            'interest_in_ids': [[6, False, [int(x) for x in post['interest_in_ids']]]],
-            'post_category_ids': [[6, False, [int(x) for x in post['post_category_ids']]]],
+            'interest_in_ids': [[6, False, [int(x) for x in
+                                            post['interest_in_ids']]]],
+            'post_category_ids': [[6, False, [int(x) for x in
+                                              post['post_category_ids']]]],
         })
 
         return ""
@@ -133,12 +144,16 @@ class UserProfile(http.Controller):
             'ir.model.data'].get_object_reference('mail', 'mt_comment')
         activities = []
         activity_ids = request.env['mail.message'].search(
-            [('res_id', 'in', user_question_ids.ids + user_answer_ids.ids), ('model', '=', 'forum.post'),
+            [('res_id', 'in', user_question_ids.ids + user_answer_ids.ids),
+             ('model', '=', 'forum.post'),
              ('subtype_id', '!=', comment)], order='date DESC', limit=100)
         for act in activity_ids:
             post = request.env['forum.post'].browse(act.res_id)
-            activities.append({'id': act.id, 'date': act.date, 'subtype': act.subtype_id.name,
-                               'url': '/forum/%s/question/%s' % (slug(post.forum_id), slug(post)), 'name': act.subject})
+            activities.append({'id': act.id, 'date': act.date,
+                               'subtype': act.subtype_id.name,
+                               'url': '/forum/%s/question/%s' %
+                               (slug(post.forum_id), slug(post)),
+                               'name': act.subject})
 
         return {
             'id': user.id, 'name': user.name, 'email': user.login,
@@ -160,7 +175,8 @@ class UserProfile(http.Controller):
             'mobile': user.partner_id.mobile or '',
             'karma': user.karma,
             'comment': user.partner_id.comment or '',
-            'image': "/website/image/res.partner/%s/image_small" % user.partner_id.id,
+            'image': "/website/image/res.partner/%s/image_small" %
+            user.partner_id.id,
             'products': products,
             'categories': categories,
             'produce_ids': produces,
@@ -175,7 +191,9 @@ class UserProfile(http.Controller):
                                                        order='karma desc')
         result = []
         for user in users:
-            result.append(
-                {'id': user.id, 'name': user.name, 'karma': user.karma,
-                 'image': "/website/image/res.partner/%s/image_small" % user.partner_id.id})
+            result.append({
+                'id': user.id, 'name': user.name, 'karma': user.karma,
+                'image': "/website/image/res.partner/%s/image_small" %
+                user.partner_id.id
+            })
         return result

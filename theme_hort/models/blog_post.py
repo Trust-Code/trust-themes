@@ -26,6 +26,7 @@ from openerp import api, fields, models
 class BlogBlog(models.Model):
     _inherit = 'blog.blog'
 
+    writer_id = fields.Many2one('res.partner', string="Escritor")
     writer_partner_ids = fields.Many2many(
         comodel_name='res.partner', string="Escritores",
         relation="res_partner_blog_blog_rel_writer",
