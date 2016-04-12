@@ -20,7 +20,7 @@
 ##############################################################################
 
 {
-    'name': 'TrustCode Theme',
+    'name': 'Trustcode Theme',
     'category': 'Theme/Corporate',
     'summary': 'Trustcode WebSite Theme',
     'version': '1.0',
