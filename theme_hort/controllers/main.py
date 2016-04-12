@@ -20,6 +20,7 @@
 ###############################################################################
 
 
+import re
 from datetime import datetime
 from openerp.addons.web import http
 from openerp.addons.web.http import request
@@ -41,8 +42,9 @@ class UserProfile(http.Controller):
 
     @http.route('/zip/search', type='json', auth="user", cors="*")
     def zip_search(self, **post):
-        if len(post['zip']) == 8:
-            cep = post['zip'][:5] + '-' + post['zip'][5:]
+        if len(post['zip']) >= 8:
+            cep = re.sub('[^0-9]', '', post['zip'])
+            cep = cep[:5] + '-' + cep[5:]
             zip_ids = request.env['l10n_br.zip'].sudo().zip_search_multi(
                 zip_code=cep)
 

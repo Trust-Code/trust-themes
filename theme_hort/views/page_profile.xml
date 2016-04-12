@@ -151,16 +151,16 @@
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Estado: </span>
+													<span>Cidade: </span>
 													:
-													<b data-bind="text: state"></b>
+													<b data-bind="text: city"></b>
 												</p>
 											</div>
 											<div class="bio-row">
 												<p>
-													<span>Cidade: </span>
+													<span>Estado: </span>
 													:
-													<b data-bind="text: city"></b>
+													<b data-bind="text: state"></b>
 												</p>
 											</div>
 											<div class="bio-row">
@@ -253,7 +253,7 @@
 								<div>
 									<div class="row">
 										<div class="col-md-6">
-											<div class="panel">
+											<div class="panel" data-bind="click: page_view.bind($data, '/organico/como/servico')">
 												<div class="panel-body">
 													<div class="bio-chart">
 														<div style="display:inline;width:100px;height:100px;">
@@ -272,7 +272,7 @@
 											</div>
 										</div>
 										<div class="col-md-6">
-											<div class="panel">
+											<div class="panel" data-bind="click: page_view.bind($data, '/parceiro/hortcult')">
 												<div class="panel-body">
 													<div class="bio-chart">
 														<div style="display:inline;width:100px;height:100px;">
@@ -291,7 +291,7 @@
 											</div>
 										</div>
 										<div class="col-md-6">
-											<div class="panel">
+											<div class="panel" data-bind="click: page_view.bind($data, '/grupo/consumo/consciente')">
 												<div class="panel-body">
 													<div class="bio-chart">
 														<div style="display:inline;width:100px;height:100px;">
@@ -310,7 +310,7 @@
 											</div>
 										</div>
 										<div class="col-md-6">
-											<div class="panel">
+											<div class="panel" data-bind="click: page_view.bind($data, '/compartilhe/producao')">
 												<div class="panel-body">
 													<div class="bio-chart">
 														<div style="display:inline;width:100px;height:100px;">
@@ -368,13 +368,13 @@
 											<div class="bio-row">
 												<div class="form-group">
 													<label>Nascimento (dd-mm-AAAA)</label>
-													<input class="form-control" data-bind="value: birthday" />
+													<input id="birthday-edit" class="form-control" data-bind="value: birthday" />
 												</div>
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
 													<label>CEP</label>
-													<input class="form-control"
+													<input class="form-control" id="cep-edit"
 														data-bind="value: zip, event: { change: search_zip }" />
 												</div>
 											</div>
@@ -423,13 +423,13 @@
 											<div class="bio-row">
 												<div class="form-group">
 													<label>Telefone</label>
-													<input class="form-control" data-bind="value: phone" />
+													<input id="phone-edit" class="form-control" data-bind="value: phone" />
 												</div>
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
 													<label>Celular</label>
-													<input class="form-control" data-bind="value: mobile" />
+													<input id="cell-edit" class="form-control" data-bind="value: mobile" />
 												</div>
 											</div>
 											<div class="bio-row">

@@ -25,7 +25,7 @@
 									Desculpe, a página que você solicitou não existe!
 								</div>
 								<div class="error-actions">
-									<a href="/" class="btn btn-primary btn-lg">
+									<a href="/" class="btn btn-primary btn-lg" style="background-color:#18a179; border-color:#18a179;">
 										<span class="glyphicon glyphicon-inbox"></span>
 										Me leve ao Início
 									</a>
