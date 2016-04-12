@@ -75,11 +75,14 @@
 													<span data-bind="text: karma"></span>
 												</a>
 											</li>
-											<li>
+											<li t-if="website.user_id == user_id">
 												<a href="https://www.facebook.com/HortCultcom-969867363071797/">
 													<img src="/theme_hort/static/src/images/facebook.png"
 														alt="" />
 												</a>
+											</li>
+											<li t-if="website.user_id != user_id">
+												<a href="/web/session/logout?redirect=/">Sair</a>
 											</li>
 										</ul>
 									</div>
