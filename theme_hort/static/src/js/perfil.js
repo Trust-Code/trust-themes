@@ -166,7 +166,8 @@
       $('#phone-edit').mask(SPMaskBehavior, spOptions);
       $('#cell-edit').mask(SPMaskBehavior, spOptions);
     }).fail(function(data, erro) {
-      if (erro['message'] == 'Odoo Session Expired') {
+      if (erro['message'] == 'Odoo Session Expired' && window.location
+        .pathname.indexOf('/page/perfil') > -1) {
         window.location = '/';
       }
     });
