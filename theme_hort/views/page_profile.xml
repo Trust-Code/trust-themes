@@ -31,6 +31,18 @@
 										</a>
 									</li>
 									<li>
+										<a href="/forum/semeadora-virtual-1/ask">
+											<i class="fa fa-comment-o"></i>
+											Plantação de dúvidas
+										</a>
+									</li>
+									<li>
+										<a href="/blog/list">
+											<i class="fa fa-book"></i>
+											Prateleira Verde
+										</a>
+									</li>
+									<li>
 										<a href="#atividades-tab" aria-controls="atividades-tab"
 											role="tab" data-toggle="tab">
 											<i class="fa fa-calendar"></i>
