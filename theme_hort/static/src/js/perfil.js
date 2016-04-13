@@ -1,7 +1,24 @@
 (function($) {
   'use strict';
 
+  function getUrlVars() {
+    var vars = [];
+    var hash;
+    var hashes = window.location.href.slice(
+      window.location.href.indexOf('?') + 1).split('&');
+    for (var i = 0; i < hashes.length; i++) {
+      hash = hashes[i].split('=');
+      vars.push(hash[0]);
+      vars[hash[0]] = hash[1];
+    }
+    return vars;
+  }
+
   $(document).ready(function() {
+    var email = getUrlVars()["email"];
+    if (email)
+      $('#login').val(unescape(email));
+
     function ProductModel(product) {
       this.id = product.id;
       this.name = product.name;
@@ -124,8 +141,22 @@
     }
 
     function MainModel() {
-      this.user = ko.observable();
-      this.users = ko.observableArray([]);
+      var self = this;
+      self.user = ko.observable();
+      self.users = ko.observableArray([]);
+      self.email_subscribe = ko.observable();
+
+      self.subscribe = function() {
+        var dados = {
+          'list_id': 1,
+          'email': self.email_subscribe()
+        };
+        openerp.jsonRpc('/website_mass_mailing/subscribe', '', dados).then(
+          function(data) {
+            window.location = '/web/signup?email=' + self.email_subscribe();
+          });
+        return false;
+      };
     }
     var model = new MainModel();
     ko.applyBindings(model);

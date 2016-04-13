@@ -101,7 +101,7 @@ p {
 .dropdown-menu > li > a {
 	color: #ffffff !important;
 	padding:20px 20px !important;
-	text-transform:uppercase;	
+	text-transform:uppercase;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -112,15 +112,15 @@ p {
 }
 
 #header .navbar-default .navbar-nav > li:first-child a {
-	padding:41px 35px; 
+	padding:41px 35px;
 }
 
 #header .navbar-default .navbar-nav > li:nth-child(2n) a {
-	padding:48px 35px; 
+	padding:48px 35px;
 }
 
 #header .navbar-default .navbar-nav > li > a.meu {
-	padding:19px 15px; 
+	padding:19px 15px;
 }
 
 #header .navbar-default .navbar-nav > li.color-yellow a {
@@ -229,7 +229,7 @@ p {
 }
 
 #services .images {
-	
+
 }
 
 #services  h3.orange {
@@ -472,6 +472,19 @@ p {
 	margin-bottom:0px;
 }
 
+#e-mail  input[type="email"] {
+	border-radius:5px 0px 0px 5px;
+	width:100%;
+	background:#ffffff;
+	box-shadow:;
+	border:none;
+	height:60px;
+	box-shadow: inset 1px 3px 22px 2px #e0e0e0;
+	padding-left:30px;
+	font-style:italic;
+	margin-bottom:0px;
+}
+
 #e-mail input[type="submit"] {
 	background:#8bd0bc url(../images/submit.png) 50% 50% no-repeat;
 	width:100%;
@@ -583,7 +596,7 @@ p {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-	
+
 .oe_website_login_container {
 	width:90%;
 }
@@ -676,7 +689,7 @@ p {
 	text-align:center !important;
 }
 
-	
+
 }
 
 /* Portrait tablets and small desktops */

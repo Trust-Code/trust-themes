@@ -147,7 +147,7 @@
 										</div>
 										<div class="col-lg-3 col-sm-4 col-xs-3 none">
 											<input class="js_subscribe_btn" type="submit" value="" />
-											<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />	
+											<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />
 										</div>
 										<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
 									</div>
@@ -252,17 +252,12 @@
 								<b>Orgânico como Serviço:</b>
 							</p>
 						</div>
-						<div class="js_subscribe hidden col-lg-6 col-sm-6"
-							data-list-id="1" data-subscribe="off">
-							<div class="col-lg-9 col-sm-8 col-xs-9 none">
-								<input class="js_subscribe_email form-control" name="email"
-									placeholder="Deixe aqui seu e-mail e faça parte!" type="text" />
-							</div>
-							<div class="col-lg-3 col-sm-4 col-xs-3 none">
-								<input class="js_subscribe_btn" type="submit" value="" />
-								<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />								
-							</div>
-							<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
+						<div class="col-lg-6 col-sm-6">
+							<form data-bind="submit: subscribe" action="/web/signup" method="GET">
+								<div class="col-lg-9 col-sm-8 col-xs-9 none">
+									<input name="email" id="email" data-bind="value: email_subscribe" type="email" placeholder="Deixe aqui seu e-mail e faça parte!" required="required"/></div>
+								<div class="col-lg-3 col-sm-4 col-xs-3 none"><input type="submit" value="" /></div>
+							</form>
 						</div>
 					</div>
 				</section>
@@ -285,7 +280,7 @@
 								<img src="/theme_hort/static/src/images/prog-1.png" alt="" />
 								<br />
 								<span data-bind="text: karma"></span>
-							</li>							
+							</li>
 						</ul>
 					</div>
 				</section>
@@ -296,4 +291,3 @@
 		</template>
 	</data>
 </openerp>
-			
