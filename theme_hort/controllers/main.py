@@ -115,14 +115,30 @@ class UserProfile(http.Controller):
         products = []
         product_ids = request.env['product.product'].sudo().search([])
         for product in product_ids:
-            products.append({'id': product.id, 'name': product.name})
+            products.append({
+                'id': product.id, 'name': product.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                product.id
+            })
         produces = []
+        produce_images = []
         for produce in user.partner_id.produce_ids:
             produces.append(produce.id)
+            produce_images.append({
+                'id': produce.id, 'name': produce.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                produce.id
+            })
 
         interests = []
+        interest_image = []
         for interest in user.partner_id.interest_in_ids:
             interests.append(interest.id)
+            interest_image.append({
+                'id': interest.id, 'name': interest.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                interest.id
+            })
 
         categories = []
         category_ids = request.env['blog.post.category'].sudo().search([])
@@ -183,6 +199,8 @@ class UserProfile(http.Controller):
             'categories': categories,
             'produce_ids': produces,
             'interest_in_ids': interests,
+            'produce_images': produce_images,
+            'interest_images': interest_image,
             'post_category_ids': category_interest,
             'activities': activities,
         }

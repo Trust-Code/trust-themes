@@ -33,7 +33,7 @@
 									<li>
 										<a href="/forum/semeadora-virtual-1/ask">
 											<i class="fa fa-comment-o"></i>
-											Plantação de dúvidas
+											Semeadora Virtual
 										</a>
 									</li>
 									<li>
@@ -49,6 +49,18 @@
 											Atividade Recente
 											<span data-bind="text: activities().length"
 												class="label label-success pull-right r-activity"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-bind="click: page_view.bind($data, '/gestao/produtor')">
+											<i class="fa fa-leaf"></i>
+											Gestão do produtor
+										</a>
+									</li>
+									<li>
+										<a href="#" data-bind="click: page_view.bind($data, '/minhas/compras')">
+											<i class="fa fa-shopping-cart"></i>
+											Minhas Compras
 										</a>
 									</li>
 									<li>
@@ -105,228 +117,44 @@
 									<div class="bio-graph-heading" data-bind="text:comment">
 									</div>
 									<div class="panel-body bio-graph-info">
-										<h1>Bio</h1>
-										<div class="row">
-											<div class="bio-row">
-												<p>
-													<span>Nome </span>
-													:
-													<b data-bind="text: name"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Nascimento</span>
-													:
-													<b data-bind="text: birthday"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>CEP: </span>
-													:
-													<b data-bind="text: zip"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Endereço: </span>
-													:
-													<b data-bind="text: address"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Número: </span>
-													:
-													<b data-bind="text: number"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Bairro: </span>
-													:
-													<b data-bind="text: district"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Cidade: </span>
-													:
-													<b data-bind="text: city"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Estado: </span>
-													:
-													<b data-bind="text: state"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>País </span>
-													:
-													<b data-bind="text: country"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Ocupação </span>
-													:
-													<b data-bind="text: occupation"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Telefone </span>
-													:
-													<b data-bind="text: phone"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Celular </span>
-													:
-													<b data-bind="text: mobile"></b>
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Sexo </span>
-													:
-													<select data-bind="value: gender" disabled="disabled">
-														<option>Escolher</option>
-														<option value="0">Masculino</option>
-														<option value="1">Feminino</option>
-													</select>
-												</p>
-											</div>
-											<div class="bio-select">
-												<p>
-													<span>Temas de interesse </span>
-													<select id="tokenize-temas"
-														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
-														multiple="true" disabled="disabled">
-													</select>
-												</p>
-											</div>
+
+										<h1>Eu planto</h1>
+										<div class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+											<ul class="bxslider-perfil" data-bind='foreach: produce_images'>
+												<li class="text-center">
+													<a href="#">
+														<img data-bind="attr: {src: image}" alt="" />
+													</a>
+													<h5 data-bind="text: name"></h5>
+												</li>
+											</ul>
 										</div>
-										<div class="row">
-											<div class="bio-row">
-												<p>
-													<span>Produtor? </span>
-													:
-													<input type="checkbox" data-bind="checked: supplier"
-														disabled="disabled" />
-												</p>
-											</div>
-											<div class="bio-row">
-												<p>
-													<span>Consumidor? </span>
-													:
-													<input type="checkbox" data-bind="checked: customer"
-														disabled="disabled" />
-												</p>
-											</div>
-											<div class="bio-select">
-												<p>
-													<span>Interesses </span>
-													<select id="tokenize-interesse"
-														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id'"
-														multiple="true" disabled="disabled">
-													</select>
-												</p>
-											</div>
-											<div class="bio-select">
-												<p>
-													<span>Produz </span>
-													<select id="tokenize-produz"
-														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id'"
-														multiple="true" disabled="disabled">
-													</select>
-												</p>
-											</div>
+										<h1>Eu gosto muito destes produtos</h1>
+										<div class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+											<ul class="bxslider-perfil" data-bind='foreach: interest_images'>
+												<li class="text-center">
+													<a href="#">
+														<img data-bind="attr: {src: image}" alt="" />
+													</a>
+													<h5 data-bind="text: name"></h5>
+												</li>
+											</ul>
 										</div>
 									</div>
 								</div>
 								<div>
 									<div class="row">
-										<div class="col-md-6">
-											<div class="panel" data-bind="click: page_view.bind($data, '/organico/como/servico')">
-												<div class="panel-body">
-													<div class="bio-chart">
-														<div style="display:inline;width:100px;height:100px;">
-															<canvas width="100" height="100px"></canvas>
-															<input class="knob" data-width="100" data-height="100"
-																data-displayprevious="true" data-thickness=".2" value="35"
-																data-fgcolor="#e06b7d" data-bgcolor="#e8e8e8"
-																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(224, 107, 125); padding: 0px; -webkit-appearance: none; background: none;" />
-														</div>
-													</div>
-													<div class="bio-desk">
-														<h4 class="red">Orgânico como Serviço</h4>
-														<p>Inicio : em breve</p>
-													</div>
-												</div>
-											</div>
+										<div class="col-md-12">
+											<a href="#" class="thumbnail" data-bind="click: page_view.bind($data, '/grupo/consumo')">
+												<img src="/theme_hort/static/src/images/perfil-grupo-consumo.jpg" />
+											</a>
 										</div>
-										<div class="col-md-6">
-											<div class="panel" data-bind="click: page_view.bind($data, '/parceiro/hortcult')">
-												<div class="panel-body">
-													<div class="bio-chart">
-														<div style="display:inline;width:100px;height:100px;">
-															<canvas width="100" height="100px"></canvas>
-															<input class="knob" data-width="100" data-height="100"
-																data-displayprevious="true" data-thickness=".2" value="63"
-																data-fgcolor="#4CC5CD" data-bgcolor="#e8e8e8"
-																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(76, 197, 205); padding: 0px; -webkit-appearance: none; background: none;" />
-														</div>
-													</div>
-													<div class="bio-desk">
-														<h4 class="terques">Parceiro Hortcult </h4>
-														<p>Inicio : em breve</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="panel" data-bind="click: page_view.bind($data, '/grupo/consumo/consciente')">
-												<div class="panel-body">
-													<div class="bio-chart">
-														<div style="display:inline;width:100px;height:100px;">
-															<canvas width="100" height="100px"></canvas>
-															<input class="knob" data-width="100" data-height="100"
-																data-displayprevious="true" data-thickness=".2" value="75"
-																data-fgcolor="#96be4b" data-bgcolor="#e8e8e8"
-																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(150, 190, 75); padding: 0px; -webkit-appearance: none; background: none;" />
-														</div>
-													</div>
-													<div class="bio-desk">
-														<h4 class="green">Grupo de Consumo Consciente</h4>
-														<p>Inicio : em breve</p>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-md-6">
-											<div class="panel" data-bind="click: page_view.bind($data, '/compartilhe/producao')">
-												<div class="panel-body">
-													<div class="bio-chart">
-														<div style="display:inline;width:100px;height:100px;">
-															<canvas width="100" height="100px"></canvas>
-															<input class="knob" data-width="100" data-height="100"
-																data-displayprevious="true" data-thickness=".2" value="50"
-																data-fgcolor="#cba4db" data-bgcolor="#e8e8e8"
-																style="width: 54px; height: 33px; position: absolute; vertical-align: middle; margin-top: 33px; margin-left: -77px; border: 0px; font-weight: bold; font-style: normal; font-variant: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: Arial; text-align: center; color: rgb(203, 164, 219); padding: 0px; -webkit-appearance: none; background: none;" />
-														</div>
-													</div>
-													<div class="bio-desk">
-														<h4 class="purple">Compartilhe sua produção</h4>
-														<p>Inicio : em breve</p>
-													</div>
-												</div>
-											</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<a href="#" class="thumbnail" data-bind="click: page_view.bind($data, '/organico/como/servico')">
+												<img src="/theme_hort/static/src/images/perfil-organico-servico.jpg" />
+											</a>
 										</div>
 									</div>
 								</div>

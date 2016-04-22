@@ -9,7 +9,7 @@
 				<section id="banner">
 				  <div class="container">
 					<div class="col-lg-12">
-					  <div id="carousel-example-generic" class="carousel slide mb0" data-interval="500" data-ride="carousel">
+					  <div id="carousel-example-generic" class="carousel slide mb0" data-interval="2000" data-ride="carousel">
 		                <div class="carousel-inner">
 	                  	  <div class="item text_only active">
 	                          <div class="col-md-6">
