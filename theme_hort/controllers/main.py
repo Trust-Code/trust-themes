@@ -31,11 +31,23 @@ from openerp.addons.website.models.website import slug
 class BlogController(http.Controller):
 
     @http.route('/blog/list', type='http', auth="public", website=True)
-    def blog_list(self):
-        blogs = request.env['blog.blog'].sudo().search([])
-        return request.website.render("theme_hort.blog_list", {
-            'blogs': blogs,
-        })
+    def blog_list(self, **params):
+        filtro = 'temas'
+        if 'filtro' in params:
+            filtro = params['filtro']
+        if filtro == 'temas':
+            blogs = request.env['blog.blog'].sudo().search([])
+            return request.website.render("theme_hort.blog_list", {
+                'blogs': blogs,
+                'filtro': 'temas',
+            })
+        else:
+            last_posts = request.env['blog.post'].sudo().search(
+                [], limit=20, order='id desc')
+            return request.website.render("theme_hort.blog_list", {
+                'last_posts': last_posts,
+                'filtro': 'postagens',
+            })
 
 
 class UserProfile(http.Controller):

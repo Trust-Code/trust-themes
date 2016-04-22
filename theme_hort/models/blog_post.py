@@ -26,11 +26,19 @@ from openerp import api, fields, models
 class BlogBlog(models.Model):
     _inherit = 'blog.blog'
 
+    def _last_post_image(self):
+        for item in self:
+            last_post = self.env['blog.post'].search(
+                [('blog_id', '=', item.id)], limit=1, order='id desc')
+            item.last_post_image = last_post.background_image
+
     writer_id = fields.Many2one('res.partner', string="Escritor")
     writer_partner_ids = fields.Many2many(
         comodel_name='res.partner', string="Escritores",
         relation="res_partner_blog_blog_rel_writer",
         help="Parceiros que tem permissão de escrver no blog")
+
+    last_post_image = fields.Binary(compute=_last_post_image, store=False)
 
 
 class BlogPostCategory(models.Model):
