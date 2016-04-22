@@ -6,40 +6,35 @@
 			name="Theme Hort Inicio">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
-
 				<section id="banner">
-					<div class="container">
-						<div class="col-lg-12">
-							<div class="col-lg-12">
-								<ul class="bxslider">
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
+				  <div class="container">
+					<div class="col-lg-12">
+					  <div id="carousel-example-generic" class="carousel slide mb0" data-interval="500" data-ride="carousel">
+		                <div class="carousel-inner">
+	                  	  <div class="item text_only active">
+	                          <div class="col-md-6">
+	                            <img style="max-width:100%;" src="/theme_hort/static/src/images/slider-1.png" />
+	                          </div>
+		                    </div>
+		                  <div class="item text_only">
+		                    <div class="container">
+		                      <div class="content">
+		                          <div class="col-md-6">
+		                            <img style="max-width:100%;" src="/theme_hort/static/src/images/slider-2.png" />
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+					  <div class="bx-wrapper">
+					  	<div class="bx-controls-direction">
+						  <a class="bx-prev" href="#carousel-example-generic" role="button" data-slide="prev">Prev</a>
+						  <a class="bx-next" href="#carousel-example-generic" role="button" data-slide="next">Next</a>
+					  	</div>
+					  </div>
 					</div>
+				  </div>
 				</section>
 				<section id="services">
 					<div class="container">
@@ -277,8 +272,6 @@
 									<img data-bind="attr: {src: image}" alt="" />
 								</a>
 								<h5 data-bind="text: name"></h5>
-								<img src="/theme_hort/static/src/images/prog-1.png" alt="" />
-								<br />
 								<span data-bind="text: karma"></span>
 							</li>
 						</ul>

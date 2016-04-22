@@ -16,12 +16,17 @@
 						 	<ul id="products"></ul>
 						</div>
 					</div>
-				
+
 					<div class="container">
 						<div class="col-lg-3 col-sm-4 text-center">
 							<a href="#">
 								<img src="/theme_hort/static/src/images/footer-logo.png" alt="" />
 							</a>
+							<div class="social">
+								<a href="https://www.facebook.com/HortCultcom-969867363071797/" target="_blank" class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+								<a href="https://twitter.com/hortcultmkt" target="_blank" class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+								<a href="https://plus.google.com/u/0/105379083258626603691?hl=pt-BR" class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+							</div>
 						</div>
 						<div class="col-lg-5 col-sm-5 sm-text-center none">
 							<h3>acesse nosso blog</h3>
@@ -67,12 +72,12 @@
 
 			</xpath>
 		</template>
-		
+
 		<template id="custom_header" inherit_id="website.layout_footer_copyright"
 			name="Rodape Copyright Hort">
-			
-			<xpath expr="//div[@class='container mt16 mb8']" position="replace">			
-			</xpath>			
+
+			<xpath expr="//div[@class='container mt16 mb8']" position="replace">
+			</xpath>
 		</template>
 
 	</data>
