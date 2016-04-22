@@ -172,6 +172,34 @@ p {
 	margin-right:0px;
 }
 
+#banner-contato {
+	background:url(../images/page-banner-contato.jpg) 50% 50% no-repeat;
+	background-size:cover;
+	width:100%;
+	float:left;
+}
+
+#banner-semeadora {
+	background:url(../images/page-banner-semeadora.jpg) 50% 50% no-repeat;
+	background-size:cover;
+	width:100%;
+	float:left;
+}
+
+#banner-prateleira {
+	background:url(../images/page-banner-prateleira.jpg) 50% 50% no-repeat;
+	background-size:cover;
+	width:100%;
+	float:left;
+}
+
+#banner-meuquintal {
+	background:url(../images/page-banner-meuquintal.jpg) 50% 50% no-repeat;
+	background-size:cover;
+	width:100%;
+	float:left;
+}
+
 /* Banner Style */
 #banner {
 	background:url(../images/banner-bg.jpg) 50% 50% no-repeat;
@@ -743,6 +771,7 @@ main > div.oe_website_login_container{
 	min-height:600px;
 	padding-top:40px;
 	padding-bottom:40px;
+	clear:both;
 }
 
 #wrap.js_blog {

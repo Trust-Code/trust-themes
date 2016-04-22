@@ -2,11 +2,26 @@
 <openerp>
 	<data>
 
+		<template id="theme_hort_contactus" inherit_id="website.contactus"
+			name="Theme Hort Contato">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<section id="banner-contato">
+					<div style="min-height:265px;">
+					</div>
+				</section>
+			</xpath>
+		</template>
+
 		<template id="blog_list" page="True"
 			name="Theme Hort Blog">
 			<t t-call="website.layout">
 
-				<div id="arede" class="container" style="min-height: 600px;padding-top: 40px;padding-bottom: 40px;">
+				<section id="banner-prateleira">
+					<div style="min-height:265px;">
+					</div>
+				</section>
+
+				<div id="arede" class="container" style="min-height: 600px;padding-top: 40px;padding-bottom: 40px;clear:both;">
 					<div class="text" style="text-align:center;">
 						<h3>nossos blogs</h3>
 						<p>Veja o que nossos parceiros tem para contar para você
@@ -57,7 +72,12 @@
 					#wrap button.btn-primary {
 					background-color:#18a179; border-color:
 					#18a179;}
+					.website_forum { clear:both; }
 				</style>
+				<section id="banner-semeadora">
+					<div style="min-height:265px;">
+					</div>
+				</section>
 			</xpath>
 		</template>
 

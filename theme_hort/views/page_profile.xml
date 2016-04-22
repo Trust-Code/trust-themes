@@ -9,7 +9,11 @@
 					href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
 					rel="stylesheet" media="screen" />
 
-				<div class="container bootstrap snippet" data-bind="with: user">
+				<section id="banner-meuquintal">
+					<div style="min-height:265px;">
+					</div>
+				</section>
+				<div class="container bootstrap snippet" data-bind="with: user" style="clear:both;">
 					<div class="row">
 						<div class="profile-nav col-md-3">
 							<div class="panel">
