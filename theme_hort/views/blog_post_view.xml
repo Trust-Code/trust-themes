@@ -21,6 +21,7 @@
 			<field name="arch" type="xml">
 				<field name="tag_ids" position="after">
 					<field name="category_id" />
+					<field name="imagem_thumb" />
 				</field>
 			</field>
 		</record>

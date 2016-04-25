@@ -97,7 +97,9 @@ class UserProfile(http.Controller):
                     'l10n_br_city_id': city.id,
                     'country_id': city.state_id.country_id.id,
                 })
-        print vals
+        if 'data:image' in post['image']:
+            vals['image'] = post['image'].replace('data:image/png;base64,', '')
+            vals['image'] = vals['image'].replace('data:image/jpg;base64', '')
         user.partner_id.write(vals)
         user.partner_id.write({
             'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],

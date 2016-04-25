@@ -1,6 +1,10 @@
 (function($) {
     'use strict';
 
+    function imageIsLoaded(e) {
+        $('#img-profile').attr('src', e.target.result);
+    };
+
     function getUrlVars() {
         var vars = [];
         var hash;
@@ -99,8 +103,11 @@
                     function() {
                         categories.push($(this).val());
                     });
+                var imageUrl = $('#img-profile').attr('src');
+
                 openerp.jsonRpc('/user/update', '', {
                     'name': self.name(),
+                    'image': imageUrl,
                     'address': self.address(),
                     'number': self.number(),
                     'city': self.city(),
@@ -131,11 +138,13 @@
             };
             self.alterar_senha = function() {
                 if (self.new_password() == self.confirm_password()) {
-                    openerp.jsonRpc('/password/update', '', {
-                        'old_password': self.old_password(),
-                        'new_password': self.new_password(),
-                        'confirm_password': self.confirm_password(),
-                    }).then(function(data) {
+                    openerp.jsonRpc('/password/update',
+                        '', {
+                            'old_password': self.old_password(),
+                            'new_password': self.new_password(),
+                            'confirm_password': self
+                                .confirm_password(),
+                        }).then(function(data) {
                         alert(
                             'Dados salvos! Você deve efetuar login novamente'
                         );
@@ -165,11 +174,13 @@
                     'email': self.email_subscribe()
                 };
                 openerp.jsonRpc(
-                    '/website_mass_mailing/subscribe', '',
+                    '/website_mass_mailing/subscribe',
+                    '',
                     dados).then(
                     function(data) {
                         window.location =
-                            '/web/signup?email=' + self.email_subscribe();
+                            '/web/signup?email=' + self
+                            .email_subscribe();
                     });
                 return false;
             };
@@ -212,8 +223,10 @@
             $('#tokenize-temas-editar').select2();
             $('#cep-edit').mask('00000-000');
             $('#birthday-edit').mask('00/00/0000');
-            $('#phone-edit').mask(SPMaskBehavior, spOptions);
-            $('#cell-edit').mask(SPMaskBehavior, spOptions);
+            $('#phone-edit').mask(SPMaskBehavior,
+                spOptions);
+            $('#cell-edit').mask(SPMaskBehavior,
+                spOptions);
             $('.bxslider-perfil').bxSlider({
                 slideWidth: 100,
                 minSlides: 5,
@@ -222,8 +235,18 @@
                 slideMargin: 0,
                 pager: false,
             });
+            $("#profile-image").change(function() {
+                if (this.files && this.files[0]) {
+                    var reader = new FileReader();
+                    reader.onload =
+                        imageIsLoaded;
+                    reader.readAsDataURL(this.files[
+                        0]);
+                }
+            });
         }).fail(function(data, erro) {
-            if (erro['message'] == 'Odoo Session Expired' &&
+            if (erro['message'] ==
+                'Odoo Session Expired' &&
                 window.location
                 .pathname.indexOf('/page/perfil') > -1) {
                 window.location = '/';

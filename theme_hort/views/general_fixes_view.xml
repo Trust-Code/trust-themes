@@ -39,7 +39,7 @@
 							<div class="col-md-4">
 								<div style="text-align:center;">
 									<a t-attf-href="/blog/#{ slug(blog) }" class="thumbnail">
-										<img t-att-src="blog.last_post_image" alt=""/>
+										<img t-att-src="'data:image/png;base64,%s' % blog.last_post_image" alt=""/>
 									</a>
 									<h3 t-field="blog.name"></h3>
 								</div>
@@ -51,9 +51,10 @@
 							<div class="col-md-4">
 								<div style="text-align:center;">
 									<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }" class="thumbnail">
-										<img t-att-src="blog_post.background_image" alt=""/>
+										<img t-att-src="'data:image/png;base64,%s' % blog_post.imagem_thumb" alt=""/>
 									</a>
 									<h3 t-field="blog_post.name"></h3>
+									<h5 t-field="blog_post.create_date"></h5>
 								</div>
 							</div>
 						</ul>

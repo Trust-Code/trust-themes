@@ -767,11 +767,21 @@ main > div.oe_website_login_container{
 	margin-top:0px;
 }
 
+html, body {
+	height: 100%;
+}
 #wrap {
-	min-height:600px;
 	padding-top:40px;
 	padding-bottom:40px;
 	clear:both;
+}
+main {
+	min-height: 100%;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+footer, .push {
+	height: 4em;
 }
 
 #wrap.js_blog {

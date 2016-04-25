@@ -20,7 +20,7 @@
 ###############################################################################
 
 
-from openerp import api, fields, models
+from openerp import fields, models
 
 
 class BlogBlog(models.Model):
@@ -30,7 +30,7 @@ class BlogBlog(models.Model):
         for item in self:
             last_post = self.env['blog.post'].search(
                 [('blog_id', '=', item.id)], limit=1, order='id desc')
-            item.last_post_image = last_post.background_image
+            item.last_post_image = last_post.imagem_thumb
 
     writer_id = fields.Many2one('res.partner', string="Escritor")
     writer_partner_ids = fields.Many2many(
@@ -51,3 +51,4 @@ class BlogPost(models.Model):
     _inherit = 'blog.post'
 
     category_id = fields.Many2one('blog.post.category', string="Categoria")
+    imagem_thumb = fields.Binary('Background Image')

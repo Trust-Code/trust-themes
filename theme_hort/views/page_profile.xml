@@ -19,7 +19,7 @@
 							<div class="panel">
 								<div class="user-heading round">
 									<a href="#">
-										<img data-bind="attr: {src: image}" alt="" />
+										<img id="img-profile" data-bind="attr: {src: image}" alt="" />
 									</a>
 									<h1 data-bind="text: name"></h1>
 									<p data-bind="text: email"></p>
@@ -186,7 +186,8 @@
 
 								<div class="panel">
 									<div class="bio-graph-heading">
-										<input class="form-control" data-bind="value: comment" />
+										<label style="margin-bottom:10px;">Alterar imagem do perfil</label>
+										<input id="profile-image" type='file' />
 									</div>
 									<div class="panel-body bio-graph-info">
 										<h1>Alterar Perfil</h1>
@@ -321,6 +322,8 @@
 													</select>
 												</p>
 											</div>
+										</div>
+										<div class="row">
 											<div class="bio-row">
 												<button type="button" class="btn btn-success"
 													data-bind="click: salvar_perfil">Salvar</button>

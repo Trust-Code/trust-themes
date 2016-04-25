@@ -12,7 +12,7 @@ body {
 }
 
 .profile-nav, .profile-info{
-    margin-top:30px;   
+    margin-top:30px;
 }
 
 .profile-nav .user-heading {
@@ -111,8 +111,7 @@ body {
 
 .bio-graph-heading {
     background: #18a179;
-    color: #fff;
-    text-align: center;
+    color: #fff;    
     font-style: italic;
     padding: 40px 110px;
     border-radius: 4px 4px 0 0;
@@ -153,7 +152,7 @@ body {
 	    padding:0 15px;
 	}
 	.bio-select {
-	    width: 100%;	    
+	    width: 100%;
 	    margin-bottom: 10px;
 	    padding:0 15px;
 	}
