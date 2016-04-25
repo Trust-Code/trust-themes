@@ -82,7 +82,7 @@ class UserProfile(http.Controller):
             'zip': post['zip'],
             'street': post['address'],
             'street2': post['number'],
-            'gender': post['gender'],
+            'gender': '1' if post['gender'] == '1' else '0',
             'function': post['occupation'],
             'date_birth': birthday or datetime.now(),
             'supplier': post['supplier'],

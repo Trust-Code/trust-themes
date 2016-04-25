@@ -122,8 +122,8 @@
 									</div>
 									<div class="panel-body bio-graph-info">
 
-										<h1>Eu planto</h1>
-										<div class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+										<h1 data-bind="if: produce_images().length > 0">Eu planto</h1>
+										<div data-bind="if: produce_images().length > 0" class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
 											<ul class="bxslider-perfil" data-bind='foreach: produce_images'>
 												<li class="text-center">
 													<a href="#">
@@ -133,8 +133,8 @@
 												</li>
 											</ul>
 										</div>
-										<h1>Eu gosto muito destes produtos</h1>
-										<div class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+										<h1 data-bind="if: interest_images().length > 0">Eu gosto muito destes produtos</h1>
+										<div data-bind="if: interest_images().length > 0" class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
 											<ul class="bxslider-perfil" data-bind='foreach: interest_images'>
 												<li class="text-center">
 													<a href="#">
@@ -200,7 +200,7 @@
 											</div>
 											<div class="bio-row">
 												<div class="form-group">
-													<label>Nascimento (dd-mm-AAAA)</label>
+													<label>Nascimento</label>
 													<input id="birthday-edit" class="form-control" data-bind="value: birthday" />
 												</div>
 											</div>
