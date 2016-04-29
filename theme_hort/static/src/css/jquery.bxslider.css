@@ -19,6 +19,7 @@
 	margin: 0 auto 60px;
 	padding: 0;
 	*zoom: 1;
+	clear: both;
 }
 
 .bx-wrapper img {
@@ -117,6 +118,10 @@
 	height: 73px;
 	text-indent: -9999px;
 	z-index: 9999;
+}
+
+#banner div.bx-wrapper .bx-controls-direction a {
+	margin-top: -345px;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {

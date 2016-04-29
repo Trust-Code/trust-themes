@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 ###############################################################################
 #                                                                             #
-# Copyright (C) 2016 TrustCode - www.trustcode.com.br                         #
+# Copyright (C) 2016 Trustcode - www.trustcode.com.br                         #
 #              Danimar Ribeiro <danimaribeiro@gmail.com>                      #
 #                                                                             #
 # This program is free software: you can redistribute it and/or modify        #
@@ -31,11 +31,23 @@ from openerp.addons.website.models.website import slug
 class BlogController(http.Controller):
 
     @http.route('/blog/list', type='http', auth="public", website=True)
-    def blog_list(self):
-        blogs = request.env['blog.blog'].sudo().search([])
-        return request.website.render("theme_hort.blog_list", {
-            'blogs': blogs,
-        })
+    def blog_list(self, **params):
+        filtro = 'temas'
+        if 'filtro' in params:
+            filtro = params['filtro']
+        if filtro == 'temas':
+            blogs = request.env['blog.blog'].sudo().search([])
+            return request.website.render("theme_hort.blog_list", {
+                'blogs': blogs,
+                'filtro': 'temas',
+            })
+        else:
+            last_posts = request.env['blog.post'].sudo().search(
+                [], limit=20, order='id desc')
+            return request.website.render("theme_hort.blog_list", {
+                'last_posts': last_posts,
+                'filtro': 'postagens',
+            })
 
 
 class UserProfile(http.Controller):
@@ -70,7 +82,7 @@ class UserProfile(http.Controller):
             'zip': post['zip'],
             'street': post['address'],
             'street2': post['number'],
-            'gender': post['gender'],
+            'gender': '1' if post['gender'] == '1' else '0',
             'function': post['occupation'],
             'date_birth': birthday or datetime.now(),
             'supplier': post['supplier'],
@@ -85,7 +97,9 @@ class UserProfile(http.Controller):
                     'l10n_br_city_id': city.id,
                     'country_id': city.state_id.country_id.id,
                 })
-        print vals
+        if 'data:image' in post['image']:
+            vals['image'] = post['image'].replace('data:image/png;base64,', '')
+            vals['image'] = vals['image'].replace('data:image/jpg;base64', '')
         user.partner_id.write(vals)
         user.partner_id.write({
             'produce_ids': [[6, False, [int(x) for x in post['produce_ids']]]],
@@ -115,14 +129,30 @@ class UserProfile(http.Controller):
         products = []
         product_ids = request.env['product.product'].sudo().search([])
         for product in product_ids:
-            products.append({'id': product.id, 'name': product.name})
+            products.append({
+                'id': product.id, 'name': product.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                product.id
+            })
         produces = []
+        produce_images = []
         for produce in user.partner_id.produce_ids:
             produces.append(produce.id)
+            produce_images.append({
+                'id': produce.id, 'name': produce.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                produce.id
+            })
 
         interests = []
+        interest_image = []
         for interest in user.partner_id.interest_in_ids:
             interests.append(interest.id)
+            interest_image.append({
+                'id': interest.id, 'name': interest.name,
+                'image': "/website/image/product.product/%s/image_medium" %
+                interest.id
+            })
 
         categories = []
         category_ids = request.env['blog.post.category'].sudo().search([])
@@ -183,6 +213,8 @@ class UserProfile(http.Controller):
             'categories': categories,
             'produce_ids': produces,
             'interest_in_ids': interests,
+            'produce_images': produce_images,
+            'interest_images': interest_image,
             'post_category_ids': category_interest,
             'activities': activities,
         }

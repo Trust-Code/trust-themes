@@ -20,12 +20,12 @@
 ##############################################################################
 
 {
-    'name': 'TrustCode New Product Theme',
+    'name': 'Trustcode New Product Theme',
     'category': 'Theme/Corporate',
-    'summary': 'TrustCode WebSite Theme',
+    'summary': 'Trustcode WebSite Theme',
     'version': '1.0',
-    'description': """TrustCode WebSite Theme""",
-    'author': 'TrustCode',
+    'description': """Trustcode WebSite Theme""",
+    'author': 'Trustcode',
     'depends': ['website', 'website_less'],
     'data': [        
         'views/main.xml',                

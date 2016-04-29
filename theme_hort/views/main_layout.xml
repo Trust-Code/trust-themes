@@ -6,40 +6,35 @@
 			name="Theme Hort Inicio">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
-
 				<section id="banner">
-					<div class="container">
-						<div class="col-lg-12">
-							<div class="col-lg-12">
-								<ul class="bxslider">
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-									<li>
-										<div class="text col-lg-5">
-											<h2>
-												<label>plante</label>
-												sua saúde!
-											</h2>
-										</div>
-									</li>
-								</ul>
-							</div>
-						</div>
+				  <div class="container">
+					<div class="col-lg-12">
+					  <div id="carousel-example-generic" class="carousel slide mb0" data-interval="2000" data-ride="carousel">
+		                <div class="carousel-inner">
+	                  	  <div class="item text_only active">
+	                          <div class="col-md-6">
+	                            <img style="max-width:100%;" src="/theme_hort/static/src/images/slider-1.png" />
+	                          </div>
+		                    </div>
+		                  <div class="item text_only">
+		                    <div class="container">
+		                      <div class="content">
+		                          <div class="col-md-6">
+		                            <img style="max-width:100%;" src="/theme_hort/static/src/images/slider-2.png" />
+		                        </div>
+		                      </div>
+		                    </div>
+		                  </div>
+		                </div>
+		              </div>
+					  <div class="bx-wrapper">
+					  	<div class="bx-controls-direction">
+						  <a class="bx-prev" href="#carousel-example-generic" role="button" data-slide="prev">Prev</a>
+						  <a class="bx-next" href="#carousel-example-generic" role="button" data-slide="next">Next</a>
+					  	</div>
+					  </div>
 					</div>
+				  </div>
 				</section>
 				<section id="services">
 					<div class="container">
@@ -147,7 +142,7 @@
 										</div>
 										<div class="col-lg-3 col-sm-4 col-xs-3 none">
 											<input class="js_subscribe_btn" type="submit" value="" />
-											<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />	
+											<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />
 										</div>
 										<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
 									</div>
@@ -176,8 +171,8 @@
 						<div class="col-lg-6  col-sm-6 bg-color top">
 							<div class="col-lg-4 col-sm-12">
 								<div class="text">
-									<h4>semeadora</h4>
-									<h3>virtual</h3>
+									<h4>prateleira</h4>
+									<h3>verde</h3>
 								</div>
 							</div>
 							<div class="col-lg-8 col-sm-12">
@@ -248,21 +243,15 @@
 					<div class="container">
 						<div class="col-lg-6 col-sm-6 text-center">
 							<p>
-								Fique por dentro das novidades e lançamentos do
-								<b>Orgânico como Serviço:</b>
+								<b>CADASTRE-SE E FIQUE POR DENTRO</b>
 							</p>
 						</div>
-						<div class="js_subscribe hidden col-lg-6 col-sm-6"
-							data-list-id="1" data-subscribe="off">
-							<div class="col-lg-9 col-sm-8 col-xs-9 none">
-								<input class="js_subscribe_email form-control" name="email"
-									placeholder="Deixe aqui seu e-mail e faça parte!" type="text" />
-							</div>
-							<div class="col-lg-3 col-sm-4 col-xs-3 none">
-								<input class="js_subscribe_btn" type="submit" value="" />
-								<input class="js_subscribed_btn hidden" type="submit" value="" disabled="disabled" title="Já cadastrado" />								
-							</div>
-							<div class="alert alert-success hidden">Obrigado por seu interesse!</div>
+						<div class="col-lg-6 col-sm-6">
+							<form data-bind="submit: subscribe" action="/web/signup" method="GET">
+								<div class="col-lg-9 col-sm-8 col-xs-9 none">
+									<input name="email" id="email" data-bind="value: email_subscribe" type="email" placeholder="Deixe aqui seu e-mail e faça parte!" required="required"/></div>
+								<div class="col-lg-3 col-sm-4 col-xs-3 none"><input type="submit" value="" /></div>
+							</form>
 						</div>
 					</div>
 				</section>
@@ -282,10 +271,8 @@
 									<img data-bind="attr: {src: image}" alt="" />
 								</a>
 								<h5 data-bind="text: name"></h5>
-								<img src="/theme_hort/static/src/images/prog-1.png" alt="" />
-								<br />
 								<span data-bind="text: karma"></span>
-							</li>							
+							</li>
 						</ul>
 					</div>
 				</section>
@@ -296,4 +283,3 @@
 		</template>
 	</data>
 </openerp>
-			

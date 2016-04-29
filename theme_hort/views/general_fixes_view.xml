@@ -2,34 +2,63 @@
 <openerp>
 	<data>
 
+		<template id="theme_hort_contactus" inherit_id="website.contactus"
+			name="Theme Hort Contato">
+			<xpath expr="//div[@id='wrap']" position="before">
+				<section id="banner-contato">
+					<div style="min-height:265px;">
+					</div>
+				</section>
+			</xpath>
+		</template>
+
 		<template id="blog_list" page="True"
 			name="Theme Hort Blog">
 			<t t-call="website.layout">
 
-				<div id="arede" class="container" style="min-height: 600px;padding-top: 40px;padding-bottom: 40px;">
-					<div class="text" style="text-align:center;">
-						<h3>nossos blogs</h3>
-						<p>Veja o que nossos parceiros tem para contar para você
-						</p>
+				<section id="banner-prateleira">
+					<div style="min-height:265px;">
 					</div>
+				</section>
 
-					<ul t-foreach="blogs" t-as="blog">
-						<div class="row">
-							<div class="col-md-8 col-md-offset-2">
-							    <div class="mb32">
-							        <span t-field="blog.writer_id.image_small" t-field-options='{"widget": "image", "class": "img-circle pull-right mt16 media-object"}'>
-									</span>
-							    	<a href="/blog/our-news-1/post/blog-post-title-1">
-							        	<h2 class="mb4" t-field="blog.name"
-											style="font-size: 36px; color: #18a179;"></h2>
-							        </a>
-	          						<div class="text-muted">
-							            <h4 class="mb4 mt4" t-field="blog.writer_id.name"></h4>
-							        </div>
+				<div class="container" style="min-height: 600px;padding-top: 40px;padding-bottom: 40px;clear:both;">
+					<div class="row">
+						<div class="col-md-8" style="margin-bottom:20px; font-size:20px;" t-if="filtro == 'temas'">
+							Filtrar por:
+							<a class="label label-success disabled" href="?filtro=temas">Temas</a>
+							<a class="label label-info" href="?filtro=postagens">Postagens</a>
+						</div>
+						<div class="col-md-8" style="margin-bottom:20px; font-size:20px;" t-if="filtro == 'postagens'">
+							Filtrar por:
+							<a class="label label-info" href="?filtro=temas">Temas</a>
+							<a class="label label-success disabled" href="?filtro=postagens">Postagens</a>
+						</div>
+					</div>
+					<div class="row" t-if="filtro == 'temas'">
+						<ul t-foreach="blogs" t-as="blog">
+							<div class="col-md-4">
+								<div style="text-align:center;">
+									<a t-attf-href="/blog/#{ slug(blog) }" class="thumbnail">
+										<img t-att-src="'data:image/png;base64,%s' % blog.last_post_image" alt=""/>
+									</a>
+									<h3 t-field="blog.name"></h3>
 								</div>
 							</div>
-						</div>
-					</ul>
+						</ul>
+					</div>
+					<div class="row" t-if="filtro == 'postagens'">
+						<ul t-foreach="last_posts" t-as="blog_post">
+							<div class="col-md-4">
+								<div style="text-align:center;">
+									<a t-attf-href="/blog/#{ slug(blog_post.blog_id) }/post/#{ slug(blog_post) }" class="thumbnail">
+										<img t-att-src="'data:image/png;base64,%s' % blog_post.imagem_thumb" alt=""/>
+									</a>
+									<h3 t-field="blog_post.name"></h3>
+									<h5 t-field="blog_post.create_date"></h5>
+								</div>
+							</div>
+						</ul>
+					</div>
 				</div>
 			</t>
 		</template>
@@ -57,7 +86,12 @@
 					#wrap button.btn-primary {
 					background-color:#18a179; border-color:
 					#18a179;}
+					.website_forum { clear:both; }
 				</style>
+				<section id="banner-semeadora">
+					<div style="min-height:265px;">
+					</div>
+				</section>
 			</xpath>
 		</template>
 

@@ -48,9 +48,6 @@
 														<a href="/blog/list">Prateleira Verde</a>
 													</li>
 													<li>
-														<a href="/page/quem-somos">Quem somos </a>
-													</li>
-													<li>
 														<a href="/page/nossos-valores">Nossos valores </a>
 													</li>
 													<li>
@@ -59,7 +56,7 @@
 												</ul>
 											</li>
 											<li>
-												<a href="/event">Eventos</a>
+												<a href="/event/hortcult-aberto-ao-publico-2016-05-01-1">Eventos</a>
 											</li>
 											<li class="color-yellow" groups="base.group_public">
 												<a style="padding:48px 35px;" t-attf-href="/web/login">Login</a>
@@ -70,15 +67,7 @@
 													Meu
 													<br />
 													<label class="size">Quintal</label>
-													<img src="/theme_hort/static/src/images/prog.png" alt="" />
-													<br />
 													<span data-bind="text: karma"></span>
-												</a>
-											</li>
-											<li t-if="website.user_id == user_id">
-												<a href="https://www.facebook.com/HortCultcom-969867363071797/">
-													<img src="/theme_hort/static/src/images/facebook.png"
-														alt="" />
 												</a>
 											</li>
 											<li t-if="website.user_id != user_id">
