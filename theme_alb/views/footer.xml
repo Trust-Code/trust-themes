@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<!-- Customize header -->
+		<template id="theme_alb_footer" inherit_id="website.footer_default"
+			name="Rodape Alb">
+
+			<!-- Add an element after the top menu -->
+			<xpath expr="//div[@class='container hidden-print']" position="replace">
+
+			  <footer t-attf-class="{{ 'footer-bg home2 m-top3' if path == 'homepage' else 'footer-bg texture1 m-top7' }}">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-3 col-sm-12 m-top5 font-white">
+			          <h4 class="font16 font-thin uppercase">Sobre a empresa</h4>
+			          <div class="title-line color"></div>
+			          <p class="m-bottom3">Procuramos fazer nosso melhor.</p>
+			          <ul class="address-info listitems">
+			            <li><i class="fa fa-map-marker"></i> 15 Barnes Wallis Way, 358744, USA</li>
+			            <li><i class="fa fa-phone"></i> +1 (012) 345 6789</li>
+			            <li><i class="fa fa-envelope"></i> adm@alb.inf.br</li>
+			          </ul>
+			        </div>
+			        <div class="col-md-3 col-sm-12 m-top5 font-white">
+			          <h4 class="font16 font-thin uppercase">Suporte</h4>
+			          <div class="title-line color"></div>
+			          <ul class="listitems left-padd0">
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Suporte de produto</a></li>
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Atendimento</a></li>
+			          </ul>
+			        </div>
+			        <div class="col-md-3 col-sm-12 m-top5 font-white">
+			          <h4 class="font16 font-thin uppercase">Recursos</h4>
+			          <div class="title-line color"></div>
+			          <ul class="listitems left-padd0">
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Serviços de email</a></li>
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Serviços de marketing</a></li>
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Afiliados</a></li>
+			          </ul>
+			        </div>
+			        <div class="col-md-3 col-sm-12 m-top5 font-white">
+			          <h4 class="font16 font-thin uppercase">Conta</h4>
+			          <div class="title-line color"></div>
+			          <ul class="listitems left-padd0">
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Minha Conta</a></li>
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Criar conta</a></li>
+			            <li><a href="#"><i class="fa fa-angle-right"></i> Base de Conhecimento</a></li>
+			            <li><a href="/page/contactus"><i class="fa fa-angle-right"></i> Contato</a></li>
+			          </ul>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="container">
+			      <div class="col-md-6 nopadding m-top5">
+			        <h5 class="font-white m-bottom1">Fique por dentro das novidades!</h5>
+			        <form method="get" id="newsletter">
+			          <input class="input-text newsfield" name="dsearch" id="newslette" value="Digite seu email..." onFocus="if (this.value == 'Digite seu email...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite seu email...';}" type="text" />
+			          <input id="submits" value="ENVIAR" type="submit" class="btn orange-button two uppercase font-bold"/>
+			        </form>
+			      </div>
+			    </div>
+			  </footer>
+			  <div class="copyrights">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-6 m-top1 m-bottom1"> Copyright 2016 alb.inf.br. Criado com Odoo. </div>
+			        <div class="col-md-6">
+						<div class="container oe_share">
+				          <ul class="social-icons style-three">
+				            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						  </ul>
+					    </div>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+
+
+			</xpath>
+		</template>
+
+		<template id="custom_header" inherit_id="website.layout_footer_copyright"
+			name="Rodape Copyright Hort">
+
+			<xpath expr="//div[@class='container mt16 mb8']" position="replace">
+			</xpath>
+		</template>
+
+	</data>
+</openerp>

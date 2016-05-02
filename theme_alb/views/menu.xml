@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="theme_hort_menu" inherit_id="website.layout"
+			name="Theme Hort Menu">
+
+			<xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+				<attribute name="style">display:none;</attribute>
+			</xpath>
+
+			<xpath expr="//div[@id='wrapwrap']/header" position="before">
+				<div id="header-top-top" t-attf-class="{{ 'header-top black-bg' if path == 'homepage' else 'header-top black-bg-light' }}">
+				  <div class="container">
+					<div class="row">
+					  <div class="col-md-6 col-sm-6 no-dis-phone">
+						<ul class="social-icons style-two">
+						  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					  </div>
+					  <div class="col-md-6 col-sm-6 text-right font-bold"> 24/7 Suporte (11) 2967-7730<span>/</span>
+						<a href="/web/login">Login</a><span>/</span>
+					  </div>
+					</div>
+				  </div>
+				</div>
+
+				<header id="header-top" t-attf-class="{{ 'header bg-texture headr-style-1 font-white' if path == 'homepage' else 'header whitebg headr-style-1' }}">
+				  <div class="container">
+					<div class="row">
+					  <!-- Menu -->
+					  <div class="navbar yamm navbar-default">
+						<div class="container">
+						  <div class="navbar-header">
+							<button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle">
+								<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+							</button>
+							<a href="/" class="navbar-brand logo logo-white"></a> </div>
+						  <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right dark-color nopadding">
+							<nav>
+							  <ul class="nav navbar-nav">
+								<t t-foreach="website.menu_id.child_id" t-as="submenu">
+								   <t t-call="website.submenu"/>
+							    </t>
+							  </ul>
+							</nav>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</header>
+
+			</xpath>
+
+		</template>
+	</data>
+</openerp>
