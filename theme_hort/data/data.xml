@@ -25,5 +25,20 @@ if object.website_published and object.category_id:
         tmpl.send_mail(object.id)
 			</field>
         </record>
+
+		<record id="action_task_email_pergunta_forum" model="ir.actions.server">
+			<field name="name">Enviar email nova pergunta forum</field>
+			<field name="model_id" ref="model_forum_post"/>
+			<field name="sequence">1</field>
+			<field name="state">code</field>
+			<field name="code">
+template = env['email.template'].browse(24)
+for partner in object.forum_id.message_follower_ids:
+    tmpl = template.with_context({'partner_email': partner.email,
+                                  'partner_name': partner.name})
+    tmpl.send_mail(object.id)
+			</field>
+        </record>
+
 	</data>
 </openerp>
