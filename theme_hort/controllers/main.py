@@ -77,7 +77,7 @@ class UserProfile(http.Controller):
         user.name = post['name']
         birthday = None
         if post['birthday']:
-            birthday = datetime.strptime(post['birthday'], '%d-%m-%Y')
+            birthday = datetime.strptime(post['birthday'], '%d/%m/%Y')
         vals = {
             'zip': post['zip'],
             'street': post['address'],

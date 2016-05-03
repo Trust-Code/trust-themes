@@ -20,7 +20,8 @@
 ###############################################################################
 
 
-from openerp import fields, models
+from openerp import api, fields, models
+from openerp.addons.website.models.website import slug
 
 
 class BlogBlog(models.Model):
@@ -52,3 +53,12 @@ class BlogPost(models.Model):
 
     category_id = fields.Many2one('blog.post.category', string="Categoria")
     imagem_thumb = fields.Binary('Background Image')
+    email_sent = fields.Boolean('Email enviado')
+
+    @api.multi
+    def url_post(self):
+        self.ensure_one()
+        base_url = self.env['ir.config_parameter'].get_param('web.base.url')
+        link = "%s/blog/%s/post/%s" % (base_url, slug(self.blog_id),
+                                       slug(self))
+        return link
