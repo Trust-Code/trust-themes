@@ -210,7 +210,7 @@
 		  <tbody><tr>
 			<td width="124" height="700" bgcolor="#FFFFFF"></td>
 			<td width="561" height="700">
-            <p style="color: rgb(115, 115, 115); font-family: 'Trebuchet MS'; font-size: 16px; line-height: 2;">Olá ${ctx.partner_name}!</p><p>A discussão está rolando na Semeadora Virtual. O assunto é ${object.name}.</p><p>Entra lá, participe e vote!</p><p>Veja o ultimo comentário</p><p>${object.last_comment()}</p>
+            <p style="color: rgb(115, 115, 115); font-family: 'Trebuchet MS'; font-size: 16px; line-height: 2;">Olá ${ctx.partner_name}!</p><p>A discussão está rolando na Semeadora Virtual. O assunto é ${object.name}.</p><p>Entra lá, participe e vote!</p><p>Veja o ultimo comentário</p><p>${object.last_comment()|safe}</p>
 
 		</td>
 		<td width="115" height="700" bgcolor="#FFFFFF"></td>

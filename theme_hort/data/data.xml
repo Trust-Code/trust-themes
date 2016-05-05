@@ -15,9 +15,9 @@
             <field name="state">code</field>
             <field name="code">
 if object.website_published and object.category_id:
-    partners = env['res.partner'].search(
+    partners = env['res.partner'].sudo().search(
         [('post_category_ids', 'in', object.category_id.id)])
-    template = env['email.template'].browse(23)
+    template = env['email.template'].sudo().browse(23)
 
     for partner in partners:
         tmpl = template.with_context({'partner_email': partner.email,
@@ -32,8 +32,8 @@ if object.website_published and object.category_id:
 			<field name="sequence">1</field>
 			<field name="state">code</field>
 			<field name="code">
-template = env['email.template'].browse(24)
-for partner in object.forum_id.message_follower_ids:
+template = env['email.template'].sudo().browse(24)
+for partner in object.sudo().forum_id.message_follower_ids:
     tmpl = template.with_context({'partner_email': partner.email,
                                   'partner_name': partner.name})
     tmpl.send_mail(object.id)
