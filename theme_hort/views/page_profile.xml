@@ -62,7 +62,7 @@
 										</a>
 									</li>
 									<li>
-										<a href="#" data-bind="click: page_view.bind($data, '/minhas/compras')">
+										<a href="/shop/cart">
 											<i class="fa fa-shopping-cart"></i>
 											Minhas Compras
 										</a>
