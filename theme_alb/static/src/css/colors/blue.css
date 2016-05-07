@@ -1,0 +1,39 @@
+/* Logo */
+.navbar-brand.logo {
+	background: url(../../images/logo-blue.png) no-repeat left 21px;
+}
+.list-unstyled a:hover, .dropdown-menu>li>a:hover, .font-color, .iconbox, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover,
+.icon-boxed.wide90, .view-links a, .sky-form a, .sky-form .checkbox input + i::after, .fea-col-box:hover .wide80{
+	color:#267aea;
+}
+.ms-layer.btn3, .orange-button, .fea-col:hover .iconbox, .iconbox:hover, .iconbox.active, .orange-button.one, .title-line, .blue-button,
+.fea-sce-col:hover .icon-boxed, .fea-sce-col.active .icon-boxed, .carousel-indicators .active, .small-circle-no, .orange-button.two, ul.social-icons li a:hover,
+.pricing-box.style-1 div.price, .samll-grey-button:hover, .pricing-box.style-1:hover .samll-grey-button, .pricing-box.style-1.active .samll-grey-button, .sky-form .button.seven, .header-top.black-bg-light a.register-btn, .button a.boxed-color-sm.orange, .button a.boxed-color-xs.orange, .sec-col-left h2 span, .sec-col-right h2 span, .color-bg, .service-title-color, form .submit-btn, .header.headr-style-2 .navbar-default, .compact .header.olivebg, h2.bg-color span, .team-thumb:hover .team-col .team-overlay, .team-thumb.active .team-col .team-overlay, .sec-title h2::before, .fea-col-box:hover, .tab-style .nav-tabs > li.active > a, .tab-style .nav-tabs > li.active > a:focus, .tab-style .nav-tabs > li.active > a:hover, .tab-style .nav-tabs > li > a:hover, .new-domin-list li,
+.carousel-indicators .active, .carousel-indicators.white-color .active, .price-info-circle, .pricing-box-home2 h2, .pricing-box-home2 .order,
+.collaps-style-2 .panel-default > .panel-heading, .bg-color-plain, .tab-style-1 .nav-tabs > li.active > a, .tab-style-1 .nav-tabs > li.active > a:focus, .tab-style-1 .nav-tabs > li.active > a:hover, .tab-style-1 .nav-tabs > li > a:hover, .small-circle-comme, .pricing-box-home5 h2, .pricing-box-home5:hover .price, .pricing-box-home5.active .price, .pricing-box-home5:hover .order-now, .pricing-box-home5.active .order-nowt, .two-color-boxes-multi, .sky-form .button{
+	background:#267aea;
+}
+.col-fea-box{
+	background: rgba(38, 122, 234, .8);
+}
+.orange-button, .blue-button, .samll-grey-button:hover, .pricing-box.style-1:hover .samll-grey-button, .pricing-box.style-1.active .samll-grey-button, .col-fea-box-white::before{
+	border:solid 1px #267aea;
+}
+.sky-form .radio input:checked + i, .sky-form .checkbox input:checked + i, .sky-form .toggle input:checked + i{
+	border-color:#267aea;
+}
+.domain-search {
+	background:#267aea url(../../images/clouds-white.png) repeat-x center bottom;
+}
+.service-title {
+    background: #267aea url(../../images/clouds-white-small.png) no-repeat scroll left bottom;
+}
+.domain-search.shape-white {
+    background: #267aea url(../../images/shape-white.png) no-repeat scroll center bottom;
+}
+
+
+/* scroll up */
+.scrollup {
+	background: #267aea url(../../images/scroll-top-arrow.png) no-repeat 15px 14px;
+}

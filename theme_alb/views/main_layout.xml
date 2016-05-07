@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="theme_hort_main_layout" inherit_id="website.homepage"
+			name="Theme Hort Inicio">
+
+			<xpath expr="//div[@id='wrap']" position="replace">
+				<!-- Master Slider
+				<div class="master-slider ms-skin-default" id="masterslider">
+
+				  <div class="ms-slide slide-1" data-delay="14">
+
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
+						  style="left:90px; top:170px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewleft(30,80)">dedicated hosting</h3>
+					<h3 class="ms-layer title2 uppercase font-white"
+						  style="left: 90px;top: 220px;"
+						  data-type="text"
+						  data-delay="2500"
+						  data-duration="2500"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">Build your website</h3>
+					<h5 class="ms-layer text1 font-white"
+						  style="left: 92px; top: 295px;"
+						  data-type="text"
+						  data-effect="bottom(45)"
+						  data-duration="2500"
+						  data-delay="3000"
+						  data-ease="easeOutExpo">Lorem Ipsum is simply dummy text of the printing typesetting<br />
+						  industry is proident sunt in culpa officia deserunt mollit.</h5>
+					<a class="ms-layer btn3 uppercase"
+						  style="left:95px; top: 405px;"
+						  data-type="text"
+						  data-delay="3500"
+						  data-ease="easeOutExpo"
+						  data-duration="2000"
+						  data-effect="scale(1.5,1.6)"> Get Started Now!</a></div>
+
+				  <div class="ms-slide slide-2" data-delay="10">
+
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
+						  style="left:90px; top:170px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewleft(30,80)">Secure Your Website</h3>
+					<h3 class="ms-layer title2 uppercase font-white"
+						  style="left: 90px;top: 220px;"
+						  data-type="text"
+						  data-delay="2500"
+						  data-duration="2500"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">Build your website</h3>
+					<h5 class="ms-layer text1 font-white"
+						  style="left: 92px; top: 295px;"
+						  data-type="text"
+						  data-effect="bottom(45)"
+						  data-duration="2500"
+						  data-delay="3000"
+						  data-ease="easeOutExpo">Lorem Ipsum is simply dummy text of the printing typesetting<br />
+						  industry is proident sunt in culpa officia deserunt mollit.</h5>
+					<a class="ms-layer btn3 uppercase"
+						  style="left:95px; top: 405px;"
+						  data-type="text"
+						  data-delay="3500"
+						  data-ease="easeOutExpo"
+						  data-duration="2000"
+						  data-effect="scale(1.5,1.6)"> Get Started Now!</a> </div>
+
+
+				  <div class="ms-slide slide-3" data-delay="14">
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<h3 class="ms-layer title4 font-thin-xs font-white uppercase text-center"
+						  style="left:0px;top:220px;"
+						  data-type="text"
+						  data-delay="1500"
+						  data-duration="2500"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">Unlimited Web Hosting</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-center"
+						  style="left:0px; top:275px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewleft(30,80)">EASY and AFFORDABLE </h3>
+					<a class="ms-layer btn3 uppercase"
+						  style="left:600px; top: 355px;"
+						  data-type="text"
+						  data-delay="2500"
+						  data-ease="easeOutExpo"
+						  data-duration="2000"
+						  data-effect="scale(1.5,1.6)"> Get Started Now!</a></div>
+				</div>
+
+				-->
+
+				<section class="section-lg m-top5">
+				  <div class="container">
+					<div class="row">
+					  <div class="col-md-4">
+						<h2 class="font-thin font30 m-bottom1">CONSULTE SEU DOMÍNIO</h2>
+						<h5 class="font16">Domínios apenas <strong class="font-color">R$45</strong>/por ano</h5>
+					  </div>
+					  <div class="col-md-8">
+						<form method="get" id="domain-searchform" action="index.html">
+						  <input class="input-text dsearch-home2" name="dsearch" id="dsearch" value="Digite seu domínio aqui..." onFocus="if (this.value == 'Digite seu domínio aqui...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite seu domínio aqui...';}" type="text" />
+						  <select class="selectpicker selectpicker-home2" data-style="btn-primary">
+							<option value=".com.br">.com.br</option>
+							<option value=".com">.com</option>
+							<option value=".net">.net</option>
+							<option value=".org">.org</option>
+							<option value=".biz">.biz</option>
+							<option value=".us.com">.us.com</option>
+							<option value=".us">.us</option>
+							<option value=".mobi">.mobi</option>
+							<option value=".info">.info</option>
+						  </select>
+						  <input type="submit" class="btn blue-button uppercase" value="Pesquisar" id="submit" />
+						</form>
+					  </div>
+					</div>
+				  </div>
+			  </section>
+				<!-- end features section 1 -->
+
+				<div class="section-lg m-top7">
+			       <div class="container">
+			         <div class="row">
+			           <h4 class="font-color font15 text-center uppercase">Novidades</h4>
+			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Características especiais</h2>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Proteja seu website</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Dados no Cloudfront</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-reload font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Seguro &amp; Rápido</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-lightbulb font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Responsivo &amp; Retina</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-settings font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Instalação grátis</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-pencil font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Painel Plesk Parallel</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-graduation font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">Serviços de Marketing</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-4 text-left m-bottom5">
+			             <div class="fea-sce-col active">
+			               <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+			               <div class="left-padd8">
+			                 <h2 class="font-thin m-bottom1">24/7 Suporte online</h2>
+			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			               </div>
+			             </div>
+			           </div>
+			         </div>
+			       </div>
+			     </div>
+			     <!-- end features section 2 -->
+
+			     <div class="section-lg bg-parallax-13 m-top0">
+			       <div class="shape-cross-top"></div>
+			       <div class="container">
+			         <div class="row">
+			           <h4 class="font-color font15 text-center uppercase m-top2">Novidades</h4>
+			           <h2 class="font-white font-thin-xs font40 text-center m-bottom4 uppercase">Ofertas especiais</h2>
+			           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			             <!-- Indicators -->
+			             <ol class="carousel-indicators">
+			               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			             </ol>
+
+			             <!-- Wrapper for slides -->
+			             <div class="carousel-inner" role="listbox">
+			               <div class="item active">
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <div class="price-info-circle">Apartir de<br />
+			                     <span class="blue font-bold">R$9.95</span>/mês</div>
+			                   <figure class="nomargin">
+								   <img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive" />
+						   	   </figure>
+			                 </div>
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <h2 class="font25 font-white font-color m-bottom2">Comece hoje mesmo! <span class="font-thin-xs font-white">Ofertas de Hoje!</span></h2>
+			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
+			                   <ul class="listitems half font-white">
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
+			                   </ul>
+			                 </div>
+			               </div>
+			               <div class="item">
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <div class="price-info-circle">Starts at<br />
+			                     <span class="blue font-bold">$9.95</span>/mo</div>
+			                   <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive"/></figure>
+			                 </div>
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <h2 class="font25 font-white font-color m-bottom2">Get Started! <span class="font-thin-xs font-white">Today's Offers</span></h2>
+			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
+			                   <ul class="listitems half font-white">
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
+			                   </ul>
+			                 </div>
+			               </div>
+			               <div class="item">
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <div class="price-info-circle">Starts at<br />
+			                     <span class="blue font-bold">$9.95</span>/mo</div>
+			                   <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive"/></figure>
+			                 </div>
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <h2 class="font25 font-white font-color m-bottom2">Get Started! <span class="font-thin-xs font-white">Today's Offers</span></h2>
+			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
+			                   <ul class="listitems half font-white">
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
+			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
+			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
+			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
+			                   </ul>
+			                 </div>
+			               </div>
+			             </div>
+			           </div>
+			         </div>
+			       </div>
+			       <div class="shape-cross-bottom"></div>
+			     </div>
+			     <!-- end features section 3 -->
+
+				 <div class="section-lg m-top2">
+			     	<div class="container">
+			        	<div class="row">
+			           		<h4 class="font-color font15 text-center uppercase">Selecione sua</h4>
+			           		<h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Plataforma de hospedagem</h2>
+
+							<div>
+						   		<ul class="nav nav-tabs tabs-style2" role="tablist">
+					            	<li role="presentation" class="active"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">Servidores dedicados</a></li>
+						            <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">Cloud</a></li>
+						            <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">Hospedagem</a></li>
+								</ul>
+
+								<div class="tab-content tab-style2">
+									<div class="tab-pane active" role="tabpanel" id="tab_um">
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+												<h2 class="font-bold font15 font-white uppercase">SERVIDOR DEDICADO</h2>
+												<div class="price font60 font-black-dark"><small class="font25">R$</small>49<br />
+													<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>4 GB Memória</li>
+											 		<li>4 vCPU</li>
+											 		<li>1 TB transferência</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">SERVIDOR POWER</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>99<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+												<h2 class="font-bold font15 font-white uppercase">SERVIDOR DEDICADO</h2>
+												<div class="price font60 font-black-dark"><small class="font25">R$</small>49<br />
+													<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>4 GB Memória</li>
+											 		<li>4 vCPU</li>
+											 		<li>1 TB transferência</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+											</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">SERVIDOR POWER</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>99<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+									</div>
+									<div class="tab-pane" role="tabpanel" id="tab_dois">
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
+											 		<span class="font18"> mês</span>
+												</div>
+										   		<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
+											 		<span class="font18"> mês</span>
+												</div>
+										   		<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
+											 		<span class="font18"> mês</span>
+												</div>
+										   		<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
+											 		<span class="font18"> mês</span>
+												</div>
+										   		<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+									</div>
+									<div class="tab-pane" role="tabpanel" id="tab_tres">
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+										<div class="col-md-3 col-sm-3 m-bottom3">
+											<div class="pricing-box-home2 text-center">
+										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
+											 		<span class="font18"> mês</span>
+												</div>
+												<ul class="fea-lists">
+											 		<li>5 GB Espaço</li>
+											 		<li>Projetos ilimitados</li>
+											 		<li>15 Contas de email</li>
+											 		<li>2 Domínios</li>
+											 		<li>24/7 Suporte</li>
+										   		</ul>
+										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										 	</div>
+										</div>
+									</div>
+								</div>
+							</div>
+			        	</div>
+			    	</div>
+				</div>
+			     <!-- end features section 4 -->
+
+			     <div class="section-lg bg-parallax-14 m-top3">
+			       <div class="shape-cross-top"></div>
+			       <div class="container">
+			         <h4 class="font-color font15 uppercase m-top2">Nós ensinamos a web para você</h4>
+			         <h2 class="font-white font-thin-xs font40 m-bottom3 uppercase">desktops, mobiles, Tablets</h2>
+			         <div class="col-md-4 m-bottom3 left-padd0">
+			           <p class="font-white m-bottom2">Excepteur sit occaecat cupidatan is proident, onetl sunt in culpa Ut enim ad minim venam, quis nostrud enim ad Lorem ipsum dolor sit ame elit.</p>
+			           <ul class="listitems font-white m-bottom5">
+			             <li><i class="fa fa-arrow-circle-right"></i> Excepteur sit occaecat cupidatan</li>
+			             <li><i class="fa fa-arrow-circle-right"></i> Cupidatan Excepteur sit occaecat</li>
+			             <li><i class="fa fa-arrow-circle-right"></i> Onetl sunt in culpa Ut enim ad minim venam</li>
+			             <li><i class="fa fa-arrow-circle-right"></i> Quis nostrud enim ad Lorem ipsum dolor </li>
+			             <li><i class="fa fa-arrow-circle-right"></i> Consectetur adipisicing elit Atque aliquam</li>
+			           </ul>
+			           <figure><img src="/theme_alb/static/src/images/site-img88.png" alt="" /></figure>
+			         </div>
+			         <div class="col-md-8">
+			           <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=738%C3%97339&amp;w=738&amp;h=339" alt="" class="img-responsive"/></figure>
+			         </div>
+			       </div>
+			       <div class="shape-cross-bottom"></div>
+			     </div>
+			     <!-- end features section 5 -->
+
+			     <div class="section-lg m-top3">
+			       <div class="container">
+			         <div class="row">
+			           <div class="col-md-6 col-sm-6 m-bottom4">
+			             <h4 class="font-color font-bold font15 uppercase">Tem alguma</h4>
+			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">pergunta?</h2>
+			             <div class="panel-group collaps collaps-style-2" id="accordion" role="tablist" aria-multiselectable="true">
+			               <div class="panel panel-default">
+			                 <div class="panel-heading" role="tab" id="headingOne">
+			                   <h4 class="panel-title uppercase"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">Ótimo suporte ao cliente</a> </h4>
+			                 </div>
+			                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+			                   <div class="panel-body">
+			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+			                   </div>
+			                 </div>
+			               </div>
+			               <div class="panel panel-default">
+			                 <div class="panel-heading" role="tab" id="headingTwo">
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Servidor completamente dedicado</a> </h4>
+			                 </div>
+			                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+			                   <div class="panel-body">
+			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+			                   </div>
+			                 </div>
+			               </div>
+			               <div class="panel panel-default">
+			                 <div class="panel-heading" role="tab" id="headingThree">
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Controle completo com acesso root</a> </h4>
+			                 </div>
+			                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+			                   <div class="panel-body">
+			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+			                   </div>
+			                 </div>
+			               </div>
+			               <div class="panel panel-default">
+			                 <div class="panel-heading" role="tab" id="headingFour">
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Otimização de website gratuita</a> </h4>
+			                 </div>
+			                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
+			                   <div class="panel-body">
+			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+			                   </div>
+			                 </div>
+			               </div>
+			             </div>
+			           </div>
+			           <div class="col-md-6 col-sm-6 m-bottom4">
+			             <h4 class="font-color font-bold font15 uppercase">O QUE NOSSOS CLIENTES DIZEM</h4>
+			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">TESTEMUNHOS</h2>
+			             <div class="col-md-12 nopadding">
+			               <div class="col-fea-box-image">
+			                 <div id="carousel-example-generic1" class="carousel slide text-center" data-ride="carousel">
+			                   <!-- Indicators -->
+			                   <ol class="carousel-indicators white-color">
+			                     <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+			                     <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+			                     <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+			                   </ol>
+
+			                   <!-- Wrapper for slides -->
+			                   <div class="carousel-inner" role="listbox">
+			                     <div class="item active">
+			                       <div class="col-md-12 sec-auto-margin">
+			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+			                       </div>
+			                     </div>
+			                     <div class="item">
+			                       <div class="col-md-12 sec-auto-margin">
+			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+			                       </div>
+			                     </div>
+			                     <div class="item">
+			                       <div class="col-md-12 sec-auto-margin">
+			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+			                       </div>
+			                     </div>
+			                   </div>
+			                 </div>
+			               </div>
+			             </div>
+			           </div>
+			         </div>
+			       </div>
+			     </div>
+			     <!-- end features section 6 -->
+
+			     <div class="section-lg bg-parallax-15 m-top0">
+			       <div class="shape-cross-top"></div>
+			       <div class="container">
+			         <div class="row">
+			           <h4 class="font-color font15 uppercase m-top2 text-center">últimas notícias</h4>
+			           <h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">de nosso blog</h2>
+			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
+			             <div class="post-info-box">
+			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
+			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014 <i class="fa fa-comments"></i> 53</p>
+			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
+			             </div>
+			           </div>
+			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
+			             <div class="post-info-box">
+			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
+			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014<i class="fa fa-comments"></i> 53</p>
+			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
+			             </div>
+			           </div>
+			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
+			             <div class="post-info-box">
+			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
+			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014<i class="fa fa-comments"></i> 53</p>
+			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
+			             </div>
+			           </div>
+			         </div>
+			       </div>
+			       <div class="shape-cross-bottom"></div>
+			     </div>
+			     <!-- end features section 7 -->
+
+			     <div class="section-lg m-top4">
+			       <div class="container">
+			         <div class="col-md-6 col-sm-6 m-bottom3"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=548%C3%97314&amp;w=548&amp;h=314" alt="" class="img-responsive"/> </div>
+			         <div class="col-md-6 col-sm-6">
+			           <h4 class="font-color font15 uppercase m-top2">conheça nossos</h4>
+			           <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">clientes</h2>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-1.jpg" alt="" class="img-responsive"/> </div>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-2.jpg" alt="" class="img-responsive"/> </div>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-3.jpg" alt="" class="img-responsive"/> </div>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-4.jpg" alt="" class="img-responsive"/> </div>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-5.jpg" alt="" class="img-responsive"/> </div>
+			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-6.jpg" alt="" class="img-responsive"/> </div>
+			         </div>
+			       </div>
+			     </div>
+			     <!-- end features section 8 -->
+
+
+			</xpath>
+
+		</template>
+	</data>
+</openerp>

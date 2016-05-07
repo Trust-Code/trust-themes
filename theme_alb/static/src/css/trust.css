@@ -1,0 +1,53 @@
+.navbar-default .navbar-nav>.active>a{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.navbar-default .navbar-nav>.active>a:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+}
+header a.navbar-brand.logo{
+    padding: 0 110px !important;
+}
+#oe_editzone {
+    width:auto !important;
+    float: left !important;
+}
+#oe_applications {
+    width:auto !important;
+}
+#oe_systray {
+    width: auto !important;
+}
+.oe_menu_editor li>div.input-group>span.fa {
+    display: table-cell !important;
+}
+.oe_menu_editor li>div.input-group>span.form-control {
+    height: 37px !important;
+}
+.oe_menu_editor li>div.input-group>span>button{
+    font-size:15px !important;
+}
+.js_seo_keywords_list>h3{
+    padding: 0px !important;
+}
+.js_seo_keywords_list div.form-group button {
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+}
+ul.js_editor_placeholder {
+    width: auto !important;
+}
+ul.js_editor_placeholder>li>button {
+    padding: 1px 5px !important;
+    font-size: 12px !important;
+}
+#oe_snippets div.scroll>ul {
+    width: auto !important;
+    float: none !important;
+}
+.oe_website_sale span.input-group-btn a {
+    padding: 6px 12px !important;
+    font-size: 14px !important;
+}
+#wrap div.container {
+    padding: 30px 0;    
+}

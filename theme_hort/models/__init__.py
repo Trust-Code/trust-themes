@@ -24,3 +24,4 @@ from . import res_partner
 from . import res_users
 from . import res_config
 from . import blog_post
+from . import forum_post

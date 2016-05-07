@@ -40,6 +40,7 @@
         'views/blog_post_view.xml',
         'views/404.xml',
         'views/general_fixes_view.xml',
+        'mail_templates/templates.xml',
     ],
     'application': True,
 }

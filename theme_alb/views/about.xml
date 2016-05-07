@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="theme_alb_contactus" inherit_id="website.contactus"
+			name="Theme Alb Contato">
+			<xpath expr="//div[@id='wrap']" position="before">
+
+				<div class="page-header five">
+				  <div class="container">
+					<div class="col-md-6 left-padd0 m-bottom2">
+					  <h2 class="uppercase font-thin font-white font30 m-bottom1">Contato</h2>
+					  <h4 class="font-white font18">Entre em contato conosco</h4>
+					</div>
+					<div class="col-md-6">
+					  <div class="breadcrumbs view-links"><a href="/">Home</a> <i>/</i> <a href="/page/contactus">Contato</a> <i>/</i> Contato</div>
+					</div>
+				  </div>
+				</div>
+
+			</xpath>
+		</template>
+
+	</data>
+</openerp>

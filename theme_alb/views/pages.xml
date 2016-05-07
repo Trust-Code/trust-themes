@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+        <template name="Empresa" id="website.empresa" page="True">
+        	<t t-call="website.layout">
+        		<div id="wrap" class="oe_structure oe_empty">
+                    <div class="page-header five">
+                      <div class="container">
+                        <div class="col-md-6 left-padd0 m-bottom2">
+                          <h2 class="uppercase font-thin font-white font30 m-bottom1">Empresa</h2>
+                          <h4 class="font-white font18">Quem somos</h4>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="breadcrumbs view-links"><a href="/">Home</a> <i>/</i> Empresa</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="wrap" class="oe_structure oe_empty">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 text-center mt16 mb32">
+                                    <h2>Valores</h2>
+                                </div>
+                                <div class="col-md-12 mb16">
+                                    <p>
+                                    Fundada em 2005, a ALB oferece soluções em infraestrutura de TI. e segurança eletrônica.
+                                    No início, oferecíamos apenas serviços de manutenção em computadores e montagem de
+                                    pequenas redes locais. Com o passar do tempo, nossos clientes nos apresentaram novos
+                                    desafios, de modo que passamos a oferecer mais produtos e serviços tornando nossa
+                                    atuação mais completa, ou seja, com um único fornecedor, é possível atender
+                                    praticamente todas as necessidades na área de TI.
+                                    </p>
+                                </div>
+                                <div class="col-md-12 text-center mt16 mb32">
+                                    <h2>Missão</h2>
+                                </div>
+                                <div class="col-md-12 mb16">
+                                    <p>
+                                        Proporcionar para pessoas e empresas a melhor experiência com os
+                                        produtos e serviços de Tecnologia da Informação, entregando soluções de
+                                        alto nível, com atendimento rápido, eficaz e transparente.
+                                    </p>
+                                </div>
+                                <div class="col-md-12 text-center mt16 mb32">
+                                    <h2>Visão</h2>
+                                </div>
+                                <div class="col-md-12 mb16">
+                                    <p>
+                                        Ser referência nacional no mercado na área de Tecnologia da Informação
+                                        para clientes, fornecedores, colaboradores e investidores.
+                                    </p>
+                                </div>
+                                <div class="col-md-12 text-center mt16 mb32">
+                                    <h2>Histórico</h2>
+                                </div>
+                                <div class="col-md-12 mb16">
+                                    <ul>
+                                        <li>Respeito ao individuo;</li>
+                                        <li>Responsabilidade profissional, social e ambiental;</li>
+                                        <li>Comprometimento com todo compromisso firmado com clientes,
+                                        colaboradores, fornecedores, sócios e investidores;</li>
+                                        <li>Constante evolução profissional e pessoal;</li>
+                                        <li>Inovação;</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        		</div>
+            </t>
+        </template>
+
+    	<record id="empresa_page_link" model="website.menu">
+    		<field name="name">Empresa</field>
+    		<field name="url">/page/empresa</field>
+    		<field name="parent_id" ref="website.main_menu" />
+    		<field name="sequence" type="int">10</field>
+    	</record>
+
+        <template name="Contrato Serviços" id="website.servico" page="True">
+        	<t t-call="website.layout">
+                <div class="page-header five">
+				  <div class="container">
+					<div class="col-md-6 left-padd0 m-bottom2">
+					  <h2 class="uppercase font-thin font-white font30 m-bottom1">Contrato</h2>
+					  <h4 class="font-white font18">Contrato de Serviços</h4>
+					</div>
+					<div class="col-md-6">
+					  <div class="breadcrumbs view-links"><a href="/">Home</a> <i>/</i> <a href="#">Contratos</a> <i>/</i> Serviços</div>
+					</div>
+				  </div>
+				</div>
+        		<div id="wrap" class="oe_structure oe_empty">
+                    <div class="container">
+
+                        <div class="section-lg m-top6">
+                            <div class="container">
+                                <div class="row">
+                                    <h3 class="text-center font-bold font-black font15 uppercase">find out our</h3>
+                                    <h2 class="text-center font-bold font-black font30 uppercase">Awesome Services</h2>
+                                    <div class="title-line-shape m-bottom3"></div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-bargraph font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Backup Available</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-support font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Secure Your Website</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-pencil font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Server Management</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-size-actual font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Data Enctyption</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-settings font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Technical Service</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-call-in font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">24/7 Customer Support</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-lg m-top8">
+                            <div class="container">
+                                <div class="row">
+                               <div class="panel-group collaps" id="accordion" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingOne">
+                                     <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class=""><i class="fa fa-check-circle-o"></i> Awesome Client Support </a> </h4>
+                                   </div>
+                                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTwo">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-check-circle-o"></i> Responsive Designs </a> </h4>
+                                   </div>
+                                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingThree">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-check-circle-o"></i> Life Time FREE Updates </a> </h4>
+                                   </div>
+                                   <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFour">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-check-circle-o"></i> Powerful Performance </a> </h4>
+                                   </div>
+                                   <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFive">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-check-circle-o"></i> MobileAPPs Design</a> </h4>
+                                   </div>
+                                   <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSix">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-check-circle-o"></i> Multi-Purpose Templates</a> </h4>
+                                   </div>
+                                   <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSeven">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><i class="fa fa-check-circle-o"></i> Quick and Easy Setup</a> </h4>
+                                   </div>
+                                   <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingEight">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><i class="fa fa-check-circle-o"></i> Well Documented</a> </h4>
+                                   </div>
+                                   <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingNine">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><i class="fa fa-check-circle-o"></i> Privacy and Protection</a> </h4>
+                                   </div>
+                                   <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTen">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><i class="fa fa-check-circle-o"></i> User friendly support</a> </h4>
+                                   </div>
+                                   <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+
+                    </div>
+        		</div>
+            </t>
+        </template>
+        <template name="Contrato Suporte" id="website.suporte" page="True">
+        	<t t-call="website.layout">
+                <div class="page-header five">
+				  <div class="container">
+					<div class="col-md-6 left-padd0 m-bottom2">
+					  <h2 class="uppercase font-thin font-white font30 m-bottom1">Contrato</h2>
+					  <h4 class="font-white font18">Contrato de Suporte</h4>
+					</div>
+					<div class="col-md-6">
+					  <div class="breadcrumbs view-links"><a href="/">Home</a> <i>/</i> <a href="#">Contratos</a> <i>/</i> Suporte</div>
+					</div>
+				  </div>
+				</div>
+        		<div id="wrap" class="oe_structure oe_empty">
+                    <div class="container">
+                        <div class="section-lg m-top6">
+                            <div class="container">
+                                <div class="row">
+                                    <h3 class="text-center font-bold font-black font15 uppercase">find out our</h3>
+                                    <h2 class="text-center font-bold font-black font30 uppercase">Awesome Services</h2>
+                                    <div class="title-line-shape m-bottom3"></div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-bargraph font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Backup Available</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-support font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Secure Your Website</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-pencil font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Server Management</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-size-actual font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Data Enctyption</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-settings font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Technical Service</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-call-in font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">24/7 Customer Support</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-lg m-top8">
+                            <div class="container">
+                                <div class="row">
+                               <div class="panel-group collaps" id="accordion" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingOne">
+                                     <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class=""><i class="fa fa-check-circle-o"></i> Awesome Client Support </a> </h4>
+                                   </div>
+                                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTwo">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-check-circle-o"></i> Responsive Designs </a> </h4>
+                                   </div>
+                                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingThree">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-check-circle-o"></i> Life Time FREE Updates </a> </h4>
+                                   </div>
+                                   <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFour">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-check-circle-o"></i> Powerful Performance </a> </h4>
+                                   </div>
+                                   <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFive">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-check-circle-o"></i> MobileAPPs Design</a> </h4>
+                                   </div>
+                                   <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSix">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-check-circle-o"></i> Multi-Purpose Templates</a> </h4>
+                                   </div>
+                                   <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSeven">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><i class="fa fa-check-circle-o"></i> Quick and Easy Setup</a> </h4>
+                                   </div>
+                                   <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingEight">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><i class="fa fa-check-circle-o"></i> Well Documented</a> </h4>
+                                   </div>
+                                   <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingNine">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><i class="fa fa-check-circle-o"></i> Privacy and Protection</a> </h4>
+                                   </div>
+                                   <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTen">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><i class="fa fa-check-circle-o"></i> User friendly support</a> </h4>
+                                   </div>
+                                   <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                    </div>
+        		</div>
+            </t>
+        </template>
+        <template name="Contrato Manutenção" id="website.manutencao" page="True">
+        	<t t-call="website.layout">
+                <div class="page-header five">
+				  <div class="container">
+					<div class="col-md-6 left-padd0 m-bottom2">
+					  <h2 class="uppercase font-thin font-white font30 m-bottom1">Contrato</h2>
+					  <h4 class="font-white font18">Contrato de Manutenção</h4>
+					</div>
+					<div class="col-md-6">
+					  <div class="breadcrumbs view-links"><a href="/">Home</a> <i>/</i> <a href="#">Contratos</a> <i>/</i> Manutenção</div>
+					</div>
+				  </div>
+				</div>
+        		<div id="wrap" class="oe_structure oe_empty">
+                    <div class="container">
+                        <div class="section-lg m-top6">
+                            <div class="container">
+                                <div class="row">
+                                    <h3 class="text-center font-bold font-black font15 uppercase">find out our</h3>
+                                    <h2 class="text-center font-bold font-black font30 uppercase">Awesome Services</h2>
+                                    <div class="title-line-shape m-bottom3"></div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-bargraph font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Backup Available</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-support font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Secure Your Website</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color">
+                                            <span class="icon-pencil font30"></span>
+                                        </div>
+                                        <h2 class="font-thin font20 m-top2">Server Management</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-size-actual font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Data Enctyption</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-settings font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">Technical Service</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                    <div class="col-md-4 fea-col text-left m-bottom4">
+                                        <div class="font-color"><span class="icon-call-in font30"></span></div>
+                                        <h2 class="font-thin font20 m-top2">24/7 Customer Support</h2>
+                                        <p class="m-top2">Excepteur sit occaecat cupidatan is proident, one sunt in culpa qui officia deserunt mollit anim Ut minim veniam laboreua dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-lg m-top8">
+                            <div class="container">
+                                <div class="row">
+                               <div class="panel-group collaps" id="accordion" role="tablist" aria-multiselectable="true">
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingOne">
+                                     <h4 class="panel-title"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class=""><i class="fa fa-check-circle-o"></i> Awesome Client Support </a> </h4>
+                                   </div>
+                                   <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTwo">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-check-circle-o"></i> Responsive Designs </a> </h4>
+                                   </div>
+                                   <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingThree">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-check-circle-o"></i> Life Time FREE Updates </a> </h4>
+                                   </div>
+                                   <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFour">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-check-circle-o"></i> Powerful Performance </a> </h4>
+                                   </div>
+                                   <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingFive">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-check-circle-o"></i> MobileAPPs Design</a> </h4>
+                                   </div>
+                                   <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSix">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-check-circle-o"></i> Multi-Purpose Templates</a> </h4>
+                                   </div>
+                                   <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingSeven">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><i class="fa fa-check-circle-o"></i> Quick and Easy Setup</a> </h4>
+                                   </div>
+                                   <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingEight">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><i class="fa fa-check-circle-o"></i> Well Documented</a> </h4>
+                                   </div>
+                                   <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingNine">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><i class="fa fa-check-circle-o"></i> Privacy and Protection</a> </h4>
+                                   </div>
+                                   <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                                 <div class="panel panel-default">
+                                   <div class="panel-heading" role="tab" id="headingTen">
+                                     <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><i class="fa fa-check-circle-o"></i> User friendly support</a> </h4>
+                                   </div>
+                                   <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen" aria-expanded="false">
+                                     <div class="panel-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et coffee nulla assumenda. </div>
+                                   </div>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                         </div>
+                    </div>
+        		</div>
+            </t>
+        </template>
+
+        <record id="contratos_page_link" model="website.menu">
+            <field name="name">Contratos</field>
+            <field name="parent_id" ref="website.main_menu" />
+            <field name="sequence" type="int">300</field>
+        </record>
+
+    	<record id="contrato_servico_page_link" model="website.menu">
+    		<field name="name">Contrato de Serviço</field>
+    		<field name="url">/page/servico</field>
+    		<field name="parent_id" ref="contratos_page_link" />
+    		<field name="sequence" type="int">10</field>
+    	</record>
+
+        <record id="contrato_suporte_page_link" model="website.menu">
+            <field name="name">Contrato de Suporte</field>
+            <field name="url">/page/suporte</field>
+            <field name="parent_id" ref="contratos_page_link" />
+            <field name="sequence" type="int">20</field>
+        </record>
+
+        <record id="contrato_manutencao_page_link" model="website.menu">
+    		<field name="name">Contrato de Manutenção</field>
+    		<field name="url">/page/manutencao</field>
+    		<field name="parent_id" ref="contratos_page_link" />
+    		<field name="sequence" type="int">30</field>
+    	</record>
+
+
+    </data>
+</openerp>

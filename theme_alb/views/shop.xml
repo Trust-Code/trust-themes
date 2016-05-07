@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="theme_alb_shop_products" inherit_id="website_sale.products"
+			name="Theme Alb Produtos">
+			<xpath expr="//div[@id='wrap']" position="before">
+
+				<div class="page-header five mb32">
+				  <div class="container">
+					<div class="col-md-6 left-padd0 m-bottom2">
+					  <h2 class="uppercase font-thin font-white font30 m-bottom1">Produtos</h2>
+					  <h4 class="font-white font18">Veja os produtos que temos a oferecer</h4>
+					</div>
+					<div class="col-md-6">
+					    <div class="breadcrumbs view-links">
+                            <a href="/">Home</a> <i>/</i> Produtos
+                        </div>
+					</div>
+				  </div>
+				</div>
+
+			</xpath>
+		</template>
+
+        <template id="theme_alb_shop_product" inherit_id="website_sale.product"
+            name="Theme Alb Produto">
+            <xpath expr="//div[@id='wrap']" position="before">
+
+                <div class="page-header five mb32">
+                  <div class="container">
+                    <div class="col-md-6 left-padd0 m-bottom2">
+                      <h2 class="uppercase font-thin font-white font30 m-bottom1" t-field="product.name"></h2>
+                      <h4 class="font-white font18" t-field="product.description_sale"></h4>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="breadcrumbs view-links">
+                            <a href="/">Home</a> <i>/</i> <a href="/shop">Produtos</a> <i>/</i><span t-field="product.name"/>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+
+            </xpath>
+        </template>
+
+	</data>
+</openerp>
