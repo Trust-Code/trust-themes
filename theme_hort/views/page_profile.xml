@@ -61,7 +61,7 @@
 											Gestão do produtor
 										</a>
 									</li>
-									<li>
+									<li data-bind="if: can_buy">
 										<a href="/shop/cart">
 											<i class="fa fa-shopping-cart"></i>
 											Minhas Compras

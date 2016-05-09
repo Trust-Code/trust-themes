@@ -20,17 +20,17 @@
 ###############################################################################
 
 
-from openerp import api, fields, models
-from openerp.exceptions import Warning
+from openerp import fields, models
 
 
 class ResPartner(models.Model):
     _inherit = 'res.partner'
 
     gender = fields.Selection([('0', 'Masculino'), ('1', 'Feminino')],
-                              string=u"Sexo")    
+                              string=u"Sexo")
     date_birth = fields.Date(string=u"Data de Nascimento")
     join_events = fields.Boolean(string=u"Gostaria de participar em eventos")
+    can_buy = fields.Boolean(string="Pode Comprar?")
 
     produce_ids = fields.Many2many(
         comodel_name='product.product', string="Produz",
