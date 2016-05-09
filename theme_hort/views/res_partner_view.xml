@@ -8,13 +8,14 @@
 			<field name="inherit_id" ref="base.view_partner_form" />
 			<field name="arch" type="xml">
 				<field name="website" position="after">
-					<field name="gender" />					
+					<field name="gender" />
 					<field name="produce_ids" widget="many2many_tags" />
 				</field>
 				<field name="title" position="after">
 					<field name="date_birth" />
 					<field name="interest_in_ids" widget="many2many_tags" />
 					<field name="post_category_ids" widget="many2many_tags" />
+					<field name="can_buy" />
 				</field>
 				<field name="opt_out" position="after">
 					<field name="join_events" />
@@ -24,4 +25,3 @@
 
 	</data>
 </openerp>
-		

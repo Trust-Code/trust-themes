@@ -50,6 +50,7 @@
             self.join_events = ko.observable(user.join_events);
             self.supplier = ko.observable(user.supplier);
             self.customer = ko.observable(user.customer);
+            self.can_buy = ko.observable(user.can_buy);
             self.karma = ko.observable(user.karma);
             self.image = ko.observable(user.image);
             self.comment = ko.observable(user.comment);

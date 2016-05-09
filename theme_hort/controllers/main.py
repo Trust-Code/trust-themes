@@ -196,6 +196,7 @@ class UserProfile(http.Controller):
             'join_events': user.partner_id.join_events,
             'supplier': user.partner_id.supplier,
             'customer': user.partner_id.customer,
+            'can_buy': user.partner_id.can_buy,
             'zip': user.partner_id.zip or '',
             'address': user.partner_id.street or '',
             'number': user.partner_id.street2 or '',
