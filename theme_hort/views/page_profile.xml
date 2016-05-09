@@ -62,9 +62,9 @@
 										</a>
 									</li>
 									<li data-bind="if: can_buy">
-										<a href="/shop/cart">
+										<a href="/shop">
 											<i class="fa fa-shopping-cart"></i>
-											Minhas Compras
+											Minhas Compras 
 										</a>
 									</li>
 									<li>
