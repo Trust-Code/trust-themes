@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+	<data>
+
+		<template id="website.perfil" name="Theme Hort Perfil" page="True">
+
+			<t t-call="website.layout">
+				<link
+					href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css"
+					rel="stylesheet" media="screen" />
+
+				<section id="banner-meuquintal">
+					<div style="min-height:265px;">
+					</div>
+				</section>
+				<div class="container bootstrap snippet" data-bind="with: user" style="clear:both;">
+					<div class="row">
+						<div class="profile-nav col-md-3">
+							<div class="panel">
+								<div class="user-heading round">
+									<a href="#">
+										<img id="img-profile" data-bind="attr: {src: image}" alt="" />
+									</a>
+									<h1 data-bind="text: name"></h1>
+									<p data-bind="text: email"></p>
+								</div>
+
+								<ul id="tab-list-menu" class="nav nav-pills nav-stacked"
+									role="tablist">
+									<li class="active">
+										<a href="#perfil-tab" aria-controls="perfil-tab" role="tab"
+											data-toggle="tab">
+											<i class="fa fa-user"></i>
+											Perfil
+										</a>
+									</li>
+									<li>
+										<a href="/forum/semeadora-virtual-1/ask">
+											<i class="fa fa-comment-o"></i>
+											Semeadora Virtual
+										</a>
+									</li>
+									<li>
+										<a href="/blog/list">
+											<i class="fa fa-book"></i>
+											Prateleira Verde
+										</a>
+									</li>
+									<li>
+										<a href="#atividades-tab" aria-controls="atividades-tab"
+											role="tab" data-toggle="tab">
+											<i class="fa fa-calendar"></i>
+											Atividade Recente
+											<span data-bind="text: activities().length"
+												class="label label-success pull-right r-activity"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#" data-bind="click: page_view.bind($data, '/gestao/produtor')">
+											<i class="fa fa-leaf"></i>
+											Gestão do produtor
+										</a>
+									</li>
+									<li data-bind="if: can_buy">
+										<a href="/shop">
+											<i class="fa fa-shopping-cart"></i>
+											Minhas Compras 
+										</a>
+									</li>
+									<li>
+										<a href="#editar-tab" aria-controls="editar-tab" role="tab"
+											data-toggle="tab">
+											<i class="fa fa-edit"></i>
+											Editar perfil
+										</a>
+									</li>
+									<li>
+										<a href="#senha-tab" aria-controls="senha-tab" role="tab"
+											data-toggle="tab">
+											<i class="fa fa-edit"></i>
+											Alterar Senha
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="profile-info col-md-9 tab-content">
+							<div class="panel" style="display:none;">
+								<form>
+									<textarea placeholder="Whats in your mind today?"
+										rows="2" class="form-control input-lg p-text-area"></textarea>
+								</form>
+								<footer class="panel-footer">
+									<button class="btn btn-success pull-right">Post</button>
+									<ul class="nav nav-pills">
+										<li>
+											<a href="#">
+												<i class="fa fa-map-marker"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa fa-camera"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class=" fa fa-film"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="fa fa-microphone"></i>
+											</a>
+										</li>
+									</ul>
+								</footer>
+							</div>
+							<div role="tabpanel" class="tab-pane active" id="perfil-tab">
+								<div class="panel">
+									<div class="bio-graph-heading" data-bind="text:comment">
+									</div>
+									<div class="panel-body bio-graph-info">
+
+										<h1 data-bind="if: produce_images().length > 0">Eu planto</h1>
+										<div data-bind="if: produce_images().length > 0" class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+											<ul class="bxslider-perfil" data-bind='foreach: produce_images'>
+												<li class="text-center">
+													<a href="#">
+														<img data-bind="attr: {src: image}" alt="" />
+													</a>
+													<h5 data-bind="text: name"></h5>
+												</li>
+											</ul>
+										</div>
+										<h1 data-bind="if: interest_images().length > 0">Eu gosto muito destes produtos</h1>
+										<div data-bind="if: interest_images().length > 0" class="content" style="padding-left: 36px;padding-right:44px;margin-bottom:50px;">
+											<ul class="bxslider-perfil" data-bind='foreach: interest_images'>
+												<li class="text-center">
+													<a href="#">
+														<img data-bind="attr: {src: image}" alt="" />
+													</a>
+													<h5 data-bind="text: name"></h5>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="row">
+										<div class="col-md-12">
+											<a href="#" class="thumbnail" data-bind="click: page_view.bind($data, '/grupo/consumo')">
+												<img src="/theme_hort/static/src/images/perfil-grupo-consumo.jpg" />
+											</a>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<a href="#" class="thumbnail" data-bind="click: page_view.bind($data, '/organico/como/servico')">
+												<img src="/theme_hort/static/src/images/perfil-organico-servico.jpg" />
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="panel tab-pane" id="atividades-tab">
+
+								<ul class="list-group" data-bind="foreach: activities">
+									<li class="list-group-item">
+										<span data-bind="text: date" />
+										<span data-bind="text: subtype" class="label label-info" />
+										<a data-bind="attr: { href: url }">
+											<span data-bind="text: name" />
+										</a>
+									</li>
+								</ul>
+								<ul class="list-group" data-bind="if: activities().length == 0">
+									<li class="list-group-item">
+										<span class="label label-info">Nenhuma atividade até o momento</span>
+									</li>
+								</ul>
+
+							</div>
+							<div class="tab-pane panel" id="editar-tab">
+
+								<div class="panel">
+									<div class="bio-graph-heading">
+										<label style="margin-bottom:10px;">Alterar imagem do perfil</label>
+										<input id="profile-image" type='file' />
+									</div>
+									<div class="panel-body bio-graph-info">
+										<h1>Alterar Perfil</h1>
+										<div class="row">
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nome</label>
+													<input class="form-control" data-bind="value: name" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nascimento</label>
+													<input id="birthday-edit" class="form-control" data-bind="value: birthday" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>CEP</label>
+													<input class="form-control" id="cep-edit"
+														data-bind="value: zip, event: { change: search_zip }" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Endereço</label>
+													<input class="form-control" data-bind="value: address" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Número</label>
+													<input class="form-control" data-bind="value: number" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Bairro</label>
+													<input class="form-control" data-bind="value: district" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Cidade</label>
+													<input class="form-control" data-bind="value: city" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Estado</label>
+													<input class="form-control" data-bind="value: state" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>País</label>
+													<input class="form-control" data-bind="value: country" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Ocupação</label>
+													<input class="form-control" data-bind="value: occupation" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Telefone</label>
+													<input id="phone-edit" class="form-control" data-bind="value: phone" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Celular</label>
+													<input id="cell-edit" class="form-control" data-bind="value: mobile" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Sexo</label>
+													<select class="form-control" data-bind="value: gender">
+														<option>Escolher</option>
+														<option value="0">Masculino</option>
+														<option value="1">Feminino</option>
+													</select>
+												</div>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Temas de interesse </span>
+													<select id="tokenize-temas-editar"
+														data-bind="options: available_categories, selectedOptions: chosen_categories, optionsText: 'name', optionsValue: 'id'"
+														multiple="true">
+													</select>
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="bio-row" style="height:62px;">
+												<div class="checkbox">
+													<label style="padding-left:0px;">
+														Consumidor?
+														<input type="checkbox" data-bind="checked: customer"
+															style="margin-left:0px;" />
+													</label>
+												</div>
+											</div>
+											<div class="bio-row" style="height:62px;">
+												<div class="checkbox">
+													<label style="padding-left:0px;">
+														Produtor?
+														<input type="checkbox" data-bind="checked: supplier"
+															style="margin-left:0px;" />
+													</label>
+												</div>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Interesses </span>
+													<select id="tokenize-interesse-editar"
+														data-bind="options: available_products, selectedOptions: chosen_interests, optionsText: 'name', optionsValue: 'id', enable: customer"
+														multiple="true">
+													</select>
+												</p>
+											</div>
+											<div class="bio-select">
+												<p>
+													<span>Produz </span>
+													<select id="tokenize-produz-editar"
+														data-bind="options: available_products, selectedOptions: chosen_products, optionsText: 'name', optionsValue: 'id', enable: supplier"
+														multiple="true">
+													</select>
+												</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="bio-row">
+												<button type="button" class="btn btn-success"
+													data-bind="click: salvar_perfil">Salvar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<div class="tab-pane panel" id="senha-tab">
+								<div class="panel">
+									<div class="bio-graph-heading" data-bind="text:comment">
+									</div>
+									<div class="panel-body bio-graph-info">
+										<h1>Alterar senha</h1>
+										<div class="row">
+											<div class="bio-row" style="width:100%;">
+												<div class="form-group">
+													<label>Senha Antiga</label>
+													<input type="password" class="form-control"
+														data-bind="value: old_password" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Nova Senha</label>
+													<input type="password" class="form-control"
+														data-bind="value: new_password" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<div class="form-group">
+													<label>Repita a senha</label>
+													<input type="password" class="form-control"
+														data-bind="value: confirm_password" />
+												</div>
+											</div>
+											<div class="bio-row">
+												<button type="button" class="btn btn-success"
+													data-bind="click: alterar_senha">Salvar</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</t>
+		</template>
+	</data>
+</openerp>
