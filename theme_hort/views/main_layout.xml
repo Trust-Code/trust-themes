@@ -3,7 +3,7 @@
 	<data>
 
 		<template id="theme_hort_main_layout" inherit_id="website.homepage"
-			name="Theme Hort Inicio">
+			name="Bem Vindo ao HortCult">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
 				<section id="banner">

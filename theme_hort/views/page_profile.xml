@@ -2,7 +2,7 @@
 <openerp>
 	<data>
 
-		<template id="website.perfil" name="Theme Hort Perfil" page="True">
+		<template id="website.perfil" name="Meu Quintal" page="True">
 
 			<t t-call="website.layout">
 				<link
@@ -62,9 +62,9 @@
 										</a>
 									</li>
 									<li data-bind="if: can_buy">
-										<a href="/shop/cart">
+										<a href="/shop">
 											<i class="fa fa-shopping-cart"></i>
-											Minhas Compras
+											Minhas Compras 
 										</a>
 									</li>
 									<li>
