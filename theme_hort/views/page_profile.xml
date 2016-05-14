@@ -2,7 +2,7 @@
 <openerp>
 	<data>
 
-		<template id="website.perfil" name="Theme Hort Perfil" page="True">
+		<template id="website.perfil" name="Meu Quintal" page="True">
 
 			<t t-call="website.layout">
 				<link

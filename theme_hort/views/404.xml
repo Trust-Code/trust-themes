@@ -2,7 +2,7 @@
 <openerp>
 	<data>
 
-		<template id="theme_hort_404" inherit_id="website.404" name="Theme Hort 404">
+		<template id="theme_hort_404" inherit_id="website.404" name="Pagina nao encontrada - HortCult">
 
 			<xpath expr="//div[@class='oe_structure oe_empty']" position="replace">
 				<style type="text/css">

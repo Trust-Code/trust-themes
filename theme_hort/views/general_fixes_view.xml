@@ -3,7 +3,7 @@
 	<data>
 
 		<template id="theme_hort_contactus" inherit_id="website.contactus"
-			name="Theme Hort Contato">
+			name="Fale Conosco">
 			<xpath expr="//div[@id='wrap']" position="before">
 				<section id="banner-contato">
 					<div style="min-height:265px;">
@@ -13,7 +13,7 @@
 		</template>
 
 		<template id="blog_list" page="True"
-			name="Theme Hort Blog">
+			name="Prateleira Verde">
 			<t t-call="website.layout">
 
 				<section id="banner-prateleira">
