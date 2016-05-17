@@ -115,6 +115,7 @@
                     'state': self.state(),
                     'country': self.country(),
                     'occupation': self.occupation(),
+                    'district': self.district(),
                     'phone': self.phone(),
                     'mobile': self.mobile(),
                     'birthday': self.birthday(),
