@@ -32,6 +32,51 @@
 			</xpath>
 		</template>
 
+		<template id="website_survey_init_trustcode" inherit_id="survey.survey_init"
+			name="Trustcode Survey Init">
+			<xpath expr="//div[@class='wrap']" position="before">
+				<section class="subpage-banner parallax event-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Pesquisas</h1>
+						<p>Gostamos de saber sua opinião</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_survey_trustcode" inherit_id="survey.survey"
+			name="Trustcode Survey">
+			<xpath expr="//div[@class='wrap']" position="before">
+				<section class="subpage-banner parallax event-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Pesquisas</h1>
+						<p>Gostamos de saber sua opinião</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
+		<template id="website_survey_finished_trustcode" inherit_id="survey.sfinished"
+			name="Trustcode Survey Finished">
+			<xpath expr="//div[@class='wrap']" position="before">
+				<section class="subpage-banner parallax event-banner text-center"
+					data-stellar-background-ratio="0.3" style="background-position: 50% 0px;">
+					<div
+						style="background-color:rgba(111,111,111,.4); position: absolute;min-height: 287px;float: left;top: -20px;width: 100%;"></div>
+					<div class="container">
+						<h1 class="site-title">Pesquisas</h1>
+						<p>Gostamos de saber sua opinião</p>
+					</div>
+				</section>
+			</xpath>
+		</template>
+
 		<template id="website_recruitment_apply_trustcode" inherit_id="website_hr_recruitment.apply"
 			name="TrustCode Recruitment Apply">
 			<xpath expr="//div[@id='wrap']" position="before">
