@@ -89,7 +89,7 @@
 						<div class="col-lg-12">
 							<div class="col-lg-6 col-sm-12 none text-center">
 								<div class="embed-responsive embed-responsive-4by3">
-									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K-WsSnogkXU"></iframe>
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FpEL21Lr8kk"></iframe>
 								</div>
 							</div>
 							<div class="col-lg-6 col-sm-12 none text-center">
@@ -165,7 +165,7 @@
 									temas relacionados aos cultivos, plantas, insumos e as muitas
 									formas de vivenciar uma alimentação consciente e saudável.
 								</p>
-								<button type="button" class="btn btn-success">plante suas ideias!</button>
+								<button type="button" class="btn btn-success" onclick="window.location.href='/forum/semeadora-virtual-1'">plante suas ideias!</button>
 							</div>
 						</div>
 						<div class="col-lg-6  col-sm-6 bg-color top">
@@ -181,7 +181,7 @@
 									formas de lidar com a comida e os hábitos que farão um
 									diferencial de qualidade no seu cotidiano.
 								</p>
-								<button type="button" class="btn btn-success">Faça sua colheita!</button>
+								<button type="button" class="btn btn-success" onclick="window.location.href='/blog/list'">Faça sua colheita!</button>
 							</div>
 						</div>
 					</div>
