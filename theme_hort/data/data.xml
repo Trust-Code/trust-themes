@@ -32,11 +32,13 @@ if object.website_published and object.category_id:
 			<field name="sequence">1</field>
 			<field name="state">code</field>
 			<field name="code">
-template = env['email.template'].sudo().browse(24)
-for partner in object.sudo().forum_id.message_follower_ids:
-    tmpl = template.with_context({'partner_email': partner.email,
-                                  'partner_name': partner.name})
-    tmpl.send_mail(object.id)
+template = env['email.template'].sudo().browse(35)
+if not object.parent_id:
+    for partner in object.sudo().forum_id.message_follower_ids:
+        tmpl = template.with_context({'partner_email': partner.email,
+                                      'partner_name': partner.name,
+                                      'title': object.name })
+        tmpl.send_mail(object.id)
 			</field>
         </record>
 
