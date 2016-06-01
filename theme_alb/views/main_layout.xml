@@ -107,12 +107,12 @@
 				  <div class="container">
 					<div class="row">
 					  <div class="col-md-4">
-						<h2 class="font-thin font30 m-bottom1">CONSULTE SEU DOMÍNIO</h2>
-						<h5 class="font16">Domínios apenas <strong class="font-color">R$45</strong>/por ano</h5>
+						<h2 class="font-thin font30 m-bottom1">O QUE VOCÊ PROCURA?</h2>
+						<h5 class="font16">Planos a partir de <strong class="font-color">R$ 349</strong>/ mês</h5>
 					  </div>
 					  <div class="col-md-8">
 						<form method="get" id="domain-searchform" action="index.html">
-						  <input class="input-text dsearch-home2" name="dsearch" id="dsearch" value="Digite seu domínio aqui..." onFocus="if (this.value == 'Digite seu domínio aqui...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite seu domínio aqui...';}" type="text" />
+						  <input class="input-text dsearch-home2" name="dsearch" id="dsearch" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
 						  <select class="selectpicker selectpicker-home2" data-style="btn-primary">
 							<option value=".com.br">.com.br</option>
 							<option value=".com">.com</option>
@@ -135,14 +135,14 @@
 				<div class="section-lg m-top7">
 			       <div class="container">
 			         <div class="row">
-			           <h4 class="font-color font15 text-center uppercase">Novidades</h4>
-			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Características especiais</h2>
+			           <h4 class="font-color font15 text-center uppercase">RECURSOS</h4>
+			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Proteja seu website</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Suporte e T.I. &amp; Assistencia Técnica</h2>
+			                 <p>Otimize o desempenho dos seus equipamentos e melhore a produtividade de sua equipe com soluções simples e eficientes.</p>
 			               </div>
 			             </div>
 			           </div>
@@ -150,26 +150,28 @@
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Dados no Cloudfront</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Redes &amp; Telecom</h2>
+			                 <p>Redes seguras e rápidas protegem o negócio e agilizam as operações, conte com nossa equipe para manter tudo 100%.</p>
 			               </div>
 			             </div>
 			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-reload font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Seguro &amp; Rápido</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
-			               </div>
-			             </div>
-			           </div>
+						<div class="col-md-4 text-left m-bottom5">
+						  <div class="fea-sce-col active">
+							<div class="iconbox-left"><span class="icon-reload font60 font-color"></span></div>
+							<div class="left-padd8">
+							  <h2 class="font-thin m-bottom1">CFTV &amp; Segurança Eletrônica</h2>
+							  <p>Acompanhe em tempo real o que acontece na sua empresa quando você não está lá.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+					<div class="row">
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-lightbulb font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Responsivo &amp; Retina</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Planos de suporte mensal</h2>
+			                 <p>Pacotes de suporte que cabem no seu bolso, suporte remoto e ações preventivas e corretivas. Confira!</p>
 			               </div>
 			             </div>
 			           </div>
@@ -177,8 +179,8 @@
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-settings font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Instalação grátis</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Backup Cloud</h2>
+			                 <p>Proteja as informações do seu negócio com eficiencia e alta disponibilidade. Soluções customizadas para seu negócio.</p>
 			               </div>
 			             </div>
 			           </div>
@@ -186,8 +188,8 @@
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-pencil font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
+			                 <p>Otimize seu espaço e hardware, utilizando várias plataformas num único equipamento, diminuindo custos..</p>
 			               </div>
 			             </div>
 			           </div>
@@ -195,8 +197,8 @@
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Painel Plesk Parallel</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
+			                 <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
 			               </div>
 			             </div>
 			           </div>
@@ -204,20 +206,20 @@
 			             <div class="fea-sce-col active">
 			               <div class="iconbox-left"><span class="icon-graduation font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Serviços de Marketing</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
+			                 <h2 class="font-thin m-bottom1">Painel de chamados</h2>
+			                 <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
 			               </div>
 			             </div>
 			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">24/7 Suporte online</h2>
-			                 <p>Excepteur sit occaecat cupidatan is proident, one sunt in culpa.</p>
-			               </div>
-			             </div>
-			           </div>
+						 <div class="col-md-4 text-left m-bottom5">
+						   <div class="fea-sce-col active">
+							 <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+							 <div class="left-padd8">
+							   <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
+							   <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+							 </div>
+						   </div>
+						 </div>
 			         </div>
 			       </div>
 			     </div>
@@ -315,22 +317,22 @@
 				 <div class="section-lg m-top2">
 			     	<div class="container">
 			        	<div class="row">
-			           		<h4 class="font-color font15 text-center uppercase">Selecione sua</h4>
-			           		<h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Plataforma de hospedagem</h2>
+			           		<h4 class="font-color font15 text-center uppercase">SUPORTE MENSAL</h4>
+			           		<h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">PLANOS ESPECIAIS</h2>
 
 							<div>
 						   		<ul class="nav nav-tabs tabs-style2" role="tablist">
-					            	<li role="presentation" class="active"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">Servidores dedicados</a></li>
-						            <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">Cloud</a></li>
-						            <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">Hospedagem</a></li>
+					            	<li role="presentation" class="active"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">SUPORTE T.I. &amp; ASSISTÊNCIA</a></li>
+						            <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">REDES &amp; TELECOM</a></li>
+						            <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">SEGURANÇA ELETRÔNICA</a></li>
 								</ul>
 
 								<div class="tab-content tab-style2">
 									<div class="tab-pane active" role="tabpanel" id="tab_um">
 										<div class="col-md-3 col-sm-3 m-bottom3">
 											<div class="pricing-box-home2 text-center">
-												<h2 class="font-bold font15 font-white uppercase">SERVIDOR DEDICADO</h2>
-												<div class="price font60 font-black-dark"><small class="font25">R$</small>49<br />
+												<h2 class="font-bold font15 font-white uppercase">SMART</h2>
+												<div class="price font60 font-black-dark"><small class="font25">R$</small>349<br />
 													<span class="font18"> mês</span>
 												</div>
 												<ul class="fea-lists">
@@ -345,68 +347,68 @@
 										</div>
 										<div class="col-md-3 col-sm-3 m-bottom3">
 											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">SERVIDOR POWER</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>99<br />
+										   		<h2 class="font-bold font15 font-white uppercase">BASIC</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>499<br />
 											 		<span class="font18"> mês</span>
 												</div>
 												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
+											 		<li>4 horas de suporte mensal</li>
+											 		<li>até 4 dispositivos*</li>
+											 		<li>backup automático local</li>
+											 		<li>1 visita presencial trimestral</li>
+											 		<li>Suporte telefônico e remoto</li>
 										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
 										 	</div>
 										</div>
 										<div class="col-md-3 col-sm-3 m-bottom3">
 											<div class="pricing-box-home2 text-center">
-												<h2 class="font-bold font15 font-white uppercase">SERVIDOR DEDICADO</h2>
-												<div class="price font60 font-black-dark"><small class="font25">R$</small>49<br />
+												<h2 class="font-bold font15 font-white uppercase">BUSINESS</h2>
+												<div class="price font60 font-black-dark"><small class="font25">R$</small>699<br />
 													<span class="font18"> mês</span>
 												</div>
 												<ul class="fea-lists">
-											 		<li>4 GB Memória</li>
-											 		<li>4 vCPU</li>
-											 		<li>1 TB transferência</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
+											 		<li>6 horas de suporte mensal</li>
+											 		<li>até 5 dispositivos* e 1 servidor</li>
+											 		<li>backup automatico local e cloud</li>
+											 		<li>1 visita presencial bimestral</li>
+											 		<li>suporte telefônico e remoto</li>
 										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
 											</div>
 										</div>
 										<div class="col-md-3 col-sm-3 m-bottom3">
 											<div class="pricing-box-home2 text-center">
 										   		<h2 class="font-bold font15 font-white uppercase">SERVIDOR POWER</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>99<br />
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>999<br />
 											 		<span class="font18"> mês</span>
 												</div>
 												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
+											 		<li>8 horas de suporte mensal</li>
+											 		<li>até 10 dispositivos* e 1 servidor**</li>
+											 		<li>backup automatico local e cloud</li>
+											 		<li>1 visita mensal</li>
+											 		<li>ganhe + 4 horas de suporte remoto</li>
 										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
 										 	</div>
 										</div>
 									</div>
 									<div class="tab-pane" role="tabpanel" id="tab_dois">
 										<div class="col-md-3 col-sm-3 m-bottom3">
 											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
+										   		<h2 class="font-bold font15 font-white uppercase">CORPORATE</h2>
+										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>999<br />
 											 		<span class="font18"> mês</span>
 												</div>
 										   		<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
+											 		<li>10 horas de suporte mensal</li>
+											 		<li>até 15 dispositivos* e 2 servidores**</li>
+											 		<li>monitoramento de backup diário</li>
+											 		<li>1 visita mensal</li>
+											 		<li>suporte telefônico e remoto ilimitado! </li>
 										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
 										 	</div>
 										</div>
 										<div class="col-md-3 col-sm-3 m-bottom3">

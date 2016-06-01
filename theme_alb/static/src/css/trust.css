@@ -49,5 +49,8 @@ ul.js_editor_placeholder>li>button {
     font-size: 14px !important;
 }
 #wrap div.container {
-    padding: 30px 0;    
+    padding: 30px 0;
+}
+.oe_overlay .oe_overlay_options {
+    top: -50px !important;
 }
