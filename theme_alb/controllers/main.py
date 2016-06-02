@@ -19,10 +19,20 @@
 #                                                                             #
 ###############################################################################
 
-
-import re
-from datetime import datetime
 from openerp.addons.web import http
 from openerp.addons.web.http import request
-from openerp.tools import DEFAULT_SERVER_DATE_FORMAT
-from openerp.addons.website.models.website import slug
+from openerp.addons.website.controllers.main import Website
+
+
+class MainWebsite(Website):
+
+    @http.route()
+    def page(self, page, **opt):
+        result = super(MainWebsite, self).page(page, **opt)
+        if page == 'homepage':
+            products = request.env['product.product'].sudo().search(
+                [('type', '!=', 'service')], limit=3)
+            result.qcontext['three_products'] = products
+            posts = request.env['blog.post'].sudo().search([], limit=3)
+            result.qcontext['last_posts'] = posts
+        return result

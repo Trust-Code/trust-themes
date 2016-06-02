@@ -602,7 +602,7 @@ ul.listitems.half li {
 }
 .page-header {
 	background:url(../images/site-img41.jpg) no-repeat scroll center top;
-	background-size:cover;	
+	background-size:cover;
 	margin: 0;
 	padding:45px 0 35px 0;
 	width: 100%;
@@ -800,11 +800,11 @@ ul.listitems.half li {
 .col-fea-box-image {
 	margin:0;
 	padding:80px 30px 102px 30px;
-	background:url(../images/site-img89.jpg) no-repeat center bottom;
 	background-size:cover;
 	overflow:hidden;
 }
 .col-fea-box-image::before {
+background:url(../images/negocios-clientes.jpg) no-repeat center bottom;
  border: 1px solid rgba(255, 255, 255, 1);
  bottom: 5px;
  content: "";
@@ -813,6 +813,8 @@ ul.listitems.half li {
  position: absolute;
  right: 5px;
  top: 5px;
+-webkit-filter: brightness(0.5);
+filter: brightness(0.5);
 }
 .new-domin-list li {
 	border-radius:3px;

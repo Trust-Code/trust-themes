@@ -6,12 +6,11 @@
 			name="Theme Hort Inicio">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
-				<!-- Master Slider
 				<div class="master-slider ms-skin-default" id="masterslider">
 
 				  <div class="ms-slide slide-1" data-delay="14">
 
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/computer-banner.jpg" alt="Slide1 background"/>
 					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
 						  style="left:90px; top:170px;"
 						  data-type="text"
@@ -44,7 +43,7 @@
 
 				  <div class="ms-slide slide-2" data-delay="10">
 
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/laptop-banner.jpg" alt="Slide1 background"/>
 					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
 						  style="left:90px; top:170px;"
 						  data-type="text"
@@ -77,7 +76,7 @@
 
 
 				  <div class="ms-slide slide-3" data-delay="14">
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=1920%C3%97700&amp;w=1920&amp;h=700" alt="Slide1 background"/>
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/workstation-banner.jpg" alt="Slide1 background"/>
 					<h3 class="ms-layer title4 font-thin-xs font-white uppercase text-center"
 						  style="left:0px;top:220px;"
 						  data-type="text"
@@ -101,8 +100,6 @@
 						  data-effect="scale(1.5,1.6)"> Get Started Now!</a></div>
 				</div>
 
-				-->
-
 				<section class="section-lg m-top5">
 				  <div class="container">
 					<div class="row">
@@ -113,17 +110,6 @@
 					  <div class="col-md-8">
 						<form method="get" id="domain-searchform" action="index.html">
 						  <input class="input-text dsearch-home2" name="dsearch" id="dsearch" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
-						  <select class="selectpicker selectpicker-home2" data-style="btn-primary">
-							<option value=".com.br">.com.br</option>
-							<option value=".com">.com</option>
-							<option value=".net">.net</option>
-							<option value=".org">.org</option>
-							<option value=".biz">.biz</option>
-							<option value=".us.com">.us.com</option>
-							<option value=".us">.us</option>
-							<option value=".mobi">.mobi</option>
-							<option value=".info">.info</option>
-						  </select>
 						  <input type="submit" class="btn blue-button uppercase" value="Pesquisar" id="submit" />
 						</form>
 					  </div>
@@ -139,16 +125,16 @@
 			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-screen-desktop font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Suporte e T.I. &amp; Assistencia Técnica</h2>
+			                 <h2 class="font-thin m-bottom1">Suporte e T.I. &amp; Assistência Técnica</h2>
 			                 <p>Otimize o desempenho dos seus equipamentos e melhore a produtividade de sua equipe com soluções simples e eficientes.</p>
 			               </div>
 			             </div>
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-phone font60 font-color"></span></div>
 			               <div class="left-padd8">
 			                 <h2 class="font-thin m-bottom1">Redes &amp; Telecom</h2>
 			                 <p>Redes seguras e rápidas protegem o negócio e agilizam as operações, conte com nossa equipe para manter tudo 100%.</p>
@@ -157,7 +143,7 @@
 			           </div>
 						<div class="col-md-4 text-left m-bottom5">
 						  <div class="fea-sce-col active">
-							<div class="iconbox-left"><span class="icon-reload font60 font-color"></span></div>
+							<div class="iconbox-left"><span class="icon-camera font60 font-color"></span></div>
 							<div class="left-padd8">
 							  <h2 class="font-thin m-bottom1">CFTV &amp; Segurança Eletrônica</h2>
 							  <p>Acompanhe em tempo real o que acontece na sua empresa quando você não está lá.</p>
@@ -168,7 +154,7 @@
 					<div class="row">
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-lightbulb font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-support font60 font-color"></span></div>
 			               <div class="left-padd8">
 			                 <h2 class="font-thin m-bottom1">Planos de suporte mensal</h2>
 			                 <p>Pacotes de suporte que cabem no seu bolso, suporte remoto e ações preventivas e corretivas. Confira!</p>
@@ -177,7 +163,7 @@
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-settings font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-cloud font60 font-color"></span></div>
 			               <div class="left-padd8">
 			                 <h2 class="font-thin m-bottom1">Backup Cloud</h2>
 			                 <p>Proteja as informações do seu negócio com eficiencia e alta disponibilidade. Soluções customizadas para seu negócio.</p>
@@ -186,7 +172,7 @@
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-pencil font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-disc font60 font-color"></span></div>
 			               <div class="left-padd8">
 			                 <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
 			                 <p>Otimize seu espaço e hardware, utilizando várias plataformas num único equipamento, diminuindo custos..</p>
@@ -204,7 +190,7 @@
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-graduation font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
 			               <div class="left-padd8">
 			                 <h2 class="font-thin m-bottom1">Painel de chamados</h2>
 			                 <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
@@ -246,7 +232,7 @@
 			                   <div class="price-info-circle">Apartir de<br />
 			                     <span class="blue font-bold">R$9.95</span>/mês</div>
 			                   <figure class="nomargin">
-								   <img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive" />
+								   <img src="/theme_alb/static/src/images/servidores.jpg" alt="" class="img-responsive" />
 						   	   </figure>
 			                 </div>
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
@@ -266,9 +252,9 @@
 			               </div>
 			               <div class="item">
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <div class="price-info-circle">Starts at<br />
-			                     <span class="blue font-bold">$9.95</span>/mo</div>
-			                   <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive"/></figure>
+			                   <div class="price-info-circle">Apartir de<br />
+			                     <span class="blue font-bold">R$49.99</span></div>
+			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/surveilance.jpg" alt="" class="img-responsive"/></figure>
 			                 </div>
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
 			                   <h2 class="font25 font-white font-color m-bottom2">Get Started! <span class="font-thin-xs font-white">Today's Offers</span></h2>
@@ -322,7 +308,7 @@
 
 							<div>
 						   		<ul class="nav nav-tabs tabs-style2" role="tablist">
-					            	<li role="presentation" class="active"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">SUPORTE T.I. &amp; ASSISTÊNCIA</a></li>
+					            	<li role="presentation" class="active" style="margin-left:20%;"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">SUPORTE T.I. &amp; ASSISTÊNCIA</a></li>
 						            <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">REDES &amp; TELECOM</a></li>
 						            <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">SEGURANÇA ELETRÔNICA</a></li>
 								</ul>
@@ -533,24 +519,26 @@
 				</div>
 			     <!-- end features section 4 -->
 
-			     <div class="section-lg bg-parallax-14 m-top3">
+			     <div class="section-lg bg-parallax-15 m-top0">
 			       <div class="shape-cross-top"></div>
 			       <div class="container">
-			         <h4 class="font-color font15 uppercase m-top2">Nós ensinamos a web para você</h4>
-			         <h2 class="font-white font-thin-xs font40 m-bottom3 uppercase">desktops, mobiles, Tablets</h2>
-			         <div class="col-md-4 m-bottom3 left-padd0">
-			           <p class="font-white m-bottom2">Excepteur sit occaecat cupidatan is proident, onetl sunt in culpa Ut enim ad minim venam, quis nostrud enim ad Lorem ipsum dolor sit ame elit.</p>
-			           <ul class="listitems font-white m-bottom5">
-			             <li><i class="fa fa-arrow-circle-right"></i> Excepteur sit occaecat cupidatan</li>
-			             <li><i class="fa fa-arrow-circle-right"></i> Cupidatan Excepteur sit occaecat</li>
-			             <li><i class="fa fa-arrow-circle-right"></i> Onetl sunt in culpa Ut enim ad minim venam</li>
-			             <li><i class="fa fa-arrow-circle-right"></i> Quis nostrud enim ad Lorem ipsum dolor </li>
-			             <li><i class="fa fa-arrow-circle-right"></i> Consectetur adipisicing elit Atque aliquam</li>
-			           </ul>
-			           <figure><img src="/theme_alb/static/src/images/site-img88.png" alt="" /></figure>
-			         </div>
-			         <div class="col-md-8">
-			           <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=738%C3%97339&amp;w=738&amp;h=339" alt="" class="img-responsive"/></figure>
+			         <div class="row">
+			           	<h4 class="font-color font15 uppercase m-top2 text-center">alguns de nossos</h4>
+			           	<h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">Produtos</h2>
+						<t t-foreach="three_products" t-as="product">
+				           <div class="col-md-4 col-sm-3 m-bottom3">
+								<div style="background-color:white;margin:5px;">
+									<img class="img-responsive" style="max-height:230px;margin:0 auto;" t-att-alt="product.name" t-att-src="website.image_url(product, 'image', None if product_image_big else '300x300')" />
+					             	<div class="post-info-box">
+					               		<h3 class="font-thin font20 m-bottom1"><a t-att-href="'/shop/product/%s' % slug(product)" t-field="product.name"></a></h3>
+					               		<p class="m-bottom1 font14 font-grey"><i class="fa fa-money"></i>
+											<span t-field="product.price"></span>
+										</p>
+					               		<p t-field="product.description_sale"></p>
+					             	</div>
+								</div>
+				           </div>
+						</t>
 			         </div>
 			       </div>
 			       <div class="shape-cross-bottom"></div>
@@ -653,29 +641,23 @@
 			       <div class="shape-cross-top"></div>
 			       <div class="container">
 			         <div class="row">
-			           <h4 class="font-color font15 uppercase m-top2 text-center">últimas notícias</h4>
-			           <h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">de nosso blog</h2>
-			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
-			             <div class="post-info-box">
-			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
-			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014 <i class="fa fa-comments"></i> 53</p>
-			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
-			             </div>
-			           </div>
-			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
-			             <div class="post-info-box">
-			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
-			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014<i class="fa fa-comments"></i> 53</p>
-			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
-			             </div>
-			           </div>
-			           <div class="col-md-4 col-sm-3 m-bottom3"> <img class="img-responsive" alt="" src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=600%C3%97450&amp;w=600&amp;h=450"/>
-			             <div class="post-info-box">
-			               <h3 class="font-thin font20 m-bottom1"><a href="#">Get your website online today</a></h3>
-			               <p class="m-bottom1 font14 font-grey"><i class="fa fa-calendar"></i> 13th Jun 2014<i class="fa fa-comments"></i> 53</p>
-			               <p>Excepteur sit occaecat cupi datan is proide tone sunt in culpa Ut enim ad minim veniam quis nostrud enim Lorem ipsum dolor.</p>
-			             </div>
-			           </div>
+			           	<h4 class="font-color font15 uppercase m-top2 text-center">últimas notícias</h4>
+			           	<h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">de nosso blog</h2>
+						<t t-foreach="last_posts" t-as="post">
+			           		<div class="col-md-4 col-sm-3 m-bottom3">
+								<a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }">
+									<img class="img-responsive" t-att-src="post.background_image" alt="" />
+								</a>
+					            <div class="post-info-box">
+					               	<h3 class="font-thin font20 m-bottom1"><a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }" t-field="post.name"></a></h3>
+					               	<p class="m-bottom1 font14 font-grey">
+										<i class="fa fa-calendar"></i> <span t-field="post.create_date" t-field-options="{&quot;format&quot;: &quot;MMMM yyyy&quot;}"/>
+ 										<i class="fa fa-user"></i><span t-field="post.author_id.name"/>
+									</p>
+					               	<p t-field="post.summary"></p>
+					            </div>
+				           </div>
+						</t>
 			         </div>
 			       </div>
 			       <div class="shape-cross-bottom"></div>
@@ -684,7 +666,7 @@
 
 			     <div class="section-lg m-top4">
 			       <div class="container">
-			         <div class="col-md-6 col-sm-6 m-bottom3"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=548%C3%97314&amp;w=548&amp;h=314" alt="" class="img-responsive"/> </div>
+			         <div class="col-md-6 col-sm-6 m-bottom3"> <img src="/theme_alb/static/src/images/ti.jpg" alt="" class="img-responsive" style="filter:brightness(0.7);-webkit-filter: brightness(0.7);" /> </div>
 			         <div class="col-md-6 col-sm-6">
 			           <h4 class="font-color font15 uppercase m-top2">conheça nossos</h4>
 			           <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">clientes</h2>

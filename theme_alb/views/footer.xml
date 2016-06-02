@@ -15,28 +15,29 @@
 			        <div class="col-md-3 col-sm-12 m-top5 font-white">
 			          <h4 class="font16 font-thin uppercase">Sobre a empresa</h4>
 			          <div class="title-line color"></div>
-			          <p class="m-bottom3">Procuramos fazer nosso melhor.</p>
+			          <p class="m-bottom3">A melhor experiência em tecnologia, facilitando sua vida.</p>
 			          <ul class="address-info listitems">
-			            <li><i class="fa fa-map-marker"></i> 15 Barnes Wallis Way, 358744, USA</li>
-			            <li><i class="fa fa-phone"></i> +1 (012) 345 6789</li>
-			            <li><i class="fa fa-envelope"></i> adm@alb.inf.br</li>
+			            <li><i class="fa fa-map-marker"></i>Rua Mére Amédea, 709, sala 4,<br />Vila Maria, São Paulo<br />CEP 02125-001</li>
+			            <li><i class="fa fa-phone"></i>(11) 2967-7730</li>
+			            <li><i class="fa fa-envelope"></i><a href="mailto:contato@alb.inf.br">contato@alb.inf.br</a></li>
 			          </ul>
 			        </div>
 			        <div class="col-md-3 col-sm-12 m-top5 font-white">
 			          <h4 class="font16 font-thin uppercase">Suporte</h4>
 			          <div class="title-line color"></div>
 			          <ul class="listitems left-padd0">
-			            <li><a href="#"><i class="fa fa-angle-right"></i> Suporte de produto</a></li>
-			            <li><a href="#"><i class="fa fa-angle-right"></i> Atendimento</a></li>
+			            <li><a href="http://alb.ddns.com.br/ocomon"><i class="fa fa-angle-right"></i> Abra seu chamado</a></li>
+			            <li><a href="http://www.alb.inf.br/downloads/acessoremoto.exe"><i class="fa fa-angle-right"></i> Acesso remoto</a></li>
 			          </ul>
 			        </div>
 			        <div class="col-md-3 col-sm-12 m-top5 font-white">
-			          <h4 class="font16 font-thin uppercase">Recursos</h4>
+			          <h4 class="font16 font-thin uppercase">Soluções</h4>
 			          <div class="title-line color"></div>
 			          <ul class="listitems left-padd0">
-			            <li><a href="#"><i class="fa fa-angle-right"></i> Serviços de email</a></li>
-			            <li><a href="#"><i class="fa fa-angle-right"></i> Serviços de marketing</a></li>
-			            <li><a href="#"><i class="fa fa-angle-right"></i> Afiliados</a></li>
+			            <li><i class="fa fa-angle-right"></i> Suporte em T.I. &amp; Assistência Técnica</li>
+			            <li><i class="fa fa-angle-right"></i> Redes &amp; Telecom</li>
+			            <li><i class="fa fa-angle-right"></i> CFTV &amp; Segurança Eletrônica</li>
+						<li><a href="/shop"><i class="fa fa-angle-right"></i> LOJA</a></li>
 			          </ul>
 			        </div>
 			        <div class="col-md-3 col-sm-12 m-top5 font-white">
@@ -68,7 +69,7 @@
 			        <div class="col-md-6">
 						<div class="container oe_share">
 				          <ul class="social-icons style-three">
-				            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				            <li><a href="http://www.facebook.com/albinformatica"><i class="fa fa-facebook"></i></a></li>
 				            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 						  </ul>
 					    </div>
