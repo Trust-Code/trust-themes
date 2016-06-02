@@ -549,12 +549,12 @@
 			       <div class="container">
 			         <div class="row">
 			           <div class="col-md-6 col-sm-6 m-bottom4">
-			             <h4 class="font-color font-bold font15 uppercase">Tem alguma</h4>
-			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">pergunta?</h2>
+			             <h4 class="font-color font-bold font15 uppercase">Por que</h4>
+			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">escolher a ALB?</h2>
 			             <div class="panel-group collaps collaps-style-2" id="accordion" role="tablist" aria-multiselectable="true">
 			               <div class="panel panel-default">
 			                 <div class="panel-heading" role="tab" id="headingOne">
-			                   <h4 class="panel-title uppercase"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">Ótimo suporte ao cliente</a> </h4>
+			                   <h4 class="panel-title uppercase"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">SUPORTE EFICIENTE AO CLIENTE</a> </h4>
 			                 </div>
 			                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
 			                   <div class="panel-body">
@@ -564,7 +564,7 @@
 			               </div>
 			               <div class="panel panel-default">
 			                 <div class="panel-heading" role="tab" id="headingTwo">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Servidor completamente dedicado</a> </h4>
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">REDES ESTÁVEIS E SERVIDOR CONFIÁVEL</a> </h4>
 			                 </div>
 			                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
 			                   <div class="panel-body">
@@ -574,7 +574,7 @@
 			               </div>
 			               <div class="panel panel-default">
 			                 <div class="panel-heading" role="tab" id="headingThree">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Controle completo com acesso root</a> </h4>
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">CFTV COM ALTA DISPONIBILIDADE E QUALIDADE</a> </h4>
 			                 </div>
 			                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
 			                   <div class="panel-body">
@@ -584,7 +584,7 @@
 			               </div>
 			               <div class="panel panel-default">
 			                 <div class="panel-heading" role="tab" id="headingFour">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Otimização de website gratuita</a> </h4>
+			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">SEU NEGÓCIO FICA MAIS PROTEGIDO CONOSCO</a> </h4>
 			                 </div>
 			                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
 			                   <div class="panel-body">

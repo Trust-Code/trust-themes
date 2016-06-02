@@ -554,6 +554,13 @@ background:rgba(210, 210, 210, .4)
 	background-size: 70%;
 	background-position: left 20px;
 }
+.compact .header .navbar-brand img {
+    max-height: 58px;
+    margin-top: 4px;
+}
+header a.navbar-brand img{
+	max-height: none;
+}
 .compact .header.headr-style-4 .navbar-brand, .compact .header.headr-style-2 .navbar-brand {
 	background-size:60%;
 	background-position: left 20px;

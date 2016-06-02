@@ -74,9 +74,6 @@ body {
 	background: url(../images/logo-black.png) no-repeat left 21px;
 }
 /* Logo White */
-.navbar-brand.logo.logo-white {
-	background: url(../images/logo-white.png) no-repeat left 21px;
-}
 .header.bg-texture {
 	background: url(../images/bg-texture-3.jpg) repeat center top;
 }
