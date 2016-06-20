@@ -143,13 +143,28 @@
 
 					<div class="ms-slide slide-5" data-delay="10">
 						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-eset.jpg" alt="ALB Eset"/>
-						<h3 class="ms-layer title4 font-thin-xs uppercase text-center"
-							  style="left:0px;top:220px;"
+						<h3 class="ms-layer title4 font-thin-xs"
+							  style="left:0px;top:220px;color:black;"
 							  data-type="text"
 							  data-delay="1500"
 							  data-duration="2500"
 							  data-ease="easeOutExpo"
-							  data-effect="skewright(30,80)">Eset</h3>
+							  data-effect="skewright(30,80)">ESET, a campeã em soluções antivírus</h3>
+						<h3 class="ms-layer title4 font-thin-xs"
+							  style="left:0px;top:320px;color:black;"
+							  data-type="text"
+							  data-delay="1500"
+							  data-duration="2500"
+							  data-ease="easeOutExpo"
+							  data-effect="skewright(30,80)">Deixe os dispositivos da sua empresa ou residência mais<br /> seguros tenha a maior proteção antivírus.</h3>
+						<a class="ms-layer btn3 uppercase"
+							  style="left:350px; top: 480px;"
+							  data-type="text"
+							  data-delay="3500"
+							  data-ease="easeOutExpo"
+							  data-duration="2000"
+							  data-effect="scale(1.5,1.6)"> Gerar cotação!</a>
+
 					</div>
 
 				</div>
