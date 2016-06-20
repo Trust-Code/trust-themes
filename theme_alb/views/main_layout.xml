@@ -6,98 +6,152 @@
 			name="Theme Hort Inicio">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
-				<div class="master-slider ms-skin-default" id="masterslider">
+				<div class="master-slider ms-skin-default" id="masterslider" data-loop="false" data-autoplay="false">
 
-				  <div class="ms-slide slide-1" data-delay="14">
+				  <div class="ms-slide slide-1" data-delay="15">
 
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/computer-banner.jpg" alt="Slide1 background"/>
-					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
-						  style="left:90px; top:170px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">dedicated hosting</h3>
-					<h3 class="ms-layer title2 uppercase font-white"
-						  style="left: 90px;top: 220px;"
-						  data-type="text"
-						  data-delay="2500"
-						  data-duration="2500"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">Build your website</h3>
-					<h5 class="ms-layer text1 font-white"
-						  style="left: 92px; top: 295px;"
-						  data-type="text"
-						  data-effect="bottom(45)"
-						  data-duration="2500"
-						  data-delay="3000"
-						  data-ease="easeOutExpo">Lorem Ipsum is simply dummy text of the printing typesetting<br />
-						  industry is proident sunt in culpa officia deserunt mollit.</h5>
-					<a class="ms-layer btn3 uppercase"
-						  style="left:95px; top: 405px;"
-						  data-type="text"
-						  data-delay="3500"
-						  data-ease="easeOutExpo"
-						  data-duration="2000"
-						  data-effect="scale(1.5,1.6)"> Get Started Now!</a></div>
-
-				  <div class="ms-slide slide-2" data-delay="10">
-
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/laptop-banner.jpg" alt="Slide1 background"/>
-					<h3 class="ms-layer title4 font-white font-uppercase font-thin-xs"
-						  style="left:90px; top:170px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">Secure Your Website</h3>
-					<h3 class="ms-layer title2 uppercase font-white"
-						  style="left: 90px;top: 220px;"
-						  data-type="text"
-						  data-delay="2500"
-						  data-duration="2500"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">Build your website</h3>
-					<h5 class="ms-layer text1 font-white"
-						  style="left: 92px; top: 295px;"
-						  data-type="text"
-						  data-effect="bottom(45)"
-						  data-duration="2500"
-						  data-delay="3000"
-						  data-ease="easeOutExpo">Lorem Ipsum is simply dummy text of the printing typesetting<br />
-						  industry is proident sunt in culpa officia deserunt mollit.</h5>
-					<a class="ms-layer btn3 uppercase"
-						  style="left:95px; top: 405px;"
-						  data-type="text"
-						  data-delay="3500"
-						  data-ease="easeOutExpo"
-						  data-duration="2000"
-						  data-effect="scale(1.5,1.6)"> Get Started Now!</a> </div>
-
-
-				  <div class="ms-slide slide-3" data-delay="14">
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/workstation-banner.jpg" alt="Slide1 background"/>
-					<h3 class="ms-layer title4 font-thin-xs font-white uppercase text-center"
-						  style="left:0px;top:220px;"
-						  data-type="text"
-						  data-delay="1500"
-						  data-duration="2500"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">Unlimited Web Hosting</h3>
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-todos-servicos.jpg" alt="Todos os serviços ALB"/>
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-center"
+						  style="left:0px; top:60px;  background-color:rgba(0, 0, 0, 0.3);"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewleft(30,80)">ALB trazendo todas as soluções para seu negócio</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+						  style="left:245px; top:200px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">Suporte T.I.</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+						  style="left:245px; top:350px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">Servidores</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+						  style="left:245px; top:500px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">Redes</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+						  style="right:235px; top:200px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">CFTV</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+						  style="right:145px; top:350px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">Alarmes</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+						  style="right:120px; top:500px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="right(45)">Telefonia</h3>
+				  </div>
+
+				  <div class="ms-slide slide-2" data-delay="1">
+
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-contrato.jpg" alt="ALB Contrato"/>
+					<h3 class="ms-layer title2 uppercase"
+						  style="left: 80px;top: 300px; background-color:rgba(255,255,255,0.6);color:#144c6f;"
+						  data-type="text"
+						  data-delay="2500"
+						  data-duration="2500"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">Contrato mensal</h3>
+					<h3 class="ms-layer title4 sub-one font-white uppercase"
+						  style="left:80px; top:400px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="left(45)">ALB, mais que uma empresa,<br />uma parceira para você e seus negócios</h3>
+				  </div>
+
+				  <div class="ms-slide slide-3" data-delay="1">
+					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-infra-estrutura.jpg" alt="ALB Infra Estrutura"/>
+					<h3 class="ms-layer title4 sub-one font-white uppercase text-center font-bold"
+						  style="left:0px; top:50px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="top(80)">Equipes especializadas <br /> em projetos de infraestrutura</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+						  style="left:0px; top:175px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewleft(30,80)">*Projeto de segurança eletrônica (CFTV)</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+						  style="left:0px; top:225px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">*Projeto de telefônia (TELECOM)</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
 						  style="left:0px; top:275px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">EASY and AFFORDABLE </h3>
-					<a class="ms-layer btn3 uppercase"
-						  style="left:600px; top: 355px;"
+						  data-effect="skewleft(30,80)">*Projeto de rede de dados</h3>
+					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+						  style="left:0px; top:325px;"
 						  data-type="text"
-						  data-delay="2500"
-						  data-ease="easeOutExpo"
+						  data-delay="2000"
 						  data-duration="2000"
-						  data-effect="scale(1.5,1.6)"> Get Started Now!</a></div>
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">*Projeto de alarmes</h3>
+
+					<h3 class="ms-layer title4 uppercase font-white font-bold text-center"
+						  style="left:0px; top:500px; font-size:60px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="skewright(30,80)">Solicite seu projeto</h3>
+
+					<h3 class="ms-layer title4 sub-one font-white text-center"
+						  style="left:0px; top:575px;"
+						  data-type="text"
+						  data-delay="2000"
+						  data-duration="2000"
+						  data-ease="easeOutExpo"
+						  data-effect="bottom(80)">https://www.facebook.com.br/albinformatica</h3>
+
+					</div>
+
+				  	<div class="ms-slide slide-4" data-delay="10">
+						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-cftv-cidade.jpg" alt="ALB CFTV Cidade"/>
+					</div>
+
+					<div class="ms-slide slide-5" data-delay="10">
+						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-eset.jpg" alt="ALB Eset"/>
+						<h3 class="ms-layer title4 font-thin-xs uppercase text-center"
+							  style="left:0px;top:220px;"
+							  data-type="text"
+							  data-delay="1500"
+							  data-duration="2500"
+							  data-ease="easeOutExpo"
+							  data-effect="skewright(30,80)">Eset</h3>
+					</div>
+
 				</div>
 
 				<section class="section-lg m-top5">
