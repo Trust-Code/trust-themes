@@ -2,8 +2,8 @@
 <openerp>
 	<data>
 
-		<template id="theme_hort_menu" inherit_id="website.layout"
-			name="Theme Hort Menu">
+		<template id="theme_alb_menu" inherit_id="website.layout"
+			name="Theme ALB Menu">
 
 			<xpath expr="//div[@id='wrapwrap']/header" position="attributes">
 				<attribute name="style">display:none;</attribute>

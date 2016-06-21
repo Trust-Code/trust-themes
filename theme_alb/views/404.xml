@@ -2,7 +2,7 @@
 <openerp>
 	<data>
 
-		<template id="theme_hort_404" inherit_id="website.404" name="Theme Hort 404">
+		<template id="theme_alb_404" inherit_id="website.404" name="Theme ALB 404">
 
 			<xpath expr="//div[@class='oe_structure oe_empty']" position="replace">
 				<style type="text/css">
@@ -11,7 +11,7 @@
 					.error-actions {margin-top:15px;margin-bottom:15px;}
 					.error-actions .btn { margin-right:10px; }
 				</style>
-				<div class="container">
+				<div class="container" id="wrap">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="error-template">

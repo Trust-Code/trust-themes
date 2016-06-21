@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
 	<data>
-		<template id="theme_hort_assets" name="Theme Hort Assets"
+		<template id="theme_alb_assets" name="Theme ALB Assets"
 			inherit_id="website.assets_frontend">
 			<xpath expr="link[last()]" position="after">
 				<!-- Google fonts - witch you want to use - (rest you can just remove) -->
@@ -78,6 +78,7 @@
 				<!-- counters -->
 				<script src="/theme_alb/static/src/js/aninum/jquery.animateNumber.min.js"></script>
 				<script src="/theme_alb/static/src/js/jquery.hideseek.js"></script>
+				<script src="/theme_alb/static/src/js/jquery.autocomplete.min.js"></script>
 
 				<script src="/theme_alb/static/src/js/main.js"></script>
 

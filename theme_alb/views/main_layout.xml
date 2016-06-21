@@ -2,8 +2,8 @@
 <openerp>
 	<data>
 
-		<template id="theme_hort_main_layout" inherit_id="website.homepage"
-			name="Theme Hort Inicio">
+		<template id="theme_alb_main_layout" inherit_id="website.homepage"
+			name="Theme ALB Inicio">
 
 			<xpath expr="//div[@id='wrap']" position="replace">
 				<div class="master-slider ms-skin-default" id="masterslider" data-loop="false" data-autoplay="false">
@@ -177,10 +177,7 @@
 						<h5 class="font16">Planos a partir de <strong class="font-color">R$ 349</strong>/ mês</h5>
 					  </div>
 					  <div class="col-md-8">
-						<form method="get" id="domain-searchform" action="index.html">
-						  <input class="input-text dsearch-home2" name="dsearch" id="dsearch" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
-						  <input type="submit" class="btn blue-button uppercase" value="Pesquisar" id="submit" />
-						</form>
+						 <input class="input-text dsearch-home2" name="dsearch" id="consulta-produtos" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
 					  </div>
 					</div>
 				  </div>

@@ -19,9 +19,11 @@
 #                                                                             #
 ###############################################################################
 
+import json
 from openerp.addons.web import http
 from openerp.addons.web.http import request
 from openerp.addons.website.controllers.main import Website
+from openerp.addons.website.models.website import slug
 
 
 class MainWebsite(Website):
@@ -36,3 +38,29 @@ class MainWebsite(Website):
             posts = request.env['blog.post'].sudo().search([], limit=3)
             result.qcontext['last_posts'] = posts
         return result
+
+    @http.route('/product/search', type='http', auth="public", website=True)
+    def product_search(self, query):
+        sugestoes = []
+        if len(query) > 0:
+            products = request.env['product.product'].sudo().search([
+                ('name', 'ilike', query)
+            ])
+            for product in products:
+                sugestoes.append({"value": product.name,
+                                  "url": '/shop/product/' + slug(product)},)
+        return json.dumps({
+            "query": "Unit",
+            "suggestions": sugestoes + [
+                {"value": "Loja", "url": "/shop"},
+                {"value": "Contrato de Serviço", "url": "/page/servico"},
+                {"value": "Contrato de Suporte", "url": "/page/suporte"},
+                {"value": "Contrato de Manutenção", "url": "/page/manutencao"},
+                {"value": "Empresa", "url": "/page/empresa"},
+                {"value": "Contate nos", "url": "/page/contactus"},
+                {"value": "Abra seu chamado",
+                 "url": "http://alb.ddns.com.br/ocomon"},
+                {"value": "Acesso Remoto",
+                 "url": "http://www.alb.inf.br/downloads/acessoremoto.exe"},
+            ]
+        })
