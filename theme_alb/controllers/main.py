@@ -33,7 +33,8 @@ class MainWebsite(Website):
         result = super(MainWebsite, self).page(page, **opt)
         if page == 'homepage':
             products = request.env['product.product'].sudo().search(
-                [('type', '!=', 'service')], limit=3)
+                [('type', '!=', 'service'),
+                 ('website_published', '=', True)], limit=3)
             result.qcontext['three_products'] = products
             posts = request.env['blog.post'].sudo().search([], limit=3)
             result.qcontext['last_posts'] = posts
@@ -44,7 +45,7 @@ class MainWebsite(Website):
         sugestoes = []
         if len(query) > 0:
             products = request.env['product.product'].sudo().search([
-                ('name', 'ilike', query)
+                ('name', 'ilike', query), ('website_published', '=', True)
             ])
             for product in products:
                 sugestoes.append({"value": product.name,
