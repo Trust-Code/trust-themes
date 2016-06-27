@@ -41,29 +41,7 @@
 
 				<!-- MasterSlider -->
 				<script src="/theme_alb/static/src/js/masterslider/jquery.easing.min.js"></script>
-				<script src="/theme_alb/static/src/js/masterslider/masterslider.min.js"></script>
-				<script type="text/javascript">
-				(function($) {
-				  "use strict";
-					    var slider = new MasterSlider();
-
-					    // adds Arrows navigation control to the slider.
-					    slider.control('arrows');
-					    //slider.control('timebar' , {insertTo:'#masterslider'});
-					    slider.control('bullets');
-
-					     slider.setup('masterslider' , {
-					         width:1400,    // slider standard width
-					         height:700,   // slider standard height
-					         space:1,
-					         layout:'fullwidth',
-					         loop:true,
-					         preload:0,
-					         instantStartLayers:true,
-					         autoplay:true
-					    });
-				})(jQuery);
-				</script>
+				<script src="/theme_alb/static/src/js/masterslider/masterslider.min.js"></script>				
 
 				<!-- Animations -->
 				<script src="/theme_alb/static/src/js/animations/animations.min.js" type="text/javascript"></script>
