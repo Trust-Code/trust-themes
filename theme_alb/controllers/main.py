@@ -36,7 +36,8 @@ class MainWebsite(Website):
                 [('type', '!=', 'service'),
                  ('website_published', '=', True)], limit=3)
             result.qcontext['three_products'] = products
-            posts = request.env['blog.post'].sudo().search([], limit=3)
+            posts = request.env['blog.post'].sudo().search(
+                [('website_published', '=', True)], limit=3)
             result.qcontext['last_posts'] = posts
         return result
 

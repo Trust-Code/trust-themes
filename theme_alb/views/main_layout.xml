@@ -66,19 +66,19 @@
 
 					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-contrato.jpg" alt="ALB Contrato"/>
 					<h3 class="ms-layer title2 uppercase"
-						  style="left: 80px;top: 300px; background-color:rgba(255,255,255,0.6);color:#144c6f;"
+						  style="left: 80px;top: 250px; background-color:rgba(255,255,255,0.6);color:#144c6f;"
 						  data-type="text"
 						  data-delay="2500"
 						  data-duration="2500"
 						  data-ease="easeOutExpo"
 						  data-effect="skewright(30,80)">Contrato mensal</h3>
-					<h3 class="ms-layer title4 sub-one font-white uppercase"
-						  style="left:80px; top:400px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="left(45)">ALB, mais que uma empresa,<br />uma parceira para você e seus negócios</h3>
+                    <h3 class="ms-layer title4 sub-one font-white font-bold"
+                          style="left:80px; top:350px;"
+                          data-type="text"
+                          data-delay="2000"
+                          data-duration="2000"
+                          data-ease="easeOutExpo"
+                          data-effect="left(80)">ALB oferece planos de contrato mensal,<br />onde você tem a disposição equipes técnicas especializadas,<br />unindo comodidade e qualidade com baixo custo.</h3>
 				  </div>
 
 				  <div class="ms-slide slide-3" data-delay="1">
@@ -91,28 +91,28 @@
 						  data-ease="easeOutExpo"
 						  data-effect="top(80)">Equipes especializadas <br /> em projetos de infraestrutura</h3>
 					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:175px;"
+						  style="left:0px; top:170px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="skewleft(30,80)">*Projeto de segurança eletrônica (CFTV)</h3>
 					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:225px;"
+						  style="left:0px; top:210px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="skewright(30,80)">*Projeto de telefônia (TELECOM)</h3>
 					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:275px;"
+						  style="left:0px; top:250px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="skewleft(30,80)">*Projeto de rede de dados</h3>
 					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:325px;"
+						  style="left:0px; top:290px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
@@ -120,45 +120,70 @@
 						  data-effect="skewright(30,80)">*Projeto de alarmes</h3>
 
 					<h3 class="ms-layer title4 uppercase font-white font-bold text-center"
-						  style="left:0px; top:500px; font-size:60px;"
+						  style="left:0px; top:350px; font-size:50px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="skewright(30,80)">Solicite seu projeto</h3>
 
+                    <img src="/theme_alb/static/src/images/square-facebook-128.png"
+                         class="ms-layer"
+                         style="left:390px; top:415px; max-width:38px;"
+                         data-type="text"
+                         data-delay="2000"
+                         data-duration="2000"
+                         data-ease="easeOutExpo"
+                         data-effect="bottom(80)" />
 					<h3 class="ms-layer title4 sub-one font-white text-center"
-						  style="left:0px; top:575px;"
+						  style="left:0px; top:420px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
-						  data-effect="bottom(80)">https://www.facebook.com.br/albinformatica</h3>
+						  data-effect="bottom(80)">
+                          <a style="color:white;" target="_blank" href="https://www.facebook.com.br/albinformatica">
+                          https://www.facebook.com.br/albinformatica</a>
+                      </h3>
 
 					</div>
 
 				  	<div class="ms-slide slide-4" data-delay="10">
 						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-cftv-cidade.jpg" alt="ALB CFTV Cidade"/>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold"
+    						  style="left:300px; top:50px; font-size:40px;"
+    						  data-type="text"
+    						  data-delay="2000"
+    						  data-duration="2000"
+    						  data-ease="easeOutExpo"
+    						  data-effect="top(80)">Tenha CFTV na sua casa ou empresa</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold"
+    						  style="left:300px; top:100px;"
+    						  data-type="text"
+    						  data-delay="2000"
+    						  data-duration="2000"
+    						  data-ease="easeOutExpo"
+    						  data-effect="top(80)">Só na ALB você encontra tecnologia com qualidade</h3>
 					</div>
 
 					<div class="ms-slide slide-5" data-delay="10">
 						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-eset.jpg" alt="ALB Eset"/>
 						<h3 class="ms-layer title4 font-thin-xs"
-							  style="left:0px;top:220px;color:black;"
+							  style="left:100px;top:200px;color:black;"
 							  data-type="text"
 							  data-delay="1500"
 							  data-duration="2500"
 							  data-ease="easeOutExpo"
 							  data-effect="skewright(30,80)">ESET, a campeã em soluções antivírus</h3>
 						<h3 class="ms-layer title4 font-thin-xs"
-							  style="left:0px;top:320px;color:black;"
+							  style="left:100px;top:280px;color:black;"
 							  data-type="text"
 							  data-delay="1500"
 							  data-duration="2500"
 							  data-ease="easeOutExpo"
 							  data-effect="skewright(30,80)">Deixe os dispositivos da sua empresa ou residência mais<br /> seguros tenha a maior proteção antivírus.</h3>
 						<a class="ms-layer btn3 uppercase"
-							  style="left:350px; top: 480px;"
+							  style="left:350px; top: 380px;"
 							  data-type="text"
 							  data-delay="3500"
 							  data-ease="easeOutExpo"
@@ -187,7 +212,6 @@
 				<div class="section-lg m-top7">
 			       <div class="container">
 			         <div class="row">
-			           <h4 class="font-color font15 text-center uppercase">RECURSOS</h4>
 			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
@@ -245,36 +269,100 @@
 			               </div>
 			             </div>
 			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
-			                 <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
-			               </div>
-			             </div>
-			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Painel de chamados</h2>
-			                 <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
-			               </div>
-			             </div>
-			           </div>
-						 <div class="col-md-4 text-left m-bottom5">
-						   <div class="fea-sce-col active">
-							 <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
-							 <div class="left-padd8">
-							   <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
-							   <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
-							 </div>
-						   </div>
-						 </div>
-			         </div>
-			       </div>
-			     </div>
+                    </div>
+                   </div>
+
+                   <div class="container">
+                       <div class="row">
+                           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Recursos</h2>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
+                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
+                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
+                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">                           
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
+                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
+                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
+                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
+                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
+                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
+                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
 			     <!-- end features section 2 -->
 
 			     <div class="section-lg bg-parallax-13 m-top0">
