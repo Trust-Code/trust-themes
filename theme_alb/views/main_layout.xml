@@ -303,7 +303,7 @@
                                </div>
                            </div>
                        </div>
-                       <div class="row">                           
+                       <div class="row">
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
                                    <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
@@ -686,7 +686,7 @@
 					             	<div class="post-info-box">
 					               		<h3 class="font-thin font20 m-bottom1"><a t-att-href="'/shop/product/%s' % slug(product)" t-field="product.name"></a></h3>
 					               		<p class="m-bottom1 font14 font-grey"><i class="fa fa-money"></i>
-											<span t-field="product.price"></span>
+											<span t-field="product.lst_price"></span>
 										</p>
 					               		<p t-field="product.description_sale"></p>
 					             	</div>

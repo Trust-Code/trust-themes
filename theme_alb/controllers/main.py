@@ -32,7 +32,7 @@ class MainWebsite(Website):
     def page(self, page, **opt):
         result = super(MainWebsite, self).page(page, **opt)
         if page == 'homepage':
-            products = request.env['product.product'].sudo().search(
+            products = request.env['product.template'].sudo().search(
                 [('type', '!=', 'service'),
                  ('website_published', '=', True)], limit=3)
             result.qcontext['three_products'] = products
