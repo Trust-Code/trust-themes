@@ -20,7 +20,7 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-center mt16 mb32">
-                                    <h2>Valores</h2>
+                                    <h2>Histórico</h2>
                                 </div>
                                 <div class="col-md-12 mb16">
                                     <p>
@@ -52,7 +52,7 @@
                                     </p>
                                 </div>
                                 <div class="col-md-12 text-center mt16 mb32">
-                                    <h2>Histórico</h2>
+                                    <h2>Valores</h2>
                                 </div>
                                 <div class="col-md-12 mb16">
                                     <ul>
@@ -535,30 +535,44 @@
         </template>
 
         <record id="contratos_page_link" model="website.menu">
-            <field name="name">Contratos</field>
+            <field name="name">Soluções</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">300</field>
         </record>
 
     	<record id="contrato_servico_page_link" model="website.menu">
-    		<field name="name">Contrato de Serviço</field>
+    		<field name="name">Suporte em TI</field>
     		<field name="url">/page/servico</field>
     		<field name="parent_id" ref="contratos_page_link" />
     		<field name="sequence" type="int">10</field>
     	</record>
 
         <record id="contrato_suporte_page_link" model="website.menu">
-            <field name="name">Contrato de Suporte</field>
+            <field name="name">Redes de dados</field>
             <field name="url">/page/suporte</field>
             <field name="parent_id" ref="contratos_page_link" />
             <field name="sequence" type="int">20</field>
         </record>
 
         <record id="contrato_manutencao_page_link" model="website.menu">
-    		<field name="name">Contrato de Manutenção</field>
+    		<field name="name">Telefônia</field>
     		<field name="url">/page/manutencao</field>
     		<field name="parent_id" ref="contratos_page_link" />
     		<field name="sequence" type="int">30</field>
+    	</record>
+
+        <record id="contrato_cftv_link" model="website.menu">
+    		<field name="name">CFTV</field>
+    		<field name="url">/page/cftv</field>
+    		<field name="parent_id" ref="contratos_page_link" />
+    		<field name="sequence" type="int">40</field>
+    	</record>
+
+        <record id="contrato_seguranca_eletronica_link" model="website.menu">
+    		<field name="name">Segurança Eletrônica</field>
+    		<field name="url">/page/seguranca-eletronica</field>
+    		<field name="parent_id" ref="contratos_page_link" />
+    		<field name="sequence" type="int">50</field>
     	</record>
 
 

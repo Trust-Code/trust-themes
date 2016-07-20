@@ -25,6 +25,13 @@
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="left(45)">Suporte T.I.</h3>
+          <img class="ms-layer" src="/theme_alb/static/src/images/banner/notebook.png"
+            style="left:140px;top:90px;max-width:100px;max-height:100px;"
+            data-type="image"
+            data-delay="2000"
+            data-duration="2000"
+            data-ease="easeOutExpo"
+            data-effect="left(45)" />
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
 						  style="left:245px; top:250px;"
 						  data-type="text"
@@ -32,6 +39,13 @@
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="left(45)">Servidores</h3>
+          <img class="ms-layer" src="/theme_alb/static/src/images/banner/Servidores.png"
+            style="left:140px;top:240px;max-width:100px;max-height:100px;"
+            data-type="image"
+            data-delay="2000"
+            data-duration="2000"
+            data-ease="easeOutExpo"
+            data-effect="left(45)" />
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
 						  style="left:245px; top:400px;"
 						  data-type="text"
@@ -39,20 +53,41 @@
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="left(45)">Redes</h3>
+            <img class="ms-layer" src="/theme_alb/static/src/images/banner/rede.png"
+              style="left:140px;top:390px;max-width:100px;max-height:100px;"
+              data-type="image"
+              data-delay="2000"
+              data-duration="2000"
+              data-ease="easeOutExpo"
+              data-effect="left(45)" />
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
 						  style="right:300px; top:100px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
-						  data-effect="left(45)">CFTV</h3>
+						  data-effect="right(45)">CFTV</h3>
+          <img class="ms-layer" src="/theme_alb/static/src/images/banner/CFTV.png"
+            style="right:380px;top:90px;max-width:100px;max-height:100px;"
+            data-type="image"
+            data-delay="2000"
+            data-duration="2000"
+            data-ease="easeOutExpo"
+            data-effect="right(45)" />
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
 						  style="right:250px; top:250px;"
 						  data-type="text"
 						  data-delay="2000"
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
-						  data-effect="left(45)">Alarmes</h3>
+						  data-effect="right(45)">Alarmes</h3>
+            <img class="ms-layer" src="/theme_alb/static/src/images/banner/Central Alarme.png"
+              style="right:380px;top:240px;max-width:100px;max-height:100px;"
+              data-type="image"
+              data-delay="2000"
+              data-duration="2000"
+              data-ease="easeOutExpo"
+              data-effect="right(45)" />
 					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
 						  style="right:240px; top:400px;"
 						  data-type="text"
@@ -60,6 +95,13 @@
 						  data-duration="2000"
 						  data-ease="easeOutExpo"
 						  data-effect="right(45)">Telefonia</h3>
+          <img class="ms-layer" src="/theme_alb/static/src/images/banner/telefonia.png"
+            style="right:380px;top:390px;max-width:100px;max-height:100px;"
+            data-type="image"
+            data-delay="2000"
+            data-duration="2000"
+            data-ease="easeOutExpo"
+            data-effect="right(45)" />
 				  </div>
 
 				  <div class="ms-slide slide-2" data-delay="1">
@@ -183,7 +225,7 @@
 							  data-ease="easeOutExpo"
 							  data-effect="skewright(30,80)">Deixe os dispositivos da sua empresa ou residência mais<br /> seguros tenha a maior proteção antivírus.</h3>
 						<a class="ms-layer btn3 uppercase"
-							  style="left:350px; top: 380px;"
+							  style="left:450px; top: 380px;"
 							  data-type="text"
 							  data-delay="3500"
 							  data-ease="easeOutExpo"
@@ -215,57 +257,84 @@
 			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-screen-desktop font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Suporte e T.I. &amp; Assistência Técnica</h2>
-			                 <p>Otimize o desempenho dos seus equipamentos e melhore a produtividade de sua equipe com soluções simples e eficientes.</p>
-			               </div>
-			             </div>
-			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-phone font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Redes &amp; Telecom</h2>
-			                 <p>Redes seguras e rápidas protegem o negócio e agilizam as operações, conte com nossa equipe para manter tudo 100%.</p>
+			                 <h2 class="font-thin m-bottom1">Backup Monitorado e Cloud</h2>
+			                 <p>Soluções em
+                                gerenciamento de cópias
+                                de segurança dos dados
+                                seja local ou em nuvem.
+                                Consulte o que podemos
+                                oferecer</p>
 			               </div>
 			             </div>
 			           </div>
 						<div class="col-md-4 text-left m-bottom5">
 						  <div class="fea-sce-col active">
-							<div class="iconbox-left"><span class="icon-camera font60 font-color"></span></div>
+							<div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
 							<div class="left-padd8">
-							  <h2 class="font-thin m-bottom1">CFTV &amp; Segurança Eletrônica</h2>
-							  <p>Acompanhe em tempo real o que acontece na sua empresa quando você não está lá.</p>
+							  <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
+							  <p>Otimize seu espaço e
+                                hardware, utilizando
+                                várias plataformas num
+                                único equipamento,
+                                diminuindo custos.</p>
 							</div>
 						  </div>
 						</div>
+                        <div class="col-md-4 text-left m-bottom5">
+ 			             <div class="fea-sce-col active">
+ 			               <div class="iconbox-left"><span class="icon-eye font60 font-color"></span></div>
+ 			               <div class="left-padd8">
+ 			                 <h2 class="font-thin m-bottom1">Monitoramento de TI</h2>
+ 			                 <p>Sua TI monitorada 24/7 e
+                                 em caso de falhas, nossa
+                                 equipe é avisada e inicia o
+                                 suporte proativo,
+                                 diminuindo tempos de
+                                 paradas em caso de
+                                 problemas inesperados.</p>
+ 			               </div>
+ 			             </div>
+ 			           </div>
 					</div>
 					<div class="row">
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-support font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-lock font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Planos de suporte mensal</h2>
-			                 <p>Pacotes de suporte que cabem no seu bolso, suporte remoto e ações preventivas e corretivas. Confira!</p>
+			                 <h2 class="font-thin m-bottom1">Segurança da informação</h2>
+			                 <p>Proteja as informações do
+                                seu negócio de acesso
+                                não-autorizado e ataques
+                                de hackers. Consulte as
+                                nossas soluções!</p>
 			               </div>
 			             </div>
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-cloud font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Backup Cloud</h2>
-			                 <p>Proteja as informações do seu negócio com eficiencia e alta disponibilidade. Soluções customizadas para seu negócio.</p>
+			                 <h2 class="font-thin m-bottom1">Segurança eletrônica</h2>
+			                 <p>Veja remotamente,
+                                proteja, seja alertado,
+                                controle o acesso. Veja o
+                                que temos para proteger
+                                seu patrimônio.</p>
 			               </div>
 			             </div>
 			           </div>
 			           <div class="col-md-4 text-left m-bottom5">
 			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-disc font60 font-color"></span></div>
+			               <div class="iconbox-left"><span class="icon-shield font60 font-color"></span></div>
 			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
-			                 <p>Otimize seu espaço e hardware, utilizando várias plataformas num único equipamento, diminuindo custos..</p>
+			                 <h2 class="font-thin m-bottom1">Proteção de internet</h2>
+			                 <p>Gerenciamento completo
+                                de acesso à internet, com
+                                relatórios de sites
+                                visitados além de
+                                proteção contra invasões</p>
 			               </div>
 			             </div>
 			           </div>
@@ -277,57 +346,42 @@
                            <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">Recursos</h2>
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-support font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
-                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
+                                       <h2 class="font-thin m-bottom1">Suporte TI</h2>
+                                       <p>Otimize o desempenho
+                                        dos seus equipamentos e
+                                        melhore a produtividade
+                                        de sua equipe com
+                                        soluções simples e
+                                        eficientes.</p>
                                    </div>
                                </div>
                            </div>
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
-                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
+                                       <h2 class="font-thin m-bottom1">Servidores</h2>
+                                       <p>Redes gerenciadas em
+                                        Windows e Linux com
+                                        controle de permissões de
+                                        usuários, gerenciamento
+                                        de pastas</p>
                                    </div>
                                </div>
                            </div>
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-grid font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
-                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="row">
-                           <div class="col-md-4 text-left m-bottom5">
-                               <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
-                                   <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
-                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 text-left m-bottom5">
-                               <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
-                                   <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
-                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="col-md-4 text-left m-bottom5">
-                               <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
-                                   <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
-                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+                                       <h2 class="font-thin m-bottom1">Redes de Dados</h2>
+                                       <p>Redes estruturadas
+                                            seguras e rápidas
+                                            protegem o negócio e
+                                            agilizam as operações.
+                                            Conte com nossa equipe
+                                            para manter tudo 100%</p>
                                    </div>
                                </div>
                            </div>
@@ -335,28 +389,83 @@
                        <div class="row">
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-speedometer font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-phone font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Recursos On-Demand</h2>
-                                       <p>Para todo problema uma solução, para todo projeto uma idéia, Consulte a ALB sempre que precisar!</p>
+                                       <h2 class="font-thin m-bottom1">Telefonia</h2>
+                                       <p>Sistemas completos de
+                                        telefonia analógicos,
+                                        digitais, IP, VOIP, ramal
+                                        virtual e muito mais.
+                                        Saiba mais.</p>
                                    </div>
                                </div>
                            </div>
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-notebook font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Painel de chamados</h2>
-                                       <p>Confira o andamento de cada serviço bem como tenha acesso à consumo de horas contratadas e informações de faturamento.</p>
+                                       <h2 class="font-thin m-bottom1">CFTV</h2>
+                                       <p>Acompanhe em tempo real
+                                        o que acontece na sua
+                                        empresa quando você não
+                                        está lá. Acione alertas,
+                                        portões e áudio a partir de
+                                        seu smartphone</p>
                                    </div>
                                </div>
                            </div>
                            <div class="col-md-4 text-left m-bottom5">
                                <div class="fea-sce-col active">
-                                   <div class="iconbox-left"><span class="icon-call-in font60 font-color"></span></div>
+                                   <div class="iconbox-left"><span class="icon-organization font60 font-color"></span></div>
                                    <div class="left-padd8">
-                                       <h2 class="font-thin m-bottom1">Suporte telefônico e remoto</h2>
-                                       <p>Suporte telefônico e remoto para resolver aqueles problemas que não tem hora para acontecer. Conte conosco.</p>
+                                       <h2 class="font-thin m-bottom1">Infraestrutura</h2>
+                                       <p>Projetos e montagem de
+                                        toda infraestrutura
+                                        necessária para
+                                        passagem de
+                                        cabeamento para redes,
+                                        telefonia, CFTV, alarmes,
+                                        etc.</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-bell font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Alarmes</h2>
+                                       <p>Sistemas de alarme,
+                                        integração com sensores
+                                        infravermelho (IVA),
+                                        alertas via smartphone.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-people font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Controle de acesso</h2>
+                                       <p>Cancelas de controle de
+                                        acesso, catracas para
+                                        pedestres, integração com
+                                        acesso via biometria,
+                                        cartão de proximidade,
+                                        etc.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-md-4 text-left m-bottom5">
+                               <div class="fea-sce-col active">
+                                   <div class="iconbox-left"><span class="icon-login font60 font-color"></span></div>
+                                   <div class="left-padd8">
+                                       <h2 class="font-thin m-bottom1">Portaria Virtual</h2>
+                                       <p>Soluções de vídeo
+                                        porteiro, interfones e
+                                        sistema de portaria
+                                        virtual para condomínios.</p>
                                    </div>
                                </div>
                            </div>
