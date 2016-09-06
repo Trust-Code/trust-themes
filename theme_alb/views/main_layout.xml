@@ -478,8 +478,8 @@
 			       <div class="shape-cross-top"></div>
 			       <div class="container">
 			         <div class="row">
-			           <h4 class="font-color font15 text-center uppercase m-top2">Novidades</h4>
-			           <h2 class="font-white font-thin-xs font40 text-center m-bottom4 uppercase">Ofertas especiais</h2>
+			           <h4 class="font-color font15 text-center uppercase m-top2">ALB</h4>
+			           <h2 class="font-white font-thin-xs font40 text-center m-bottom4 uppercase">Novidades</h2>
 			           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			             <!-- Indicators -->
 			             <ol class="carousel-indicators">
@@ -492,66 +492,55 @@
 			             <div class="carousel-inner" role="listbox">
 			               <div class="item active">
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <div class="price-info-circle">Apartir de<br />
-			                     <span class="blue font-bold">R$9.95</span>/mês</div>
 			                   <figure class="nomargin">
-								   <img src="/theme_alb/static/src/images/servidores.jpg" alt="" class="img-responsive" />
-						   	   </figure>
+                                   <img style="max-height:300px;" src="/theme_alb/static/src/images/central-alarme.png" alt="" class="img-responsive" />
+                               </figure>
 			                 </div>
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Comece hoje mesmo! <span class="font-thin-xs font-white">Ofertas de Hoje!</span></h2>
-			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
+			                   <h2 class="font25 font-white font-color m-bottom2">Central de alarme monitorada com 18 zonas <span class="font-thin-xs font-white">(8 + 8 + 2 com fio + 24 sem fio)</span></h2>
+                               <h2 class="font25 font-white font-color m-bottom2">AMT 2018 E</h2>
+			                   <p class="m-bottom3 font-white">Possui teclado LCD, comunicação de dados via tecnologia Ethernet,
+                                   opção de configuração remota via TCP/IP, supervisão do link Ethernet com intervalos de tempo configuráveis,
+                                   reportagem de eventos para 2 destinos IP (empresas de monitoramento), operação com IP fixo ou dinâmico e
+                                   eliminação de custos com comunicação de dados, pois utiliza a infraestrutura de rede internet do próprio cliente.</p>
+			                 </div>
+			               </div>
+			               <div class="item">
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/gravador-digital.png" alt="" class="img-responsive"/></figure>
+			                 </div>
+			                 <div class="col-md-6 col-sm-12 m-bottom4">
+			                   <h2 class="font25 font-white font-color m-bottom2">Gravador digital de vídeo Tríbrido <span class="font-thin-xs font-white">HDCVI 1016 G2</span></h2>
+			                   <p class="m-bottom3 font-white">Os equipamentos da linha Intelbras HDCVI gravam e transmitem imagens em HD
+                                   utilizando os mesmos cabos e acessórios¹ do sistema analógico. Sem a necessidade de novos cabos,
+                                   são a solução ideal para quem deseja imagens em resolução 720p (HD) e 1080N com baixo custo.
+                                   E o melhor, a instalação é rápida e descomplicada.</p>
 			                   <ul class="listitems half font-white">
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
+			                     <li><i class="fa fa-check"></i> Modo de operação IP + analógico</li>
+			                     <li><i class="fa fa-check"></i> Modo de operação IP - Modo NVR</li>
+			                     <li><i class="fa fa-check"></i> Imagens em alta qualidade</li>
+			                     <li><i class="fa fa-check"></i> Tecnologia Auto Sense</li>
+			                     <li><i class="fa fa-check"></i> Acesso remoto</li>
+			                     <li><i class="fa fa-check"></i> Configuração simplificada</li>
 			                   </ul>
 			                 </div>
 			               </div>
 			               <div class="item">
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <div class="price-info-circle">Apartir de<br />
-			                     <span class="blue font-bold">R$49.99</span></div>
-			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/surveilance.jpg" alt="" class="img-responsive"/></figure>
+			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/central-pabx.png" alt="" class="img-responsive"/></figure>
 			                 </div>
 			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Get Started! <span class="font-thin-xs font-white">Today's Offers</span></h2>
-			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
+			                   <h2 class="font25 font-white font-color m-bottom2">Central PABX híbrida <span class="font-thin-xs font-white">Impacta 68i</span></h2>
+			                   <p class="m-bottom3 font-white">A linha Impacta é composta por centrais PABX de comunicação híbrida que integram as
+                                   tecnologias analógica, digital e IP. Ideais para micro e pequenas empresas que buscam melhorar a
+                                   qualidade e a capacidade de comunicação, as centrais Impacta oferecem diversas funções sem muito
+                                   investimento. Além de apresentarem as funções habituais de um PABX, elas podem interligar
+                                   duas ou mais redes e permitir a realização de chamadas com tecnologia VoIP (voz sobre internet).</p>
 			                   <ul class="listitems half font-white">
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
-			                   </ul>
-			                 </div>
-			               </div>
-			               <div class="item">
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <div class="price-info-circle">Starts at<br />
-			                     <span class="blue font-bold">$9.95</span>/mo</div>
-			                   <figure class="nomargin"><img src="https://placeholdit.imgix.net/~text?txtsize=80&amp;txt=527%C3%97257&amp;w=527&amp;h=257" alt="" class="img-responsive"/></figure>
-			                 </div>
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Get Started! <span class="font-thin-xs font-white">Today's Offers</span></h2>
-			                   <p class="m-bottom3 font-white">Excepteur sit occaecat cupidatan is proident, one sunt in culpa Ut enim ad minim veniam, quis nostrud enim ad Lorem ipsum dolor sit amet.</p>
-			                   <ul class="listitems half font-white">
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> Free Domain Registration</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Databases List</li>
-			                     <li><i class="fa fa-check"></i> 99.99% Uptime Guarantee</li>
-			                     <li><i class="fa fa-check"></i> Unlimited Disk Space</li>
-			                     <li><i class="fa fa-check"></i> 24/7 Full Online Support</li>
+			                     <li><i class="fa fa-check"></i> Mais qualidade na comunicação</li>
+			                     <li><i class="fa fa-check"></i> Tenha muito sem gastar tanto</li>
+			                     <li><i class="fa fa-check"></i> Mais agilidade</li>
+			                     <li><i class="fa fa-check"></i> Garantia de investimento</li>
 			                   </ul>
 			                 </div>
 			               </div>
