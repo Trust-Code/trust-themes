@@ -524,9 +524,7 @@ ul.listitems.half li {
 	position: static !important;
 	background: #333 !important;
 }
-.header.headr-style-2 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
-	width: 100%;
-}
+
 .headr-style.headr-style-2 {
 	padding-top: 5px;
 }

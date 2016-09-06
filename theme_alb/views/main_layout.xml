@@ -1,345 +1,574 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <openerp>
-	<data>
+    <data>
 
-		<template id="theme_alb_main_layout" inherit_id="website.homepage"
-			name="Theme ALB Inicio">
+        <template id="theme_alb_main_layout" inherit_id="website.homepage"
+            name="Theme ALB Inicio">
 
-			<xpath expr="//div[@id='wrap']" position="replace">
-				<div class="master-slider ms-skin-default" id="masterslider" data-loop="false" data-autoplay="false">
+            <xpath expr="//div[@id='wrap']" position="replace">
+                <div class="master-slider ms-skin-default hidden-xs" id="masterslider" data-loop="false" data-autoplay="false">
+                    <div class="ms-slide slide-1" data-delay="15">
 
-				  <div class="ms-slide slide-1" data-delay="15">
-
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-todos-servicos.jpg" alt="Todos os serviços ALB"/>
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-center"
-						  style="left:0px; top:10px;  background-color:rgba(0, 0, 0, 0.3);"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">ALB trazendo todas as soluções para seu negócio</h3>
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
-						  style="left:245px; top:100px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="left(45)">Suporte T.I.</h3>
-          <img class="ms-layer" src="/theme_alb/static/src/images/banner/notebook.png"
-            style="left:140px;top:90px;max-width:100px;max-height:100px;"
-            data-type="image"
-            data-delay="2000"
-            data-duration="2000"
-            data-ease="easeOutExpo"
-            data-effect="left(45)" />
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
-						  style="left:245px; top:250px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="left(45)">Servidores</h3>
-          <img class="ms-layer" src="/theme_alb/static/src/images/banner/Servidores.png"
-            style="left:140px;top:240px;max-width:100px;max-height:100px;"
-            data-type="image"
-            data-delay="2000"
-            data-duration="2000"
-            data-ease="easeOutExpo"
-            data-effect="left(45)" />
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
-						  style="left:245px; top:400px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="left(45)">Redes</h3>
-            <img class="ms-layer" src="/theme_alb/static/src/images/banner/rede.png"
-              style="left:140px;top:390px;max-width:100px;max-height:100px;"
-              data-type="image"
-              data-delay="2000"
-              data-duration="2000"
-              data-ease="easeOutExpo"
-              data-effect="left(45)" />
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
-						  style="right:300px; top:100px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="right(45)">CFTV</h3>
-          <img class="ms-layer" src="/theme_alb/static/src/images/banner/CFTV.png"
-            style="right:380px;top:90px;max-width:100px;max-height:100px;"
-            data-type="image"
-            data-delay="2000"
-            data-duration="2000"
-            data-ease="easeOutExpo"
-            data-effect="right(45)" />
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
-						  style="right:250px; top:250px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="right(45)">Alarmes</h3>
-            <img class="ms-layer" src="/theme_alb/static/src/images/banner/Central Alarme.png"
-              style="right:380px;top:240px;max-width:100px;max-height:100px;"
-              data-type="image"
-              data-delay="2000"
-              data-duration="2000"
-              data-ease="easeOutExpo"
-              data-effect="right(45)" />
-					<h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
-						  style="right:240px; top:400px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="right(45)">Telefonia</h3>
-          <img class="ms-layer" src="/theme_alb/static/src/images/banner/telefonia.png"
-            style="right:380px;top:390px;max-width:100px;max-height:100px;"
-            data-type="image"
-            data-delay="2000"
-            data-duration="2000"
-            data-ease="easeOutExpo"
-            data-effect="right(45)" />
-				  </div>
-
-				  <div class="ms-slide slide-2" data-delay="1">
-
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-contrato.jpg" alt="ALB Contrato"/>
-					<h3 class="ms-layer title2 uppercase"
-						  style="left: 80px;top: 250px; background-color:rgba(255,255,255,0.6);color:#144c6f;"
-						  data-type="text"
-						  data-delay="2500"
-						  data-duration="2500"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">Contrato mensal</h3>
-                    <h3 class="ms-layer title4 sub-one font-white font-bold"
-                          style="left:80px; top:350px;"
-                          data-type="text"
-                          data-delay="2000"
-                          data-duration="2000"
-                          data-ease="easeOutExpo"
-                          data-effect="left(80)">ALB oferece planos de contrato mensal,<br />onde você tem a disposição equipes técnicas especializadas,<br />unindo comodidade e qualidade com baixo custo.</h3>
-				  </div>
-
-				  <div class="ms-slide slide-3" data-delay="1">
-					<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-infra-estrutura.jpg" alt="ALB Infra Estrutura"/>
-					<h3 class="ms-layer title4 sub-one font-white uppercase text-center font-bold"
-						  style="left:0px; top:50px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="top(80)">Equipes especializadas <br /> em projetos de infraestrutura</h3>
-					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:170px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">*Projeto de segurança eletrônica (CFTV)</h3>
-					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:210px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">*Projeto de telefônia (TELECOM)</h3>
-					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:250px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewleft(30,80)">*Projeto de rede de dados</h3>
-					<h3 class="ms-layer title4 sub-one font-white font-bold text-center"
-						  style="left:0px; top:290px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">*Projeto de alarmes</h3>
-
-					<h3 class="ms-layer title4 uppercase font-white font-bold text-center"
-						  style="left:0px; top:350px; font-size:50px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="skewright(30,80)">Solicite seu projeto</h3>
-
-                    <img src="/theme_alb/static/src/images/square-facebook-128.png"
-                         class="ms-layer"
-                         style="left:390px; top:415px; max-width:38px;"
-                         data-type="text"
-                         data-delay="2000"
-                         data-duration="2000"
-                         data-ease="easeOutExpo"
-                         data-effect="bottom(80)" />
-					<h3 class="ms-layer title4 sub-one font-white text-center"
-						  style="left:0px; top:420px;"
-						  data-type="text"
-						  data-delay="2000"
-						  data-duration="2000"
-						  data-ease="easeOutExpo"
-						  data-effect="bottom(80)">
-                          <a style="color:white;" target="_blank" href="https://www.facebook.com.br/albinformatica">
-                          https://www.facebook.com.br/albinformatica</a>
-                      </h3>
-
-					</div>
-
-				  	<div class="ms-slide slide-4" data-delay="10">
-						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-cftv-cidade.jpg" alt="ALB CFTV Cidade"/>
-                        <h3 class="ms-layer title4 sub-one font-white font-bold"
-    						  style="left:300px; top:50px; font-size:40px;"
-    						  data-type="text"
-    						  data-delay="2000"
-    						  data-duration="2000"
-    						  data-ease="easeOutExpo"
-    						  data-effect="top(80)">Tenha CFTV na sua casa ou empresa</h3>
-                        <h3 class="ms-layer title4 sub-one font-white font-bold"
-    						  style="left:300px; top:100px;"
-    						  data-type="text"
-    						  data-delay="2000"
-    						  data-duration="2000"
-    						  data-ease="easeOutExpo"
-    						  data-effect="top(80)">Só na ALB você encontra tecnologia com qualidade</h3>
-					</div>
-
-					<div class="ms-slide slide-5" data-delay="10">
-						<img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-eset.jpg" alt="ALB Eset"/>
-						<h3 class="ms-layer title4 font-thin-xs"
-							  style="left:100px;top:200px;color:black;"
-							  data-type="text"
-							  data-delay="1500"
-							  data-duration="2500"
-							  data-ease="easeOutExpo"
-							  data-effect="skewright(30,80)">ESET, a campeã em soluções antivírus</h3>
-						<h3 class="ms-layer title4 font-thin-xs"
-							  style="left:100px;top:280px;color:black;"
-							  data-type="text"
-							  data-delay="1500"
-							  data-duration="2500"
-							  data-ease="easeOutExpo"
-							  data-effect="skewright(30,80)">Deixe os dispositivos da sua empresa ou residência mais<br /> seguros tenha a maior proteção antivírus.</h3>
-						<a class="ms-layer btn3 uppercase"
-							  style="left:450px; top: 380px;"
-							  data-type="text"
-							  data-delay="3500"
-							  data-ease="easeOutExpo"
-							  data-duration="2000"
-							  data-effect="scale(1.5,1.6)"> Gerar cotação!</a>
-
-					</div>
-
-				</div>
-
-				<section class="section-lg m-top5">
-				  <div class="container">
-					<div class="row">
-					  <div class="col-md-4">
-						<h2 class="font-thin font30 m-bottom1">O QUE VOCÊ PROCURA?</h2>
-						<h5 class="font16">Planos a partir de <strong class="font-color">R$ 349</strong>/ mês</h5>
-					  </div>
-					  <div class="col-md-8">
-						 <input class="input-text dsearch-home2" name="dsearch" id="consulta-produtos" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
-					  </div>
-					</div>
-				  </div>
-			  </section>
-				<!-- end features section 1 -->
-
-				<div class="section-lg m-top7">
-			       <div class="container">
-			         <div class="row">
-			           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Backup Monitorado e Cloud</h2>
-			                 <p>Soluções em
-                                gerenciamento de cópias
-                                de segurança dos dados
-                                seja local ou em nuvem.
-                                Consulte o que podemos
-                                oferecer</p>
-			               </div>
-			             </div>
-			           </div>
-						<div class="col-md-4 text-left m-bottom5">
-						  <div class="fea-sce-col active">
-							<div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
-							<div class="left-padd8">
-							  <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
-							  <p>Otimize seu espaço e
-                                hardware, utilizando
-                                várias plataformas num
-                                único equipamento,
-                                diminuindo custos.</p>
-							</div>
-						  </div>
-						</div>
-                        <div class="col-md-4 text-left m-bottom5">
- 			             <div class="fea-sce-col active">
- 			               <div class="iconbox-left"><span class="icon-eye font60 font-color"></span></div>
- 			               <div class="left-padd8">
- 			                 <h2 class="font-thin m-bottom1">Monitoramento de TI</h2>
- 			                 <p>Sua TI monitorada 24/7 e
-                                 em caso de falhas, nossa
-                                 equipe é avisada e inicia o
-                                 suporte proativo,
-                                 diminuindo tempos de
-                                 paradas em caso de
-                                 problemas inesperados.</p>
- 			               </div>
- 			             </div>
- 			           </div>
-					</div>
-					<div class="row">
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-lock font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Segurança da informação</h2>
-			                 <p>Proteja as informações do
-                                seu negócio de acesso
-                                não-autorizado e ataques
-                                de hackers. Consulte as
-                                nossas soluções!</p>
-			               </div>
-			             </div>
-			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Segurança eletrônica</h2>
-			                 <p>Veja remotamente,
-                                proteja, seja alertado,
-                                controle o acesso. Veja o
-                                que temos para proteger
-                                seu patrimônio.</p>
-			               </div>
-			             </div>
-			           </div>
-			           <div class="col-md-4 text-left m-bottom5">
-			             <div class="fea-sce-col active">
-			               <div class="iconbox-left"><span class="icon-shield font60 font-color"></span></div>
-			               <div class="left-padd8">
-			                 <h2 class="font-thin m-bottom1">Proteção de internet</h2>
-			                 <p>Gerenciamento completo
-                                de acesso à internet, com
-                                relatórios de sites
-                                visitados além de
-                                proteção contra invasões</p>
-			               </div>
-			             </div>
-			           </div>
+                        <img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-todos-servicos.jpg" alt="Todos os serviços ALB"/>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-center"
+                            style="left:0px; top:10px;  background-color:rgba(0, 0, 0, 0.3);"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewleft(30,80)">ALB trazendo todas as soluções para seu negócio</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+                            style="left:245px; top:100px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)">Suporte T.I.</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/notebook.png"
+                            style="left:140px;top:90px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)" />
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+                            style="left:245px; top:250px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)">Servidores</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/Servidores.png"
+                            style="left:140px;top:240px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)" />
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase"
+                            style="left:245px; top:400px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)">Redes</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/rede.png"
+                            style="left:140px;top:390px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(45)" />
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+                            style="right:300px; top:100px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)">CFTV</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/CFTV.png"
+                            style="right:380px;top:90px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)" />
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+                            style="right:250px; top:250px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)">Alarmes</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/Central Alarme.png"
+                            style="right:380px;top:240px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)" />
+                        <h3 class="ms-layer title4 sub-one font-white font-bold uppercase text-right"
+                            style="right:240px; top:400px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)">Telefonia</h3>
+                        <img class="ms-layer" src="/theme_alb/static/src/images/banner/telefonia.png"
+                            style="right:380px;top:390px;max-width:100px;max-height:100px;"
+                            data-type="image"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="right(45)" />
                     </div>
-                   </div>
+
+                    <div class="ms-slide slide-2" data-delay="1">
+                        <img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-contrato.jpg" alt="ALB Contrato"/>
+                        <h3 class="ms-layer title2 uppercase"
+                            style="left: 80px;top: 250px; background-color:rgba(255,255,255,0.6);color:#144c6f;"
+                            data-type="text"
+                            data-delay="2500"
+                            data-duration="2500"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">Contrato mensal</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold"
+                            style="left:80px; top:350px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="left(80)">ALB oferece planos de contrato mensal,<br />onde você tem a disposição equipes técnicas especializadas,<br />unindo comodidade e qualidade com baixo custo.</h3>
+                    </div>
+
+                    <div class="ms-slide slide-3" data-delay="1">
+                        <img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-infra-estrutura.jpg" alt="ALB Infra Estrutura"/>                            <h3 class="ms-layer title4 sub-one font-white uppercase text-center font-bold"
+                            style="left:0px; top:50px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="top(80)">Equipes especializadas <br /> em projetos de infraestrutura</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+                            style="left:0px; top:170px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewleft(30,80)">*Projeto de segurança eletrônica (CFTV)</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+                            style="left:0px; top:210px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">*Projeto de telefônia (TELECOM)</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+                            style="left:0px; top:250px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewleft(30,80)">*Projeto de rede de dados</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold text-center"
+                            style="left:0px; top:290px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">*Projeto de alarmes</h3>
+
+                        <h3 class="ms-layer title4 uppercase font-white font-bold text-center"
+                            style="left:0px; top:350px; font-size:50px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">Solicite seu projeto</h3>
+
+                        <img src="/theme_alb/static/src/images/square-facebook-128.png"
+                            class="ms-layer"
+                            style="left:390px; top:415px; max-width:38px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="bottom(80)" />
+                        <h3 class="ms-layer title4 sub-one font-white text-center"
+                            style="left:0px; top:420px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="bottom(80)">
+                            <a style="color:white;" target="_blank" href="https://www.facebook.com.br/albinformatica">
+                                https://www.facebook.com.br/albinformatica</a>
+                        </h3>
+
+                    </div>
+
+                    <div class="ms-slide slide-4" data-delay="10">
+                        <img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-cftv-cidade.jpg" alt="ALB CFTV Cidade"/>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold"
+                            style="left:300px; top:50px; font-size:40px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="top(80)">Tenha CFTV na sua casa ou empresa</h3>
+                        <h3 class="ms-layer title4 sub-one font-white font-bold"
+                            style="left:300px; top:100px;"
+                            data-type="text"
+                            data-delay="2000"
+                            data-duration="2000"
+                            data-ease="easeOutExpo"
+                            data-effect="top(80)">Só na ALB você encontra tecnologia com qualidade</h3>
+                    </div>
+
+                    <div class="ms-slide slide-5" data-delay="10">
+                        <img src="/theme_alb/static/src/js/masterslider/style/blank.gif" data-src="/theme_alb/static/src/images/banner/banner-eset.jpg" alt="ALB Eset"/>
+                        <h3 class="ms-layer title4 font-thin-xs"
+                            style="left:100px;top:200px;color:black;"
+                            data-type="text"
+                            data-delay="1500"
+                            data-duration="2500"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">ESET, a campeã em soluções antivírus</h3>
+                        <h3 class="ms-layer title4 font-thin-xs"
+                            style="left:100px;top:280px;color:black;"
+                            data-type="text"
+                            data-delay="1500"
+                            data-duration="2500"
+                            data-ease="easeOutExpo"
+                            data-effect="skewright(30,80)">Deixe os dispositivos da sua empresa ou residência mais<br /> seguros tenha a maior proteção antivírus.</h3>
+                        <a class="ms-layer btn3 uppercase"
+                            style="left:450px; top: 380px;"
+                            data-type="text"
+                            data-delay="3500"
+                            data-ease="easeOutExpo"
+                            data-duration="2000"
+                            data-effect="scale(1.5,1.6)"> Gerar cotação!</a>
+                    </div>
+                </div>
+
+                <section class="section-lg m-top5">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2 class="font-thin font30 m-bottom1">O QUE VOCÊ PROCURA?</h2>
+                                <h5 class="font16">Planos a partir de <strong class="font-color">R$ 349</strong>/ mês</h5>
+                            </div>
+                            <div class="col-md-8">
+                                <input class="input-text dsearch-home2" name="dsearch" id="consulta-produtos" value="Digite o que você procura..." onFocus="if (this.value == 'Digite o que você procura...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Digite o que você procura...';}" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- end features section 1 -->
+
+                <div class="section-lg m-top7 visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">
+                                <a href="#solucoes-collapsible" class="" role="button" data-toggle="collapse"
+                                    aria-expanded="false" aria-controls="solucoes-collapsible"> SOLUÇÕES INTELIGENTES
+                                </a>
+                                <i style="font-size:12px;" class="glyphicon glyphicon-chevron-down"></i>
+                            </h2>
+                        </div>
+                        <div id="solucoes-collapsible" class="row collapse">
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Backup Monitorado e Cloud</h2>
+                                        <p>Soluções em
+                                            gerenciamento de cópias
+                                            de segurança dos dados
+                                            seja local ou em nuvem.
+                                            Consulte o que podemos
+                                            oferecer
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
+                                        <p>Otimize seu espaço e
+                                            hardware, utilizando
+                                            várias plataformas num
+                                            único equipamento,
+                                            diminuindo custos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-eye font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Monitoramento de TI</h2>
+                                        <p>Sua TI monitorada 24/7 e
+                                            em caso de falhas, nossa
+                                            equipe é avisada e inicia o
+                                            suporte proativo,
+                                            diminuindo tempos de
+                                            paradas em caso de
+                                            problemas inesperados.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-lock font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Segurança da informação</h2>
+                                        <p>Proteja as informações do
+                                            seu negócio de acesso
+                                            não-autorizado e ataques
+                                            de hackers. Consulte as
+                                            nossas soluções!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Segurança eletrônica</h2>
+                                        <p>Veja remotamente,
+                                            proteja, seja alertado,
+                                            controle o acesso. Veja o
+                                            que temos para proteger
+                                            seu patrimônio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-shield font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Proteção de internet</h2>
+                                        <p>Gerenciamento completo
+                                            de acesso à internet, com
+                                            relatórios de sites
+                                            visitados além de
+                                            proteção contra invasões</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-lg m-top7 visible-xs">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">
+                                <a href="#recursos-collapsible" class="" role="button" data-toggle="collapse"
+                                    aria-expanded="true" aria-controls="recursos-collapsible"> Recursos
+                                </a>
+                                <i style="font-size:12px;" class="glyphicon glyphicon-chevron-down"></i>
+                            </h2>
+                        </div>
+                        <div id="recursos-collapsible" class="row collapse">
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-support font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Suporte TI</h2>
+                                        <p>Otimize o desempenho
+                                         dos seus equipamentos e
+                                         melhore a produtividade
+                                         de sua equipe com
+                                         soluções simples e
+                                         eficientes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Servidores</h2>
+                                        <p>Redes gerenciadas em
+                                         Windows e Linux com
+                                         controle de permissões de
+                                         usuários, gerenciamento
+                                         de pastas</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-grid font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Redes de Dados</h2>
+                                        <p>Redes estruturadas
+                                             seguras e rápidas
+                                             protegem o negócio e
+                                             agilizam as operações.
+                                             Conte com nossa equipe
+                                             para manter tudo 100%</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-phone font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Telefonia</h2>
+                                        <p>Sistemas completos de
+                                         telefonia analógicos,
+                                         digitais, IP, VOIP, ramal
+                                         virtual e muito mais.
+                                         Saiba mais.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">CFTV</h2>
+                                        <p>Acompanhe em tempo real
+                                         o que acontece na sua
+                                         empresa quando você não
+                                         está lá. Acione alertas,
+                                         portões e áudio a partir de
+                                         seu smartphone</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-organization font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Infraestrutura</h2>
+                                        <p>Projetos e montagem de
+                                         toda infraestrutura
+                                         necessária para
+                                         passagem de
+                                         cabeamento para redes,
+                                         telefonia, CFTV, alarmes,
+                                         etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-bell font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Alarmes</h2>
+                                        <p>Sistemas de alarme,
+                                         integração com sensores
+                                         infravermelho (IVA),
+                                         alertas via smartphone.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-people font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Controle de acesso</h2>
+                                        <p>Cancelas de controle de
+                                         acesso, catracas para
+                                         pedestres, integração com
+                                         acesso via biometria,
+                                         cartão de proximidade,
+                                         etc.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-login font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Portaria Virtual</h2>
+                                        <p>Soluções de vídeo
+                                         porteiro, interfones e
+                                         sistema de portaria
+                                         virtual para condomínios.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-lg m-top7 hidden-xs">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">SOLUÇÕES INTELIGENTES</h2>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-cloud-upload font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Backup Monitorado e Cloud</h2>
+                                        <p>Soluções em
+                                            gerenciamento de cópias
+                                            de segurança dos dados
+                                            seja local ou em nuvem.
+                                            Consulte o que podemos
+                                            oferecer
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-layers font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Virtualização de servidores</h2>
+                                        <p>Otimize seu espaço e
+                                            hardware, utilizando
+                                            várias plataformas num
+                                            único equipamento,
+                                            diminuindo custos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-eye font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Monitoramento de TI</h2>
+                                        <p>Sua TI monitorada 24/7 e
+                                            em caso de falhas, nossa
+                                            equipe é avisada e inicia o
+                                            suporte proativo,
+                                            diminuindo tempos de
+                                            paradas em caso de
+                                            problemas inesperados.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-lock font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Segurança da informação</h2>
+                                        <p>Proteja as informações do
+                                            seu negócio de acesso
+                                            não-autorizado e ataques
+                                            de hackers. Consulte as
+                                            nossas soluções!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-camrecorder font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Segurança eletrônica</h2>
+                                        <p>Veja remotamente,
+                                            proteja, seja alertado,
+                                            controle o acesso. Veja o
+                                            que temos para proteger
+                                            seu patrimônio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-left m-bottom5">
+                                <div class="fea-sce-col active">
+                                    <div class="iconbox-left"><span class="icon-shield font60 font-color"></span></div>
+                                    <div class="left-padd8">
+                                        <h2 class="font-thin m-bottom1">Proteção de internet</h2>
+                                        <p>Gerenciamento completo
+                                            de acesso à internet, com
+                                            relatórios de sites
+                                            visitados além de
+                                            proteção contra invasões</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                    <div class="container">
                        <div class="row">
@@ -472,470 +701,464 @@
                        </div>
                    </div>
                </div>
-			     <!-- end features section 2 -->
+               <!-- end features section 2 -->
 
-			     <div class="section-lg bg-parallax-13 m-top0">
-			       <div class="shape-cross-top"></div>
-			       <div class="container">
-			         <div class="row">
-			           <h4 class="font-color font15 text-center uppercase m-top2">ALB</h4>
-			           <h2 class="font-white font-thin-xs font40 text-center m-bottom4 uppercase">Novidades</h2>
-			           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			             <!-- Indicators -->
-			             <ol class="carousel-indicators">
-			               <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			               <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			               <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			             </ol>
+               <div class="section-lg bg-parallax-13 m-top0">
+                   <div class="shape-cross-top"></div>
+                   <div class="container">
+                       <div class="row">
+                           <h4 class="font-color font15 text-center uppercase m-top2">ALB</h4>
+                           <h2 class="font-white font-thin-xs font40 text-center m-bottom4 uppercase">Novidades</h2>
+                           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                               <ol class="carousel-indicators">
+                                   <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                   <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                   <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                               </ol>
+                               <!-- Wrapper for slides -->
+                               <div class="carousel-inner" role="listbox">
+                                   <div class="item active">
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <figure class="nomargin">
+                                               <img style="max-height:300px;" src="/theme_alb/static/src/images/central-alarme.png" alt="" class="img-responsive" />
+                                           </figure>
+                                       </div>
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <h2 class="font25 font-white font-color m-bottom2">Central de alarme monitorada com 18 zonas <span class="font-thin-xs font-white">(8 + 8 + 2 com fio + 24 sem fio)</span></h2>
+                                           <h2 class="font25 font-white font-color m-bottom2">AMT 2018 E</h2>
+                                           <p class="m-bottom3 font-white">Possui teclado LCD, comunicação de dados via tecnologia Ethernet,
+                                               opção de configuração remota via TCP/IP, supervisão do link Ethernet com intervalos de tempo configuráveis,
+                                               reportagem de eventos para 2 destinos IP (empresas de monitoramento), operação com IP fixo ou dinâmico e
+                                               eliminação de custos com comunicação de dados, pois utiliza a infraestrutura de rede internet do próprio cliente.
+                                           </p>
+                                       </div>
+                                   </div>
+                                   <div class="item">
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <figure class="nomargin"><img src="/theme_alb/static/src/images/gravador-digital.png" alt="" class="img-responsive"/></figure>
+                                       </div>
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <h2 class="font25 font-white font-color m-bottom2">Gravador digital de vídeo Tríbrido <span class="font-thin-xs font-white">HDCVI 1016 G2</span></h2>
+                                           <p class="m-bottom3 font-white">Os equipamentos da linha Intelbras HDCVI gravam e transmitem imagens em HD
+                                               utilizando os mesmos cabos e acessórios¹ do sistema analógico. Sem a necessidade de novos cabos,
+                                               são a solução ideal para quem deseja imagens em resolução 720p (HD) e 1080N com baixo custo.
+                                               E o melhor, a instalação é rápida e descomplicada.
+                                           </p>
+                                           <ul class="listitems half font-white">
+                                               <li><i class="fa fa-check"></i> Modo de operação IP - Modo NVR</li>
+                                               <li><i class="fa fa-check"></i> Imagens em alta qualidade</li>
+                                               <li><i class="fa fa-check"></i> Tecnologia Auto Sense</li>
+                                               <li><i class="fa fa-check"></i> Acesso remoto</li>
+                                               <li><i class="fa fa-check"></i> Configuração simplificada</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                                   <div class="item">
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <figure class="nomargin"><img src="/theme_alb/static/src/images/central-pabx.png" alt="" class="img-responsive"/></figure>
+                                       </div>
+                                       <div class="col-md-6 col-sm-12 m-bottom4">
+                                           <h2 class="font25 font-white font-color m-bottom2">Central PABX híbrida <span class="font-thin-xs font-white">Impacta 68i</span></h2>
+                                           <p class="m-bottom3 font-white">A linha Impacta é composta por centrais PABX de comunicação híbrida que integram as
+                                               tecnologias analógica, digital e IP. Ideais para micro e pequenas empresas que buscam melhorar a
+                                               qualidade e a capacidade de comunicação, as centrais Impacta oferecem diversas funções sem muito
+                                               investimento. Além de apresentarem as funções habituais de um PABX, elas podem interligar
+                                               duas ou mais redes e permitir a realização de chamadas com tecnologia VoIP (voz sobre internet).
+                                           </p>
+                                           <ul class="listitems half font-white">
+                                               <li><i class="fa fa-check"></i> Mais qualidade na comunicação</li>
+                                               <li><i class="fa fa-check"></i> Tenha muito sem gastar tanto</li>
+                                               <li><i class="fa fa-check"></i> Mais agilidade</li>
+                                               <li><i class="fa fa-check"></i> Garantia de investimento</li>
+                                           </ul>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="shape-cross-bottom"></div>
+               </div>
+               <!-- end features section 3 -->
 
-			             <!-- Wrapper for slides -->
-			             <div class="carousel-inner" role="listbox">
-			               <div class="item active">
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <figure class="nomargin">
-                                   <img style="max-height:300px;" src="/theme_alb/static/src/images/central-alarme.png" alt="" class="img-responsive" />
-                               </figure>
-			                 </div>
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Central de alarme monitorada com 18 zonas <span class="font-thin-xs font-white">(8 + 8 + 2 com fio + 24 sem fio)</span></h2>
-                               <h2 class="font25 font-white font-color m-bottom2">AMT 2018 E</h2>
-			                   <p class="m-bottom3 font-white">Possui teclado LCD, comunicação de dados via tecnologia Ethernet,
-                                   opção de configuração remota via TCP/IP, supervisão do link Ethernet com intervalos de tempo configuráveis,
-                                   reportagem de eventos para 2 destinos IP (empresas de monitoramento), operação com IP fixo ou dinâmico e
-                                   eliminação de custos com comunicação de dados, pois utiliza a infraestrutura de rede internet do próprio cliente.</p>
-			                 </div>
-			               </div>
-			               <div class="item">
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/gravador-digital.png" alt="" class="img-responsive"/></figure>
-			                 </div>
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Gravador digital de vídeo Tríbrido <span class="font-thin-xs font-white">HDCVI 1016 G2</span></h2>
-			                   <p class="m-bottom3 font-white">Os equipamentos da linha Intelbras HDCVI gravam e transmitem imagens em HD
-                                   utilizando os mesmos cabos e acessórios¹ do sistema analógico. Sem a necessidade de novos cabos,
-                                   são a solução ideal para quem deseja imagens em resolução 720p (HD) e 1080N com baixo custo.
-                                   E o melhor, a instalação é rápida e descomplicada.</p>
-			                   <ul class="listitems half font-white">
-			                     <li><i class="fa fa-check"></i> Modo de operação IP + analógico</li>
-			                     <li><i class="fa fa-check"></i> Modo de operação IP - Modo NVR</li>
-			                     <li><i class="fa fa-check"></i> Imagens em alta qualidade</li>
-			                     <li><i class="fa fa-check"></i> Tecnologia Auto Sense</li>
-			                     <li><i class="fa fa-check"></i> Acesso remoto</li>
-			                     <li><i class="fa fa-check"></i> Configuração simplificada</li>
-			                   </ul>
-			                 </div>
-			               </div>
-			               <div class="item">
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <figure class="nomargin"><img src="/theme_alb/static/src/images/central-pabx.png" alt="" class="img-responsive"/></figure>
-			                 </div>
-			                 <div class="col-md-6 col-sm-12 m-bottom4">
-			                   <h2 class="font25 font-white font-color m-bottom2">Central PABX híbrida <span class="font-thin-xs font-white">Impacta 68i</span></h2>
-			                   <p class="m-bottom3 font-white">A linha Impacta é composta por centrais PABX de comunicação híbrida que integram as
-                                   tecnologias analógica, digital e IP. Ideais para micro e pequenas empresas que buscam melhorar a
-                                   qualidade e a capacidade de comunicação, as centrais Impacta oferecem diversas funções sem muito
-                                   investimento. Além de apresentarem as funções habituais de um PABX, elas podem interligar
-                                   duas ou mais redes e permitir a realização de chamadas com tecnologia VoIP (voz sobre internet).</p>
-			                   <ul class="listitems half font-white">
-			                     <li><i class="fa fa-check"></i> Mais qualidade na comunicação</li>
-			                     <li><i class="fa fa-check"></i> Tenha muito sem gastar tanto</li>
-			                     <li><i class="fa fa-check"></i> Mais agilidade</li>
-			                     <li><i class="fa fa-check"></i> Garantia de investimento</li>
-			                   </ul>
-			                 </div>
-			               </div>
-			             </div>
-			           </div>
-			         </div>
-			       </div>
-			       <div class="shape-cross-bottom"></div>
-			     </div>
-			     <!-- end features section 3 -->
+               <div class="section-lg m-top2">
+                   <div class="container">
+                       <div class="row">
+                           <h4 class="font-color font15 text-center uppercase">SUPORTE MENSAL</h4>
+                           <h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">PLANOS ESPECIAIS</h2>
+                           <div>
+                               <ul class="nav nav-tabs tabs-style2" role="tablist">
+                                   <li id="aba-suporte-ti" role="presentation" class="active"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">SUPORTE T.I. &amp; ASSISTÊNCIA</a></li>
+                                   <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">REDES &amp; TELECOM</a></li>
+                                   <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">SEGURANÇA ELETRÔNICA</a></li>
+                               </ul>
+                               <div class="tab-content tab-style2">
+                                   <div class="tab-pane active" role="tabpanel" id="tab_um">
+                                       <div class="col-md-3 col-sm-3 m-bottom3">
+                                           <div class="pricing-box-home2 text-center">
+                                               <h2 class="font-bold font15 font-white uppercase">SMART</h2>
+                                               <div class="price font60 font-black-dark"><small class="font25">R$</small>349<br />
+                                                    <span class="font18"> mês</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>4 horas de suporte mensal</li>
+                                                    <li>até 4 dispositivos*</li>
+                                                    <li>backup automático local</li>
+                                                    <li>1 visita presencial trimestral</li>
+                                                    <li>Suporte telefônico e remoto</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Assine Já <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">BASIC</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>499<br />
+                                                    <span class="font18"> mês</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>6 horas de suporte mensal</li>
+                                                    <li>até 5 dispositivos* e 1 servidor</li>
+                                                    <li>backup local e cloud</li>
+                                                    <li>1 visita presencial bimestral</li>
+                                                    <li>Suporte telefônico e remoto</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">BUSINESS</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>699<br />
+                                                    <span class="font18"> mês</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>8 horas de suporte mensal</li>
+                                                    <li>10 dispositivos* e 1 servidor</li>
+                                                    <li>backup local e cloud</li>
+                                                    <li>1 visita mensal</li>
+                                                    <li>ganhe + 4 h de suporte remoto</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">CORPORATE</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>899<br />
+                                                    <span class="font18"> mês</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>10 horas de suporte mensal</li>
+                                                    <li>15 dispositivos* e 2 servidores</li>
+                                                    <li>monitoramento de backup 24/7</li>
+                                                    <li>1 visita mensal</li>
+                                                    <li>suporte tel. e remoto ilimitado!</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" role="tabpanel" id="tab_dois">
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT NETWORK I</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>1999<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>1 rack de parede 10U</li>
+                                                    <li>1 switch 16 portas gigabit</li>
+                                                    <li>12 pontos de rede* (60mts²)</li>
+                                                    <li>conectorização básica</li>
+                                                    <li>1 no-break 700VA</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT NETWORK II</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>3499<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>1 rack de piso 32U</li>
+                                                    <li>1 swith 24 portas gigabit</li>
+                                                    <li>24 pontos de rede* (120mts²)</li>
+                                                    <li>conectorização estruturada</li>
+                                                    <li>1 no-break 1400VA</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT TELECOM I</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>1599<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>1 pabx 4 linhas 12 ramais</li>
+                                                    <li>1 terminal inteligente (KS)</li>
+                                                    <li>cabeamento incluso* (60mts²)</li>
+                                                    <li>conectorização básica</li>
+                                                    <li>funções padrão do PABX</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT TELECOM II</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>2499<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>1 pabx 4 linhas 16 ramais</li>
+                                                    <li>1 terminal inteligente (KS)</li>
+                                                    <li>cabeamento incluso* (120mts²)</li>
+                                                    <li>conectorização com bloco BLI</li>
+                                                    <li>customização de funções PABX</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" role="tabpanel" id="tab_tres">
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT CFTV I</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>1999<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>DVR Intelbras HDCVI 8 canais</li>
+                                                    <li>4 câmeras HDCVI com IR</li>
+                                                    <li>4 câmeras analógicas com IR</li>
+                                                    <li>cabeamento incluso  (60mts²)</li>
+                                                    <li>acesso PC, Smartphone, Tablet</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>2999<br />
+                                                    <span class="font18"> em até 12x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>DVR Intelbras HDCVI 16 canais</li>
+                                                    <li>8 câmeras HDCVI com IR</li>
+                                                    <li>8 câmeras analógicas com IR</li>
+                                                    <li>cabeamento incluso  (120mts²)</li>
+                                                    <li>acesso PC, Smartphone, Tablet</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT CFTV 2</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>899<br />
+                                                    <span class="font18"> em até 6x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>Alarme Intelbras 4 zonas mistas</li>
+                                                    <li>2 sensores parede wireless</li>
+                                                    <li>2 sensores de porta wireless</li>
+                                                    <li>discagem de emergência para até 6 números pré-cadastrados</li>
+                                                    <li>discagem também para celular </li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-sm-3 m-bottom3">
+                                            <div class="pricing-box-home2 text-center">
+                                                <h2 class="font-bold font15 font-white uppercase">KIT ALARME I</h2>
+                                                <div class="price font60 font-black-dark"><small class="font25">R$</small>1499<br />
+                                                    <span class="font18"> em até 6x</span>
+                                                </div>
+                                                <ul class="fea-lists">
+                                                    <li>Alarme Intelbras 4 zonas mistas</li>
+                                                    <li>2 sensores parede wireless</li>
+                                                    <li>2 sensores de porta wireless</li>
+                                                    <li>discagem de emergência para até 6 números pré-cadastrados</li>
+                                                    <li>alertas no Smartphone via APP</li>
+                                                </ul>
+                                                <div class="order m-top1"><a class="font16" href="/page/contactus">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end features section 4 -->
 
-				 <div class="section-lg m-top2">
-			     	<div class="container">
-			        	<div class="row">
-			           		<h4 class="font-color font15 text-center uppercase">SUPORTE MENSAL</h4>
-			           		<h2 class="font-black font-thin-xs font40 text-center m-bottom3 uppercase">PLANOS ESPECIAIS</h2>
+                <div class="section-lg bg-parallax-15 m-top0">
+                    <div class="shape-cross-top"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 m-bottom4">
+                                <h4 class="font-color font-bold font15 uppercase">MULTIPLAS FORMAS DE ATENDIMENTO</h4>
+                                <h2 class="font-white font-thin-xs font40 m-bottom4 uppercase">COMO ATUAMOS</h2>
+                                <div class="panel-group collaps collaps-style-2" id="accordion" role="tablist" aria-multiselectable="true">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingOne">
+                                            <h4 class="panel-title uppercase"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">SUPORTE EFICIENTE AO CLIENTE</a> </h4>
+                                        </div>
+                                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
+                                            <div class="panel-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingTwo">
+                                            <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">REDES ESTÁVEIS E SERVIDOR CONFIÁVEL</a> </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingThree">
+                                            <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">CFTV COM ALTA DISPONIBILIDADE E QUALIDADE</a> </h4>
+                                        </div>
+                                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading" role="tab" id="headingFour">
+                                            <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">SEU NEGÓCIO FICA MAIS PROTEGIDO CONOSCO</a> </h4>
+                                        </div>
+                                        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
+                                            <div class="panel-body">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 m-bottom4">
+                                <h4 class="font-color font-bold font15 uppercase">PERGUNTAS </h4>
+                                <h2 class="font-white font-thin-xs font40 m-bottom4 uppercase">FREQUENTES</h2>
+                                <div class="col-md-12 nopadding">
+                                    <div class="col-fea-box-image">
+                                        <div id="carousel-example-generic1" class="carousel slide text-center" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators white-color">
+                                                <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+                                                <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+                                            </ol>
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <div class="col-md-12 sec-auto-margin">
+                                                        <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+                                                        <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-md-12 sec-auto-margin">
+                                                        <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+                                                        <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="col-md-12 sec-auto-margin">
+                                                        <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
+                                                        <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shape-cross-bottom"></div>
+                </div>
+                <!-- end features section 5 -->
 
-							<div>
-						   		<ul class="nav nav-tabs tabs-style2" role="tablist">
-					            	<li role="presentation" class="active" style="margin-left:20%;"><a href="#tab_um" aria-controls="tab_um" role="tab" data-toggle="tab" aria-expanded="true">SUPORTE T.I. &amp; ASSISTÊNCIA</a></li>
-						            <li role="presentation" class=""><a href="#tab_dois" aria-controls="tab_dois" role="tab" data-toggle="tab" aria-expanded="false">REDES &amp; TELECOM</a></li>
-						            <li role="presentation" class=""><a href="#tab_tres" aria-controls="tab_tres" role="tab" data-toggle="tab" aria-expanded="false" style="padding-right:32px;">SEGURANÇA ELETRÔNICA</a></li>
-								</ul>
+                <div class="section-lg m-top3">
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="font-color font15 uppercase m-top2 text-center">CERTEZA DE QUALIDADE</h4>
+                            <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase text-center">ALB STORE</h2>
+                            <t t-foreach="three_products" t-as="product">
+                                <div class="col-md-4 col-sm-3 m-bottom3">
+                                    <div style="background-color:white;margin:5px;">
+                                        <img class="img-responsive" style="max-height:230px;margin:0 auto;" t-att-alt="product.name" t-att-src="website.image_url(product, 'image', None if product_image_big else '300x300')" />
+                                        <div class="post-info-box">
+                                            <h3 class="font-thin font20 m-bottom1"><a t-att-href="'/shop/product/%s' % slug(product)" t-field="product.name"></a></h3>
+                                            <p class="m-bottom1 font14 font-grey"><i class="fa fa-money"></i>
+                                                <span t-field="product.lst_price"></span>
+                                            </p>
+                                            <p t-field="product.description_sale"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+                <!-- end features section 6 -->
 
-								<div class="tab-content tab-style2">
-									<div class="tab-pane active" role="tabpanel" id="tab_um">
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-												<h2 class="font-bold font15 font-white uppercase">SMART</h2>
-												<div class="price font60 font-black-dark"><small class="font25">R$</small>349<br />
-													<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>4 GB Memória</li>
-											 		<li>4 vCPU</li>
-											 		<li>1 TB transferência</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-											</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">BASIC</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>499<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>4 horas de suporte mensal</li>
-											 		<li>até 4 dispositivos*</li>
-											 		<li>backup automático local</li>
-											 		<li>1 visita presencial trimestral</li>
-											 		<li>Suporte telefônico e remoto</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-												<h2 class="font-bold font15 font-white uppercase">BUSINESS</h2>
-												<div class="price font60 font-black-dark"><small class="font25">R$</small>699<br />
-													<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>6 horas de suporte mensal</li>
-											 		<li>até 5 dispositivos* e 1 servidor</li>
-											 		<li>backup automatico local e cloud</li>
-											 		<li>1 visita presencial bimestral</li>
-											 		<li>suporte telefônico e remoto</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
-											</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">SERVIDOR POWER</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>999<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>8 horas de suporte mensal</li>
-											 		<li>até 10 dispositivos* e 1 servidor**</li>
-											 		<li>backup automatico local e cloud</li>
-											 		<li>1 visita mensal</li>
-											 		<li>ganhe + 4 horas de suporte remoto</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-									</div>
-									<div class="tab-pane" role="tabpanel" id="tab_dois">
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">CORPORATE</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>999<br />
-											 		<span class="font18"> mês</span>
-												</div>
-										   		<ul class="fea-lists">
-											 		<li>10 horas de suporte mensal</li>
-											 		<li>até 15 dispositivos* e 2 servidores**</li>
-											 		<li>monitoramento de backup diário</li>
-											 		<li>1 visita mensal</li>
-											 		<li>suporte telefônico e remoto ilimitado! </li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Assine já <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
-											 		<span class="font18"> mês</span>
-												</div>
-										   		<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
-											 		<span class="font18"> mês</span>
-												</div>
-										   		<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Ambiente Cloud</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>69<br />
-											 		<span class="font18"> mês</span>
-												</div>
-										   		<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-									</div>
-									<div class="tab-pane" role="tabpanel" id="tab_tres">
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-										<div class="col-md-3 col-sm-3 m-bottom3">
-											<div class="pricing-box-home2 text-center">
-										   		<h2 class="font-bold font15 font-white uppercase">Hospedagem compartilhada</h2>
-										   		<div class="price font60 font-black-dark"><small class="font25">R$</small>89<br />
-											 		<span class="font18"> mês</span>
-												</div>
-												<ul class="fea-lists">
-											 		<li>5 GB Espaço</li>
-											 		<li>Projetos ilimitados</li>
-											 		<li>15 Contas de email</li>
-											 		<li>2 Domínios</li>
-											 		<li>24/7 Suporte</li>
-										   		</ul>
-										   		<div class="order m-top1"><a class="font16" href="#">Compre agora <i class="fa fa-arrow-circle-right"></i></a></div>
-										 	</div>
-										</div>
-									</div>
-								</div>
-							</div>
-			        	</div>
-			    	</div>
-				</div>
-			     <!-- end features section 4 -->
+                <div class="section-lg bg-parallax-15 m-top0">
+                    <div class="shape-cross-top"></div>
+                    <div class="container">
+                        <div class="row">
+                            <h4 class="font-color font15 uppercase m-top2 text-center">últimas notícias</h4>
+                            <h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">de nosso blog</h2>
+                            <t t-foreach="last_posts" t-as="post">
+                                <div class="col-md-4 col-sm-3 m-bottom3">
+                                    <a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }">
+                                        <img class="img-responsive" t-att-src="post.background_image" alt="" />
+                                    </a>
+                                    <div class="post-info-box">
+                                        <h3 class="font-thin font20 m-bottom1"><a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }" t-field="post.name"></a></h3>
+                                        <p class="m-bottom1 font14 font-grey">
+                                            <i class="fa fa-calendar"></i> <span t-field="post.create_date" t-field-options="{&quot;format&quot;: &quot;MMMM yyyy&quot;}"/>
+                                            <i class="fa fa-user"></i><span t-field="post.author_id.name"/>
+                                        </p>
+                                        <p t-field="post.summary"></p>
+                                    </div>
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+                    <div class="shape-cross-bottom"></div>
+                </div>
+                <!-- end features section 7 -->
 
-			     <div class="section-lg bg-parallax-15 m-top0">
-			       <div class="shape-cross-top"></div>
-			       <div class="container">
-			         <div class="row">
-			           	<h4 class="font-color font15 uppercase m-top2 text-center">alguns de nossos</h4>
-			           	<h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">Produtos</h2>
-						<t t-foreach="three_products" t-as="product">
-				           <div class="col-md-4 col-sm-3 m-bottom3">
-								<div style="background-color:white;margin:5px;">
-									<img class="img-responsive" style="max-height:230px;margin:0 auto;" t-att-alt="product.name" t-att-src="website.image_url(product, 'image', None if product_image_big else '300x300')" />
-					             	<div class="post-info-box">
-					               		<h3 class="font-thin font20 m-bottom1"><a t-att-href="'/shop/product/%s' % slug(product)" t-field="product.name"></a></h3>
-					               		<p class="m-bottom1 font14 font-grey"><i class="fa fa-money"></i>
-											<span t-field="product.lst_price"></span>
-										</p>
-					               		<p t-field="product.description_sale"></p>
-					             	</div>
-								</div>
-				           </div>
-						</t>
-			         </div>
-			       </div>
-			       <div class="shape-cross-bottom"></div>
-			     </div>
-			     <!-- end features section 5 -->
-
-			     <div class="section-lg m-top3">
-			       <div class="container">
-			         <div class="row">
-			           <div class="col-md-6 col-sm-6 m-bottom4">
-			             <h4 class="font-color font-bold font15 uppercase">Por que</h4>
-			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">escolher a ALB?</h2>
-			             <div class="panel-group collaps collaps-style-2" id="accordion" role="tablist" aria-multiselectable="true">
-			               <div class="panel panel-default">
-			                 <div class="panel-heading" role="tab" id="headingOne">
-			                   <h4 class="panel-title uppercase"> <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="">SUPORTE EFICIENTE AO CLIENTE</a> </h4>
-			                 </div>
-			                 <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="true" style="">
-			                   <div class="panel-body">
-			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
-			                   </div>
-			                 </div>
-			               </div>
-			               <div class="panel panel-default">
-			                 <div class="panel-heading" role="tab" id="headingTwo">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">REDES ESTÁVEIS E SERVIDOR CONFIÁVEL</a> </h4>
-			                 </div>
-			                 <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false" style="height: 0px;">
-			                   <div class="panel-body">
-			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
-			                   </div>
-			                 </div>
-			               </div>
-			               <div class="panel panel-default">
-			                 <div class="panel-heading" role="tab" id="headingThree">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">CFTV COM ALTA DISPONIBILIDADE E QUALIDADE</a> </h4>
-			                 </div>
-			                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false" style="height: 0px;">
-			                   <div class="panel-body">
-			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
-			                   </div>
-			                 </div>
-			               </div>
-			               <div class="panel panel-default">
-			                 <div class="panel-heading" role="tab" id="headingFour">
-			                   <h4 class="panel-title uppercase"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">SEU NEGÓCIO FICA MAIS PROTEGIDO CONOSCO</a> </h4>
-			                 </div>
-			                 <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour" aria-expanded="false" style="height: 0px;">
-			                   <div class="panel-body">
-			                     <p>Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed deiusmod hsa no tempor incididun.</p>
-			                   </div>
-			                 </div>
-			               </div>
-			             </div>
-			           </div>
-			           <div class="col-md-6 col-sm-6 m-bottom4">
-			             <h4 class="font-color font-bold font15 uppercase">O QUE NOSSOS CLIENTES DIZEM</h4>
-			             <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">TESTEMUNHOS</h2>
-			             <div class="col-md-12 nopadding">
-			               <div class="col-fea-box-image">
-			                 <div id="carousel-example-generic1" class="carousel slide text-center" data-ride="carousel">
-			                   <!-- Indicators -->
-			                   <ol class="carousel-indicators white-color">
-			                     <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
-			                     <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
-			                     <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
-			                   </ol>
-
-			                   <!-- Wrapper for slides -->
-			                   <div class="carousel-inner" role="listbox">
-			                     <div class="item active">
-			                       <div class="col-md-12 sec-auto-margin">
-			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
-			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
-			                       </div>
-			                     </div>
-			                     <div class="item">
-			                       <div class="col-md-12 sec-auto-margin">
-			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
-			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
-			                       </div>
-			                     </div>
-			                     <div class="item">
-			                       <div class="col-md-12 sec-auto-margin">
-			                         <p class="font-white"><span class="font18">John Deo</span> <span class="italic">/ from examedia</span></p>
-			                         <p class="m-top2 font15 font-white">Lorem ipsum dolor sit amet consectetur adipisicing eil sed deiusmod hsa no tempor incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. amet consectetur adipisicing eil sed adipisicing elitadipisicing elit adipisicing elit incididun adipisicing eiusmod elit.</p>
-			                       </div>
-			                     </div>
-			                   </div>
-			                 </div>
-			               </div>
-			             </div>
-			           </div>
-			         </div>
-			       </div>
-			     </div>
-			     <!-- end features section 6 -->
-
-			     <div class="section-lg bg-parallax-15 m-top0">
-			       <div class="shape-cross-top"></div>
-			       <div class="container">
-			         <div class="row">
-			           	<h4 class="font-color font15 uppercase m-top2 text-center">últimas notícias</h4>
-			           	<h2 class="font-white font-thin-xs font40 m-bottom4 uppercase text-center">de nosso blog</h2>
-						<t t-foreach="last_posts" t-as="post">
-			           		<div class="col-md-4 col-sm-3 m-bottom3">
-								<a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }">
-									<img class="img-responsive" t-att-src="post.background_image" alt="" />
-								</a>
-					            <div class="post-info-box">
-					               	<h3 class="font-thin font20 m-bottom1"><a t-attf-href="/blog/#{ slug(post.blog_id) }/post/#{ slug(post) }" t-field="post.name"></a></h3>
-					               	<p class="m-bottom1 font14 font-grey">
-										<i class="fa fa-calendar"></i> <span t-field="post.create_date" t-field-options="{&quot;format&quot;: &quot;MMMM yyyy&quot;}"/>
- 										<i class="fa fa-user"></i><span t-field="post.author_id.name"/>
-									</p>
-					               	<p t-field="post.summary"></p>
-					            </div>
-				           </div>
-						</t>
-			         </div>
-			       </div>
-			       <div class="shape-cross-bottom"></div>
-			     </div>
-			     <!-- end features section 7 -->
-
-			     <div class="section-lg m-top4">
-			       <div class="container">
-			         <div class="col-md-6 col-sm-6 m-bottom3"> <img src="/theme_alb/static/src/images/ti.jpg" alt="" class="img-responsive" style="filter:brightness(0.7);-webkit-filter: brightness(0.7);" /> </div>
-			         <div class="col-md-6 col-sm-6">
-			           <h4 class="font-color font15 uppercase m-top2">conheça nossos</h4>
-			           <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">clientes</h2>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-1.jpg" alt="" class="img-responsive"/> </div>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-2.jpg" alt="" class="img-responsive"/> </div>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-3.jpg" alt="" class="img-responsive"/> </div>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-4.jpg" alt="" class="img-responsive"/> </div>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-5.jpg" alt="" class="img-responsive"/> </div>
-			           <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-6.jpg" alt="" class="img-responsive"/> </div>
-			         </div>
-			       </div>
-			     </div>
-			     <!-- end features section 8 -->
-
-
-			</xpath>
-
-		</template>
-	</data>
+                <div class="section-lg m-top4">
+                    <div class="container">
+                        <div class="col-md-6 col-sm-6 m-bottom3"> <img src="/theme_alb/static/src/images/ti.jpg" alt="" class="img-responsive" style="filter:brightness(0.7);-webkit-filter: brightness(0.7);" /> </div>
+                        <div class="col-md-6 col-sm-6">
+                            <h4 class="font-color font15 uppercase m-top2">conheça nossos</h4>
+                            <h2 class="font-black font-thin-xs font40 m-bottom4 uppercase">clientes</h2>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-1.jpg" alt="" class="img-responsive"/> </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-2.jpg" alt="" class="img-responsive"/> </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-3.jpg" alt="" class="img-responsive"/> </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-4.jpg" alt="" class="img-responsive"/> </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-5.jpg" alt="" class="img-responsive"/> </div>
+                            <div class="col-md-4 col-sm-6 col-xs-6 text-center m-bottom2 left-padd0"> <img src="/theme_alb/static/src/images/c-logo-6.jpg" alt="" class="img-responsive"/> </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end features section 8 -->
+            </xpath>
+        </template>
+    </data>
 </openerp>

@@ -4,9 +4,7 @@
 .navbar-default .navbar-nav>.active>a:hover{
     background-color: rgba(255, 255, 255, 0.15);
 }
-header a.navbar-brand.logo{
-    padding: 0 110px !important;
-}
+
 #oe_editzone {
     width:auto !important;
     float: left !important;
@@ -64,4 +62,7 @@ ul.js_editor_placeholder>li>button {
 
 @media (min-width: 1200px){
     .container{width: 970px;}
+}
+@media (min-width: 767px) {
+    #aba-suporte-ti { margin-left:20%;}
 }
